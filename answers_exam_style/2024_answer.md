@@ -14,7 +14,7 @@ tags:
 > [!info] Format
 > Concise, mark-aligned, written as an answer script.
 > Question text and marks come from the paper:
-> [[PreviousYearQuestions/2024|the 2024 paper]].
+> [[2024|the 2024 paper]].
 > Each numerical is derived by two independent routes. A callout records every
 > point at which the two routes disagree.
 
@@ -643,7 +643,7 @@ as Gauss-Seidel, which works because the system is diagonally dominant.
 > [!note] Where this exam meets the topic again
 > The Gauss-Seidel iteration in part (b) of Question 2 is the same algorithm used
 > on the tridiagonal system here. See
-> [[NM-3.5 · Gauss-Seidel Iteration]] and [[NM-3.8 · Circuit Applications]].
+> [[NM-3.5_Gauss_Seidel_Iteration|NM-3.5 · Gauss-Seidel Iteration]] and [[NM-3.8_Circuit_Applications|NM-3.8 · Circuit Applications]].
 
 ---
 

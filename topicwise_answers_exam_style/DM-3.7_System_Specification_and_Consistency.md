@@ -82,10 +82,10 @@ $$
 
 **Also asked here.**
 
-- *2024 Q.6(b)* is the same question as [[DM-3.8|DM-3.8]], which is written in `DM-3.8`.
-- *CT-04 Q.2(b)* is the same question as [[DM-3.8|DM-3.8]], which is written in `DM-3.8`.
-- *CT-04 Q.2(c)* is the same question as [[DM-3.2|DM-3.2]], which is written in `DM-3.2`.
-- *CT-04 Q.3(c)* is the same question as [[DM-3.2|DM-3.2]], which is written in `DM-3.2`.
+- *2024 Q.6(b)* is the same question as [[DM-3.8_Normal_Forms_and_Functional_Completeness|DM-3.8]], which is written in `DM-3.8`.
+- *CT-04 Q.2(b)* is the same question as [[DM-3.8_Normal_Forms_and_Functional_Completeness|DM-3.8]], which is written in `DM-3.8`.
+- *CT-04 Q.2(c)* is the same question as [[DM-3.2_Logical_Connectives_and_Truth_Tables|DM-3.2]], which is written in `DM-3.2`.
+- *CT-04 Q.3(c)* is the same question as [[DM-3.2_Logical_Connectives_and_Truth_Tables|DM-3.2]], which is written in `DM-3.2`.
 
 ---
 

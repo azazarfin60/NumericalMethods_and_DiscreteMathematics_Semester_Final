@@ -10,14 +10,14 @@ tags:
 **RUET · ECE Dept · B.Sc. Engineering 2nd Year Even Semester Examination, 2021**
 
 This file explains the same questions as
-[[answers_exam_style/2021_answer|the 2021 answer script]], written to be read
+[[2021_answer|the 2021 answer script]], written to be read
 rather than copied. Every step is named, the reason a formula is chosen is
 stated, and the traps that catch people are called out.
 
 > [!info] How to use this file
 > Read this to understand *why* the answer script does what it does. When you
 > are ready to write in the hall, work from
-> [[answers_exam_style/2021_answer|the exam-style file]], which is shorter and
+> [[2021_answer|the exam-style file]], which is shorter and
 > carries no commentary.
 >
 > **The rule that matters.** Every boxed number here is the same number as the
@@ -628,7 +628,7 @@ $$\boxed{y_n(x) = y_0 + p\Delta y_0 + \frac{p(p-1)}{2!}\Delta^2 y_0 + \frac{p(p-
 
 > [!note] Where this is used again
 > Part (d) applies this with $y = x^4$, and Q.4(b) applies central difference formulas to a table of $e^x$
-> values. See [[NM-4.7 · Newton's Forward Difference]].
+> values. See [[NM-4.7_Newtons_Forward_Difference|NM-4.7 · Newton's Forward Difference]].
 
 ---
 

@@ -37,7 +37,6 @@ each admits.
 | Order of accuracy | 4 | 4 |
 | Leading error term | $-\dfrac{h^5}{90}f^{(4)}$ | $-\dfrac{3h^5}{80}f^{(4)}$ |
 | Error constant | $\frac{1}{90} = 0.0111$ | $\frac{3}{80} = 0.0375$ |
-| Degree of precision | 3 (exact for polynomials up to degree 3) | 3 (exact for polynomials up to degree 3) |
 
 **Both are fourth order**, so both need a function with $f^{(4)}$ continuous
 over the range. Neither is fourth order on a function with a discontinuous

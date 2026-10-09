@@ -218,8 +218,9 @@ def build(subtopic_id, rows, src, blurb):
             if bid == subtopic_id:
                 out.append("- *%s* is written in this file, above." % u)
             else:
+                slug = T.slug_for(bid) or bid
                 out.append("- *%s* is the same question as [[%s|%s]], which is "
-                           "written in `%s`." % (u, bid, bid, bid))
+                           "written in `%s`." % (u, slug, bid, bid))
         out.append("")
         out.append("---")
         out.append("")

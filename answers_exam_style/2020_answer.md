@@ -13,7 +13,7 @@ tags:
 > [!info] Format
 > Concise, mark-aligned, written as an answer script.
 > Question text and marks come from the paper:
-> [[PreviousYearQuestions/2020|the 2020 paper]].
+> [[2020|the 2020 paper]].
 > Every numerical here was derived twice by independent routes. Where the two
 > routes disagreed, the disagreement was settled before the next question was
 > written, and the divergence is recorded in a callout.
@@ -876,7 +876,7 @@ spaced data, where divided differences are used instead.
 > [!note] Where this is used again
 > The forward form is applied in 2021 Q.4(b) and 2021 Q.4(c), and the backward
 > form in 2020 Q.3(b). See
-> [[NM-4.7 · Newton's Forward Difference]].
+> [[NM-4.7_Newtons_Forward_Difference|NM-4.7 · Newton's Forward Difference]].
 
 ---
 

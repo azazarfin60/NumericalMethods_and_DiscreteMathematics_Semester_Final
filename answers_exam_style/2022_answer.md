@@ -14,7 +14,7 @@ tags:
 > [!info] Format
 > Concise and mark-aligned, in the register of a written answer script.
 > Question text and marks come from the paper:
-> [[PreviousYearQuestions/2022|the 2022 paper]].
+> [[2022|the 2022 paper]].
 > Every numerical here rests on two independent routes. Where the routes
 > disagree, the disagreement is settled before the next question is written,
 > and the discrepancy is recorded in a callout.

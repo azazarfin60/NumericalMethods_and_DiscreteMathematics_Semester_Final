@@ -82,7 +82,7 @@ rather than only a congruence.
 
 **Also asked here.**
 
-- *2022 Q.8(d)* is the same question as [[DM-6.3|DM-6.3]], which is written in `DM-6.3`.
-- *2023 Q.7(c)* is the same question as [[DM-5.2|DM-5.2]], which is written in `DM-5.2`.
+- *2022 Q.8(d)* is the same question as [[DM-6.3_Pigeonhole_Principle|DM-6.3]], which is written in `DM-6.3`.
+- *2023 Q.7(c)* is the same question as [[DM-5.2_Prime_Numbers|DM-5.2]], which is written in `DM-5.2`.
 
 ---

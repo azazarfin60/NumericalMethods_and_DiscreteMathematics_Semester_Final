@@ -346,7 +346,7 @@ All 22 pairs below were checked against the source papers. **15 are verbatim** (
 | # | Question | First Appearance | Repeat(s) | Match | Type |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Relative error of `u = 5xy²/z³` at x=y=z=1, errors 0.001 | **2017 Q.3b** | **2023 Q.1b** | Verbatim | Verbatim |
-| 2 | Eigenvalues & eigenvectors of `A = [[5,0,1],[0,−2,0],[1,0,5]]` | **2017 Q.7b** | **2023 Q.3a** | Verbatim, same matrix | Verbatim |
+| 2 | Eigenvalues & eigenvectors of `A = [ [5,0,1], [0,−2,0], [1,0,5] ]` | **2017 Q.7b** | **2023 Q.3a** | Verbatim, same matrix | Verbatim |
 | 3 | Jacobi: `6x+y+z=20`, `x+4y−z=6`, `x−y+5z=7` | **2017 Q.7a** | **2022 Q.4a** | Verbatim | Verbatim |
 | 4 | Fit a straight line, x = 1…7, y = 0.5, 2.5, 2, 4, 3.5, 6, 5.5 | **2017 Q.6b** | **2024 Q.3c** | Verbatim | Verbatim |
 | 5 | Least squares `y = a·e^(bx)`, x = 2…10, y = 4.077…222.62 | **2017 Q.5b** | **2020 Q.3c** | Same data; 2020 prepends "define curve fitting" | Near-verbatim |

@@ -47,7 +47,7 @@ $$
 
 **Also asked here.**
 
-- *2019 Q.6(b)* is the same question as [[NM-7.2|NM-7.2]], which is written in `NM-7.2`.
-- *2020 Q.6(c)* is the same question as [[NM-7.2|NM-7.2]], which is written in `NM-7.2`.
+- *2019 Q.6(b)* is the same question as [[NM-7.2_First_Derivative_from_Tabulated_Data|NM-7.2]], which is written in `NM-7.2`.
+- *2020 Q.6(c)* is the same question as [[NM-7.2_First_Derivative_from_Tabulated_Data|NM-7.2]], which is written in `NM-7.2`.
 
 ---

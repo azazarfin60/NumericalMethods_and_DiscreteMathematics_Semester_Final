@@ -13,7 +13,7 @@ tags:
 > [!info] Format
 > Concise, mark-aligned, and set out the way the paper is answered in the hall.
 > Question text and marks come from the paper:
-> [[PreviousYearQuestions/2021|the 2021 paper]].
+> [[2021|the 2021 paper]].
 > Every numerical agrees with a second, independent derivation. Where the two
 > derivations differ, the difference is settled in a callout at that point.
 
@@ -517,7 +517,7 @@ $$
 > Operating on $y_0$ immediately gives the formula.
 
 > [!note] Where this is used again
-> Part (d) applies this with $y = x^4$, and 2021 Q.4(b) applies central difference formulas to a table of $e^x$ values. See [[NM-4.7 · Newton's Forward Difference]].
+> Part (d) applies this with $y = x^4$, and 2021 Q.4(b) applies central difference formulas to a table of $e^x$ values. See [[NM-4.7_Newtons_Forward_Difference|NM-4.7 · Newton's Forward Difference]].
 
 ---
 

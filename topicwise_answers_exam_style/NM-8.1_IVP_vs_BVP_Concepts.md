@@ -63,6 +63,6 @@ $$
 
 **Also asked here.**
 
-- *2024 Q.4(a)* is the same question as [[NM-8.8|NM-8.8]], which is written in `NM-8.8`.
+- *2024 Q.4(a)* is the same question as [[NM-8.8_Boundary_Value_Problems|NM-8.8]], which is written in `NM-8.8`.
 
 ---

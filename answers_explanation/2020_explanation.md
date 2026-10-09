@@ -11,14 +11,14 @@ tags:
 **RUET · ECE Dept · B.Sc. Engineering 2nd Year Even Semester Examination, 2020**
 
 This file explains the same questions as
-[[answers_exam_style/2020_answer|the 2020 answer script]], written to be read
+[[2020_answer|the 2020 answer script]], written to be read
 rather than copied. Every step is named, the reason a formula is chosen is
 stated, and the traps that catch people are called out.
 
 > [!info] How to use this file
 > Read this to understand *why* the answer script does what it does. When you
 > are ready to write in the hall, work from
-> [[answers_exam_style/2020_answer|the exam-style file]], which is shorter and
+> [[2020_answer|the exam-style file]], which is shorter and
 > carries no commentary.
 >
 > **The rule that matters.** Every boxed number here is the same number as the
@@ -932,7 +932,7 @@ spaced data, where divided differences are used instead.
 
 > [!note] Where this is used again
 > The forward form is applied in 2021 Q.4(b) and 2021 Q.4(c), and the backward
-> form in Q.3(b) above. See [[NM-4.7 · Newton's Forward Difference]].
+> form in Q.3(b) above. See [[NM-4.7_Newtons_Forward_Difference|NM-4.7 · Newton's Forward Difference]].
 
 ---
 

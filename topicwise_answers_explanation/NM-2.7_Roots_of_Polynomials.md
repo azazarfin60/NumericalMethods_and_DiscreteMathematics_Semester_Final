@@ -160,7 +160,7 @@ Iteration 2: $x_2 = 1.826087 - \frac{-0.443823}{3.134215} = 1.826087 + 0.141606 
 
 **Also asked here.**
 
-- *2020 Q.2(b)* is the same question as [[NM-2.4|NM-2.4]], which is written in `NM-2.4`.
-- *2024 Q.2(a)* is the same question as [[NM-2.2|NM-2.2]], which is written in `NM-2.2`.
+- *2020 Q.2(b)* is the same question as [[NM-2.4_Newton_Raphson_Method|NM-2.4]], which is written in `NM-2.4`.
+- *2024 Q.2(a)* is the same question as [[NM-2.2_Bisection_Method|NM-2.2]], which is written in `NM-2.2`.
 
 ---

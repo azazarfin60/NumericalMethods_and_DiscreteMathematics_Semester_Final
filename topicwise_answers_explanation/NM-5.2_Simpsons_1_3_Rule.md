@@ -105,14 +105,7 @@ $$\boxed{|\varepsilon_t| \approx 0.00017\%}$$
 > arithmetic slip does not shrink by a factor of sixteen when the mesh is
 > refined; it stays where it is. Note also that all three estimates lie *above*
 > the exact value and approach it monotonically, which is what convexity
-> [!tip] 2023 Q.4(b) Variant (Unspecified Segment Count $\implies n = 2$)
-> In **2023 Q.4(b)**, the question asked simply to *"Use Simpson's $1/3^{\text{rd}}$ rule"* without specifying the segment count $n$.
-> In an exam without a specified $n$, the standard solution uses the fundamental **single-application 2-segment rule** ($n = 2$, $h = \frac{30 - 8}{2} = 11$):
-> - Nodes: $t_0 = 8\implies f(8) = 177.2667$, $t_1 = 19\implies f(19) = 484.7455$, $t_2 = 30\implies f(30) = 901.6740$.
-> - $x \approx \frac{11}{3}[177.2667 + 4(484.7455) + 901.6740] = \frac{11}{3}[3017.9227] = \mathbf{11065.72\text{ m}}$.
-> - True error: $E_t = 11061.34 - 11065.72 = \mathbf{-4.38\text{ m}}$ (overestimated).
-> - Absolute relative error: $|\epsilon_t| = \left|\frac{-4.38}{11061.34}\right| \times 100\% = \mathbf{0.0396\%}$.
-> Both the single-application $n = 2$ form and the composite $n = 8$ / $n = 22$ forms are fully valid.
+> predicts.
 
 ---
 

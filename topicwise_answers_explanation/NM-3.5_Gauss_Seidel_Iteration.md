@@ -528,7 +528,7 @@ $$\boxed{I_0 = 1.6235 \text{ A}, \quad V_C = 13.7648 \text{ V}, \quad V_R = 8.11
 
 **Also asked here.**
 
-- *2017 Q.4(c)* is the same question as [[NM-3.6|NM-3.6]], which is written in `NM-3.6`.
+- *2017 Q.4(c)* is the same question as [[NM-3.6_Relaxation|NM-3.6]], which is written in `NM-3.6`.
 
 ---
 

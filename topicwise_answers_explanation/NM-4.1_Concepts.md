@@ -514,6 +514,6 @@ $$\boxed{\text{Interpolation reproduces data; curve fitting explains it}}$$
 
 **Also asked here.**
 
-- *2020 Q.3(c)* is the same question as [[NM-4.3|NM-4.3]], which is written in `NM-4.3`.
+- *2020 Q.3(c)* is the same question as [[NM-4.3_Non_Linear_Regression|NM-4.3]], which is written in `NM-4.3`.
 
 ---

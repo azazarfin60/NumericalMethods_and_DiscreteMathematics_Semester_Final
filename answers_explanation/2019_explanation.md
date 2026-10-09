@@ -11,14 +11,14 @@ tags:
 **RUET · ECE Dept · B.Sc. Engineering 2nd Year Even Semester Examination, 2019**
 
 This file explains the same questions as
-[[answers_exam_style/2019_answer|the 2019 answer script]], written to be read
+[[2019_answer|the 2019 answer script]], written to be read
 rather than copied. Every step is named, the reason a formula is chosen is
 stated, and the traps that catch people are called out.
 
 > [!info] How to use this file
 > Read this to understand *why* the answer script does what it does. When you
 > are ready to write in the hall, work from
-> [[answers_exam_style/2019_answer|the exam-style file]], which is shorter and
+> [[2019_answer|the exam-style file]], which is shorter and
 > carries no commentary.
 >
 > **The rule that matters.** Every boxed number here is the same number as the

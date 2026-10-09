@@ -32,25 +32,21 @@ $$\frac{du}{u} = \frac{dx}{x} + 2\frac{dy}{y} - 3\frac{dz}{z}$$
 
 **Evaluate at $x = y = z = 1$.** At that point,
 
-$$\frac{du}{u} = \frac{dx}{x} + 2\frac{dy}{y} - 3\frac{dz}{z} = dx + 2\,dy - 3\,dz$$
+$$\frac{du}{u} = dx + 2\,dy - 3\,dz$$
 
-**1. Maximum Relative Error (Worst-Case Bound — Standard Textbook):**
-Assuming errors act in the worst-case directions ($|\Delta x|, |\Delta y|, |\Delta z| \le 0.001$):
+With $dx = dy = dz = 0.001$:
 
-$$(e_r)_{\max} = \left|\frac{du}{u}\right|_{\max} \le |dx| + 2|dy| + 3|dz| = 0.001 + 2(0.001) + 3(0.001) = 0.006$$
+$$\left|\frac{du}{u}\right|_{\text{worst}} = 0.001 + 2(0.001) + 3(0.001) = 6(0.001) = 0.006$$
 
-$$\boxed{(e_r)_{\max} = 6\times10^{-3} = 0.6\%, \qquad (\Delta u)_{\max} = |u| \cdot (e_r)_{\max} = 5 \times 0.006 = 0.030}$$
+$$\boxed{\left|\frac{du}{u}\right| \le 6\times10^{-3} = 0.6\%}$$
 
-**2. Algebraic Perturbation (Identical Signs $\Delta x = \Delta y = \Delta z = +0.001$):**
-If the errors have identical signs:
+**Independent errors.** If the three errors are independent random quantities,
+they add in quadrature rather than arithmetically:
 
-$$\frac{du}{u} = 0.001 + 2(0.001) - 3(0.001) = 0 \implies \boxed{e_r = 0}$$
+$$\left|\frac{du}{u}\right|_{\text{rms}} = 0.001\sqrt{1 + 4 + 9} = 0.001\sqrt{14} = 3.742\times10^{-3}$$
 
-*(Direct check: $u_p = \frac{5(1.001)(1.001)^2}{(1.001)^3} = 5 \implies \Delta u = 0$.)*
-
-**3. Independent Errors (RMS):** If the three errors are independent random quantities adding in quadrature:
-
-$$\left|\frac{du}{u}\right|_{\text{rms}} = 0.001\sqrt{1^2 + 2^2 + 3^2} = 0.001\sqrt{14} \approx 3.742\times10^{-3} = 0.374\%$$
+and under the independence assumption the relative error is $0.374\%$. The
+factor $5$ contributes nothing, being exact.
 
 ---
 
@@ -194,6 +190,6 @@ $$
 
 **Also asked here.**
 
-- *CT-02B Q.1(c)* is the same question as [[NM-3.5|NM-3.5]], which is written in `NM-3.5`.
+- *CT-02B Q.1(c)* is the same question as [[NM-3.5_Gauss_Seidel_Iteration|NM-3.5]], which is written in `NM-3.5`.
 
 ---

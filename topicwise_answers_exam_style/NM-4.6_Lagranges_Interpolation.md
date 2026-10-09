@@ -300,8 +300,8 @@ $$
 
 **Also asked here.**
 
-- *2022 Q.1(c)* is the same question as [[NM-4.1|NM-4.1]], which is written in `NM-4.1`.
-- *2022 Q.2(a)* is the same question as [[NM-4.9|NM-4.9]], which is written in `NM-4.9`.
+- *2022 Q.1(c)* is the same question as [[NM-4.1_Concepts|NM-4.1]], which is written in `NM-4.1`.
+- *2022 Q.2(a)* is the same question as [[NM-4.9_Newtons_Divided_Difference_and_General_Interpolation|NM-4.9]], which is written in `NM-4.9`.
 
 ---
 

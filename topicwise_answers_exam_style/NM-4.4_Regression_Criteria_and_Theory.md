@@ -87,6 +87,6 @@ $$\boxed{S = \sum_{i=1}^{n}\left(y_i - f(x_i)\right)^2 \text{ is the criterion t
 
 **Also asked here.**
 
-- *2019 Q.4(a)* is the same question as [[NM-4.1|NM-4.1]], which is written in `NM-4.1`.
+- *2019 Q.4(a)* is the same question as [[NM-4.1_Concepts|NM-4.1]], which is written in `NM-4.1`.
 
 ---

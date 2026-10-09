@@ -499,7 +499,7 @@ $$
 
 **Also asked here.**
 
-- *2017 Q.4(c)* is the same question as [[NM-3.6|NM-3.6]], which is written in `NM-3.6`.
+- *2017 Q.4(c)* is the same question as [[NM-3.6_Relaxation|NM-3.6]], which is written in `NM-3.6`.
 
 ---
 

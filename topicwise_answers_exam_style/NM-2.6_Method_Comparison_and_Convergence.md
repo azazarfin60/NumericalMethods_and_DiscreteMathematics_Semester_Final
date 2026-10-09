@@ -73,7 +73,7 @@ $$
 
 **Also asked here.**
 
-- *CT-01 Q.2(b)* is the same question as [[NM-2.3|NM-2.3]], which is written in `NM-2.3`.
+- *CT-01 Q.2(b)* is the same question as [[NM-2.3_False_Position_and_Regula_Falsi|NM-2.3]], which is written in `NM-2.3`.
 
 ---
 

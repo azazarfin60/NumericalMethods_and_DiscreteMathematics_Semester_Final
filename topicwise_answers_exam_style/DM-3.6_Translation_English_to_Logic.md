@@ -17,9 +17,9 @@ for character, as the one it came from.
 
 **Every question that reaches this subtopic is written in the subtopic it is filed under.** Nothing is answered here, and that is deliberate rather than an omission: the subtopic holds the questions in the taxonomy but owns no block of its own.
 
-- *2023 Q.6(c)* is the same question as [[DM-3.9|DM-3.9]], which is written in `DM-3.9`.
-- *2024 Q.5(c)* is the same question as [[DM-3.7|DM-3.7]], which is written in `DM-3.7`.
-- *CT-04 Q.2(a)* is the same question as [[DM-3.7|DM-3.7]], which is written in `DM-3.7`.
+- *2023 Q.6(c)* is the same question as [[DM-3.9_Rules_of_Inference_and_Valid_Arguments|DM-3.9]], which is written in `DM-3.9`.
+- *2024 Q.5(c)* is the same question as [[DM-3.7_System_Specification_and_Consistency|DM-3.7]], which is written in `DM-3.7`.
+- *CT-04 Q.2(a)* is the same question as [[DM-3.7_System_Specification_and_Consistency|DM-3.7]], which is written in `DM-3.7`.
 
 ---
 

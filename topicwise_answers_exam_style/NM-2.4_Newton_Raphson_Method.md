@@ -17,31 +17,44 @@ for character, as the one it came from.
 
 **Appeared in:** 2017 Q.2(a), 2021 Q.1(b), 2023 Q.1(c)
 
-**Question.** Derive the formula for root finding using Newton-Raphson method. Also, discuss the problems/limitations of it and how these problems can be solved. *(Note: 2017 Q.2(a) asked only for the limitations and fixes; 2021 Q.1(b) and 2023 Q.1(c) explicitly include the derivation).*
+**Question.** Briefly discuss the limitations of N-R method to find the root of any non-linear equation. How can we solve it?
 
 **Solution.**
 
-**Derivation.** Let $x^*$ be the true root of $f(x) = 0$. Let $x_0$ be an initial guess and let $h$ be a small correction such that $x^* = x_0 + h$. Expanding $f(x_0 + h)$ in a Taylor series about $x_0$:
+**The method.** Newton–Raphson iterates
 
-$$f(x^*) = f(x_0 + h) = f(x_0) + h f'(x_0) + \frac{h^2}{2!} f''(\xi) = 0$$
+$$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 
-Assuming $h$ is small, neglect higher-order terms ($h^2 \approx 0$):
+**Limitations.** Four distinct failure modes exist.
 
-$$f(x_0) + h f'(x_0) \approx 0 \implies h \approx -\frac{f(x_0)}{f'(x_0)}$$
+1. **Division by a near-zero derivative.** If $f'(x_n) \approx 0$ the tangent
+   is nearly horizontal and the next iterate is thrown far away. The method
+   fails outright at a stationary point of $f$.
+2. **Divergence from a poor start.** Away from the root the tangent can
+   intersect the axis well outside the region of interest, and the iteration can
+   move off to infinity or into a cycle rather than toward the root.
+3. **A root of multiplicity greater than one.** At a root where
+   $f(x) = (x - r)^m g(x)$ with $m > 1$, the method loses its second-order
+   convergence and reduces to first order, so each step gains little.
+4. **Asymptotes and complex excursions.** A root near a vertical asymptote of
+   $f$ or $f'$ sends the iterate to large values. At a complex root of the
+   derivative the iterates can leave the real axis.
 
-The improved estimate is $x_1 = x_0 + h = x_0 - \dfrac{f(x_0)}{f'(x_0)}$. Extending this to successive approximations yields the general Newton-Raphson iterative formula:
+**How each is solved.**
 
-$$\boxed{x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}}$$
-
-**Problems / Limitations and their Solutions:**
-
-| Problem / Limitation | Cause | Remedy / Solution |
-| :-- | :-- | :-- |
-| **Division by zero / near-zero slope** | Tangent is horizontal ($f'(x_n) \approx 0$ at stationary point). Iterate thrown to infinity. | Check $|f'(x_n)|$; shift starting point or switch to Secant method (uses finite difference). |
-| **Divergence / oscillation** | Initial guess $x_0$ is too far from the root, or inflection point nearby. | Bracket the root first ($f(a)f(b) < 0$) using graphical/bisection scan before starting Newton-Raphson. |
-| **Slow convergence for multiple roots** | Root has multiplicity $m > 1$ ($f(r) = f'(r) = 0$); convergence drops from quadratic to linear. | Use Modified Newton-Raphson: $x_{n+1} = x_n - m\frac{f(x_n)}{f'(x_n)}$, or apply method to $u(x) = \frac{f(x)}{f'(x)}$. |
-| **Cycle between points / overshoot** | Oscillates endlessly between two values across a local minimum/inflection point. | Damp the step size, or fall back to bisection when successive iterates repeat. |
-| **Complex excursions / asymptotes** | Root near vertical asymptote or complex roots of derivative. | Hybridize with a bracketing method (e.g., Brent's method / revert to bisection if step leaves bracket). |
+1. **Guard the derivative.** Replace Newton–Raphson by the secant method, which
+   uses a finite difference in place of $f'$ and so cannot divide by zero.
+   Alternatively, detect a small $|f'|$ and halt with a diagnostic.
+2. **Bracket the root first.** Find an interval $[a, b]$ with $f(a)f(b) < 0$ by
+   scanning, then use bisection or regula falsi, both of which keep the bracket
+   and cannot diverge.
+3. **Fix the multiplicity.** Use the modified iteration
+   $x_{n+1} = x_n - m\dfrac{f(x_n)}{f'(x_n)}$, or work with
+   $g(x) = f'(x)/f(x)$, which has only simple roots.
+4. **Keep a bracket, or hybridise.** Run Newton–Raphson but revert to a
+   bracketed step whenever the iterate leaves the bracket. This is the
+   standard practical remedy and it recovers fast convergence near the root
+   with global safety away from it.
 
 ---
 

@@ -151,29 +151,37 @@ $$\boxed{y(0.4) = 0.0400, \qquad y(0.6) = 0.1280 \quad (h = 0.2)}$$
 
 **Appeared in:** 2021 Q.8(c), 2023 Q.3(b)
 
-**Question.** Using Euler's method, solve the following problems:
-(i) $\frac{dy}{dx} = \frac{3}{5}x^3 y$, with $y(0) = 1$. *(2021 Q.8(c), 2023 Q.3(b)(i))*
-(ii) $\frac{dy}{dx} = 1 + y^2$, with $y(0) = 0$. *(2023 Q.3(b)(ii))*
+**Question.** Using Euler's method, determine $\frac{dy}{dx} = \frac{3}{5}x^3 y$; Consider $y(0) = 1$.
 
-*[Marks: 04 / 05]*
+*[Marks: 04, CO: 3]*
 
 **Solution.**
 
-> [!warning] A gap in the printed questions
-> Neither paper specifies a step size $h$ or an upper evaluation bound $x$. Numbers cannot be generated without stating a choice. Standard practice is to choose $h = 0.25$ over $x \in [0, 1]$ (4 steps) and explicitly declare this assumption.
+> [!warning] A gap in the printed question
+> No step size $h$ and no interval are given, so numbers cannot be produced
+> without a stated choice. Use $h = 0.25$ and $x: 0 \to 1$, and say so. The exact
+> solution is provided below so the answer can be judged at any step size.
 
-#### **Part (i): $\frac{dy}{dx} = \frac{3}{5}x^3 y, \quad y(0) = 1, \quad h = 0.25$**
-
-Euler's iterative method:
+**The method.**
 
 $$
-y_{n+1} = y_n + h\,f(x_n, y_n) = y_n + h\cdot\left(\frac{3}{5}x_n^3 y_n\right)
+y_{n+1} = y_n + h\,f(x_n, y_n) = y_n + h\cdot\frac{3}{5}x_n^3 y_n
 $$
 
-- **Step 1 ($x_0 = 0, y_0 = 1$):** Slope $= \frac{3}{5}(0)^3(1) = 0 \implies y_1 = 1 + 0.25(0) = 1.0000000$.
-- **Step 2 ($x_1 = 0.25, y_1 = 1$):** Slope $= \frac{3}{5}(0.25)^3(1) = 0.0093750 \implies y_2 = 1 + 0.25(0.009375) = 1.0023438$.
-- **Step 3 ($x_2 = 0.50, y_2 = 1.0023438$):** Slope $= \frac{3}{5}(0.5)^3(1.0023438) = 0.0751758 \implies y_3 = 1.0023438 + 0.25(0.0751758) = 1.0211377$.
-- **Step 4 ($x_3 = 0.75, y_3 = 1.0211377$):** Slope $= \frac{3}{5}(0.75)^3(1.0211377) = 0.2584755 \implies y_4 = 1.0211377 + 0.25(0.2584755) = 1.0857566$.
+**Step 1.** At $x_0 = 0$, $y_0 = 1$: slope $\frac{3}{5}(0)^3(1) = 0$, so
+$y_1 = 1 + 0.25(0) = 1.0000000$.
+
+**Step 2.** At $x_1 = 0.25$, $y_1 = 1$: slope
+$\frac{3}{5}(0.25)^3(1) = \frac{3}{5}(0.015625) = 0.0093750$, so
+$y_2 = 1 + 0.25(0.009375) = 1.0023438$.
+
+**Step 3.** At $x_2 = 0.5$, $y_2 = 1.0023438$: slope
+$\frac{3}{5}(0.5)^3(1.0023438) = \frac{3}{5}(0.125)(1.0023438) = 0.0751758$, so
+$y_3 = 1.0023438 + 0.25(0.0751758) = 1.0211377$.
+
+**Step 4.** At $x_3 = 0.75$, $y_3 = 1.0211377$: slope
+$\frac{3}{5}(0.75)^3(1.0211377) = \frac{3}{5}(0.421875)(1.0211377) = 0.2584755$, so
+$y_4 = 1.0211377 + 0.25(0.2584755) = 1.0857566$.
 
 | Step | $x_n$ | $y_n$ | Slope $\frac{3}{5}x_n^3y_n$ | $y_{n+1}$ |
 | --: | --: | --: | --: | --: |
@@ -184,40 +192,52 @@ $$
 
 $$\boxed{y(1) \approx 1.08576 \quad (h = 0.25)}$$
 
-> [!info] Check against the exact analytical solution
-> The equation is separable: $\frac{dy}{y} = \frac{3}{5}x^3dx \implies \ln y = \frac{3}{20}x^4 + C$. Since $y(0) = 1 \implies C = 0$:
-> $$y(x) = e^{\frac{3}{20}x^4} = e^{0.15x^4}$$
-> At $x = 1$: $y(1) = e^{0.15} \approx 1.1618342$.
-> Euler's result $1.0857566$ is low by $0.0760777$ ($6.55\%$), as Euler always underestimates convex increasing functions ($y'' > 0$).
+**Other step sizes**, to show the choice is not arbitrary:
 
----
+| $h$ | Steps to $x=1$ | $y(1)$ | Error against exact |
+| --: | --: | --: | --: |
+| 0.5 | 2 | 1.03750 | $-0.12433$ |
+| 0.25 | 4 | 1.08576 | $-0.07608$ |
+| 0.1 | 10 | 1.12725 | $-0.03459$ |
 
-#### **Part (ii): $\frac{dy}{dx} = 1 + y^2, \quad y(0) = 0, \quad h = 0.25$**
+> [!info] Check against the exact solution
+> The equation is separable: $\frac{dy}{y} = \frac{3}{5}x^3dx$, so
+> $\ln y = \frac{3}{20}x^4 + C$, and $y(0) = 1$ gives $C = 0$.
+> $$y = e^{\frac{3}{20}x^4} = e^{0.15x^4}$$
+> At $x = 1$: $e^{0.15} = 1.1618342$. Euler's $1.0857566$ is **low** by
+> $0.0760777$, which is expected: Euler always undershoots when the solution is
+> convex and increasing. Differentiating once more,
+> $$y' = \frac{3}{5}x^3 y, \qquad y'' = \frac{9}{5}x^2 y + \frac{3}{5}x^3\cdot\frac{3}{5}x^3 y = \frac{9}{25}x^2(x^4 + 5)\,y$$
+> which is positive for every $x \ne 0$, since $y > 0$.
 
-Euler's iterative method:
-
-$$y_{n+1} = y_n + h\,(1 + y_n^2)$$
-
-- **Step 1 ($x_0 = 0, y_0 = 0$):** Slope $= 1 + 0^2 = 1.0000000 \implies y_1 = 0 + 0.25(1) = 0.2500000$.
-- **Step 2 ($x_1 = 0.25, y_1 = 0.25$):** Slope $= 1 + (0.25)^2 = 1.0625000 \implies y_2 = 0.25 + 0.25(1.0625) = 0.5156250$.
-- **Step 3 ($x_2 = 0.50, y_2 = 0.515625$):** Slope $= 1 + (0.515625)^2 = 1.2658691 \implies y_3 = 0.515625 + 0.25(1.2658691) = 0.8320923$.
-- **Step 4 ($x_3 = 0.75, y_3 = 0.8320923$):** Slope $= 1 + (0.8320923)^2 = 1.6923776 \implies y_4 = 0.8320923 + 0.25(1.6923776) = 1.2551867$.
-
-| Step | $x_n$ | $y_n$ | Slope $1 + y_n^2$ | $y_{n+1}$ |
-| --: | --: | --: | --: | --: |
-| 1 | 0.00 | 0.0000000 | 1.0000000 | 0.2500000 |
-| 2 | 0.25 | 0.2500000 | 1.0625000 | 0.5156250 |
-| 3 | 0.50 | 0.5156250 | 1.2658691 | 0.8320923 |
-| 4 | 0.75 | 0.8320923 | 1.6923776 | 1.2551867 |
-
-$$\boxed{y(1) \approx 1.25519 \quad (h = 0.25)}$$
-
-> [!info] Check against exact solution and singularity behavior
-> Separating variables gives $\frac{dy}{1+y^2} = dx \implies \arctan y = x + C$. With $y(0) = 0 \implies C = 0$:
-> $$y(x) = \tan x$$
-> At $x = 1$: $y(1) = \tan(1\text{ rad}) \approx 1.5574077$. Euler's estimate of $1.2551867$ carries an absolute error of $0.30222$ ($19.4\%$).
+> [!warning] The zero first step is not a mistake
+> Step 1 gives $y_1 = 1.0000000$, identical to $y_0$. That is because the slope is
+> $\frac{3}{5}x^3y$ and $x_0 = 0$.
 >
-> **Caution on vertical asymptote:** $y = \tan x$ has a vertical asymptote at $x = \pi/2 \approx 1.5708$. Beyond $x = 1$, the slope grows explosively. Coarse steps (e.g., $h = 0.5$) severely underestimate growth, and any step stepping near or past $x = \pi/2$ diverges completely.
+> A step that produces no change looks like a failure and is not one here. The
+> right response is to check the **slope**, not the step: a zero slope at $x = 0$
+> for a function containing $x^3$ is exactly right, and it also tells you
+> immediately that all the growth happens in the last few steps.
+>
+> Compare the slope column: $0$, $0.0094$, $0.0752$, $0.2585$. The last step
+> contributes most of the answer, which is a strong hint that the coarse steps are
+> wasting most of their accuracy.
+
+> [!note] First order accuracy confirmed
+> Halving $h$ from $0.5$ to $0.25$ cut the error from $0.12433$ to $0.07608$, a
+> ratio of $1.63$ rather than the expected 2, because four steps of a stiffly
+> growing function do not sit neatly in the asymptotic range yet. Halving again to
+> $h = 0.1$ gives $0.03459$, and $0.07608/0.03459 = 2.20$, which is the expected
+> factor of 2 as $h \to 0$. Euler is first order: halving the step halves the
+> error.
+
+> [!note] This is the same question as 2023 Q.3(b), the first of its two parts
+> Identical ODE and identical initial condition. The only differences are the step
+> size and the interval, neither of which the paper prints. That makes it a clean
+> L2 merge under the plan's rule: same method, same structure, only the target
+> step changed. Both papers need the same missing choice of $h$ and interval, so
+> answering this one twice is an opportunity to state the choice once and be
+> explicit about it.
 
 ---
 
@@ -225,7 +245,7 @@ $$\boxed{y(1) \approx 1.25519 \quad (h = 0.25)}$$
 
 **Also asked here.**
 
-- *2018 Q.8(b)* is the same question as [[NM-8.6|NM-8.6]], which is written in `NM-8.6`.
-- *2020 Q.7(a)* is the same question as [[NM-8.3|NM-8.3]], which is written in `NM-8.3`.
+- *2018 Q.8(b)* is the same question as [[NM-8.6_Higher_Order_and_Systems_of_ODEs|NM-8.6]], which is written in `NM-8.6`.
+- *2020 Q.7(a)* is the same question as [[NM-8.3_Modified_Euler_and_Heuns_Method|NM-8.3]], which is written in `NM-8.3`.
 
 ---

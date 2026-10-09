@@ -14,7 +14,7 @@ tags:
 > [!info] Format
 > Concise, mark-aligned, written as an answer script.
 > Question text and marks come from the paper:
-> [[PreviousYearQuestions/2017|the 2017 paper]].
+> [[2017|the 2017 paper]].
 > Every numerical here was derived twice by independent routes. Where the two
 > routes disagreed, the disagreement was settled before the next question was
 > written, and the divergence is recorded in a callout.

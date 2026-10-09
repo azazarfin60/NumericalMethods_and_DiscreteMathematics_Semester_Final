@@ -86,7 +86,7 @@ spaced data, where divided differences are used instead.
 > [!note] Where this is used again
 > The forward form is applied in 2021 Q.4(b) and 2021 Q.4(c), and the backward
 > form in 2020 Q.3(b). See
-> [[NM-4.7 · Newton's Forward Difference]].
+> [[NM-4.7_Newtons_Forward_Difference|NM-4.7 · Newton's Forward Difference]].
 
 ---
 
@@ -154,7 +154,7 @@ $$
 > Operating on $y_0$ immediately gives the formula.
 
 > [!note] Where this is used again
-> Part (d) applies this with $y = x^4$, and 2021 Q.4(b) applies central difference formulas to a table of $e^x$ values. See [[NM-4.7 · Newton's Forward Difference]].
+> Part (d) applies this with $y = x^4$, and 2021 Q.4(b) applies central difference formulas to a table of $e^x$ values. See [[NM-4.7_Newtons_Forward_Difference|NM-4.7 · Newton's Forward Difference]].
 
 ---
 
@@ -243,7 +243,7 @@ $$
 
 **Also asked here.**
 
-- *2021 Q.3(b)* is the same question as [[NM-4.6|NM-4.6]], which is written in `NM-4.6`.
+- *2021 Q.3(b)* is the same question as [[NM-4.6_Lagranges_Interpolation|NM-4.6]], which is written in `NM-4.6`.
 
 ---
 

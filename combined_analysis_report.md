@@ -365,7 +365,7 @@ specific problems* the setter reaches for.
 | Biconditional four-item set | 2022, 2024 (verbatim) | 🟢 Yes |
 | `3^644 mod 645` | 2022, 2024 (verbatim) | 🟢 Yes |
 | Rocket integral → Simpson 1/3 + error chain | 2018, 2023 | 🟢 Yes |
-| **Eigenvalues of `[[5,0,1],[0,−2,0],[1,0,5]]`** | 2017, 2023 (same matrix) | ❌ **No — ② gap** |
+| **Eigenvalues of `[ [5,0,1],[0,−2,0],[1,0,5] ]`** | 2017, 2023 (same matrix) | ❌ **No — ② gap** |
 | **Least-squares straight line, x = 1…7** | 2017, 2024 (verbatim) | ❌ **No — ② gap** |
 | **`y = a·e^(bx)` exponential fit** | 2017, 2020 (verbatim) | ❌ **No — ② gap** |
 
@@ -435,7 +435,7 @@ probably the highest-return hour available in this course.
 - [ ] **Taylor series and truncation error** — expansion to a stated decimal accuracy; number-of-terms
       problems; truncation-error estimation. *(Critical if studying from Raidah's notes.)*
 - [ ] **Eigenvalues of a 3×3 matrix** — characteristic-polynomial method. **Do the recurring matrix
-      `[[5,0,1],[0,−2,0],[1,0,5]]` once** (2017 Q.7b ≡ 2023 Q.3a).
+      `[ [5,0,1],[0,−2,0],[1,0,5] ]` once** (2017 Q.7b ≡ 2023 Q.3a).
 - [ ] **Boundary Value Problems** — the general numerical approach vs. IVP; the shooting idea.
 - [ ] **Mathematical modeling** — write a short model with stated assumptions (2024 Q.1a, CT-01 Q.1a).
 - [ ] **Extended Euclidean algorithm** — in tabular form, as Raidah's notes specify.

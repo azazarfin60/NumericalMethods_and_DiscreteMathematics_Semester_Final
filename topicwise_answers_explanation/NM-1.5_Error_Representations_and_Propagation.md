@@ -56,12 +56,18 @@ proportional to each factor's *power*, not to its presence, and a factor raised
 to a high power is a correspondingly larger lever on the answer. The constant
 $5$ contributes nothing, being exact.
 
-> [!tip] Examination note: Worst-case vs. Algebraic Cancellation
-> - **Worst-case bound (standard textbook definition):** In standard numerical analysis textbooks (e.g. Sastry, Grewal), uncertainties are treated as absolute bounds $|\Delta x|, |\Delta y|, |\Delta z| \le 0.001$, giving $(e_r)_{\max} = 0.006 = 0.6\%$ and $(\Delta u)_{\max} = 5 \times 0.006 = 0.030$.
-> - **Algebraic cancellation:** If the perturbations are identical in sign and value ($\Delta x = \Delta y = \Delta z = +0.001$), then $\frac{du}{u} = 0.001 + 2(0.001) - 3(0.001) = 0$, giving $e_r = 0$. (Direct evaluation: $u(1.001, 1.001, 1.001) = \frac{5(1.001)^3}{(1.001)^3} = 5 \implies \Delta u = 0$).
-> - **RMS independent errors:** If the three errors are uncorrelated random variables, they add in quadrature:
->   $$\left|\frac{du}{u}\right|_{\text{rms}} = 0.001\sqrt{1^2 + 2^2 + 3^2} = 0.001\sqrt{14} \approx 3.742\times10^{-3} = 0.374\%.$$
-> Stating both the worst-case bound ($0.6\%$) and the algebraic cancellation ($0$) guarantees full credit under any examiner interpretation.
+> [!info] If the errors are independent, the answer is different
+> The bound above is the worst case over all sign combinations. If instead the
+> three errors are independent random quantities with equal standard deviation,
+> they add in quadrature and
+> $$\left|\frac{du}{u}\right|_{\text{rms}} = 0.001\sqrt{1^2 + 2^2 + 3^2} = 0.001\sqrt{14} = 3.742\times10^{-3},$$
+> that is $0.374\%$, and the relative error is $0.374\%$.
+>
+> The two differ by a factor of $1.6$, and which is right depends on a
+> statement about the errors that the question does not make. The worst-case
+> reading is the one to report when nothing is stated, because it holds
+> regardless of the sign pattern. Worth knowing both, and worth saying which
+> one you are quoting.
 
 ---
 
@@ -222,6 +228,6 @@ time. Reporting "the beam is off by $2$ mm" beats "off by $0.4\%$".
 
 **Also asked here.**
 
-- *CT-02B Q.1(c)* is the same question as [[NM-3.5|NM-3.5]], which is written in `NM-3.5`.
+- *CT-02B Q.1(c)* is the same question as [[NM-3.5_Gauss_Seidel_Iteration|NM-3.5]], which is written in `NM-3.5`.
 
 ---

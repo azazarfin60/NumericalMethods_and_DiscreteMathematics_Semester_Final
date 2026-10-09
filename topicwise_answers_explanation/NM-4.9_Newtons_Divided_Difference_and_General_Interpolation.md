@@ -306,6 +306,6 @@ $$
 
 **Also asked here.**
 
-- *2019 Q.4(b)* is the same question as [[NM-4.6|NM-4.6]], which is written in `NM-4.6`.
+- *2019 Q.4(b)* is the same question as [[NM-4.6_Lagranges_Interpolation|NM-4.6]], which is written in `NM-4.6`.
 
 ---

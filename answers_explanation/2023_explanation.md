@@ -11,14 +11,14 @@ tags:
 **RUET · ECE Dept · B.Sc. Engineering 2nd Year Even Semester Examination, 2023**
 
 This file explains the same questions as
-[[answers_exam_style/2023_answer|the 2023 answer script]], written to be read
+[[2023_answer|the 2023 answer script]], written to be read
 rather than copied. Every step is named, the reason a formula is chosen is
 stated, and the traps that catch people are called out.
 
 > [!info] How to use this file
 > Read this to understand *why* the answer script does what it does. When you
 > are ready to write in the hall, work from
-> [[answers_exam_style/2023_answer|the exam-style file]], which is shorter and
+> [[2023_answer|the exam-style file]], which is shorter and
 > carries no commentary.
 >
 > **The rule that matters.** Every boxed number here is the same number as the
@@ -337,7 +337,7 @@ $$
 Summing all terms yields Newton's Forward Interpolation formula:
 
 $$
-\boxed{y_n(x) = y_0 + p\Delta y_0 + \frac{p(p-1)}{2!}\Delta^2 y_0 + \frac{p(p-1)(p-2)}{3!}\Delta^3 y_0 + \cdots + \frac{p(p-1)\cdots(p-n+1)}{n!}\Delta^n y_0}
+\boxed{y_n(x) = y_0 + p\Delta y_0 + \frac{p(p-1)}{2!} \Delta^2 y_0 + \frac{p(p-1)(p-2)}{3!} \Delta^3 y_0 + \cdots + \frac{p(p-1)\cdots(p-n+1)}{n!} \Delta^n y_0}
 $$
 
 > [!info] The operator derivation (Shift Operator $E$)

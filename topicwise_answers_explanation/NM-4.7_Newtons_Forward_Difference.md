@@ -94,7 +94,7 @@ spaced data, where divided differences are used instead.
 
 > [!note] Where this is used again
 > The forward form is applied in 2021 Q.4(b) and 2021 Q.4(c), and the backward
-> form in Q.3(b) above. See [[NM-4.7 · Newton's Forward Difference]].
+> form in Q.3(b) above. See [[NM-4.7_Newtons_Forward_Difference|NM-4.7 · Newton's Forward Difference]].
 
 ---
 
@@ -175,7 +175,7 @@ $$\boxed{y_n(x) = y_0 + p\Delta y_0 + \frac{p(p-1)}{2!}\Delta^2 y_0 + \frac{p(p-
 
 > [!note] Where this is used again
 > Part (d) applies this with $y = x^4$, and Q.4(b) applies central difference formulas to a table of $e^x$
-> values. See [[NM-4.7 · Newton's Forward Difference]].
+> values. See [[NM-4.7_Newtons_Forward_Difference|NM-4.7 · Newton's Forward Difference]].
 
 ---
 
@@ -286,7 +286,7 @@ $$\boxed{S_n = \left[\frac{n(n+1)}{2}\right]^2}$$
 
 **Also asked here.**
 
-- *2021 Q.3(b)* is the same question as [[NM-4.6|NM-4.6]], which is written in `NM-4.6`.
+- *2021 Q.3(b)* is the same question as [[NM-4.6_Lagranges_Interpolation|NM-4.6]], which is written in `NM-4.6`.
 
 ---
 

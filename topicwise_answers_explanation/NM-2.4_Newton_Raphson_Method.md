@@ -16,31 +16,20 @@ is written once, in the year-wise file, and is not restated here.
 
 **Appeared in:** 2017 Q.2(a), 2021 Q.1(b), 2023 Q.1(c)
 
-**Question.** Derive the formula for root finding using Newton-Raphson method. Also, discuss the problems/limitations of it and how this problem can be solved. *(Note: 2017 Q.2(a) asked only for the limitations; 2021 Q.1(b) and 2023 Q.1(c) explicitly ask for both the derivation and limitations).*
+**Question.** Briefly discuss the limitations of N-R method to find the root of any non-linear equation. How can we solve it?
 
 *[Marks: 04]*
 
 **Solution.**
 
-**Derivation of the formula.** Let $x^*$ be the true root of $f(x) = 0$, so $f(x^*) = 0$. Let $x_0$ be an initial trial approximation to the root, and let $h$ be a small correction such that $x^* = x_0 + h$.
+**The method.** Newton-Raphson iterates
 
-Expanding $f(x_0 + h)$ in a Taylor series about $x_0$:
+$$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 
-$$f(x^*) = f(x_0 + h) = f(x_0) + h f'(x_0) + \frac{h^2}{2!} f''(\xi) = 0$$
-
-Assuming $h$ is sufficiently small, we neglect terms involving $h^2$ and higher powers:
-
-$$f(x_0) + h f'(x_0) \approx 0 \implies h \approx -\frac{f(x_0)}{f'(x_0)}$$
-
-Hence the first improved approximation is:
-
-$$x_1 = x_0 + h = x_0 - \frac{f(x_0)}{f'(x_0)}$$
-
-Successive approximations are obtained by repeating this process, yielding the general Newton-Raphson formula:
-
-$$\boxed{x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}}$$
-
-**Geometric interpretation & Quadratic convergence.** Geometrically it follows the tangent: the tangent at $x_n$ crosses the axis at $x_{n+1}$. By retaining the second-order Taylor term, the local error satisfies $e_{n+1} \approx \dfrac{f''(r)}{2f'(r)}e_n^2$, which gives quadratic convergence (the number of significant digits approximately doubles at each step). This relationship also explains all failure modes.
+Geometrically it follows the tangent: the tangent at $x_n$ crosses the axis at
+$x_{n+1}$. The local error satisfies $e_{n+1} \approx \dfrac{f''(r)}{2f'(r)}e_n^2$,
+which is where the famous quadratic convergence comes from, and also where all
+four limitations come from.
 
 **Four distinct failure modes.**
 

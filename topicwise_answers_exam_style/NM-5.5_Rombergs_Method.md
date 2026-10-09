@@ -36,7 +36,7 @@ $$
 At $h = 0.25$, $n = 4$:
 
 $$
-T_4 = \frac{0.25}{2}\left[\frac{1}{3} + 2\left(\frac{1}{3.25} + \frac{1}{3.5} + \frac{1}{3.75}\right) + \frac{1}{4}\right] = 0.287935
+T_4 = \frac{0.25}{2}\left[\frac{1}{3} + 2\left(\frac{1}{3.25} + \frac{1}{3.5} + \frac{1}{3.75} + \frac{1}{4.25}\right) + \frac{1}{4}\right] = 0.287935
 $$
 
 At $h = 0.125$, $n = 8$:
@@ -107,6 +107,6 @@ $$
 
 **Also asked here.**
 
-- *2022 Q.3(a)* is the same question as [[NM-5.1|NM-5.1]], which is written in `NM-5.1`.
+- *2022 Q.3(a)* is the same question as [[NM-5.1_Trapezoidal_Rule|NM-5.1]], which is written in `NM-5.1`.
 
 ---

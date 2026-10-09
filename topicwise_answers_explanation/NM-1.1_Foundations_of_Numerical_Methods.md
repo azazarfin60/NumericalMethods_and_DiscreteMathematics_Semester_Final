@@ -340,6 +340,6 @@ $$
 
 **Also asked here.**
 
-- *2020 Q.1(a)* is the same question as [[NM-1.4|NM-1.4]], which is written in `NM-1.4`.
+- *2020 Q.1(a)* is the same question as [[NM-1.4_Error_Types_and_Sources|NM-1.4]], which is written in `NM-1.4`.
 
 ---

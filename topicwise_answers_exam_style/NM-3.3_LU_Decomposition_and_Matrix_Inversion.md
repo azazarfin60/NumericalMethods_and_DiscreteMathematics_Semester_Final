@@ -24,47 +24,39 @@ triangular matrix $L$ (ones on the diagonal) and an upper triangular matrix $U$:
 
 $$A = LU$$
 
-Solving $Ax = b$ becomes two triangular substitutions: rewrite $Ax = b$ as $L(Ux) = b$ and define the intermediate vector $y = Ux$. The solution decouples into:
+Solving $Ax = b$ then becomes two triangular substitutions, which are cheap and
+stable:
 
-1. **Forward substitution:** Solve $Ly = b$ for $y$.
-2. **Back substitution:** Solve $Ux = y$ for $x$.
+$$LUx = b \implies Ly = b \implies Ux = y$$
 
-**The construction.** Gauss elimination produces $U$ as the reduced upper triangular matrix and records the multipliers in $L$. For a $3\times3$ system:
+**The construction.** Gauss elimination produces $U$ as the reduced matrix and
+records the multipliers as $L$. For a $3\times3$ system:
 
-**Step 1.** Eliminate below the first column using pivot $a_{11}$. The multipliers are:
+**Step 1.** Eliminate below the first column using row 1. The multipliers are
 
 $$l_{21} = \frac{a_{21}}{a_{11}}, \qquad l_{31} = \frac{a_{31}}{a_{11}}$$
 
-Perform $R_2 \leftarrow R_2 - l_{21}R_1$ and $R_3 \leftarrow R_3 - l_{31}R_1$.
-These row operations correspond to multiplying $A$ on the left by the elementary matrix:
+Form $R_2 \leftarrow R_2 - l_{21}R_1$ and $R_3 \leftarrow R_3 - l_{31}R_1$.
+These operations correspond to multiplying $A$ on the left by
 
-$$M_1 = \begin{bmatrix} 1 & 0 & 0 \\ -l_{21} & 1 & 0 \\ -l_{31} & 0 & 1 \end{bmatrix}$$
+$$L_1 = \begin{bmatrix} 1 & 0 & 0 \\ -l_{21} & 1 & 0 \\ -l_{31} & 0 & 1 \end{bmatrix}$$
 
-**Step 2.** Eliminate below the second column of the updated matrix $A^{(1)} = M_1 A$. With pivot $a_{22}^{(1)} = a_{22} - l_{21}a_{12}$ and entry $a_{32}^{(1)} = a_{32} - l_{31}a_{12}$, the multiplier is:
+**Step 2.** Eliminate below the second column of the result. With
 
 $$l_{32} = \frac{a_{32}^{(1)}}{a_{22}^{(1)}} = \frac{a_{32} - l_{31}a_{12}}{a_{22} - l_{21}a_{12}}$$
 
-Perform $R_3 \leftarrow R_3 - l_{32}R_2^{(1)}$, corresponding to multiplying on the left by:
+form $R_3 \leftarrow R_3 - l_{32}R_2^{(1)}$, corresponding to
 
-$$M_2 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & -l_{32} & 1 \end{bmatrix}$$
+$$L_2 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & -l_{32} & 1 \end{bmatrix}$$
 
-**The result.** Forward elimination yields the upper triangular matrix $U$:
+**The result.** $L_2L_1A = U$, so
 
-$$M_2 M_1 A = U$$
+$$A = LU, \qquad L = L_1^{-1}L_2^{-1} = \begin{bmatrix} 1 & 0 & 0 \\ l_{21} & 1 & 0 \\ l_{31} & l_{32} & 1 \end{bmatrix}$$
 
-Inverting the elementary matrices gives:
-
-$$A = (M_2 M_1)^{-1} U = M_1^{-1} M_2^{-1} U = LU$$
-
-Because inverting elementary elimination matrices flips the sign of their off-diagonal entries:
-
-$$M_1^{-1} = \begin{bmatrix} 1 & 0 & 0 \\ l_{21} & 1 & 0 \\ l_{31} & 0 & 1 \end{bmatrix}, \qquad M_2^{-1} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & l_{32} & 1 \end{bmatrix}$$
-
-Their product directly forms the unit lower triangular matrix $L$:
-
-$$L = M_1^{-1} M_2^{-1} = \begin{bmatrix} 1 & 0 & 0 \\ l_{21} & 1 & 0 \\ l_{31} & l_{32} & 1 \end{bmatrix}$$
-
-The multipliers become the sub-diagonal entries of $L$ directly without cross-terms. This decomposition with ones on the diagonal of $L$ is the **Doolittle form**. A variant that places ones on the diagonal of $U$ instead is the **Crout form**.
+The multipliers become the sub-diagonal entries of $L$ directly, because the
+product of the inverse elementary matrices is the lower triangular matrix with
+those multipliers below the diagonal. This is the **Doolittle form**. A variant
+that puts $U$'s diagonal into $L$ is the **Crout form**.
 
 **Solving.** Forward-substitute $Ly = b$:
 

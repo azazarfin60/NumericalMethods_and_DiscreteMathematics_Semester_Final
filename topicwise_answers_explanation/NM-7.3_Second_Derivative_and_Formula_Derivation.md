@@ -153,6 +153,6 @@ on $\Delta^5 y_0$.
 
 **Also asked here.**
 
-- *2021 Q.7(c)* is the same question as [[NM-7.2|NM-7.2]], which is written in `NM-7.2`.
+- *2021 Q.7(c)* is the same question as [[NM-7.2_First_Derivative_from_Tabulated_Data|NM-7.2]], which is written in `NM-7.2`.
 
 ---

@@ -14,7 +14,7 @@ tags:
 > [!info] Format
 > Concise and mark-aligned.
 > Question text and marks come from the paper:
-> [[PreviousYearQuestions/2023|the 2023 paper]].
+> [[2023|the 2023 paper]].
 > Every numerical here was derived twice by independent routes. Where the two
 > routes disagree, the callouts record the discrepancy.
 
@@ -207,8 +207,8 @@ with Newton's speed and bisection's guarantee, and it is the form used in
 production root finders.
 
 > [!info] Where the topic recurs
-> The distinction recurs in [[NM-2.4 · Newton-Raphson Method]] and
-> [[NM-2.1 · Fundamentals and
+> The distinction recurs in [[NM-2.4_Newton_Raphson_Method|NM-2.4 · Newton-Raphson Method]] and
+> [[NM-2.1_Fundamentals_and_Classification|NM-2.1 · Fundamentals and
 > Classification]]. Part (a) of Question 2 asks for the same distinction in the
 > interpolation setting, where Newton-Raphson is replaced by the finite
 > difference Newton.

@@ -277,8 +277,8 @@ an exam expects.
 
 **Also asked here.**
 
-- *2017 Q.1(b)* is the same question as [[NM-1.3|NM-1.3]], which is written in `NM-1.3`.
-- *2017 Q.1(c)* is the same question as [[NM-1.6|NM-1.6]], which is written in `NM-1.6`.
+- *2017 Q.1(b)* is the same question as [[NM-1.3_Accuracy_Precision_and_Significant_Digits|NM-1.3]], which is written in `NM-1.3`.
+- *2017 Q.1(c)* is the same question as [[NM-1.6_Taylor_Series_and_Truncation_Error|NM-1.6]], which is written in `NM-1.6`.
 
 ---
 

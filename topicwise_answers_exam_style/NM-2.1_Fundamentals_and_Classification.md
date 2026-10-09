@@ -141,7 +141,7 @@ $$
 
 **Also asked here.**
 
-- *2019 Q.2(b)* is the same question as [[NM-2.7|NM-2.7]], which is written in `NM-2.7`.
-- *2020 Q.2(a)* is the same question as [[NM-2.6|NM-2.6]], which is written in `NM-2.6`.
+- *2019 Q.2(b)* is the same question as [[NM-2.7_Roots_of_Polynomials|NM-2.7]], which is written in `NM-2.7`.
+- *2020 Q.2(a)* is the same question as [[NM-2.6_Method_Comparison_and_Convergence|NM-2.6]], which is written in `NM-2.6`.
 
 ---

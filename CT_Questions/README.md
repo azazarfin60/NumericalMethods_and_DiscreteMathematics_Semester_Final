@@ -36,7 +36,7 @@ note is carried forward rather than silently resolved.
 
 ## Navigation
 
-Cross references use wikilinks, for example `[[NM-4.6 · Lagrange's Interpolation]]`.
+Cross references use wikilinks, for example `[[NM-4.6_Lagranges_Interpolation|NM-4.6 · Lagrange's Interpolation]]`.
 Paths are not written by hand.
 
 No em dashes. Plain words.
