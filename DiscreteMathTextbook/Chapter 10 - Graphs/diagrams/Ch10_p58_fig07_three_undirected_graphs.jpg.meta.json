@@ -1,0 +1,21 @@
+{
+  "description": "Three Undirected Graphs",
+  "source_image": "page_058.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 24.0,
+    "left": 22.5,
+    "right": 78.0
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 168,
+    "x2": 1328,
+    "y2": 504
+  },
+  "crop_size": {
+    "width": 945,
+    "height": 336
+  },
+  "figure_id": "Fig_Ch10_57_ThreeUndirectedGraphs"
+}

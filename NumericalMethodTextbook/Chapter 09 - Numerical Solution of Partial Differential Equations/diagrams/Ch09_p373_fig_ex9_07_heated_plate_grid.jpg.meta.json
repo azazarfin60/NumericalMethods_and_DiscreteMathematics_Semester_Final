@@ -1,0 +1,21 @@
+{
+  "description": "Heated plate square region grid for Exercise 9.7 with temperatures and coordinates",
+  "source_image": "page_032.jpg",
+  "crop_percentages": {
+    "top": 62.07781103035486,
+    "bottom": 78.92261650277896,
+    "left": 32.97035692679976,
+    "right": 66.1826981246219
+  },
+  "crop_pixels": {
+    "x1": 545,
+    "y1": 1452,
+    "x2": 1094,
+    "y2": 1846
+  },
+  "crop_size": {
+    "width": 549,
+    "height": 394
+  },
+  "figure_id": "Fig_Ch09_Ex07"
+}

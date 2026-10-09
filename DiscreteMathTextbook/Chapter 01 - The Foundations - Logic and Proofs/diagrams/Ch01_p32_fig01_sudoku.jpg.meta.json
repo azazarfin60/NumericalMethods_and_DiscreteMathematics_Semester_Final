@@ -1,0 +1,21 @@
+{
+  "description": "Figure 1: A 9x9 Sudoku puzzle grid",
+  "source_image": "page_032.jpg",
+  "crop_percentages": {
+    "top": 8.9,
+    "bottom": 24.6,
+    "left": 23.8,
+    "right": 43.1
+  },
+  "crop_pixels": {
+    "x1": 405,
+    "y1": 187,
+    "x2": 733,
+    "y2": 517
+  },
+  "crop_size": {
+    "width": 328,
+    "height": 330
+  },
+  "figure_id": null
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The Regions of the Planar Representation of a Graph",
+  "source_image": "page_080.jpg",
+  "crop_percentages": {
+    "top": 81.5,
+    "bottom": 95.0,
+    "left": 22.5,
+    "right": 74.0
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 1713,
+    "x2": 1260,
+    "y2": 1996
+  },
+  "crop_size": {
+    "width": 877,
+    "height": 283
+  },
+  "figure_id": "Fig_Ch10_77_RegionsPlanarGraph"
+}

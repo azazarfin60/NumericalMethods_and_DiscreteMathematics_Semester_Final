@@ -1,0 +1,21 @@
+{
+  "description": "Square region OABC with mesh points P, Q, R, S having temperatures u1, u2, u3, u4 and boundary temperatures specified on all four sides",
+  "source_image": "page_009.jpg",
+  "crop_percentages": {
+    "top": 66.5,
+    "bottom": 84.5,
+    "left": 37.5,
+    "right": 63.0
+  },
+  "crop_pixels": {
+    "x1": 619,
+    "y1": 1555,
+    "x2": 1041,
+    "y2": 1976
+  },
+  "crop_size": {
+    "width": 422,
+    "height": 421
+  },
+  "figure_id": "Fig_Ch09_04"
+}

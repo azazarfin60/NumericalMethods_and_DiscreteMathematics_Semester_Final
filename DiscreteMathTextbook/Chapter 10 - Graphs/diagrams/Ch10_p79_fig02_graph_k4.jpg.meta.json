@@ -1,0 +1,21 @@
+{
+  "description": "The Graph K4",
+  "source_image": "page_079.jpg",
+  "crop_percentages": {
+    "top": 9.5,
+    "bottom": 25.5,
+    "left": 10.5,
+    "right": 25.5
+  },
+  "crop_pixels": {
+    "x1": 178,
+    "y1": 199,
+    "x2": 434,
+    "y2": 536
+  },
+  "crop_size": {
+    "width": 256,
+    "height": 337
+  },
+  "figure_id": "Fig_Ch10_71_GraphK4"
+}

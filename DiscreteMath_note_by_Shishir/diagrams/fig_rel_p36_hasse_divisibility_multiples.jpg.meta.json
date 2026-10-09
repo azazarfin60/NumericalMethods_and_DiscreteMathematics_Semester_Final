@@ -1,0 +1,21 @@
+{
+  "description": "Hasse diagram for divisibility on set {2, 3, 5, 10, 11, 15, 25} showing connections from prime divisors to multiples, and isolated element 11",
+  "source_image": "page_036.jpg",
+  "crop_percentages": {
+    "top": 31.0,
+    "bottom": 49.4,
+    "left": 28.0,
+    "right": 75.0
+  },
+  "crop_pixels": {
+    "x1": 462,
+    "y1": 725,
+    "x2": 1239,
+    "y2": 1155
+  },
+  "crop_size": {
+    "width": 777,
+    "height": 430
+  },
+  "figure_id": "Fig_Rel_p36_hasse_divisibility_multiples"
+}

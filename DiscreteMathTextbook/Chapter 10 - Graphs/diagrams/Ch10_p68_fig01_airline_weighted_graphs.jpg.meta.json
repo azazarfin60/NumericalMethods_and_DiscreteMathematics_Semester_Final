@@ -1,0 +1,21 @@
+{
+  "description": "Weighted Graphs Modeling an Airline System",
+  "source_image": "page_068.jpg",
+  "crop_percentages": {
+    "top": 7.5,
+    "bottom": 70.5,
+    "left": 22.5,
+    "right": 75.0
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 157,
+    "x2": 1277,
+    "y2": 1481
+  },
+  "crop_size": {
+    "width": 894,
+    "height": 1324
+  },
+  "figure_id": "Fig_Ch10_65_AirlineWeightedGraphs"
+}

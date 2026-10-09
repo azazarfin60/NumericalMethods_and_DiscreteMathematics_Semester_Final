@@ -1,0 +1,21 @@
+{
+  "description": "Table 3.7 Gauss Backward Formula difference table showing the zig-zag path connecting central differences",
+  "source_image": "page_021.jpg",
+  "crop_percentages": {
+    "top": 17.0,
+    "bottom": 35.5,
+    "left": 20.0,
+    "right": 80.0
+  },
+  "crop_pixels": {
+    "x1": 330,
+    "y1": 397,
+    "x2": 1322,
+    "y2": 830
+  },
+  "crop_size": {
+    "width": 992,
+    "height": 433
+  },
+  "figure_id": "Fig_Ch03_02"
+}

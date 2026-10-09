@@ -1,0 +1,21 @@
+{
+  "description": "The complete graphs Kn for n = 1, 2, 3, 4, 5, 6",
+  "source_image": "page_015.jpg",
+  "crop_percentages": {
+    "top": 16.9,
+    "bottom": 31.5,
+    "left": 11.4,
+    "right": 92.2
+  },
+  "crop_pixels": {
+    "x1": 194,
+    "y1": 355,
+    "x2": 1570,
+    "y2": 662
+  },
+  "crop_size": {
+    "width": 1376,
+    "height": 307
+  },
+  "figure_id": "Fig_Ch10_17_CompleteGraphsKn"
+}

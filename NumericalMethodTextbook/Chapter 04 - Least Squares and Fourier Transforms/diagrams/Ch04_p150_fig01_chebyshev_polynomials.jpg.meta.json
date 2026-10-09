@@ -1,0 +1,21 @@
+{
+  "description": "Graph of the first four Chebyshev polynomials T_1(x), T_2(x), T_3(x), and T_4(x) on the interval [-1, 1], with y-axis bounded between -1 and 1",
+  "source_image": "page_025.jpg",
+  "crop_percentages": {
+    "top": 34.0,
+    "bottom": 65.8,
+    "left": 24.0,
+    "right": 77.0
+  },
+  "crop_pixels": {
+    "x1": 396,
+    "y1": 795,
+    "x2": 1272,
+    "y2": 1539
+  },
+  "crop_size": {
+    "width": 876,
+    "height": 744
+  },
+  "figure_id": "Fig_Ch04_01"
+}

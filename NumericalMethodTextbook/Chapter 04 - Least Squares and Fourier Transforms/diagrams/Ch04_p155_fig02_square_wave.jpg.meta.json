@@ -1,0 +1,21 @@
+{
+  "description": "Graph of an odd periodic step function f(t) taking values 1 for 0 < t < pi, -1 for -pi < t < 0, and 0 at t = 0",
+  "source_image": "page_030.jpg",
+  "crop_percentages": {
+    "top": 64.0,
+    "bottom": 79.0,
+    "left": 36.0,
+    "right": 65.0
+  },
+  "crop_pixels": {
+    "x1": 595,
+    "y1": 1496,
+    "x2": 1074,
+    "y2": 1847
+  },
+  "crop_size": {
+    "width": 479,
+    "height": 351
+  },
+  "figure_id": "Fig_Ch04_02"
+}

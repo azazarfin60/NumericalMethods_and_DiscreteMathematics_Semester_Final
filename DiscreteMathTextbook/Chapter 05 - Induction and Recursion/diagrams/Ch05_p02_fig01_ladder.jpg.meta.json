@@ -1,0 +1,9 @@
+{
+  "source_image": "page_002.jpg",
+  "figure_id": "Fig_Ch05_01",
+  "description": "Climbing an infinite ladder illustrating mathematical induction: basis step reaches rung 1, inductive step moves from rung k to rung k + 1",
+  "crop_size": {
+    "width": 800,
+    "height": 845
+  }
+}

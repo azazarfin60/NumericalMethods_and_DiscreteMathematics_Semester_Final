@@ -1,0 +1,21 @@
+{
+  "description": "Array of elements for computing s_{4,i} showing triangular arrangement of lower-order B-splines from s_{1,j} to s_{4,i}",
+  "source_image": "page_020.jpg",
+  "crop_percentages": {
+    "top": 17.5,
+    "bottom": 30.0,
+    "left": 28.0,
+    "right": 72.0
+  },
+  "crop_pixels": {
+    "x1": 462,
+    "y1": 409,
+    "x2": 1190,
+    "y2": 701
+  },
+  "crop_size": {
+    "width": 728,
+    "height": 292
+  },
+  "figure_id": "Fig_Ch05_02"
+}

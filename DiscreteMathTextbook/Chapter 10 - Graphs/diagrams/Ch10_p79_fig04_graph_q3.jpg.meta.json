@@ -1,0 +1,21 @@
+{
+  "description": "The Graph Q3",
+  "source_image": "page_079.jpg",
+  "crop_percentages": {
+    "top": 7.5,
+    "bottom": 25.5,
+    "left": 53.0,
+    "right": 68.5
+  },
+  "crop_pixels": {
+    "x1": 902,
+    "y1": 157,
+    "x2": 1166,
+    "y2": 536
+  },
+  "crop_size": {
+    "width": 264,
+    "height": 379
+  },
+  "figure_id": "Fig_Ch10_73_GraphQ3"
+}

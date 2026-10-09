@@ -1,0 +1,21 @@
+{
+  "description": "Handwritten 8-row truth table proving the compound conditional implication tautology",
+  "source_image": "page_051.jpg",
+  "crop_percentages": {
+    "top": 0,
+    "bottom": 73.6,
+    "left": 2.0,
+    "right": 98.0
+  },
+  "crop_pixels": {
+    "x1": 33,
+    "y1": 0,
+    "x2": 1619,
+    "y2": 1721
+  },
+  "crop_size": {
+    "width": 1586,
+    "height": 1721
+  },
+  "figure_id": "Fig_Logic_51.1"
+}

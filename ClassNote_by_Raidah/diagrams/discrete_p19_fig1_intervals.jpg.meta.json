@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn comparison of open interval (0,5), closed interval [0,5], and discrete set {0,5} on number line",
+  "source_image": "page_19.jpg",
+  "crop_percentages": {
+    "top": 30.0,
+    "bottom": 52.4,
+    "left": 3.0,
+    "right": 37.0
+  },
+  "crop_pixels": {
+    "x1": 70,
+    "y1": 495,
+    "x2": 865,
+    "y2": 866
+  },
+  "crop_size": {
+    "width": 795,
+    "height": 371
+  },
+  "figure_id": "Fig_Discrete01.1"
+}

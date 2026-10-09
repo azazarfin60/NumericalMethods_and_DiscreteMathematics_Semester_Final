@@ -1,0 +1,9 @@
+{
+  "source_image": "page_029.jpg",
+  "figure_id": "Fig_Ch05_09",
+  "description": "Two different triangulations of a simple polygon with seven sides into five triangles shown with dotted and dashed lines",
+  "crop_size": {
+    "width": 1107,
+    "height": 330
+  }
+}

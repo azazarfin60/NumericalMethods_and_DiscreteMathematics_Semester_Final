@@ -1,0 +1,9 @@
+{
+  "source_image": "page_015.jpg",
+  "figure_id": "Fig_Ch06_05",
+  "description": "Illustration of the pigeonhole principle showing arrangements of pigeons in pigeonholes where at least one hole contains more than one pigeon",
+  "crop_size": {
+    "width": 1218,
+    "height": 431
+  }
+}

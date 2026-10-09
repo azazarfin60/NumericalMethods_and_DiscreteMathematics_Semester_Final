@@ -1,0 +1,21 @@
+{
+  "description": "The Graph Showing the Distances between Five Cities",
+  "source_image": "page_074.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 38.0,
+    "left": 22.5,
+    "right": 75.0
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 168,
+    "x2": 1277,
+    "y2": 798
+  },
+  "crop_size": {
+    "width": 894,
+    "height": 630
+  },
+  "figure_id": "Fig_Ch10_69_FiveCitiesDistances"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Grid diagram of solutions for Exercise 9.11 in Answers to Exercises",
+  "source_image": "page_036.jpg",
+  "crop_percentages": {
+    "top": 69.0,
+    "bottom": 82.5,
+    "left": 33.0,
+    "right": 70.0
+  },
+  "crop_pixels": {
+    "x1": 545,
+    "y1": 1613,
+    "x2": 1157,
+    "y2": 1929
+  },
+  "crop_size": {
+    "width": 612,
+    "height": 316
+  },
+  "figure_id": "Fig_Ch09_Ans11"
+}

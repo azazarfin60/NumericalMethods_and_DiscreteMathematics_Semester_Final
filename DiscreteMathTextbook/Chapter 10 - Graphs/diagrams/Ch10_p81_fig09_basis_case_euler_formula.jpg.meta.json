@@ -1,0 +1,21 @@
+{
+  "description": "The Basis Case of the Proof of Euler's Formula",
+  "source_image": "page_081.jpg",
+  "crop_percentages": {
+    "top": 22.0,
+    "bottom": 35.5,
+    "left": 10.5,
+    "right": 25.5
+  },
+  "crop_pixels": {
+    "x1": 178,
+    "y1": 462,
+    "x2": 434,
+    "y2": 746
+  },
+  "crop_size": {
+    "width": 256,
+    "height": 284
+  },
+  "figure_id": "Fig_Ch10_78_BasisCaseEulerFormula"
+}

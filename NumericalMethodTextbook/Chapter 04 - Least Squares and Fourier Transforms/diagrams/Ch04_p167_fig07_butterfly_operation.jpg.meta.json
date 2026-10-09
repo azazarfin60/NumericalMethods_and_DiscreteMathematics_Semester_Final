@@ -1,0 +1,21 @@
+{
+  "description": "A typical butterfly operation showing nodes i and j with inputs Fi^p, Fj^p and outputs Fi^{p+1}, Fj^{p+1}",
+  "source_image": "page_042.jpg",
+  "crop_percentages": {
+    "top": 40.5,
+    "bottom": 52.5,
+    "left": 35.0,
+    "right": 65.0
+  },
+  "crop_pixels": {
+    "x1": 578,
+    "y1": 947,
+    "x2": 1074,
+    "y2": 1227
+  },
+  "crop_size": {
+    "width": 496,
+    "height": 280
+  },
+  "figure_id": "Fig_Ch04_07"
+}

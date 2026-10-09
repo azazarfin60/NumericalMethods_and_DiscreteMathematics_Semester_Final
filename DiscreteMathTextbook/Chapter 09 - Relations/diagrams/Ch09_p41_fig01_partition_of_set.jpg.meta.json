@@ -1,0 +1,21 @@
+{
+  "description": "A partition of a set S into disjoint subsets A_1 through A_9",
+  "source_image": "page_041.jpg",
+  "crop_percentages": {
+    "top": 8.5,
+    "bottom": 22.8,
+    "left": 27.0,
+    "right": 53.5
+  },
+  "crop_pixels": {
+    "x1": 459,
+    "y1": 178,
+    "x2": 911,
+    "y2": 479
+  },
+  "crop_size": {
+    "width": 452,
+    "height": 301
+  },
+  "figure_id": "Fig_Ch09_13"
+}

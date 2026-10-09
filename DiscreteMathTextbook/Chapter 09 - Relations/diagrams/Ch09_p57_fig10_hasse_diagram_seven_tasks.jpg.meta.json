@@ -1,0 +1,21 @@
+{
+  "description": "The Hasse diagram for seven tasks in a software development project",
+  "source_image": "page_057.jpg",
+  "crop_percentages": {
+    "top": 60.0,
+    "bottom": 72.8,
+    "left": 11.5,
+    "right": 26.5
+  },
+  "crop_pixels": {
+    "x1": 195,
+    "y1": 1261,
+    "x2": 451,
+    "y2": 1530
+  },
+  "crop_size": {
+    "width": 256,
+    "height": 269
+  },
+  "figure_id": "Fig_Ch09_23"
+}

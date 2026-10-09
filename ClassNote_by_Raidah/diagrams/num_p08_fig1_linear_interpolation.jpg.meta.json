@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn graph illustrating piecewise linear interpolation connecting points (1,1), (2,2), and (3,1) with dashed projections to axes",
+  "source_image": "page_08.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 34.8,
+    "left": 55.0,
+    "right": 78.0
+  },
+  "crop_pixels": {
+    "x1": 1286,
+    "y1": 132,
+    "x2": 1824,
+    "y2": 575
+  },
+  "crop_size": {
+    "width": 538,
+    "height": 443
+  },
+  "figure_id": "Fig_Class06.1"
+}

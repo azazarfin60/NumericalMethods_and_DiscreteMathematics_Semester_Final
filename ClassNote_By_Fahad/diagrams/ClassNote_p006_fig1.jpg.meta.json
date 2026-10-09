@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn error curve showing local minima, lowest error, and global minima in root-finding convergence",
+  "source_image": "page_006.jpg",
+  "crop_percentages": {
+    "top": 38.0,
+    "bottom": 70.0,
+    "left": 25.0,
+    "right": 53.0
+  },
+  "crop_pixels": {
+    "x1": 584,
+    "y1": 628,
+    "x2": 1239,
+    "y2": 1157
+  },
+  "crop_size": {
+    "width": 655,
+    "height": 529
+  },
+  "figure_id": "Fig_Class04.1"
+}

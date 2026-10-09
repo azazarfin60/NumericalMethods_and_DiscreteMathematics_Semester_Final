@@ -1,0 +1,21 @@
+{
+  "description": "A computer network with multiple one-way links",
+  "source_image": "page_003.jpg",
+  "crop_percentages": {
+    "top": 67.5,
+    "bottom": 80.9,
+    "left": 24.0,
+    "right": 80.0
+  },
+  "crop_pixels": {
+    "x1": 408,
+    "y1": 1418,
+    "x2": 1362,
+    "y2": 1700
+  },
+  "crop_size": {
+    "width": 954,
+    "height": 282
+  },
+  "figure_id": "Fig_Ch10_05_MultipleOneWayLinks"
+}

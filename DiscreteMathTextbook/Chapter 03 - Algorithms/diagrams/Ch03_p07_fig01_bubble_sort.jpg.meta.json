@@ -1,0 +1,21 @@
+{
+  "description": "The steps of a bubble sort on the list 3, 2, 4, 1, 5 showing first through fourth passes with interchanges and elements guaranteed to be in correct order",
+  "source_image": "page_007.jpg",
+  "crop_percentages": {
+    "top": 8.5,
+    "bottom": 26.8,
+    "left": 26.5,
+    "right": 86.0
+  },
+  "crop_pixels": {
+    "x1": 451,
+    "y1": 178,
+    "x2": 1464,
+    "y2": 563
+  },
+  "crop_size": {
+    "width": 1013,
+    "height": 385
+  },
+  "figure_id": "Fig_Ch03_01_BubbleSort"
+}

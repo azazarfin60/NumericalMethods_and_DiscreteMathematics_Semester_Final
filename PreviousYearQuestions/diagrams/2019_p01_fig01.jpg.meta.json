@@ -1,0 +1,5 @@
+{
+  "description": "Two-node DC electric circuit network with 5A and 10A current sources, 2\u03a9, 4\u03a9, and 6\u03a9 resistors for nodal analysis using Gauss-Seidel method",
+  "source_image": "NumericalMethods Ques_Pages/page_005.jpg",
+  "figure_id": "Fig_2019_Q3.c"
+}

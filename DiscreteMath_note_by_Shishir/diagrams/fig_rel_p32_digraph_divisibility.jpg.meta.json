@@ -1,0 +1,21 @@
+{
+  "description": "Directed graph representation of divisibility relation on S={1, 2, 4, 6, 8} including all self-loops and directed edges",
+  "source_image": "page_032.jpg",
+  "crop_percentages": {
+    "top": 56.0,
+    "bottom": 87.6,
+    "left": 43.0,
+    "right": 78.0
+  },
+  "crop_pixels": {
+    "x1": 710,
+    "y1": 1309,
+    "x2": 1289,
+    "y2": 2048
+  },
+  "crop_size": {
+    "width": 579,
+    "height": 739
+  },
+  "figure_id": "Fig_Rel_p32_digraph_divisibility"
+}

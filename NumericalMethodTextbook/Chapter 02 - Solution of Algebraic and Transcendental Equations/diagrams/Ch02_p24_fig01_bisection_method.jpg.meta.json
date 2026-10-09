@@ -1,0 +1,12 @@
+{
+  "figure_id": "Fig_Ch02_01",
+  "source_page": 3,
+  "book_page": 24,
+  "description": "Graphical representation of the bisection method showing interval halving between a and b with points x0, x1, x2",
+  "crop_box": [
+    560,
+    440,
+    1160,
+    920
+  ]
+}

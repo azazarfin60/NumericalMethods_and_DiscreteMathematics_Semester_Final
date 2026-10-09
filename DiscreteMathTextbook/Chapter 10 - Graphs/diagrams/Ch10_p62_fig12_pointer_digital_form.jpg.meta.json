@@ -1,0 +1,21 @@
+{
+  "description": "Converting the Position of a Pointer into Digital Form",
+  "source_image": "page_062.jpg",
+  "crop_percentages": {
+    "top": 77.0,
+    "bottom": 94.8,
+    "left": 22.5,
+    "right": 75.5
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 1618,
+    "x2": 1285,
+    "y2": 1992
+  },
+  "crop_size": {
+    "width": 902,
+    "height": 374
+  },
+  "figure_id": "Fig_Ch10_62_PointerDigitalForm"
+}

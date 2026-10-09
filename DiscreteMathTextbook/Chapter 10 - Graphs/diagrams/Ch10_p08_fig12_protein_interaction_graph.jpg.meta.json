@@ -1,0 +1,21 @@
+{
+  "description": "A module of a protein interaction graph showing interacting proteins",
+  "source_image": "page_008.jpg",
+  "crop_percentages": {
+    "top": 64.5,
+    "bottom": 95.0,
+    "left": 42.8,
+    "right": 91.6
+  },
+  "crop_pixels": {
+    "x1": 728,
+    "y1": 1355,
+    "x2": 1559,
+    "y2": 1996
+  },
+  "crop_size": {
+    "width": 831,
+    "height": 641
+  },
+  "figure_id": "Fig_Ch10_12_ProteinInteractionGraph"
+}

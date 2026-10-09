@@ -1,0 +1,21 @@
+{
+  "description": "The subgraphs of G and H made up of vertices of degree three",
+  "source_image": "page_033.jpg",
+  "crop_percentages": {
+    "top": 36.4,
+    "bottom": 65.0,
+    "left": 11.1,
+    "right": 26.9
+  },
+  "crop_pixels": {
+    "x1": 189,
+    "y1": 765,
+    "x2": 458,
+    "y2": 1366
+  },
+  "crop_size": {
+    "width": 269,
+    "height": 601
+  },
+  "figure_id": "Fig_Ch10_41_SubgraphsDegreeThree"
+}

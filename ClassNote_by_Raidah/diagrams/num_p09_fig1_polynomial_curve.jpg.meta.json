@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn sketch of an oscillating polynomial curve passing through data points illustrating Lagrange polynomial fitting",
+  "source_image": "page_09.jpg",
+  "crop_percentages": {
+    "top": 20.0,
+    "bottom": 39.8,
+    "left": 78.0,
+    "right": 100
+  },
+  "crop_pixels": {
+    "x1": 1824,
+    "y1": 330,
+    "x2": 2339,
+    "y2": 657
+  },
+  "crop_size": {
+    "width": 515,
+    "height": 327
+  },
+  "figure_id": "Fig_Class06.2"
+}

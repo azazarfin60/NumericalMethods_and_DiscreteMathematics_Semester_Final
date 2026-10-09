@@ -1,0 +1,21 @@
+{
+  "description": "Domain for Poisson equation with coordinate axes X and Y from 0 to 3, grid points A, B, C, D with temperatures u1, u2, u3, u4, and boundary conditions u=0",
+  "source_image": "page_013.jpg",
+  "crop_percentages": {
+    "top": 23.5,
+    "bottom": 46.0,
+    "left": 33.0,
+    "right": 67.0
+  },
+  "crop_pixels": {
+    "x1": 545,
+    "y1": 549,
+    "x2": 1107,
+    "y2": 1075
+  },
+  "crop_size": {
+    "width": 562,
+    "height": 526
+  },
+  "figure_id": "Fig_Ch09_07"
+}

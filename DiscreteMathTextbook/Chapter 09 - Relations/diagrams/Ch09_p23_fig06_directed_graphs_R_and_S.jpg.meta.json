@@ -1,0 +1,21 @@
+{
+  "description": "The Directed Graphs of the Relations R and S from Example 10",
+  "source_image": "page_023.jpg",
+  "crop_percentages": {
+    "top": 73.5,
+    "bottom": 88.5,
+    "left": 57.0,
+    "right": 92.0
+  },
+  "crop_pixels": {
+    "x1": 970,
+    "y1": 1544,
+    "x2": 1566,
+    "y2": 1860
+  },
+  "crop_size": {
+    "width": 596,
+    "height": 316
+  },
+  "figure_id": "Fig_Ch09_08"
+}

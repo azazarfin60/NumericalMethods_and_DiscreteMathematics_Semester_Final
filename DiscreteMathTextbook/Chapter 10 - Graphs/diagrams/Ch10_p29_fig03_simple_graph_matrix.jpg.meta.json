@@ -1,0 +1,21 @@
+{
+  "description": "A simple graph with four vertices to be represented by an adjacency matrix",
+  "source_image": "page_029.jpg",
+  "crop_percentages": {
+    "top": 31.1,
+    "bottom": 45.6,
+    "left": 10.6,
+    "right": 23.7
+  },
+  "crop_pixels": {
+    "x1": 180,
+    "y1": 653,
+    "x2": 403,
+    "y2": 958
+  },
+  "crop_size": {
+    "width": 223,
+    "height": 305
+  },
+  "figure_id": "Fig_Ch10_33_SimpleGraphMatrix"
+}

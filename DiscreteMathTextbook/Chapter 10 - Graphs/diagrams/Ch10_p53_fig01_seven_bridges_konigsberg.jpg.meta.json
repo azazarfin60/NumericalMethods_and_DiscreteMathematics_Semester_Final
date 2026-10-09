@@ -1,0 +1,21 @@
+{
+  "description": "The Seven Bridges of K\u00f6nigsberg",
+  "source_image": "page_053.jpg",
+  "crop_percentages": {
+    "top": 74.0,
+    "bottom": 95.8,
+    "left": 10.0,
+    "right": 53.5
+  },
+  "crop_pixels": {
+    "x1": 170,
+    "y1": 1555,
+    "x2": 911,
+    "y2": 2013
+  },
+  "crop_size": {
+    "width": 741,
+    "height": 458
+  },
+  "figure_id": "Fig_Ch10_51_SevenBridgesKonigsberg"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn sketch illustrating trapezoidal rule numerical integration dividing area into strips of width h between limits a and b",
+  "source_image": "page_17.jpg",
+  "crop_percentages": {
+    "top": 22.0,
+    "bottom": 47.8,
+    "left": 0,
+    "right": 27.0
+  },
+  "crop_pixels": {
+    "x1": 0,
+    "y1": 363,
+    "x2": 631,
+    "y2": 790
+  },
+  "crop_size": {
+    "width": 631,
+    "height": 427
+  },
+  "figure_id": "Fig_ClassIntegration.2"
+}

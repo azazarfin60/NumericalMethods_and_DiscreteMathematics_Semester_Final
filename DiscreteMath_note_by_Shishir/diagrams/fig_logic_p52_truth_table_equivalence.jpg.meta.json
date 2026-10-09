@@ -1,0 +1,21 @@
+{
+  "description": "Handwritten truth table proving logical equivalence of conditional distributive property over disjunction",
+  "source_image": "page_052.jpg",
+  "crop_percentages": {
+    "top": 0,
+    "bottom": 88.6,
+    "left": 2.0,
+    "right": 98.0
+  },
+  "crop_pixels": {
+    "x1": 33,
+    "y1": 0,
+    "x2": 1619,
+    "y2": 2072
+  },
+  "crop_size": {
+    "width": 1586,
+    "height": 2072
+  },
+  "figure_id": "Fig_Logic_52.1"
+}

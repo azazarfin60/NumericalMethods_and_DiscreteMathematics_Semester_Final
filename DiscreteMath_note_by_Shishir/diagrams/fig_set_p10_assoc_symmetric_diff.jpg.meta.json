@@ -1,0 +1,21 @@
+{
+  "description": "Venn diagram proof for associativity of symmetric difference A \u2295 (B \u2295 C) = (A \u2295 B) \u2295 C showing shaded regions for B \u2295 C, A \u2295 (B \u2295 C), A \u2295 B, and (A \u2295 B) \u2295 C",
+  "source_image": "page_010.jpg",
+  "crop_percentages": {
+    "top": 17.0,
+    "bottom": 67.8,
+    "left": 4.0,
+    "right": 98.0
+  },
+  "crop_pixels": {
+    "x1": 66,
+    "y1": 397,
+    "x2": 1619,
+    "y2": 1585
+  },
+  "crop_size": {
+    "width": 1553,
+    "height": 1188
+  },
+  "figure_id": "Fig_Set_10.1"
+}

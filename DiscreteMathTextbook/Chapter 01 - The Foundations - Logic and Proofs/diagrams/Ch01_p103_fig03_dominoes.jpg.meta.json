@@ -1,0 +1,21 @@
+{
+  "description": "Figure 3: Two Dominoes.",
+  "source_image": "page_103.jpg",
+  "crop_percentages": {
+    "top": 20.8,
+    "bottom": 31.8,
+    "left": 74.8,
+    "right": 82.8
+  },
+  "crop_pixels": {
+    "x1": 1273,
+    "y1": 437,
+    "x2": 1410,
+    "y2": 668
+  },
+  "crop_size": {
+    "width": 137,
+    "height": 231
+  },
+  "figure_id": null
+}

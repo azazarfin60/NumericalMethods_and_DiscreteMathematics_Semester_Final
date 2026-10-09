@@ -1,0 +1,21 @@
+{
+  "description": "The undirected graphs G and H tested for bipartiteness",
+  "source_image": "page_016.jpg",
+  "crop_percentages": {
+    "top": 75.4,
+    "bottom": 92.8,
+    "left": 45.7,
+    "right": 91.4
+  },
+  "crop_pixels": {
+    "x1": 778,
+    "y1": 1584,
+    "x2": 1556,
+    "y2": 1950
+  },
+  "crop_size": {
+    "width": 778,
+    "height": 366
+  },
+  "figure_id": "Fig_Ch10_22_GraphsGHBipartite"
+}

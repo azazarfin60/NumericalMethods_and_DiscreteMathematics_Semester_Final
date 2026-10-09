@@ -1,0 +1,21 @@
+{
+  "description": "Column addition of binary numbers (1110)2 and (1011)2 showing carries in blue producing sum (11001)2",
+  "source_image": "page_015.jpg",
+  "crop_percentages": {
+    "top": 9.5,
+    "bottom": 27.2,
+    "left": 8.0,
+    "right": 25.5
+  },
+  "crop_pixels": {
+    "x1": 136,
+    "y1": 199,
+    "x2": 434,
+    "y2": 571
+  },
+  "crop_size": {
+    "width": 298,
+    "height": 372
+  },
+  "figure_id": "Fig_Ch04_02_BinaryAddition"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Example 3.9 difference table showing Gauss forward formula path",
+  "source_image": "page_022.jpg",
+  "crop_percentages": {
+    "top": 24.0,
+    "bottom": 44.5,
+    "left": 20.0,
+    "right": 80.0
+  },
+  "crop_pixels": {
+    "x1": 330,
+    "y1": 561,
+    "x2": 1322,
+    "y2": 1040
+  },
+  "crop_size": {
+    "width": 992,
+    "height": 479
+  },
+  "figure_id": "Fig_Ch03_03"
+}

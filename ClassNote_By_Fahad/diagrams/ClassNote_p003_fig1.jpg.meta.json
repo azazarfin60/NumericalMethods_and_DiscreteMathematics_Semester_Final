@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn interval sketch showing root bracket [a, b], function curve crossing the x-axis, and midpoint estimate x_r",
+  "source_image": "page_003.jpg",
+  "crop_percentages": {
+    "top": 24.0,
+    "bottom": 75.2,
+    "left": 18.0,
+    "right": 56.0
+  },
+  "crop_pixels": {
+    "x1": 421,
+    "y1": 396,
+    "x2": 1309,
+    "y2": 1243
+  },
+  "crop_size": {
+    "width": 888,
+    "height": 847
+  },
+  "figure_id": "Fig_Class02.1"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Using a Coloring to Schedule Final Exams",
+  "source_image": "page_092.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 30.5,
+    "left": 41.5,
+    "right": 90.5
+  },
+  "crop_pixels": {
+    "x1": 706,
+    "y1": 168,
+    "x2": 1541,
+    "y2": 641
+  },
+  "crop_size": {
+    "width": 835,
+    "height": 473
+  },
+  "figure_id": "Fig_Ch10_92_FinalExamsColoring"
+}

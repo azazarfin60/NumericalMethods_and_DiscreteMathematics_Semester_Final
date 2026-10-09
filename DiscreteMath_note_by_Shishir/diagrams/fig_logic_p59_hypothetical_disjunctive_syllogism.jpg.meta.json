@@ -1,0 +1,21 @@
+{
+  "description": "Rules of Inference schemas for Hypothetical Syllogism and Disjunctive Syllogism with truth table and tautology definitions",
+  "source_image": "page_059.jpg",
+  "crop_percentages": {
+    "top": 0,
+    "bottom": 95.6,
+    "left": 2.0,
+    "right": 98.0
+  },
+  "crop_pixels": {
+    "x1": 33,
+    "y1": 0,
+    "x2": 1619,
+    "y2": 2236
+  },
+  "crop_size": {
+    "width": 1586,
+    "height": 2236
+  },
+  "figure_id": "Fig_Logic_59.1"
+}

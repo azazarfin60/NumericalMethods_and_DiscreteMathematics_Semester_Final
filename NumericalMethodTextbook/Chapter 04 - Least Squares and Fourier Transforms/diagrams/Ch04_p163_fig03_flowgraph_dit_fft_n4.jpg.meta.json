@@ -1,0 +1,21 @@
+{
+  "description": "Flow-graph for 4-point decimation-in-time FFT (DIT-FFT) showing two 2-point DFT blocks combining inputs f0, f2 and f1, f3 with twiddle factors",
+  "source_image": "page_038.jpg",
+  "crop_percentages": {
+    "top": 36.8,
+    "bottom": 53.0,
+    "left": 24.0,
+    "right": 76.0
+  },
+  "crop_pixels": {
+    "x1": 396,
+    "y1": 860,
+    "x2": 1256,
+    "y2": 1239
+  },
+  "crop_size": {
+    "width": 860,
+    "height": 379
+  },
+  "figure_id": "Fig_Ch04_03"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Extended Euclidean Algorithm table for gcd(275, 200) computing B\u00e9zout coefficients s and t with diagonal recurrence shifts",
+  "source_image": "page_084.jpg",
+  "crop_percentages": {
+    "top": 34.0,
+    "bottom": 68.6,
+    "left": 3.0,
+    "right": 98.0
+  },
+  "crop_pixels": {
+    "x1": 49,
+    "y1": 795,
+    "x2": 1619,
+    "y2": 1604
+  },
+  "crop_size": {
+    "width": 1570,
+    "height": 809
+  },
+  "figure_id": "Fig_Num_p84_extended_euclidean_table"
+}

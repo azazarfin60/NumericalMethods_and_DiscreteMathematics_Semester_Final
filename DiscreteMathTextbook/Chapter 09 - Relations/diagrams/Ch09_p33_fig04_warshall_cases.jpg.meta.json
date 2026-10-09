@@ -1,0 +1,21 @@
+{
+  "description": "Adding v_k to the set of allowable interior vertices showing Case 1 and Case 2",
+  "source_image": "page_033.jpg",
+  "crop_percentages": {
+    "top": 68.0,
+    "bottom": 90.5,
+    "left": 27.0,
+    "right": 55.5
+  },
+  "crop_pixels": {
+    "x1": 459,
+    "y1": 1429,
+    "x2": 945,
+    "y2": 1902
+  },
+  "crop_size": {
+    "width": 486,
+    "height": 473
+  },
+  "figure_id": "Fig_Ch09_12"
+}

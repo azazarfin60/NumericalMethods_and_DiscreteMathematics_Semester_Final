@@ -1,0 +1,21 @@
+{
+  "description": "The Zero-One Matrices for Symmetric and Antisymmetric Relations with diagonal indicators",
+  "source_image": "page_020.jpg",
+  "crop_percentages": {
+    "top": 51.0,
+    "bottom": 63.0,
+    "left": 23.0,
+    "right": 49.5
+  },
+  "crop_pixels": {
+    "x1": 391,
+    "y1": 1072,
+    "x2": 842,
+    "y2": 1324
+  },
+  "crop_size": {
+    "width": 451,
+    "height": 252
+  },
+  "figure_id": "Fig_Ch09_04"
+}

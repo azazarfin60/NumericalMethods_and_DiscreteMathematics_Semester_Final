@@ -1,0 +1,21 @@
+{
+  "description": "Numerical integration: partitioning area under curve into trapezoidal strips with linear chords",
+  "source_image": "page_023.jpg",
+  "crop_percentages": {
+    "top": 15.0,
+    "bottom": 56.0,
+    "left": 0,
+    "right": 53.0
+  },
+  "crop_pixels": {
+    "x1": 0,
+    "y1": 247,
+    "x2": 1239,
+    "y2": 925
+  },
+  "crop_size": {
+    "width": 1239,
+    "height": 678
+  },
+  "figure_id": "Fig_Class09.1"
+}

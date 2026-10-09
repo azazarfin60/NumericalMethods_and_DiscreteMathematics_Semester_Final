@@ -1,0 +1,21 @@
+{
+  "description": "A subgraph of K5 obtained by removing an edge",
+  "source_image": "page_023.jpg",
+  "crop_percentages": {
+    "top": 75.4,
+    "bottom": 94.1,
+    "left": 62.0,
+    "right": 88.9
+  },
+  "crop_pixels": {
+    "x1": 1055,
+    "y1": 1584,
+    "x2": 1513,
+    "y2": 1977
+  },
+  "crop_size": {
+    "width": 458,
+    "height": 393
+  },
+  "figure_id": "Fig_Ch10_29_SubgraphK5"
+}

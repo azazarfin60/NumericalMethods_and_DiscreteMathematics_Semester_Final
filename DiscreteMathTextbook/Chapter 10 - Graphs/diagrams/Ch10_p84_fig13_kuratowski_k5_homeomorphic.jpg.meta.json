@@ -1,0 +1,21 @@
+{
+  "description": "The Undirected Graph G, a Subgraph H Homeomorphic to K5, and K5",
+  "source_image": "page_084.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 28.0,
+    "left": 22.5,
+    "right": 88.5
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 168,
+    "x2": 1507,
+    "y2": 588
+  },
+  "crop_size": {
+    "width": 1124,
+    "height": 420
+  },
+  "figure_id": "Fig_Ch10_82_KuratowskiK5Homeomorphic"
+}

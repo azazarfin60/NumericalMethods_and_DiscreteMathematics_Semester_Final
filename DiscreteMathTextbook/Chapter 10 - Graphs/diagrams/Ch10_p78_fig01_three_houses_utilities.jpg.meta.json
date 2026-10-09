@@ -1,0 +1,21 @@
+{
+  "description": "Three Houses and Three Utilities",
+  "source_image": "page_078.jpg",
+  "crop_percentages": {
+    "top": 68.5,
+    "bottom": 95.0,
+    "left": 22.5,
+    "right": 59.0
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 1439,
+    "x2": 1004,
+    "y2": 1996
+  },
+  "crop_size": {
+    "width": 621,
+    "height": 557
+  },
+  "figure_id": "Fig_Ch10_70_ThreeHousesUtilities"
+}

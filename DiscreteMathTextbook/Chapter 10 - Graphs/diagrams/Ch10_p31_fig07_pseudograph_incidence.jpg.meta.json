@@ -1,0 +1,21 @@
+{
+  "description": "A pseudograph with eight edges including loops and multiple edges for incidence matrix",
+  "source_image": "page_031.jpg",
+  "crop_percentages": {
+    "top": 61.5,
+    "bottom": 76.4,
+    "left": 11.1,
+    "right": 27.4
+  },
+  "crop_pixels": {
+    "x1": 189,
+    "y1": 1292,
+    "x2": 466,
+    "y2": 1605
+  },
+  "crop_size": {
+    "width": 277,
+    "height": 313
+  },
+  "figure_id": "Fig_Ch10_37_PseudographIncidence"
+}

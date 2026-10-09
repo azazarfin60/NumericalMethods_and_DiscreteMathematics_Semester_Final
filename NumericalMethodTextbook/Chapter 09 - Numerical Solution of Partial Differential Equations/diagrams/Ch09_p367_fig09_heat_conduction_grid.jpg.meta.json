@@ -1,0 +1,21 @@
+{
+  "description": "Space-time grid for heat conduction showing mesh points u1, u2, u3, u4 on the time line k=0.02 and initial values u at t=0 along the x axis",
+  "source_image": "page_026.jpg",
+  "crop_percentages": {
+    "top": 17.5,
+    "bottom": 39.0,
+    "left": 30.0,
+    "right": 70.0
+  },
+  "crop_pixels": {
+    "x1": 495,
+    "y1": 409,
+    "x2": 1157,
+    "y2": 912
+  },
+  "crop_size": {
+    "width": 662,
+    "height": 503
+  },
+  "figure_id": "Fig_Ch09_09"
+}

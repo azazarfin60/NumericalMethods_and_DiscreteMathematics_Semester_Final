@@ -1,0 +1,21 @@
+{
+  "description": "Flow-graph for Example 4.21 showing Sande-Tukey DIF-FFT algorithm for sequence {1, 2, 3, 4}",
+  "source_image": "page_050.jpg",
+  "crop_percentages": {
+    "top": 19.5,
+    "bottom": 35.0,
+    "left": 20.0,
+    "right": 80.0
+  },
+  "crop_pixels": {
+    "x1": 330,
+    "y1": 456,
+    "x2": 1322,
+    "y2": 818
+  },
+  "crop_size": {
+    "width": 992,
+    "height": 362
+  },
+  "figure_id": "Fig_Ch04_13"
+}

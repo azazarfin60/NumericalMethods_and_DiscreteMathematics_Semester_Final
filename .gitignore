@@ -1,0 +1,80 @@
+# Obsidian Vault
+# Ignore all .obsidian/ config dirs (workspace state, themes, cache — not content)
+**/.obsidian/
+.trash/
+
+# Digitizer Intermediate Page Renders & Manifests (from slide-digitizer / handnote-digitizer)
+# (Cropped diagrams and frames are kept; raw full-page extraction renders are ignored)
+**/*_Pages/
+**/pdf/pages/
+**/manifest.json
+
+# Pipeline & Temporary Files
+**/temp_audio.*
+**/progress.json
+**/*.tmp
+**/*.part
+**/*.bak
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# IDE & Editor Settings
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# Node & JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Agent / Scratch Files & Guidelines
+.agents/
+.gemini/
+scratch/
+AGENTS.md
+.agentsignore
+exam_register.md
+MARKDOWN-GUIDE.md
+question_tally_audit.md
+writing_style.md
+
+# LaTeX Build Artifacts
+**/*.aux
+**/*.log
+**/*.out
+**/*.synctex.gz
+**/*.fls
+**/*.fdb_latexmk
+**/diagrams/*.pdf
+
+# Intermediate Diagram Render Artifacts
+**/*_raw-*.png
+
+# Source Textbook PDFs (large binaries / copyrighted material)
+Books/**/*.pdf
+
+# Explicitly Preserve Critical Repository Sidecars & Markers
+!*.meta.json
+!.gitkeep

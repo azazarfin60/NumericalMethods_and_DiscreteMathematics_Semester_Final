@@ -1,0 +1,21 @@
+{
+  "description": "Basic Venn diagram schema showing universal set rectangle U containing two overlapping subset circles",
+  "source_image": "page_007.jpg",
+  "crop_percentages": {
+    "top": 26.0,
+    "bottom": 49.6,
+    "left": 17.0,
+    "right": 63.0
+  },
+  "crop_pixels": {
+    "x1": 281,
+    "y1": 608,
+    "x2": 1041,
+    "y2": 1160
+  },
+  "crop_size": {
+    "width": 760,
+    "height": 552
+  },
+  "figure_id": "Fig_Set_07.1"
+}

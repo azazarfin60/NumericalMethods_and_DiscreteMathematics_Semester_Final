@@ -1,0 +1,5 @@
+{
+  "description": "Three-mesh DC resistive electric network with 400V DC source, 20\u03a9, 40\u03a9, 10\u03a9, 100\u03a9 resistors, and 10A current source with clockwise mesh currents I\u2081, I\u2082, I\u2083 for Gauss-Seidel method",
+  "source_image": "NumericalMethods Ques_Pages/page_007.jpg",
+  "figure_id": "Fig_2020_Q4.b"
+}

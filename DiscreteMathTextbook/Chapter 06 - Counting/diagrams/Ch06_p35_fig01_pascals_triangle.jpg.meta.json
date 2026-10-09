@@ -1,0 +1,9 @@
+{
+  "source_image": "page_035.jpg",
+  "figure_id": "Fig_Ch06_06",
+  "description": "Pascal's triangle showing binomial coefficients C(n, k) and numerical values through row 8, highlighting Pascal's identity C(6, 4) + C(6, 5) = C(7, 5)",
+  "crop_size": {
+    "width": 1184,
+    "height": 756
+  }
+}

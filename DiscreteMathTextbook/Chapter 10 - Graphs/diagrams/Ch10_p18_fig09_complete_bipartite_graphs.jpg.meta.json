@@ -1,0 +1,21 @@
+{
+  "description": "The complete bipartite graphs K2,3, K3,3, K3,5, and K2,6",
+  "source_image": "page_018.jpg",
+  "crop_percentages": {
+    "top": 16.5,
+    "bottom": 40.3,
+    "left": 22.8,
+    "right": 91.4
+  },
+  "crop_pixels": {
+    "x1": 388,
+    "y1": 346,
+    "x2": 1556,
+    "y2": 847
+  },
+  "crop_size": {
+    "width": 1168,
+    "height": 501
+  },
+  "figure_id": "Fig_Ch10_23_CompleteBipartiteGraphs"
+}

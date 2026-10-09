@@ -1,0 +1,21 @@
+{
+  "description": "Square grid mesh showing 9 interior mesh points u1 to u9 and boundary points c1 to c16",
+  "source_image": "page_007.jpg",
+  "crop_percentages": {
+    "top": 65.0,
+    "bottom": 83.2,
+    "left": 34.0,
+    "right": 66.0
+  },
+  "crop_pixels": {
+    "x1": 562,
+    "y1": 1520,
+    "x2": 1090,
+    "y2": 1946
+  },
+  "crop_size": {
+    "width": 528,
+    "height": 426
+  },
+  "figure_id": "Fig_Ch09_03"
+}

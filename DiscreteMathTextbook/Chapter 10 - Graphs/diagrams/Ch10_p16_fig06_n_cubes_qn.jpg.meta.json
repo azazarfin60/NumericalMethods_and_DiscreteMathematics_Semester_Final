@@ -1,0 +1,21 @@
+{
+  "description": "The n-cubes Q1, Q2, and Q3",
+  "source_image": "page_016.jpg",
+  "crop_percentages": {
+    "top": 6.6,
+    "bottom": 25.1,
+    "left": 22.8,
+    "right": 70.2
+  },
+  "crop_pixels": {
+    "x1": 388,
+    "y1": 138,
+    "x2": 1195,
+    "y2": 527
+  },
+  "crop_size": {
+    "width": 807,
+    "height": 389
+  },
+  "figure_id": "Fig_Ch10_20_NCubesQn"
+}

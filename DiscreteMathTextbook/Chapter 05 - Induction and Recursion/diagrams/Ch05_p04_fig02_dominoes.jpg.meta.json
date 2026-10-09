@@ -1,0 +1,9 @@
+{
+  "source_image": "page_004.jpg",
+  "figure_id": "Fig_Ch05_02",
+  "description": "Infinite line of falling dominoes labeled 1, 2, 3, 4, 5, 6, 7... illustrating how mathematical induction works",
+  "crop_size": {
+    "width": 630,
+    "height": 551
+  }
+}

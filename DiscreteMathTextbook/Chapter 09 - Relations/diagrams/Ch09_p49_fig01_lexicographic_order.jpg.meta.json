@@ -1,0 +1,21 @@
+{
+  "description": "The ordered pairs in Z+ x Z+ less than (3, 4) highlighted in lexicographic order",
+  "source_image": "page_049.jpg",
+  "crop_percentages": {
+    "top": 62.5,
+    "bottom": 91.5,
+    "left": 26.5,
+    "right": 61.5
+  },
+  "crop_pixels": {
+    "x1": 451,
+    "y1": 1313,
+    "x2": 1047,
+    "y2": 1923
+  },
+  "crop_size": {
+    "width": 596,
+    "height": 610
+  },
+  "figure_id": "Fig_Ch09_14"
+}

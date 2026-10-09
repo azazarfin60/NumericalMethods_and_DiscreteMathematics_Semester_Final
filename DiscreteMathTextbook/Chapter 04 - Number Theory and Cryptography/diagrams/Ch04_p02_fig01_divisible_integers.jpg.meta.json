@@ -1,0 +1,21 @@
+{
+  "description": "Number line indicating integers divisible by the positive integer d, showing multiples -3d, -2d, -d, 0, d, 2d, 3d",
+  "source_image": "page_002.jpg",
+  "crop_percentages": {
+    "top": 85.5,
+    "bottom": 95.2,
+    "left": 22.0,
+    "right": 71.0
+  },
+  "crop_pixels": {
+    "x1": 374,
+    "y1": 1797,
+    "x2": 1209,
+    "y2": 2001
+  },
+  "crop_size": {
+    "width": 835,
+    "height": 204
+  },
+  "figure_id": "Fig_Ch04_01_DivisibleIntegers"
+}

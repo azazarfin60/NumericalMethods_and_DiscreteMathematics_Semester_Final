@@ -1,0 +1,5 @@
+{
+  "description": "DC circuit with 30V independent voltage source, 10 ohm, 15 ohm, 8 ohm, and 20 ohm resistors, and a dependent voltage source 5*I0, with branch current I0 and mesh currents I1, I2, I3 for Gauss-Seidel solution",
+  "source_image": "NumericalMethods Ques_Pages/page_010.jpg",
+  "figure_id": "Fig_2021_Q7.b"
+}

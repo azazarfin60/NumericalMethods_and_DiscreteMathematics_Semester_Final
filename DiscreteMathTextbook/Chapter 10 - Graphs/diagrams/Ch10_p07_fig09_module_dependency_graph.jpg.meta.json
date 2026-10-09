@@ -1,0 +1,21 @@
+{
+  "description": "A module dependency graph for a web browser",
+  "source_image": "page_007.jpg",
+  "crop_percentages": {
+    "top": 72.0,
+    "bottom": 95.0,
+    "left": 24.5,
+    "right": 62.8
+  },
+  "crop_pixels": {
+    "x1": 417,
+    "y1": 1513,
+    "x2": 1069,
+    "y2": 1996
+  },
+  "crop_size": {
+    "width": 652,
+    "height": 483
+  },
+  "figure_id": "Fig_Ch10_09_ModuleDependencyGraph"
+}

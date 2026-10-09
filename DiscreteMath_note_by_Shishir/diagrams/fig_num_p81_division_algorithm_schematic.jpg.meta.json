@@ -1,0 +1,21 @@
+{
+  "description": "Division algorithm schematic illustration showing divisor, dividend, quotient, and remainder components",
+  "source_image": "page_081.jpg",
+  "crop_percentages": {
+    "top": 35.0,
+    "bottom": 56.6,
+    "left": 55.0,
+    "right": 99.0
+  },
+  "crop_pixels": {
+    "x1": 909,
+    "y1": 818,
+    "x2": 1636,
+    "y2": 1323
+  },
+  "crop_size": {
+    "width": 727,
+    "height": 505
+  },
+  "figure_id": "Fig_Num_p81_division_algorithm_schematic"
+}

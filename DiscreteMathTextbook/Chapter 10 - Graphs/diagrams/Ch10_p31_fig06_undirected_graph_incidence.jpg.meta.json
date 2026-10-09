@@ -1,0 +1,21 @@
+{
+  "description": "An undirected graph with five vertices and six edges for incidence matrix",
+  "source_image": "page_031.jpg",
+  "crop_percentages": {
+    "top": 42.3,
+    "bottom": 58.8,
+    "left": 11.1,
+    "right": 27.4
+  },
+  "crop_pixels": {
+    "x1": 189,
+    "y1": 889,
+    "x2": 466,
+    "y2": 1235
+  },
+  "crop_size": {
+    "width": 277,
+    "height": 346
+  },
+  "figure_id": "Fig_Ch10_36_UndirectedGraphIncidence"
+}

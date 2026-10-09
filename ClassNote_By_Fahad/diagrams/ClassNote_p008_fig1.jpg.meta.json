@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn graph illustrating linear interpolation connecting known discrete data points with straight line segments",
+  "source_image": "page_008_rot90.jpg",
+  "crop_percentages": {
+    "top": 24.0,
+    "bottom": 51.0,
+    "left": 13.0,
+    "right": 53.0
+  },
+  "crop_pixels": {
+    "x1": 214,
+    "y1": 561,
+    "x2": 876,
+    "y2": 1192
+  },
+  "crop_size": {
+    "width": 662,
+    "height": 631
+  },
+  "figure_id": "Fig_Class05.1"
+}

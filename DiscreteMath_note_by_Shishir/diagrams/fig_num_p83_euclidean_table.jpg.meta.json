@@ -1,0 +1,21 @@
+{
+  "description": "Euclidean Algorithm tabular computation for gcd(26, 118) showing quotient q, dividend a, divisor b, remainder r, diagonal reduction arrows, and resulting gcd(26, 118) = 2",
+  "source_image": "page_083.jpg",
+  "crop_percentages": {
+    "top": 5.0,
+    "bottom": 39.4,
+    "left": 6.0,
+    "right": 48.0
+  },
+  "crop_pixels": {
+    "x1": 99,
+    "y1": 116,
+    "x2": 793,
+    "y2": 921
+  },
+  "crop_size": {
+    "width": 694,
+    "height": 805
+  },
+  "figure_id": "Fig_Num_p83_euclidean_table"
+}

@@ -1,0 +1,9 @@
+{
+  "source_image": "page_043.jpg",
+  "figure_id": "Fig_Ch05_14",
+  "description": "Building up full binary trees recursively from a single root vertex through Step 1 and Step 2",
+  "crop_size": {
+    "width": 1379,
+    "height": 463
+  }
+}

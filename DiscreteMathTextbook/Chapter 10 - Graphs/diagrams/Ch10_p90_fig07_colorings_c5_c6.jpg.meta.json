@@ -1,0 +1,21 @@
+{
+  "description": "Colorings of C5 and C6",
+  "source_image": "page_090.jpg",
+  "crop_percentages": {
+    "top": 76.0,
+    "bottom": 95.0,
+    "left": 22.5,
+    "right": 55.5
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 1597,
+    "x2": 945,
+    "y2": 1996
+  },
+  "crop_size": {
+    "width": 562,
+    "height": 399
+  },
+  "figure_id": "Fig_Ch10_90_ColoringsC5C6"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Complete three-stage flow-graph of an 8-point DIT-FFT showing bit-reversed inputs and natural order outputs",
+  "source_image": "page_041.jpg",
+  "crop_percentages": {
+    "top": 47.5,
+    "bottom": 75.0,
+    "left": 18.0,
+    "right": 80.0
+  },
+  "crop_pixels": {
+    "x1": 297,
+    "y1": 1111,
+    "x2": 1322,
+    "y2": 1754
+  },
+  "crop_size": {
+    "width": 1025,
+    "height": 643
+  },
+  "figure_id": "Fig_Ch04_06"
+}

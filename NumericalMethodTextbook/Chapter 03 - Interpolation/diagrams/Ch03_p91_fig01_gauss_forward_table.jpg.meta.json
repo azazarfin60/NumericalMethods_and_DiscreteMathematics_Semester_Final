@@ -1,0 +1,21 @@
+{
+  "description": "Table 3.6 Gauss Forward Formula difference table showing the zig-zag path connecting central differences",
+  "source_image": "page_019.jpg",
+  "crop_percentages": {
+    "top": 28.3,
+    "bottom": 53.0,
+    "left": 20.0,
+    "right": 80.0
+  },
+  "crop_pixels": {
+    "x1": 330,
+    "y1": 661,
+    "x2": 1322,
+    "y2": 1239
+  },
+  "crop_size": {
+    "width": 992,
+    "height": 578
+  },
+  "figure_id": "Fig_Ch03_01"
+}

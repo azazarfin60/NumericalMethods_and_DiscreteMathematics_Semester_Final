@@ -1,0 +1,21 @@
+{
+  "description": "Three-set Venn diagram with sets A, B, C and universal set U",
+  "source_image": "page_027.jpg",
+  "crop_percentages": {
+    "top": 15.0,
+    "bottom": 51.0,
+    "left": 65.0,
+    "right": 100
+  },
+  "crop_pixels": {
+    "x1": 1520,
+    "y1": 247,
+    "x2": 2339,
+    "y2": 843
+  },
+  "crop_size": {
+    "width": 819,
+    "height": 596
+  },
+  "figure_id": "Fig_Class10.1"
+}

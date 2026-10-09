@@ -1,0 +1,21 @@
+{
+  "description": "A telephone call graph shown as a directed multigraph (a) and undirected graph (b)",
+  "source_image": "page_006.jpg",
+  "crop_percentages": {
+    "top": 70.4,
+    "bottom": 96.9,
+    "left": 5.3,
+    "right": 85.5
+  },
+  "crop_pixels": {
+    "x1": 90,
+    "y1": 1479,
+    "x2": 1456,
+    "y2": 2036
+  },
+  "crop_size": {
+    "width": 1366,
+    "height": 557
+  },
+  "figure_id": "Fig_Ch10_08_CallGraph"
+}

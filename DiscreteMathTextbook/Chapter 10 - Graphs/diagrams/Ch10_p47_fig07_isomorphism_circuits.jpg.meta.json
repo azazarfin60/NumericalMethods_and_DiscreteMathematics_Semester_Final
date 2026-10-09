@@ -1,0 +1,21 @@
+{
+  "description": "The graphs G and H tested for isomorphism using simple circuits",
+  "source_image": "page_047.jpg",
+  "crop_percentages": {
+    "top": 76.0,
+    "bottom": 94.1,
+    "left": 64.5,
+    "right": 92.2
+  },
+  "crop_pixels": {
+    "x1": 1098,
+    "y1": 1597,
+    "x2": 1570,
+    "y2": 1977
+  },
+  "crop_size": {
+    "width": 472,
+    "height": 380
+  },
+  "figure_id": "Fig_Ch10_49_IsomorphismCircuits"
+}

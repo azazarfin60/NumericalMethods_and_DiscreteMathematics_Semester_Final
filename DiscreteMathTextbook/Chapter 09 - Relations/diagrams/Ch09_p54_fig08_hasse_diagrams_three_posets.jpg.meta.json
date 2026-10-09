@@ -1,0 +1,21 @@
+{
+  "description": "Hasse diagrams of three posets (a), (b), (c) to determine if they are lattices",
+  "source_image": "page_054.jpg",
+  "crop_percentages": {
+    "top": 75.0,
+    "bottom": 91.0,
+    "left": 23.5,
+    "right": 60.5
+  },
+  "crop_pixels": {
+    "x1": 400,
+    "y1": 1576,
+    "x2": 1030,
+    "y2": 1912
+  },
+  "crop_size": {
+    "width": 630,
+    "height": 336
+  },
+  "figure_id": "Fig_Ch09_21"
+}

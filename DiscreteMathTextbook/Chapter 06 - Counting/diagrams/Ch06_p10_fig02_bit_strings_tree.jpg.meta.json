@@ -1,0 +1,9 @@
+{
+  "source_image": "page_010.jpg",
+  "figure_id": "Fig_Ch06_02",
+  "description": "Tree diagram showing bit strings of length four without consecutive 1s, branched across four bit positions yielding 8 valid strings",
+  "crop_size": {
+    "width": 264,
+    "height": 316
+  }
+}

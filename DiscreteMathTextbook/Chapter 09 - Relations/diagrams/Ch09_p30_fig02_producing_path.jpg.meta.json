@@ -1,0 +1,21 @@
+{
+  "description": "Producing a path with length not exceeding n by eliminating circuits",
+  "source_image": "page_030.jpg",
+  "crop_percentages": {
+    "top": 8.5,
+    "bottom": 20.5,
+    "left": 23.0,
+    "right": 63.0
+  },
+  "crop_pixels": {
+    "x1": 391,
+    "y1": 178,
+    "x2": 1072,
+    "y2": 430
+  },
+  "crop_size": {
+    "width": 681,
+    "height": 252
+  },
+  "figure_id": "Fig_Ch09_10"
+}

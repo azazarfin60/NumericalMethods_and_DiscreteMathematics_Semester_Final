@@ -1,0 +1,21 @@
+{
+  "description": "A graph model of a round-robin tournament among six teams",
+  "source_image": "page_009.jpg",
+  "crop_percentages": {
+    "top": 9.5,
+    "bottom": 35.0,
+    "left": 8.5,
+    "right": 33.1
+  },
+  "crop_pixels": {
+    "x1": 144,
+    "y1": 199,
+    "x2": 563,
+    "y2": 735
+  },
+  "crop_size": {
+    "width": 419,
+    "height": 536
+  },
+  "figure_id": "Fig_Ch10_13_RoundRobinTournament"
+}

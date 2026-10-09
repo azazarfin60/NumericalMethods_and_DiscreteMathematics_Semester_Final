@@ -1,0 +1,21 @@
+{
+  "description": "Graph displaying the growth of common functions: 1, log n, n, n log n, n^2, 2^n, and n! on a logarithmic vertical scale",
+  "source_image": "page_021.jpg",
+  "crop_percentages": {
+    "top": 62.0,
+    "bottom": 91.5,
+    "left": 26.5,
+    "right": 64.0
+  },
+  "crop_pixels": {
+    "x1": 451,
+    "y1": 1303,
+    "x2": 1089,
+    "y2": 1923
+  },
+  "crop_size": {
+    "width": 638,
+    "height": 620
+  },
+  "figure_id": "Fig_Ch03_03_GrowthOfFunctions"
+}

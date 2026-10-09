@@ -1,0 +1,9 @@
+{
+  "source_image": "page_008.jpg",
+  "figure_id": "Fig_Ch06_01",
+  "description": "IPv4 addressing format showing bit allocation for Class A, Class B, Class C, Class D, and Class E addresses with netid and hostid fields",
+  "crop_size": {
+    "width": 1005,
+    "height": 304
+  }
+}

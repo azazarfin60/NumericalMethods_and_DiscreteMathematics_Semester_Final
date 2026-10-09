@@ -1,0 +1,21 @@
+{
+  "description": "A topological sort of the project tasks step-by-step",
+  "source_image": "page_057.jpg",
+  "crop_percentages": {
+    "top": 71.5,
+    "bottom": 91.0,
+    "left": 26.8,
+    "right": 92.2
+  },
+  "crop_pixels": {
+    "x1": 456,
+    "y1": 1502,
+    "x2": 1570,
+    "y2": 1912
+  },
+  "crop_size": {
+    "width": 1114,
+    "height": 410
+  },
+  "figure_id": "Fig_Ch09_24"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Flow-graph for Example 4.19 showing 4-point DIT-FFT computation on sequence {1, 2, 3, 4}",
+  "source_image": "page_043.jpg",
+  "crop_percentages": {
+    "top": 19.5,
+    "bottom": 36.0,
+    "left": 22.0,
+    "right": 78.0
+  },
+  "crop_pixels": {
+    "x1": 363,
+    "y1": 456,
+    "x2": 1289,
+    "y2": 842
+  },
+  "crop_size": {
+    "width": 926,
+    "height": 386
+  },
+  "figure_id": "Fig_Ch04_08"
+}

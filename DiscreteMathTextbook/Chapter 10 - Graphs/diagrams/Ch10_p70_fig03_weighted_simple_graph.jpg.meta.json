@@ -1,0 +1,21 @@
+{
+  "description": "A Weighted Simple Graph",
+  "source_image": "page_070.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 24.5,
+    "left": 22.5,
+    "right": 54.5
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 168,
+    "x2": 928,
+    "y2": 514
+  },
+  "crop_size": {
+    "width": 545,
+    "height": 346
+  },
+  "figure_id": "Fig_Ch10_67_WeightedSimpleGraph"
+}

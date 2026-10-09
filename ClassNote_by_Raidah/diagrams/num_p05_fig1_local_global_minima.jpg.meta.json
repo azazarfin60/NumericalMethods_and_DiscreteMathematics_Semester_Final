@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn plot illustrating a function curve with labeled local minima and global minima on Cartesian coordinate axes",
+  "source_image": "page_05.jpg",
+  "crop_percentages": {
+    "top": 6.0,
+    "bottom": 29.8,
+    "left": 73.0,
+    "right": 100
+  },
+  "crop_pixels": {
+    "x1": 1707,
+    "y1": 99,
+    "x2": 2339,
+    "y2": 492
+  },
+  "crop_size": {
+    "width": 632,
+    "height": 393
+  },
+  "figure_id": "Fig_Class04.1"
+}

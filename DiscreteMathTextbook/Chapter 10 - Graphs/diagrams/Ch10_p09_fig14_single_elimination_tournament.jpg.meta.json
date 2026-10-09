@@ -1,0 +1,21 @@
+{
+  "description": "A single-elimination tournament graph for NCAA basketball",
+  "source_image": "page_009.jpg",
+  "crop_percentages": {
+    "top": 6.0,
+    "bottom": 32.0,
+    "left": 30.8,
+    "right": 92.1
+  },
+  "crop_pixels": {
+    "x1": 524,
+    "y1": 126,
+    "x2": 1568,
+    "y2": 672
+  },
+  "crop_size": {
+    "width": 1044,
+    "height": 546
+  },
+  "figure_id": "Fig_Ch10_14_SingleEliminationTournament"
+}

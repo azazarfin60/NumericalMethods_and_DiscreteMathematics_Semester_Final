@@ -1,0 +1,21 @@
+{
+  "description": "The Directed Graphs H1, H2, and H3",
+  "source_image": "page_054.jpg",
+  "crop_percentages": {
+    "top": 78.5,
+    "bottom": 95.0,
+    "left": 50.0,
+    "right": 89.5
+  },
+  "crop_pixels": {
+    "x1": 851,
+    "y1": 1650,
+    "x2": 1524,
+    "y2": 1996
+  },
+  "crop_size": {
+    "width": 673,
+    "height": 346
+  },
+  "figure_id": "Fig_Ch10_54_DirectedEulerGraphs"
+}

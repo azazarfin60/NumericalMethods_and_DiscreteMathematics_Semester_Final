@@ -1,0 +1,21 @@
+{
+  "description": "A graph with four vertices drawn from its given adjacency matrix",
+  "source_image": "page_029.jpg",
+  "crop_percentages": {
+    "top": 76.7,
+    "bottom": 95.8,
+    "left": 10.6,
+    "right": 23.7
+  },
+  "crop_pixels": {
+    "x1": 180,
+    "y1": 1612,
+    "x2": 403,
+    "y2": 2013
+  },
+  "crop_size": {
+    "width": 223,
+    "height": 401
+  },
+  "figure_id": "Fig_Ch10_34_GraphGivenAdjacencyMatrix"
+}

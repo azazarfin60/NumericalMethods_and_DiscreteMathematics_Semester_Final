@@ -1,0 +1,21 @@
+{
+  "description": "Five connected graphs G1, G2, G3, G4, G5 to study vertex and edge connectivity",
+  "source_image": "page_043.jpg",
+  "crop_percentages": {
+    "top": 46.0,
+    "bottom": 94.1,
+    "left": 26.1,
+    "right": 86.5
+  },
+  "crop_pixels": {
+    "x1": 444,
+    "y1": 966,
+    "x2": 1473,
+    "y2": 1977
+  },
+  "crop_size": {
+    "width": 1029,
+    "height": 1011
+  },
+  "figure_id": "Fig_Ch10_46_ConnectedGraphsCutVertices"
+}

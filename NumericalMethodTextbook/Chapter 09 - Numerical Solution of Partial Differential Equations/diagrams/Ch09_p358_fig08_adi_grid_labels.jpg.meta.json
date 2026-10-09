@@ -1,0 +1,21 @@
+{
+  "description": "Square grid domain with boundary and interior mesh points relabeled with double subscripts ui,j for applying the ADI method",
+  "source_image": "page_017.jpg",
+  "crop_percentages": {
+    "top": 36.0,
+    "bottom": 56.5,
+    "left": 35.0,
+    "right": 65.0
+  },
+  "crop_pixels": {
+    "x1": 578,
+    "y1": 842,
+    "x2": 1074,
+    "y2": 1321
+  },
+  "crop_size": {
+    "width": 496,
+    "height": 479
+  },
+  "figure_id": "Fig_Ch09_08"
+}

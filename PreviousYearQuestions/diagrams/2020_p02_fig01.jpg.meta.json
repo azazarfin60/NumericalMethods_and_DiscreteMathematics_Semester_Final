@@ -1,0 +1,5 @@
+{
+  "description": "Square domain 3x3 finite-difference grid for Laplace equation with boundary values Top=1, Bottom=0, Left=0, Right=0 and interior nodes E\u2081, E\u2082, E\u2083, E\u2084 for Liebmann method",
+  "source_image": "NumericalMethods Ques_Pages/page_008.jpg",
+  "figure_id": "Fig_2020_Q8.b"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The graphs G1 (connected) and G2 (disconnected)",
+  "source_image": "page_042.jpg",
+  "crop_percentages": {
+    "top": 8.6,
+    "bottom": 29.3,
+    "left": 22.8,
+    "right": 50.6
+  },
+  "crop_pixels": {
+    "x1": 388,
+    "y1": 180,
+    "x2": 861,
+    "y2": 615
+  },
+  "crop_size": {
+    "width": 473,
+    "height": 435
+  },
+  "figure_id": "Fig_Ch10_44_ConnectedAndDisconnected"
+}

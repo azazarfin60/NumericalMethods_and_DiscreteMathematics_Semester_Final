@@ -1,0 +1,21 @@
+{
+  "description": "A directed graph with 5 vertices a, b, c, d, e and directed edges",
+  "source_image": "page_027.jpg",
+  "crop_percentages": {
+    "top": 76.5,
+    "bottom": 91.5,
+    "left": 25.0,
+    "right": 50.5
+  },
+  "crop_pixels": {
+    "x1": 425,
+    "y1": 1608,
+    "x2": 860,
+    "y2": 1923
+  },
+  "crop_size": {
+    "width": 435,
+    "height": 315
+  },
+  "figure_id": "Fig_Ch09_09"
+}

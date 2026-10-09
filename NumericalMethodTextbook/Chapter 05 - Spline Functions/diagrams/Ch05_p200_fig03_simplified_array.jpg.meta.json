@@ -1,0 +1,21 @@
+{
+  "description": "Simplified array of Fig. 5.2 showing triangular arrangement where elements outside the active interval reduce to zero",
+  "source_image": "page_020.jpg",
+  "crop_percentages": {
+    "top": 47.0,
+    "bottom": 59.5,
+    "left": 28.0,
+    "right": 72.0
+  },
+  "crop_pixels": {
+    "x1": 462,
+    "y1": 1099,
+    "x2": 1190,
+    "y2": 1391
+  },
+  "crop_size": {
+    "width": 728,
+    "height": 292
+  },
+  "figure_id": "Fig_Ch05_03"
+}

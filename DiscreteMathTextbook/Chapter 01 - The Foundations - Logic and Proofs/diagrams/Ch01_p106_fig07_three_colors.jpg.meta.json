@@ -1,0 +1,21 @@
+{
+  "description": "Figure 7: Coloring the Squares of the Standard Checkerboard with Three Colors.",
+  "source_image": "page_106.jpg",
+  "crop_percentages": {
+    "top": 13.8,
+    "bottom": 33.5,
+    "left": 31.5,
+    "right": 53.8
+  },
+  "crop_pixels": {
+    "x1": 536,
+    "y1": 290,
+    "x2": 916,
+    "y2": 704
+  },
+  "crop_size": {
+    "width": 380,
+    "height": 414
+  },
+  "figure_id": null
+}

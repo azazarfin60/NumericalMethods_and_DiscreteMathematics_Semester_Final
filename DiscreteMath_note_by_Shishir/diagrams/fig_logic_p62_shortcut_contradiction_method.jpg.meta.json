@@ -1,0 +1,21 @@
+{
+  "description": "Handwritten derivation demonstrating the shortcut contradiction method for argument validity testing",
+  "source_image": "page_062.jpg",
+  "crop_percentages": {
+    "top": 0,
+    "bottom": 96.8,
+    "left": 2.0,
+    "right": 98.0
+  },
+  "crop_pixels": {
+    "x1": 33,
+    "y1": 0,
+    "x2": 1619,
+    "y2": 2264
+  },
+  "crop_size": {
+    "width": 1586,
+    "height": 2264
+  },
+  "figure_id": "Fig_Logic_62.1"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Four hand-drawn target coordinate plots demonstrating combinations of high/low accuracy and high/low precision with cluster points",
+  "source_image": "page_02.jpg",
+  "crop_percentages": {
+    "top": 44.0,
+    "bottom": 96.8,
+    "left": 0,
+    "right": 46.0
+  },
+  "crop_pixels": {
+    "x1": 0,
+    "y1": 727,
+    "x2": 1075,
+    "y2": 1600
+  },
+  "crop_size": {
+    "width": 1075,
+    "height": 873
+  },
+  "figure_id": "Fig_Class01.1"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The Hasse diagram of (P({a, b, c}), subset)",
+  "source_image": "page_052.jpg",
+  "crop_percentages": {
+    "top": 74.0,
+    "bottom": 91.5,
+    "left": 23.0,
+    "right": 43.5
+  },
+  "crop_pixels": {
+    "x1": 391,
+    "y1": 1555,
+    "x2": 740,
+    "y2": 1923
+  },
+  "crop_size": {
+    "width": 349,
+    "height": 368
+  },
+  "figure_id": "Fig_Ch09_17"
+}

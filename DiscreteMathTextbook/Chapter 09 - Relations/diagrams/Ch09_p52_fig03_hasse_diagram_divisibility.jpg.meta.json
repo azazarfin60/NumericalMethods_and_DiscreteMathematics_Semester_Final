@@ -1,0 +1,21 @@
+{
+  "description": "Constructing the Hasse diagram of ({1, 2, 3, 4, 6, 8, 12}, |) in three steps (a), (b), (c)",
+  "source_image": "page_052.jpg",
+  "crop_percentages": {
+    "top": 8.5,
+    "bottom": 34.5,
+    "left": 21.8,
+    "right": 88.2
+  },
+  "crop_pixels": {
+    "x1": 371,
+    "y1": 178,
+    "x2": 1502,
+    "y2": 725
+  },
+  "crop_size": {
+    "width": 1131,
+    "height": 547
+  },
+  "figure_id": "Fig_Ch09_16"
+}

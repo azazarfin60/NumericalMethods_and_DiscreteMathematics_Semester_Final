@@ -1,0 +1,21 @@
+{
+  "description": "The Graph Representing the Scheduling of Final Exams",
+  "source_image": "page_092.jpg",
+  "crop_percentages": {
+    "top": 9.0,
+    "bottom": 33.5,
+    "left": 7.0,
+    "right": 30.5
+  },
+  "crop_pixels": {
+    "x1": 119,
+    "y1": 189,
+    "x2": 519,
+    "y2": 704
+  },
+  "crop_size": {
+    "width": 400,
+    "height": 515
+  },
+  "figure_id": "Fig_Ch10_91_FinalExamsGraph"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Square domain with 9 interior points u1 to u9 and boundary conditions: top boundary 100 with corner 50, and other three boundaries 0",
+  "source_image": "page_012.jpg",
+  "crop_percentages": {
+    "top": 31.5,
+    "bottom": 51.5,
+    "left": 36.0,
+    "right": 64.0
+  },
+  "crop_pixels": {
+    "x1": 595,
+    "y1": 736,
+    "x2": 1057,
+    "y2": 1204
+  },
+  "crop_size": {
+    "width": 462,
+    "height": 468
+  },
+  "figure_id": "Fig_Ch09_06"
+}

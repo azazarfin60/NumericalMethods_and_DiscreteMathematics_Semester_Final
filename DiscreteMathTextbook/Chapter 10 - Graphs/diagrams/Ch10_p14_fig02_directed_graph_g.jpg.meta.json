@@ -1,0 +1,21 @@
+{
+  "description": "The directed graph G illustrating in-degrees and out-degrees",
+  "source_image": "page_014.jpg",
+  "crop_percentages": {
+    "top": 41.0,
+    "bottom": 56.2,
+    "left": 22.8,
+    "right": 58.7
+  },
+  "crop_pixels": {
+    "x1": 388,
+    "y1": 861,
+    "x2": 999,
+    "y2": 1181
+  },
+  "crop_size": {
+    "width": 611,
+    "height": 320
+  },
+  "figure_id": "Fig_Ch10_16_DirectedGraphG"
+}

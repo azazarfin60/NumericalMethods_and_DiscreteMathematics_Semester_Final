@@ -1,0 +1,21 @@
+{
+  "description": "A Hamilton Circuit for Q3",
+  "source_image": "page_063.jpg",
+  "crop_percentages": {
+    "top": 32.0,
+    "bottom": 52.2,
+    "left": 71.0,
+    "right": 93.0
+  },
+  "crop_pixels": {
+    "x1": 1209,
+    "y1": 672,
+    "x2": 1583,
+    "y2": 1097
+  },
+  "crop_size": {
+    "width": 374,
+    "height": 425
+  },
+  "figure_id": "Fig_Ch10_64_HamiltonCircuitQ3"
+}

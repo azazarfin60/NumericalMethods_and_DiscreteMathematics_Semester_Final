@@ -1,0 +1,21 @@
+{
+  "description": "The Simple Graphs G and H",
+  "source_image": "page_089.jpg",
+  "crop_percentages": {
+    "top": 10.5,
+    "bottom": 28.0,
+    "left": 26.0,
+    "right": 76.5
+  },
+  "crop_pixels": {
+    "x1": 442,
+    "y1": 220,
+    "x2": 1302,
+    "y2": 588
+  },
+  "crop_size": {
+    "width": 860,
+    "height": 368
+  },
+  "figure_id": "Fig_Ch10_86_GraphsGAndH"
+}

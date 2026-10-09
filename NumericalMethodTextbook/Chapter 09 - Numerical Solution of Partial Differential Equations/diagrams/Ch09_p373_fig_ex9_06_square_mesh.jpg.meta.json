@@ -1,0 +1,21 @@
+{
+  "description": "Square mesh grid for Laplace equation Exercise 9.6 with boundary values",
+  "source_image": "page_032.jpg",
+  "crop_percentages": {
+    "top": 33.60410431808465,
+    "bottom": 47.926464300983326,
+    "left": 37.02359346642468,
+    "right": 62.976406533575314
+  },
+  "crop_pixels": {
+    "x1": 612,
+    "y1": 786,
+    "x2": 1041,
+    "y2": 1121
+  },
+  "crop_size": {
+    "width": 429,
+    "height": 335
+  },
+  "figure_id": "Fig_Ch09_Ex06"
+}

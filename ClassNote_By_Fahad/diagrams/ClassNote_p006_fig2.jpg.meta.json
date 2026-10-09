@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn graphs illustrating inflection points where curve changes curvature and concavity (transition from concave up to concave down)",
+  "source_image": "page_006.jpg",
+  "crop_percentages": {
+    "top": 46.0,
+    "bottom": 92.8,
+    "left": 49.0,
+    "right": 100
+  },
+  "crop_pixels": {
+    "x1": 1146,
+    "y1": 760,
+    "x2": 2339,
+    "y2": 1533
+  },
+  "crop_size": {
+    "width": 1193,
+    "height": 773
+  },
+  "figure_id": "Fig_Class04.2"
+}

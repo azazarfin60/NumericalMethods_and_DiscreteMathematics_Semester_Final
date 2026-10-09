@@ -1,0 +1,21 @@
+{
+  "description": "Weighted Graphs Modeling a Computer Network",
+  "source_image": "page_069.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 59.5,
+    "left": 26.0,
+    "right": 75.5
+  },
+  "crop_pixels": {
+    "x1": 442,
+    "y1": 168,
+    "x2": 1285,
+    "y2": 1250
+  },
+  "crop_size": {
+    "width": 843,
+    "height": 1082
+  },
+  "figure_id": "Fig_Ch10_66_ComputerNetworkWeightedGraphs"
+}

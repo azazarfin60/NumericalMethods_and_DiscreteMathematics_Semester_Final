@@ -1,0 +1,21 @@
+{
+  "description": "Combinatorial circuit producing output (p \u2227 \u00acq) \u2228 \u00acr from inputs p, q, r",
+  "source_image": "page_021.jpg",
+  "crop_percentages": {
+    "top": 20.0,
+    "bottom": 28.5,
+    "left": 26.0,
+    "right": 68.0
+  },
+  "crop_pixels": {
+    "x1": 442,
+    "y1": 420,
+    "x2": 1158,
+    "y2": 599
+  },
+  "crop_size": {
+    "width": 716,
+    "height": 179
+  },
+  "figure_id": "Fig_Ch01_CombinatorialCircuit"
+}

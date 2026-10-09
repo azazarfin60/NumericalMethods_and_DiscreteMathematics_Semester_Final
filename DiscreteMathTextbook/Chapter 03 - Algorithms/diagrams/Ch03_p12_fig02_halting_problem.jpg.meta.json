@@ -1,0 +1,21 @@
+{
+  "description": "Block diagram showing construction of program K(P) using procedure H(P, P) to prove that the halting problem is unsolvable",
+  "source_image": "page_012.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 19.2,
+    "left": 23.0,
+    "right": 79.0
+  },
+  "crop_pixels": {
+    "x1": 391,
+    "y1": 168,
+    "x2": 1345,
+    "y2": 403
+  },
+  "crop_size": {
+    "width": 954,
+    "height": 235
+  },
+  "figure_id": "Fig_Ch03_02_HaltingProblem"
+}

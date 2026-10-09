@@ -1,0 +1,21 @@
+{
+  "description": "K4 Drawn with No Crossings",
+  "source_image": "page_079.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 25.5,
+    "left": 29.5,
+    "right": 49.5
+  },
+  "crop_pixels": {
+    "x1": 502,
+    "y1": 168,
+    "x2": 842,
+    "y2": 536
+  },
+  "crop_size": {
+    "width": 340,
+    "height": 368
+  },
+  "figure_id": "Fig_Ch10_72_K4NoCrossings"
+}

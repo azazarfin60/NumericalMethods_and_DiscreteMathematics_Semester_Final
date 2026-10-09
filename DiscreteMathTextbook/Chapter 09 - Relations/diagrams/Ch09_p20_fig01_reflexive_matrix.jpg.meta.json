@@ -1,0 +1,21 @@
+{
+  "description": "The Zero-One Matrix for a Reflexive Relation showing 1s on main diagonal",
+  "source_image": "page_020.jpg",
+  "crop_percentages": {
+    "top": 20.0,
+    "bottom": 29.5,
+    "left": 7.5,
+    "right": 19.0
+  },
+  "crop_pixels": {
+    "x1": 127,
+    "y1": 420,
+    "x2": 323,
+    "y2": 620
+  },
+  "crop_size": {
+    "width": 196,
+    "height": 200
+  },
+  "figure_id": "Fig_Ch09_03"
+}

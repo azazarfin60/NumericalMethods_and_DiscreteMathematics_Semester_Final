@@ -1,0 +1,21 @@
+{
+  "description": "A computer network with multiple links between data centers",
+  "source_image": "page_002.jpg",
+  "crop_percentages": {
+    "top": 44.0,
+    "bottom": 56.9,
+    "left": 21.0,
+    "right": 84.0
+  },
+  "crop_pixels": {
+    "x1": 357,
+    "y1": 924,
+    "x2": 1430,
+    "y2": 1196
+  },
+  "crop_size": {
+    "width": 1073,
+    "height": 272
+  },
+  "figure_id": "Fig_Ch10_02_MultipleLinks"
+}

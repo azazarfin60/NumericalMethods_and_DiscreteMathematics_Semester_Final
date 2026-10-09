@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn sketch showing area under a continuous curve between integration limits",
+  "source_image": "page_17.jpg",
+  "crop_percentages": {
+    "top": 6.0,
+    "bottom": 24.8,
+    "left": 1.0,
+    "right": 26.0
+  },
+  "crop_pixels": {
+    "x1": 23,
+    "y1": 99,
+    "x2": 608,
+    "y2": 409
+  },
+  "crop_size": {
+    "width": 585,
+    "height": 310
+  },
+  "figure_id": "Fig_ClassIntegration.1"
+}

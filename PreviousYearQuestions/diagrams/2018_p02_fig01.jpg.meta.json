@@ -1,0 +1,5 @@
+{
+  "description": "Square domain 3x3 finite-difference boundary value grid with boundary potentials Top=100V, Bottom=0V, Left=75V, Right=50V with insulating gap corners, and interior nodes 1, 2, 3, 4 for Liebmann's method",
+  "source_image": "NumericalMethods Ques_Pages/page_004.jpg",
+  "figure_id": "Fig_2018_Q8.a"
+}

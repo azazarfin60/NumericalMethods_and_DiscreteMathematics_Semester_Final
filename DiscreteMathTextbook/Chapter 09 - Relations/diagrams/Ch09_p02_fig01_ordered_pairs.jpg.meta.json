@@ -1,0 +1,21 @@
+{
+  "description": "Displaying the Ordered Pairs in the Relation R from Example 3 with arrow diagram and table",
+  "source_image": "page_002.jpg",
+  "crop_percentages": {
+    "top": 41.0,
+    "bottom": 56.0,
+    "left": 23.0,
+    "right": 57.0
+  },
+  "crop_pixels": {
+    "x1": 391,
+    "y1": 861,
+    "x2": 970,
+    "y2": 1177
+  },
+  "crop_size": {
+    "width": 579,
+    "height": 316
+  },
+  "figure_id": "Fig_Ch09_01"
+}

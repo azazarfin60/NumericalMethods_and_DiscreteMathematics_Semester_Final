@@ -1,0 +1,9 @@
+{
+  "source_image": "page_042.jpg",
+  "figure_id": "Fig_Ch05_13",
+  "description": "Building up extended binary trees recursively from empty set basis step through Step 1, Step 2, and Step 3",
+  "crop_size": {
+    "width": 1362,
+    "height": 740
+  }
+}

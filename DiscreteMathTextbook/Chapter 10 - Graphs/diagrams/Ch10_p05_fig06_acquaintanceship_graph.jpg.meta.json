@@ -1,0 +1,21 @@
+{
+  "description": "An acquaintanceship graph representing relationships between individuals",
+  "source_image": "page_005.jpg",
+  "crop_percentages": {
+    "top": 6.0,
+    "bottom": 31.0,
+    "left": 15.5,
+    "right": 61.5
+  },
+  "crop_pixels": {
+    "x1": 263,
+    "y1": 126,
+    "x2": 1047,
+    "y2": 651
+  },
+  "crop_size": {
+    "width": 784,
+    "height": 525
+  },
+  "figure_id": "Fig_Ch10_06_AcquaintanceshipGraph"
+}

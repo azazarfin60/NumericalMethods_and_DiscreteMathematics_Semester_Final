@@ -1,0 +1,21 @@
+{
+  "description": "A hypercube network architecture for eight processors",
+  "source_image": "page_023.jpg",
+  "crop_percentages": {
+    "top": 70.1,
+    "bottom": 94.1,
+    "left": 11.4,
+    "right": 55.5
+  },
+  "crop_pixels": {
+    "x1": 194,
+    "y1": 1473,
+    "x2": 945,
+    "y2": 1977
+  },
+  "crop_size": {
+    "width": 751,
+    "height": 504
+  },
+  "figure_id": "Fig_Ch10_28_HypercubeNetwork"
+}

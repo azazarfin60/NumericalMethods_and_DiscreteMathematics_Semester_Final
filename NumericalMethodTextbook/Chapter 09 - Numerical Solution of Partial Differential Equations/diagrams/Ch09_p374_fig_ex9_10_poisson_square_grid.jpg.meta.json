@@ -1,0 +1,21 @@
+{
+  "description": "Poisson equation square grid with interior points u1 to u4 for Exercise 9.10",
+  "source_image": "page_033.jpg",
+  "crop_percentages": {
+    "top": 43.43736639589568,
+    "bottom": 57.07567336468576,
+    "left": 35.51119177253479,
+    "right": 63.39987900786449
+  },
+  "crop_pixels": {
+    "x1": 587,
+    "y1": 1016,
+    "x2": 1048,
+    "y2": 1335
+  },
+  "crop_size": {
+    "width": 461,
+    "height": 319
+  },
+  "figure_id": "Fig_Ch09_Ex10"
+}

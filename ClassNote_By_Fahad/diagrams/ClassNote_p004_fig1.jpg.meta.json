@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn number line illustration of the Bisection method showing early guesses, closer guesses, root zone, and convergence towards the exact root",
+  "source_image": "page_004.jpg",
+  "crop_percentages": {
+    "top": 11.0,
+    "bottom": 40.2,
+    "left": 2.0,
+    "right": 98.0
+  },
+  "crop_pixels": {
+    "x1": 33,
+    "y1": 257,
+    "x2": 1619,
+    "y2": 940
+  },
+  "crop_size": {
+    "width": 1586,
+    "height": 683
+  },
+  "figure_id": "Fig_Class03.1"
+}

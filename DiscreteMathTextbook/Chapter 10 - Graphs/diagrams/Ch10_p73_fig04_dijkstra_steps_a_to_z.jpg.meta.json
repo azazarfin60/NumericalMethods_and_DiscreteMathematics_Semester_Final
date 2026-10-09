@@ -1,0 +1,21 @@
+{
+  "description": "Using Dijkstra's Algorithm to Find a Shortest Path from a to z",
+  "source_image": "page_073.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 52.0,
+    "left": 10.5,
+    "right": 85.0
+  },
+  "crop_pixels": {
+    "x1": 178,
+    "y1": 168,
+    "x2": 1447,
+    "y2": 1093
+  },
+  "crop_size": {
+    "width": 1269,
+    "height": 925
+  },
+  "figure_id": "Fig_Ch10_68_DijkstraStepsAtoZ"
+}

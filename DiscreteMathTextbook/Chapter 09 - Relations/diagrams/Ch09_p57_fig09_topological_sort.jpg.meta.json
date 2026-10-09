@@ -1,0 +1,21 @@
+{
+  "description": "A topological sort of ({1, 2, 4, 5, 12, 20}, |) step-by-step",
+  "source_image": "page_057.jpg",
+  "crop_percentages": {
+    "top": 8.8,
+    "bottom": 28.0,
+    "left": 27.0,
+    "right": 85.5
+  },
+  "crop_pixels": {
+    "x1": 459,
+    "y1": 184,
+    "x2": 1456,
+    "y2": 588
+  },
+  "crop_size": {
+    "width": 997,
+    "height": 404
+  },
+  "figure_id": "Fig_Ch09_22"
+}

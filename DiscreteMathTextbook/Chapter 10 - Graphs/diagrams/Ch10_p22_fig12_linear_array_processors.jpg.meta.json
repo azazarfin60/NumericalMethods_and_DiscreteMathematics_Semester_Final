@@ -1,0 +1,21 @@
+{
+  "description": "A linear array network architecture for six processors",
+  "source_image": "page_022.jpg",
+  "crop_percentages": {
+    "top": 10.6,
+    "bottom": 27.5,
+    "left": 22.8,
+    "right": 52.2
+  },
+  "crop_pixels": {
+    "x1": 388,
+    "y1": 222,
+    "x2": 888,
+    "y2": 578
+  },
+  "crop_size": {
+    "width": 500,
+    "height": 356
+  },
+  "figure_id": "Fig_Ch10_26_LinearArrayProcessors"
+}

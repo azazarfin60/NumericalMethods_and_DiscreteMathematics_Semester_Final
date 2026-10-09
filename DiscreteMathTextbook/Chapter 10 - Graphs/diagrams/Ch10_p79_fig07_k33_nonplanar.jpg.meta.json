@@ -1,0 +1,21 @@
+{
+  "description": "Showing that K3,3 Is Nonplanar",
+  "source_image": "page_079.jpg",
+  "crop_percentages": {
+    "top": 76.5,
+    "bottom": 95.0,
+    "left": 57.0,
+    "right": 93.5
+  },
+  "crop_pixels": {
+    "x1": 970,
+    "y1": 1608,
+    "x2": 1592,
+    "y2": 1996
+  },
+  "crop_size": {
+    "width": 622,
+    "height": 388
+  },
+  "figure_id": "Fig_Ch10_76_K33Nonplanar"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Digraph reduction of S={1, 2, 3, 4} under <= showing eliminated self-loops and transitive edges alongside the final linear Hasse chain",
+  "source_image": "page_034.jpg",
+  "crop_percentages": {
+    "top": 77.0,
+    "bottom": 96.2,
+    "left": 2.0,
+    "right": 76.0
+  },
+  "crop_pixels": {
+    "x1": 33,
+    "y1": 1801,
+    "x2": 1256,
+    "y2": 2250
+  },
+  "crop_size": {
+    "width": 1223,
+    "height": 449
+  },
+  "figure_id": "Fig_Rel_p34_hasse_chain_reduction"
+}

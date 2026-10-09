@@ -1,0 +1,21 @@
+{
+  "description": "A flowchart of statements and its precedence graph for concurrent processing",
+  "source_image": "page_007.jpg",
+  "crop_percentages": {
+    "top": 70.5,
+    "bottom": 95.0,
+    "left": 63.1,
+    "right": 95.0
+  },
+  "crop_pixels": {
+    "x1": 1074,
+    "y1": 1481,
+    "x2": 1617,
+    "y2": 1996
+  },
+  "crop_size": {
+    "width": 543,
+    "height": 515
+  },
+  "figure_id": "Fig_Ch10_10_PrecedenceGraph"
+}

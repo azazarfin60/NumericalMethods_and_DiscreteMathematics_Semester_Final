@@ -1,0 +1,21 @@
+{
+  "description": "Typical finite elements: (a) Line element with nodes, (b) Triangular and Quadrilateral elements with node and nodal line",
+  "source_image": "page_002.jpg",
+  "crop_percentages": {
+    "top": 55.6,
+    "bottom": 68.7,
+    "left": 26.0,
+    "right": 74.0
+  },
+  "crop_pixels": {
+    "x1": 429,
+    "y1": 1300,
+    "x2": 1223,
+    "y2": 1606
+  },
+  "crop_size": {
+    "width": 794,
+    "height": 306
+  },
+  "figure_id": "Fig_Ch11_01"
+}

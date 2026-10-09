@@ -1,0 +1,9 @@
+{
+  "source_image": "page_017.jpg",
+  "figure_id": "Fig_Ch05_07",
+  "description": "Tiling the 2^(k+1) x 2^(k+1) checkerboard with one square removed by placing one triomino at the center covering the three quadrants without the missing square",
+  "crop_size": {
+    "width": 425,
+    "height": 395
+  }
+}

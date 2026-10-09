@@ -1,0 +1,21 @@
+{
+  "description": "Square domain with 4 interior grid points u1, u2, u3, u4 and boundary conditions: top boundary 1, 1, and other three boundaries 0",
+  "source_image": "page_011.jpg",
+  "crop_percentages": {
+    "top": 17.0,
+    "bottom": 37.5,
+    "left": 37.0,
+    "right": 63.0
+  },
+  "crop_pixels": {
+    "x1": 611,
+    "y1": 397,
+    "x2": 1041,
+    "y2": 877
+  },
+  "crop_size": {
+    "width": 430,
+    "height": 480
+  },
+  "figure_id": "Fig_Ch09_05"
+}

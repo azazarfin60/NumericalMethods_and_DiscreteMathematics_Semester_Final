@@ -1,0 +1,21 @@
+{
+  "description": "A pseudograph with loops and multiple edges to be represented by an adjacency matrix",
+  "source_image": "page_030.jpg",
+  "crop_percentages": {
+    "top": 32.4,
+    "bottom": 48.7,
+    "left": 7.3,
+    "right": 21.2
+  },
+  "crop_pixels": {
+    "x1": 124,
+    "y1": 681,
+    "x2": 361,
+    "y2": 1023
+  },
+  "crop_size": {
+    "width": 237,
+    "height": 342
+  },
+  "figure_id": "Fig_Ch10_35_PseudographMatrix"
+}

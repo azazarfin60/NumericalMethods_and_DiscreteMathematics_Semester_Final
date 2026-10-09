@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn graphical arrow representation of divisibility relation a divides b on set {1,2,3,4,5,6}",
+  "source_image": "page_017.jpg",
+  "crop_percentages": {
+    "top": 62.0,
+    "bottom": 97.6,
+    "left": 5.0,
+    "right": 78.0
+  },
+  "crop_pixels": {
+    "x1": 82,
+    "y1": 1450,
+    "x2": 1289,
+    "y2": 2282
+  },
+  "crop_size": {
+    "width": 1207,
+    "height": 832
+  },
+  "figure_id": "Fig_Rel_17.1"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Flow-graph of the first stage of 8-point DIT-FFT showing two 4-point DFT blocks and twiddle factors W8^0 through W8^7",
+  "source_image": "page_039.jpg",
+  "crop_percentages": {
+    "top": 37.0,
+    "bottom": 55.0,
+    "left": 22.0,
+    "right": 78.0
+  },
+  "crop_pixels": {
+    "x1": 363,
+    "y1": 865,
+    "x2": 1289,
+    "y2": 1286
+  },
+  "crop_size": {
+    "width": 926,
+    "height": 421
+  },
+  "figure_id": "Fig_Ch04_04"
+}

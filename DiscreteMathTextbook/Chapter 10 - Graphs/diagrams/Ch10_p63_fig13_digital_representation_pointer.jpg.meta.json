@@ -1,0 +1,21 @@
+{
+  "description": "The Digital Representation of the Position of the Pointer",
+  "source_image": "page_063.jpg",
+  "crop_percentages": {
+    "top": 7.0,
+    "bottom": 52.0,
+    "left": 18.0,
+    "right": 61.0
+  },
+  "crop_pixels": {
+    "x1": 306,
+    "y1": 147,
+    "x2": 1038,
+    "y2": 1093
+  },
+  "crop_size": {
+    "width": 732,
+    "height": 946
+  },
+  "figure_id": "Fig_Ch10_63_DigitalRepresentationPointer"
+}

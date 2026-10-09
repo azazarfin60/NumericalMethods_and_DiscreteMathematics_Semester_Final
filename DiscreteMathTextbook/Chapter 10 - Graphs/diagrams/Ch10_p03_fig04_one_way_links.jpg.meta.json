@@ -1,0 +1,21 @@
+{
+  "description": "A communications network with one-way communications links",
+  "source_image": "page_003.jpg",
+  "crop_percentages": {
+    "top": 7.5,
+    "bottom": 19.9,
+    "left": 24.0,
+    "right": 89.0
+  },
+  "crop_pixels": {
+    "x1": 408,
+    "y1": 157,
+    "x2": 1515,
+    "y2": 418
+  },
+  "crop_size": {
+    "width": 1107,
+    "height": 261
+  },
+  "figure_id": "Fig_Ch10_04_OneWayLinks"
+}

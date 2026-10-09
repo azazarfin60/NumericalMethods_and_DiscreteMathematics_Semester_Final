@@ -1,0 +1,21 @@
+{
+  "description": "A simple graph with five vertices and adjacency list representation",
+  "source_image": "page_028.jpg",
+  "crop_percentages": {
+    "top": 76.7,
+    "bottom": 94.5,
+    "left": 22.8,
+    "right": 49.0
+  },
+  "crop_pixels": {
+    "x1": 388,
+    "y1": 1612,
+    "x2": 834,
+    "y2": 1986
+  },
+  "crop_size": {
+    "width": 446,
+    "height": 374
+  },
+  "figure_id": "Fig_Ch10_31_SimpleGraph"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Mohammed's Scimitars",
+  "source_image": "page_057.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 23.5,
+    "left": 26.0,
+    "right": 56.5
+  },
+  "crop_pixels": {
+    "x1": 442,
+    "y1": 168,
+    "x2": 962,
+    "y2": 493
+  },
+  "crop_size": {
+    "width": 520,
+    "height": 325
+  },
+  "figure_id": "Fig_Ch10_56_MohammedsScimitars"
+}

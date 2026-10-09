@@ -1,0 +1,21 @@
+{
+  "description": "A computer network with seven data centers and communication links connecting them",
+  "source_image": "page_002.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 21.4,
+    "left": 21.0,
+    "right": 71.0
+  },
+  "crop_pixels": {
+    "x1": 357,
+    "y1": 168,
+    "x2": 1209,
+    "y2": 449
+  },
+  "crop_size": {
+    "width": 852,
+    "height": 281
+  },
+  "figure_id": "Fig_Ch10_01_ComputerNetwork"
+}

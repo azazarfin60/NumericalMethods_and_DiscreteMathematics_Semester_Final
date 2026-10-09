@@ -1,0 +1,21 @@
+{
+  "description": "The circuit for (p \u2228 \u00acr) \u2227 (\u00acp \u2228 (q \u2228 \u00acr))",
+  "source_image": "page_022.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 20.5,
+    "left": 23.0,
+    "right": 84.0
+  },
+  "crop_pixels": {
+    "x1": 391,
+    "y1": 168,
+    "x2": 1430,
+    "y2": 430
+  },
+  "crop_size": {
+    "width": 1039,
+    "height": 262
+  },
+  "figure_id": "Fig_Ch01_Circuit3"
+}

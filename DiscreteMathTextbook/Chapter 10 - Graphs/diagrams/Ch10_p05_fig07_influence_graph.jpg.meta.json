@@ -1,0 +1,21 @@
+{
+  "description": "An influence graph showing who can influence whom in a group",
+  "source_image": "page_005.jpg",
+  "crop_percentages": {
+    "top": 13.5,
+    "bottom": 31.0,
+    "left": 63.5,
+    "right": 94.0
+  },
+  "crop_pixels": {
+    "x1": 1081,
+    "y1": 283,
+    "x2": 1600,
+    "y2": 651
+  },
+  "crop_size": {
+    "width": 519,
+    "height": 368
+  },
+  "figure_id": "Fig_Ch10_07_InfluenceGraph"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Classification schematic of Quantifiers into Universal Quantifier (forall) and Existential Quantifier (exists) with symbols and definitions",
+  "source_image": "page_063.jpg",
+  "crop_percentages": {
+    "top": 0,
+    "bottom": 38.0,
+    "left": 3.0,
+    "right": 97.0
+  },
+  "crop_pixels": {
+    "x1": 49,
+    "y1": 0,
+    "x2": 1603,
+    "y2": 888
+  },
+  "crop_size": {
+    "width": 1554,
+    "height": 888
+  },
+  "figure_id": "Fig_Pred_63.1"
+}

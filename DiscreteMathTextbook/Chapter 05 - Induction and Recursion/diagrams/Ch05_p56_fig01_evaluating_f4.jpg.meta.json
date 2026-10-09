@@ -1,0 +1,9 @@
+{
+  "source_image": "page_056.jpg",
+  "figure_id": "Fig_Ch05_15",
+  "description": "Tree of calls for evaluating the fourth Fibonacci number f4 recursively",
+  "crop_size": {
+    "width": 766,
+    "height": 379
+  }
+}

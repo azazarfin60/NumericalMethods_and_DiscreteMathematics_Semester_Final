@@ -1,0 +1,21 @@
+{
+  "description": "The Petersen Graph, a Subgraph H Homeomorphic to K3,3, and K3,3",
+  "source_image": "page_085.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 31.0,
+    "left": 20.0,
+    "right": 91.5
+  },
+  "crop_pixels": {
+    "x1": 340,
+    "y1": 168,
+    "x2": 1558,
+    "y2": 651
+  },
+  "crop_size": {
+    "width": 1218,
+    "height": 483
+  },
+  "figure_id": "Fig_Ch10_83_PetersenK33Homeomorphic"
+}

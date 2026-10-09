@@ -1,0 +1,21 @@
+{
+  "description": "Figure 6: A Right Triomino and a Straight Triomino.",
+  "source_image": "page_105.jpg",
+  "crop_percentages": {
+    "top": 19.5,
+    "bottom": 30.8,
+    "left": 11.5,
+    "right": 23.2
+  },
+  "crop_pixels": {
+    "x1": 195,
+    "y1": 409,
+    "x2": 395,
+    "y2": 647
+  },
+  "crop_size": {
+    "width": 200,
+    "height": 238
+  },
+  "figure_id": null
+}

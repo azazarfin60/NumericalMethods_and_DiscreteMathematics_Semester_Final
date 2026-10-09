@@ -1,0 +1,5 @@
+{
+  "description": "Finite difference mesh for Laplace equation over a square domain OCBA with boundary values on axes: Bottom (0, 4, 5, A), Right (A, 5, 4, B), Top (C, 1, 2, B), Left (0, 2, 1, C) and interior nodes u\u2081, u\u2082, u\u2083, u\u2084",
+  "source_image": "NumericalMethods Ques_Pages/page_006.jpg",
+  "figure_id": "Fig_2019_Q8.b"
+}

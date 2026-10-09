@@ -1,0 +1,5 @@
+{
+  "description": "Square domain 3x3 finite-difference grid for Poisson equation with boundary condition u=0 on all four sides (top, bottom, left, right), domain x in [0, 3], y in [0, 3], and four interior nodes u1, u2, u3, u4",
+  "source_image": "NumericalMethods Ques_Pages/page_010.jpg",
+  "figure_id": "Fig_2021_Q6.c"
+}

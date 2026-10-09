@@ -1,0 +1,21 @@
+{
+  "description": "Column multiplication of binary numbers (110)2 and (101)2 showing partial products producing product (11110)2",
+  "source_image": "page_016.jpg",
+  "crop_percentages": {
+    "top": 46.0,
+    "bottom": 64.1,
+    "left": 7.0,
+    "right": 21.5
+  },
+  "crop_pixels": {
+    "x1": 119,
+    "y1": 966,
+    "x2": 366,
+    "y2": 1347
+  },
+  "crop_size": {
+    "width": 247,
+    "height": 381
+  },
+  "figure_id": "Fig_Ch04_03_BinaryMultiplication"
+}

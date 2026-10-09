@@ -1,0 +1,21 @@
+{
+  "description": "The Directed Graph of the Relation R from Example 8",
+  "source_image": "page_023.jpg",
+  "crop_percentages": {
+    "top": 74.0,
+    "bottom": 88.5,
+    "left": 11.0,
+    "right": 26.5
+  },
+  "crop_pixels": {
+    "x1": 187,
+    "y1": 1555,
+    "x2": 451,
+    "y2": 1860
+  },
+  "crop_size": {
+    "width": 264,
+    "height": 305
+  },
+  "figure_id": "Fig_Ch09_06"
+}

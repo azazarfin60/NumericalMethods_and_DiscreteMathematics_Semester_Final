@@ -1,0 +1,21 @@
+{
+  "description": "A Coloring of K5",
+  "source_image": "page_090.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 27.0,
+    "left": 22.5,
+    "right": 49.5
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 168,
+    "x2": 842,
+    "y2": 567
+  },
+  "crop_size": {
+    "width": 459,
+    "height": 399
+  },
+  "figure_id": "Fig_Ch10_88_ColoringK5"
+}

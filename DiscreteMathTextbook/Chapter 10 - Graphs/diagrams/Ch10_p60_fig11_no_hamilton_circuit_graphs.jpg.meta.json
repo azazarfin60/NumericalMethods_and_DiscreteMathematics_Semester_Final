@@ -1,0 +1,21 @@
+{
+  "description": "Two Graphs That Do Not Have a Hamilton Circuit",
+  "source_image": "page_060.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 22.5,
+    "left": 22.5,
+    "right": 73.0
+  },
+  "crop_pixels": {
+    "x1": 383,
+    "y1": 168,
+    "x2": 1243,
+    "y2": 472
+  },
+  "crop_size": {
+    "width": 860,
+    "height": 304
+  },
+  "figure_id": "Fig_Ch10_61_NoHamiltonCircuitGraphs"
+}

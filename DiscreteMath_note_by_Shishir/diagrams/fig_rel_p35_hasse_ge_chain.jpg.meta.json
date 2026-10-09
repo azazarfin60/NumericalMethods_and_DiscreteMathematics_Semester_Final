@@ -1,0 +1,21 @@
+{
+  "description": "Linear Hasse diagram chain for greater-than-or-equal-to relation on {0, 1, 2, 3, 4, 5} with 5 at bottom and 0 at top",
+  "source_image": "page_035.jpg",
+  "crop_percentages": {
+    "top": 69.0,
+    "bottom": 95.4,
+    "left": 63.0,
+    "right": 76.0
+  },
+  "crop_pixels": {
+    "x1": 1041,
+    "y1": 1613,
+    "x2": 1256,
+    "y2": 2231
+  },
+  "crop_size": {
+    "width": 215,
+    "height": 618
+  },
+  "figure_id": "Fig_Rel_p35_hasse_ge_chain"
+}

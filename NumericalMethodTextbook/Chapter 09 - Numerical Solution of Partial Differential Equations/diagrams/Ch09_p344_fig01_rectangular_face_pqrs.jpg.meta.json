@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular element PQRS in the xy-plane showing heat flux arrows through boundaries with coordinates P(x, y), Q(x+\u0394x, y), R(x+\u0394x, y+\u0394y), and S(x, y+\u0394y)",
+  "source_image": "page_003.jpg",
+  "crop_percentages": {
+    "top": 39.5,
+    "bottom": 59.0,
+    "left": 27.0,
+    "right": 75.5
+  },
+  "crop_pixels": {
+    "x1": 446,
+    "y1": 923,
+    "x2": 1248,
+    "y2": 1380
+  },
+  "crop_size": {
+    "width": 802,
+    "height": 457
+  },
+  "figure_id": "Fig_Ch09_01"
+}

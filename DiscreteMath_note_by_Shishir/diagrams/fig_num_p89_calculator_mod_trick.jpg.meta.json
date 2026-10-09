@@ -1,0 +1,21 @@
+{
+  "description": "Scientific calculator shortcut algorithm for computing a mod m using division, truncation, and multiplication",
+  "source_image": "page_089.jpg",
+  "crop_percentages": {
+    "top": 2.0,
+    "bottom": 28.4,
+    "left": 2.0,
+    "right": 87.0
+  },
+  "crop_pixels": {
+    "x1": 33,
+    "y1": 46,
+    "x2": 1438,
+    "y2": 664
+  },
+  "crop_size": {
+    "width": 1405,
+    "height": 618
+  },
+  "figure_id": "Fig_Num_p89_calculator_mod_trick"
+}

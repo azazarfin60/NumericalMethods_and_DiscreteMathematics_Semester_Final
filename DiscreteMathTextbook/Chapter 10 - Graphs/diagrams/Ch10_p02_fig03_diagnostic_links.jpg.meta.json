@@ -1,0 +1,21 @@
+{
+  "description": "A computer network with diagnostic loops and multiple links",
+  "source_image": "page_002.jpg",
+  "crop_percentages": {
+    "top": 60.0,
+    "bottom": 73.9,
+    "left": 21.0,
+    "right": 72.0
+  },
+  "crop_pixels": {
+    "x1": 357,
+    "y1": 1261,
+    "x2": 1226,
+    "y2": 1553
+  },
+  "crop_size": {
+    "width": 869,
+    "height": 292
+  },
+  "figure_id": "Fig_Ch10_03_DiagnosticLinks"
+}

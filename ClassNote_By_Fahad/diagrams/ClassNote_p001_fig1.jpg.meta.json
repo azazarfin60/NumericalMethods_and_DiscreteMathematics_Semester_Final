@@ -1,0 +1,21 @@
+{
+  "description": "Hand-drawn target plots illustrating the four combinations of accuracy and precision: high accuracy and high precision, high accuracy and low precision, low accuracy and high precision, low accuracy and low precision",
+  "source_image": "page_001.jpg",
+  "crop_percentages": {
+    "top": 5.0,
+    "bottom": 61.0,
+    "left": 53.0,
+    "right": 99.0
+  },
+  "crop_pixels": {
+    "x1": 1239,
+    "y1": 82,
+    "x2": 2315,
+    "y2": 1008
+  },
+  "crop_size": {
+    "width": 1076,
+    "height": 926
+  },
+  "figure_id": "Fig_Class01.1"
+}

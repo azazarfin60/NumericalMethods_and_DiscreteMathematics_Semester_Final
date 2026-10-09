@@ -1,0 +1,21 @@
+{
+  "description": "The graph G with four vertices to count paths of length four",
+  "source_image": "page_048.jpg",
+  "crop_percentages": {
+    "top": 72.1,
+    "bottom": 87.9,
+    "left": 7.3,
+    "right": 22.0
+  },
+  "crop_pixels": {
+    "x1": 124,
+    "y1": 1515,
+    "x2": 374,
+    "y2": 1847
+  },
+  "crop_size": {
+    "width": 250,
+    "height": 332
+  },
+  "figure_id": "Fig_Ch10_50_PathsBetweenVertices"
+}

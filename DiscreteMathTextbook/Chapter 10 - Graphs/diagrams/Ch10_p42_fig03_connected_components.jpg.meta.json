@@ -1,0 +1,21 @@
+{
+  "description": "The graph H and its three connected components H1, H2, and H3",
+  "source_image": "page_042.jpg",
+  "crop_percentages": {
+    "top": 9.9,
+    "bottom": 29.3,
+    "left": 57.1,
+    "right": 89.8
+  },
+  "crop_pixels": {
+    "x1": 972,
+    "y1": 208,
+    "x2": 1529,
+    "y2": 615
+  },
+  "crop_size": {
+    "width": 557,
+    "height": 407
+  },
+  "figure_id": "Fig_Ch10_45_ConnectedComponents"
+}

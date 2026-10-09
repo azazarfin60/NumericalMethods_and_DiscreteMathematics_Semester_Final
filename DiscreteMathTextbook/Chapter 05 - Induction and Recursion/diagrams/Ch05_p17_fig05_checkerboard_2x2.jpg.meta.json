@@ -1,0 +1,9 @@
+{
+  "source_image": "page_017.jpg",
+  "figure_id": "Fig_Ch05_05",
+  "description": "Four orientations of tiling a 2x2 checkerboard with one square removed using a single right triomino",
+  "crop_size": {
+    "width": 1107,
+    "height": 211
+  }
+}

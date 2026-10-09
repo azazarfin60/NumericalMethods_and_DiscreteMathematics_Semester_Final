@@ -1,0 +1,21 @@
+{
+  "description": "Square mesh grid for Laplace equation Exercise 9.1 with interior points u1 to u4 and boundary values",
+  "source_image": "page_031.jpg",
+  "crop_percentages": {
+    "top": 53.6,
+    "bottom": 66.5,
+    "left": 24.5,
+    "right": 48.0
+  },
+  "crop_pixels": {
+    "x1": 404,
+    "y1": 1253,
+    "x2": 793,
+    "y2": 1555
+  },
+  "crop_size": {
+    "width": 389,
+    "height": 302
+  },
+  "figure_id": "Fig_Ch09_Ex01"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The Undirected Graphs G1, G2, and G3",
+  "source_image": "page_054.jpg",
+  "crop_percentages": {
+    "top": 80.0,
+    "bottom": 95.0,
+    "left": 7.0,
+    "right": 49.0
+  },
+  "crop_pixels": {
+    "x1": 119,
+    "y1": 1681,
+    "x2": 834,
+    "y2": 1996
+  },
+  "crop_size": {
+    "width": 715,
+    "height": 315
+  },
+  "figure_id": "Fig_Ch10_53_UndirectedEulerGraphs"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A Planar Representation of Q3",
+  "source_image": "page_079.jpg",
+  "crop_percentages": {
+    "top": 7.5,
+    "bottom": 25.5,
+    "left": 72.0,
+    "right": 91.0
+  },
+  "crop_pixels": {
+    "x1": 1226,
+    "y1": 157,
+    "x2": 1549,
+    "y2": 536
+  },
+  "crop_size": {
+    "width": 323,
+    "height": 379
+  },
+  "figure_id": "Fig_Ch10_74_PlanarQ3"
+}

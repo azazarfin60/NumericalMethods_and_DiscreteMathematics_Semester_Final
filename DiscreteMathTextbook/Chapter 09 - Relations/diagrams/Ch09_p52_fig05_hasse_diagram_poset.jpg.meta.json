@@ -1,0 +1,21 @@
+{
+  "description": "The Hasse diagram of a poset showing maximal and minimal elements",
+  "source_image": "page_052.jpg",
+  "crop_percentages": {
+    "top": 75.0,
+    "bottom": 91.5,
+    "left": 65.0,
+    "right": 89.0
+  },
+  "crop_pixels": {
+    "x1": 1106,
+    "y1": 1576,
+    "x2": 1515,
+    "y2": 1923
+  },
+  "crop_size": {
+    "width": 409,
+    "height": 347
+  },
+  "figure_id": "Fig_Ch09_18"
+}

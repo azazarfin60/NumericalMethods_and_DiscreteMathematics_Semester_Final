@@ -1,0 +1,21 @@
+{
+  "description": "Square region grid with points u1 to u9 for Exercise 9.9",
+  "source_image": "page_033.jpg",
+  "crop_percentages": {
+    "top": 20.26507054296708,
+    "bottom": 34.71569046601112,
+    "left": 33.21234119782214,
+    "right": 63.097398669086516
+  },
+  "crop_pixels": {
+    "x1": 549,
+    "y1": 474,
+    "x2": 1043,
+    "y2": 812
+  },
+  "crop_size": {
+    "width": 494,
+    "height": 338
+  },
+  "figure_id": "Fig_Ch09_Ex09"
+}

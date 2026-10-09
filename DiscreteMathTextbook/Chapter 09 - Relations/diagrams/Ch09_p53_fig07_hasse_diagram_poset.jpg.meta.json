@@ -1,0 +1,21 @@
+{
+  "description": "The Hasse diagram of a poset used to find upper and lower bounds",
+  "source_image": "page_053.jpg",
+  "crop_percentages": {
+    "top": 72.0,
+    "bottom": 89.5,
+    "left": 11.5,
+    "right": 26.8
+  },
+  "crop_pixels": {
+    "x1": 195,
+    "y1": 1513,
+    "x2": 456,
+    "y2": 1881
+  },
+  "crop_size": {
+    "width": 261,
+    "height": 368
+  },
+  "figure_id": "Fig_Ch09_20"
+}

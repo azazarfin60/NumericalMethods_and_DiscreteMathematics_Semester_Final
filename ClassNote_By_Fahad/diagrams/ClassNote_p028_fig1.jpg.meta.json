@@ -1,0 +1,21 @@
+{
+  "description": "Mapping diagram illustrating injective (one-to-one) function from set A to set B",
+  "source_image": "page_028.jpg",
+  "crop_percentages": {
+    "top": 15.0,
+    "bottom": 51.0,
+    "left": 50.0,
+    "right": 80.0
+  },
+  "crop_pixels": {
+    "x1": 1169,
+    "y1": 247,
+    "x2": 1871,
+    "y2": 843
+  },
+  "crop_size": {
+    "width": 702,
+    "height": 596
+  },
+  "figure_id": "Fig_Class11.1"
+}

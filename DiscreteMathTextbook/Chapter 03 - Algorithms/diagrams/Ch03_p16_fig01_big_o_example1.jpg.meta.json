@@ -1,0 +1,21 @@
+{
+  "description": "Graph of functions x^2 + 2x + 1 and 4x^2 showing that x^2 + 2x + 1 is O(x^2) for x > 1 with C = 4 and k = 1",
+  "source_image": "page_016.jpg",
+  "crop_percentages": {
+    "top": 63.0,
+    "bottom": 91.2,
+    "left": 22.0,
+    "right": 80.0
+  },
+  "crop_pixels": {
+    "x1": 374,
+    "y1": 1324,
+    "x2": 1362,
+    "y2": 1917
+  },
+  "crop_size": {
+    "width": 988,
+    "height": 593
+  },
+  "figure_id": "Fig_Ch03_01_BigOExample"
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Hasse diagrams of four posets (a), (b), (c), (d)",
+  "source_image": "page_053.jpg",
+  "crop_percentages": {
+    "top": 8.8,
+    "bottom": 22.0,
+    "left": 27.0,
+    "right": 76.8
+  },
+  "crop_pixels": {
+    "x1": 459,
+    "y1": 184,
+    "x2": 1307,
+    "y2": 462
+  },
+  "crop_size": {
+    "width": 848,
+    "height": 278
+  },
+  "figure_id": "Fig_Ch09_19"
+}

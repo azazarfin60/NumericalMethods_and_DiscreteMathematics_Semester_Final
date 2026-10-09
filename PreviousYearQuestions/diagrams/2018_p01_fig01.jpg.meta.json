@@ -1,0 +1,5 @@
+{
+  "description": "Four-mesh planar DC resistive network with 100V voltage source, 10A current source, resistors of 10Ω, 20Ω, 25Ω, 25Ω, 4Ω, and 8Ω, with clockwise mesh currents I₁, I₂, I₃, and I₄ for Gauss-Seidel solution",
+  "source_image": "NumericalMethods Ques_Pages/page_003.jpg",
+  "figure_id": "Fig_2018_Q4.b"
+}

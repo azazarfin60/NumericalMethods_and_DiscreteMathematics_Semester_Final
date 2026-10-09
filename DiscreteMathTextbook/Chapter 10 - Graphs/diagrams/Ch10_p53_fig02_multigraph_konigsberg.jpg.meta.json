@@ -1,0 +1,21 @@
+{
+  "description": "Multigraph Model of the Town of K\u00f6nigsberg",
+  "source_image": "page_053.jpg",
+  "crop_percentages": {
+    "top": 75.0,
+    "bottom": 97.2,
+    "left": 67.0,
+    "right": 93.0
+  },
+  "crop_pixels": {
+    "x1": 1141,
+    "y1": 1576,
+    "x2": 1583,
+    "y2": 2043
+  },
+  "crop_size": {
+    "width": 442,
+    "height": 467
+  },
+  "figure_id": "Fig_Ch10_52_MultigraphKonigsberg"
+}

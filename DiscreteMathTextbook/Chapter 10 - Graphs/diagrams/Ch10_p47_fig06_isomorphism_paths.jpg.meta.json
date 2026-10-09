@@ -1,0 +1,21 @@
+{
+  "description": "The graphs G and H tested for isomorphism using path lengths",
+  "source_image": "page_047.jpg",
+  "crop_percentages": {
+    "top": 76.0,
+    "bottom": 94.1,
+    "left": 26.9,
+    "right": 54.7
+  },
+  "crop_pixels": {
+    "x1": 458,
+    "y1": 1597,
+    "x2": 931,
+    "y2": 1977
+  },
+  "crop_size": {
+    "width": 473,
+    "height": 380
+  },
+  "figure_id": "Fig_Ch10_48_IsomorphismPaths"
+}

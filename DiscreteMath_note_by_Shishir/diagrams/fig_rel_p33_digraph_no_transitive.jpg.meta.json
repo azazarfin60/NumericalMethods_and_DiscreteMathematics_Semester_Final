@@ -1,0 +1,21 @@
+{
+  "description": "Directed graph representation after removing transitive edges and self-loops with vertices 1, 2, 4, 6, 8",
+  "source_image": "page_033.jpg",
+  "crop_percentages": {
+    "top": 3.0,
+    "bottom": 32.6,
+    "left": 54.0,
+    "right": 96.0
+  },
+  "crop_pixels": {
+    "x1": 892,
+    "y1": 70,
+    "x2": 1586,
+    "y2": 762
+  },
+  "crop_size": {
+    "width": 694,
+    "height": 692
+  },
+  "figure_id": "Fig_Rel_p33_digraph_no_transitive"
+}

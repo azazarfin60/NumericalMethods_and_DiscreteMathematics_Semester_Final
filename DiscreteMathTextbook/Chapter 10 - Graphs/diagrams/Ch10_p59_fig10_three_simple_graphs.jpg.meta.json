@@ -1,0 +1,21 @@
+{
+  "description": "Three Simple Graphs",
+  "source_image": "page_059.jpg",
+  "crop_percentages": {
+    "top": 53.0,
+    "bottom": 71.0,
+    "left": 26.0,
+    "right": 80.0
+  },
+  "crop_pixels": {
+    "x1": 442,
+    "y1": 1114,
+    "x2": 1362,
+    "y2": 1492
+  },
+  "crop_size": {
+    "width": 920,
+    "height": 378
+  },
+  "figure_id": "Fig_Ch10_60_ThreeSimpleGraphs"
+}

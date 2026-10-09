@@ -1,0 +1,21 @@
+{
+  "description": "Finite-difference stencils for Laplace equation: (a) Standard five-point formula stencil and (b) Diagonal five-point formula stencil on grid mesh",
+  "source_image": "page_006.jpg",
+  "crop_percentages": {
+    "top": 64.0,
+    "bottom": 85.5,
+    "left": 21.0,
+    "right": 79.0
+  },
+  "crop_pixels": {
+    "x1": 347,
+    "y1": 1496,
+    "x2": 1305,
+    "y2": 1999
+  },
+  "crop_size": {
+    "width": 958,
+    "height": 503
+  },
+  "figure_id": "Fig_Ch09_02"
+}

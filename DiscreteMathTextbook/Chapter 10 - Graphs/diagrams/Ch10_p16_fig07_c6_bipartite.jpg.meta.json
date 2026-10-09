@@ -1,0 +1,21 @@
+{
+  "description": "Showing that cycle C6 is bipartite by vertex bipartition",
+  "source_image": "page_016.jpg",
+  "crop_percentages": {
+    "top": 75.4,
+    "bottom": 94.5,
+    "left": 7.3,
+    "right": 37.5
+  },
+  "crop_pixels": {
+    "x1": 124,
+    "y1": 1584,
+    "x2": 638,
+    "y2": 1986
+  },
+  "crop_size": {
+    "width": 514,
+    "height": 402
+  },
+  "figure_id": "Fig_Ch10_21_C6Bipartite"
+}

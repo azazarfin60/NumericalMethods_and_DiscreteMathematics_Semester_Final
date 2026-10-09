@@ -1,0 +1,21 @@
+{
+  "description": "Displaying the Ordered Pairs in the Relation R from Example 4 (divides relation on {1, 2, 3, 4}) with arrow diagram and table",
+  "source_image": "page_003.jpg",
+  "crop_percentages": {
+    "top": 76.0,
+    "bottom": 89.5,
+    "left": 26.0,
+    "right": 60.0
+  },
+  "crop_pixels": {
+    "x1": 442,
+    "y1": 1597,
+    "x2": 1021,
+    "y2": 1881
+  },
+  "crop_size": {
+    "width": 579,
+    "height": 284
+  },
+  "figure_id": "Fig_Ch09_02"
+}

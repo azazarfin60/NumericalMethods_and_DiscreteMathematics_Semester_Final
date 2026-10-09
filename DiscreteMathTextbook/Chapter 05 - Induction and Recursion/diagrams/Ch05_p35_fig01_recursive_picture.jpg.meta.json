@@ -1,0 +1,9 @@
+{
+  "source_image": "page_035.jpg",
+  "figure_id": "Fig_Ch05_11",
+  "description": "A recursively defined picture of a tropical island scene containing smaller copies of itself nested within",
+  "crop_size": {
+    "width": 1141,
+    "height": 730
+  }
+}

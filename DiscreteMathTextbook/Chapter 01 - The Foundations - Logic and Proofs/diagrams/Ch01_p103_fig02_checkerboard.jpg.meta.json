@@ -1,0 +1,21 @@
+{
+  "description": "Figure 2: The Standard Checkerboard.",
+  "source_image": "page_103.jpg",
+  "crop_percentages": {
+    "top": 13.8,
+    "bottom": 33.5,
+    "left": 27.8,
+    "right": 57.6
+  },
+  "crop_pixels": {
+    "x1": 473,
+    "y1": 290,
+    "x2": 980,
+    "y2": 704
+  },
+  "crop_size": {
+    "width": 507,
+    "height": 414
+  },
+  "figure_id": null
+}

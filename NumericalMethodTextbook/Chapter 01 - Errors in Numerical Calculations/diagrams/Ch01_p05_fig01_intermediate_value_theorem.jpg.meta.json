@@ -1,0 +1,21 @@
+{
+  "description": "Geometric illustration of the Intermediate Value Theorem showing a continuous curve y=f(x) on [a, b] crossing the horizontal line y=k at x=xi",
+  "source_image": "page_005.jpg",
+  "crop_percentages": {
+    "top": 53.6,
+    "bottom": 71.0,
+    "left": 35.0,
+    "right": 65.0
+  },
+  "crop_pixels": {
+    "x1": 578,
+    "y1": 1253,
+    "x2": 1074,
+    "y2": 1660
+  },
+  "crop_size": {
+    "width": 496,
+    "height": 407
+  },
+  "figure_id": "Fig_Ch01_01"
+}

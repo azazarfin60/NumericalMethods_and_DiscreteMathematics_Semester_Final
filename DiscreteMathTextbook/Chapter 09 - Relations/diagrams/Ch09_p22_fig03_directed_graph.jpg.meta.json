@@ -1,0 +1,21 @@
+{
+  "description": "A Directed Graph with vertices a, b, c, d and edges representing the relation from Example 7",
+  "source_image": "page_022.jpg",
+  "crop_percentages": {
+    "top": 75.0,
+    "bottom": 89.0,
+    "left": 7.5,
+    "right": 21.5
+  },
+  "crop_pixels": {
+    "x1": 127,
+    "y1": 1576,
+    "x2": 366,
+    "y2": 1870
+  },
+  "crop_size": {
+    "width": 239,
+    "height": 294
+  },
+  "figure_id": "Fig_Ch09_05"
+}

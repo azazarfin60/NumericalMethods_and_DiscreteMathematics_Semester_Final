@@ -1,0 +1,21 @@
+{
+  "description": "The directed graph of the relation R with 4 vertices a, b, c, d",
+  "source_image": "page_032.jpg",
+  "crop_percentages": {
+    "top": 33.0,
+    "bottom": 43.0,
+    "left": 7.5,
+    "right": 19.0
+  },
+  "crop_pixels": {
+    "x1": 127,
+    "y1": 693,
+    "x2": 323,
+    "y2": 903
+  },
+  "crop_size": {
+    "width": 196,
+    "height": 210
+  },
+  "figure_id": "Fig_Ch09_11"
+}

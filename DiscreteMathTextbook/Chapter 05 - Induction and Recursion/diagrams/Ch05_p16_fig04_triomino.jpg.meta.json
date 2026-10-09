@@ -1,0 +1,9 @@
+{
+  "source_image": "page_016.jpg",
+  "figure_id": "Fig_Ch05_04",
+  "description": "A right triomino consisting of three squares forming an L-shape",
+  "crop_size": {
+    "width": 238,
+    "height": 206
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source_image": "page_057.jpg",
+  "figure_id": "Fig_Ch05_16",
+  "description": "The merge sort of list 8, 2, 4, 6, 9, 7, 10, 1, 5, 3 showing top-down division and bottom-up merging",
+  "crop_size": {
+    "width": 1141,
+    "height": 835
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Venn diagram representations of set union, intersection, complement, and set difference",
+  "source_image": "page_027.jpg",
+  "crop_percentages": {
+    "top": 43.0,
+    "bottom": 100,
+    "left": 47.0,
+    "right": 80.0
+  },
+  "crop_pixels": {
+    "x1": 1099,
+    "y1": 710,
+    "x2": 1871,
+    "y2": 1653
+  },
+  "crop_size": {
+    "width": 772,
+    "height": 943
+  },
+  "figure_id": "Fig_Class10.2"
+}

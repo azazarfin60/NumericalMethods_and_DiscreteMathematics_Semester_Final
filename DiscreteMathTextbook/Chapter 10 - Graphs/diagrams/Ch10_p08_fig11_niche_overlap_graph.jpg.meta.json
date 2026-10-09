@@ -1,0 +1,21 @@
+{
+  "description": "A niche overlap graph modeling ecological competition between animal species",
+  "source_image": "page_008.jpg",
+  "crop_percentages": {
+    "top": 69.0,
+    "bottom": 95.0,
+    "left": 3.3,
+    "right": 37.6
+  },
+  "crop_pixels": {
+    "x1": 56,
+    "y1": 1450,
+    "x2": 640,
+    "y2": 1996
+  },
+  "crop_size": {
+    "width": 584,
+    "height": 546
+  },
+  "figure_id": "Fig_Ch10_11_NicheOverlapGraph"
+}

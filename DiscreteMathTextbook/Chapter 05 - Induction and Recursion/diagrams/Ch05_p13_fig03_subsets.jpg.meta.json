@@ -1,0 +1,9 @@
+{
+  "source_image": "page_013.jpg",
+  "figure_id": "Fig_Ch05_03",
+  "description": "Venn diagram showing subsets X of S generating two subsets X and X U {a} of T = S U {a}",
+  "crop_size": {
+    "width": 988,
+    "height": 499
+  }
+}

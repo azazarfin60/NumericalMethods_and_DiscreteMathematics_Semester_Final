@@ -1,0 +1,21 @@
+{
+  "description": "Constructing the Hasse diagram for ({1, 2, 3, 4}, <=) in three steps (a), (b), (c)",
+  "source_image": "page_051.jpg",
+  "crop_percentages": {
+    "top": 8.5,
+    "bottom": 27.0,
+    "left": 25.5,
+    "right": 57.0
+  },
+  "crop_pixels": {
+    "x1": 434,
+    "y1": 178,
+    "x2": 970,
+    "y2": 567
+  },
+  "crop_size": {
+    "width": 536,
+    "height": 389
+  },
+  "figure_id": "Fig_Ch09_15"
+}

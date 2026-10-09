@@ -1,0 +1,21 @@
+{
+  "description": "Graph illustrating the definition of big-O notation showing f(x) bounded by Cg(x) for x > k",
+  "source_image": "page_018.jpg",
+  "crop_percentages": {
+    "top": 8.0,
+    "bottom": 29.5,
+    "left": 22.0,
+    "right": 70.0
+  },
+  "crop_pixels": {
+    "x1": 374,
+    "y1": 168,
+    "x2": 1192,
+    "y2": 620
+  },
+  "crop_size": {
+    "width": 818,
+    "height": 452
+  },
+  "figure_id": "Fig_Ch03_02_BigOConcept"
+}

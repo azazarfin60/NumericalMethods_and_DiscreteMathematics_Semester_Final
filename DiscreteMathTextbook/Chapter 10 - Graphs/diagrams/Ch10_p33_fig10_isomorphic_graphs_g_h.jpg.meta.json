@@ -1,0 +1,21 @@
+{
+  "description": "Two isomorphic graphs G and H with eight vertices",
+  "source_image": "page_033.jpg",
+  "crop_percentages": {
+    "top": 10.6,
+    "bottom": 26.7,
+    "left": 53.0,
+    "right": 93.3
+  },
+  "crop_pixels": {
+    "x1": 902,
+    "y1": 222,
+    "x2": 1588,
+    "y2": 561
+  },
+  "crop_size": {
+    "width": 686,
+    "height": 339
+  },
+  "figure_id": "Fig_Ch10_40_IsomorphicGraphsGH"
+}

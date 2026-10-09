@@ -1,0 +1,21 @@
+{
+  "description": "A typical cubic B-spline bell-shaped curve s_{4,i}(x) spanning five knots k_{i-4}, k_{i-3}, k_{i-2}, k_{i-1}, k_i, strictly positive inside and identically zero outside",
+  "source_image": "page_017.jpg",
+  "crop_percentages": {
+    "top": 73.5,
+    "bottom": 85.2,
+    "left": 25.0,
+    "right": 75.0
+  },
+  "crop_pixels": {
+    "x1": 413,
+    "y1": 1719,
+    "x2": 1239,
+    "y2": 1992
+  },
+  "crop_size": {
+    "width": 826,
+    "height": 273
+  },
+  "figure_id": "Fig_Ch05_01"
+}

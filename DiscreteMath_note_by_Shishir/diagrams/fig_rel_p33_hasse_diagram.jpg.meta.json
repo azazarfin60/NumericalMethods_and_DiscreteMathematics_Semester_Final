@@ -1,0 +1,21 @@
+{
+  "description": "Hasse diagram representation with undirected edges for divisibility on {1, 2, 4, 6, 8}",
+  "source_image": "page_033.jpg",
+  "crop_percentages": {
+    "top": 43.0,
+    "bottom": 71.6,
+    "left": 59.0,
+    "right": 93.0
+  },
+  "crop_pixels": {
+    "x1": 975,
+    "y1": 1005,
+    "x2": 1537,
+    "y2": 1674
+  },
+  "crop_size": {
+    "width": 562,
+    "height": 669
+  },
+  "figure_id": "Fig_Rel_p33_hasse_diagram"
+}
