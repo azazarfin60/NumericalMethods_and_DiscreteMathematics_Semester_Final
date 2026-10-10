@@ -1,0 +1,21 @@
+{
+  "description": "Planar three-mesh DC resistive electric network for mesh analysis with a 500V DC source, 10\u03a9, 20\u03a9, and 100\u03a9 resistors, a 5A DC current source, and clockwise mesh currents I\u2081, I\u2082, and I\u2083",
+  "source_image": "22 series sem question -001.jpg",
+  "crop_percentages": {
+    "top": 41.5,
+    "bottom": 52.7,
+    "left": 32.5,
+    "right": 65.5
+  },
+  "crop_pixels": {
+    "x1": 403,
+    "y1": 727,
+    "x2": 812,
+    "y2": 924
+  },
+  "crop_size": {
+    "width": 409,
+    "height": 197
+  },
+  "figure_id": "Fig_Q2.b"
+}

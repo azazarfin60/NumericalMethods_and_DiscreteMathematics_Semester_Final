@@ -53,12 +53,14 @@ yarn-error.log*
 .agents/
 .gemini/
 scratch/
+scripts/
 AGENTS.md
 .agentsignore
 exam_register.md
 MARKDOWN-GUIDE.md
 question_tally_audit.md
 writing_style.md
+BOSS_NOTES_QA_REPORT_v1.0.md
 
 # LaTeX Build Artifacts
 **/*.aux

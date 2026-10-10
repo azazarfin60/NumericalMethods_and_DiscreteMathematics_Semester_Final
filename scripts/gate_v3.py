@@ -42,7 +42,7 @@ def main():
         if not os.path.isdir(p):
             continue
         for f in sorted(os.listdir(p)):
-            if f.endswith(".md") and f != "README.md":
+            if f.endswith(".md") and f not in ["README.md", "00_Index.md"]:
                 files.setdefault(f, []).append(d)
 
     if not files:
@@ -55,12 +55,17 @@ def main():
         fails.append(m)
 
     # --- file set -------------------------------------------------------------
-    want = {s + ".md" for s in T.load_filelist()}
+    is_cluster = any(f.startswith("NM-1_") or f.startswith("DM-3_") for f in files)
+    if is_cluster:
+        from build_topicwise_clusters import TOPIC_DEFS
+        want = {td["filename"] for td in TOPIC_DEFS}
+    else:
+        want = {s + ".md" for s in T.load_filelist()}
     have = set(files)
     for f in sorted(have - want):
-        bad("file not in filelist.txt: %s" % f)
+        bad("unexpected file: %s" % f)
     for f in sorted(want - have):
-        bad("subtopic with questions has no file: %s" % f)
+        bad("missing file: %s" % f)
 
     # --- block coverage ------------------------------------------------------
     rows = T.load_map()
