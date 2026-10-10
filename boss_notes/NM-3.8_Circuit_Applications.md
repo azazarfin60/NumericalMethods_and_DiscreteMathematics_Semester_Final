@@ -188,7 +188,8 @@ $$
 | :-- | :-- | :-- | :-- | :-- |
 | **2018 Q.4(b)** | Planar 4-mesh DC network ($2 \times 2$) | $100\text{ V}$ indep voltage, $10\text{ A}$ indep current | $I_1, I_3, I_4$ ($I_2 = -10\text{ A}$ fixed) | $I_1 = -4.1103\text{ A}, I_3 = -6.8695\text{ A}, I_4 = -1.0426\text{ A}$ |
 | **2019 Q.3(c)** | 2 non-reference nodes | $5\text{ A}$ and $10\text{ A}$ indep current sources | $V_1, V_2$ | $V_1 = 13.3333\text{ V}, V_2 = 20\text{ V}$ |
-| **2020 Q.4(b)** / **2024 Q.2(b)** | Planar 3-mesh DC network | $400\text{ V}$ indep voltage, $10\text{ A}$ indep current | $I_1, I_2$ ($I_3 = 10\text{ A}$ fixed) | $I_1 = 13.5135\text{ A}, I_2 = 10.2703\text{ A}$ |
+| **2020 Q.4(b)** | Planar 3-mesh DC network | $400\text{ V}$ indep voltage, $10\text{ A}$ indep current | $I_1, I_2$ ($I_3 = 10\text{ A}$ fixed) | $I_1 = 13.5135\text{ A}, I_2 = 10.2703\text{ A}$ |
+| **2024 Q.2(b)** | Different planar 3-mesh network | $500\text{ V}$ indep voltage, $5\text{ A}$ indep current | $I_1, I_2$ ($I_3 = 5\text{ A}$ fixed) | $I_1 \approx 21.875\text{ A}, I_2 \approx 7.8125\text{ A}$ |
 | **2021 Q.7(b)** | 2 non-reference nodes | $30\text{ V}$ indep voltage, $5I_0$ dependent voltage | $V_C, V_R$ (then $I_0$) | $I_0 = 1.6235\text{ A}, V_C = 13.7648\text{ V}, V_R = 8.1176\text{ V}$ |
 
 ---
@@ -196,9 +197,13 @@ $$
 ## 🏆 Golden Questions (Past Exam Archive)
 
 ### 🎯 Solve $I_1, I_2 \text{ and } I_3$ using Gauss-Seidel method.
-> **Appeared:** 2020 Q.4(b), 2024 Q.2(b) — (06 marks / 04 marks)
+> **Appeared:** 2020 Q.4(b) — (06 marks)
 
 ![Three-mesh DC resistive network with a 400 V source, 20, 40, 10 and 100 ohm resistors, and a downward 10 A current source, with clockwise mesh currents I1, I2, I3](diagrams/nm3_gs_circuit_2020_three_mesh.jpg)
+
+> **2024 Q.2(b) is a different network** with a $500\text{ V}$ source, a $5\text{ A}$ source, and
+> $10$, $20$, $100\ \Omega$ resistors. It is solved in full under NM-3.5, which owns that
+> question. The numbers below apply to the 2020 circuit only.
 
 **Full Answer:**
 

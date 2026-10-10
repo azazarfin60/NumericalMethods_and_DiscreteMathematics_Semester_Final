@@ -34,7 +34,7 @@ This file is small and the marks are few, but one of them is not small. 2024 Q.7
 
 > **Tractable and intractable:** "A problem that is solvable using an algorithm with polynomial worst-case complexity is called **tractable**." / "Such problems are called **intractable**." — Rosen, §3.3 (p. 36)
 
-![Graph of f(x) against g(x) showing the region where f(x) < Cg(x) holds for x > k. Past the threshold k the curve f(x) is bounded above by the multiple Cg(x). Rosen §3.2 Figure 2, p. 18](diagrams/dm7_big_o_definition_witnesses.jpg)
+![Graph of f(x) against g(x) showing the region where f(x) stays below the multiple C times g(x) for all x past the threshold k. Past k the curve f(x) is bounded above by the curve Cg(x). Rosen §3.2 Figure 2, p. 18](diagrams/dm7_big_o_definition_witnesses.jpg)
 
 *Figure 2 — The Function $f(x)$ is $O(g(x))$. Rosen §3.2, p. 18.*
 

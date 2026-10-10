@@ -323,7 +323,11 @@ $$
 ### 🏆 Golden Question for NM-10.2
 
 #### 🎯 Find the potential distribution at the interior nodes using Leibmann's method.
-> **Appeared:** 2018 Q.8(a), 2020 Q.8(b) — (08 marks)
+> **Appeared:** 2018 Q.8(a) — (06 marks)
+
+> **2020 Q.8(b) is a different grid.** Same method, same four interior nodes, but the
+> boundary values are $1$ on the top edge and $0$ everywhere else, not $100$, $75$ and $50$
+> volts. It is worked in full in its own Golden Question below. These numbers do not carry over.
 
 **Full Answer:**
 
@@ -403,6 +407,142 @@ $$
 > $\dfrac{1}{4}(50 + 65.625 + 46.875) = \dfrac{162.5}{4} = 40.625$ ✓.
 >
 > The values come out as multiples of $1/8$, which is a strong check in itself, since the boundary data are multiples of $25$ and the average of four such numbers is a multiple of $1/4$ at worst. Every sweep approaches its limit from below, and the increments in $V_1$ fall in the ratio $19.53 : 6.45 : 1.61 : 0.40 : 0.10$, a factor of about four per sweep.
+
+---
+
+### 🏆 Golden Question for NM-10.2 (2020)
+
+#### 🎯 Solve the equation $\frac{\partial^2 E(x,y)}{\partial x^2} + \frac{\partial^2 E(x,y)}{\partial y^2} = 0$ in the domain of the following figure by Liebmann method. Consider, $\Delta x = \Delta y$.
+> **Appeared:** 2020 Q.8(b) — (06 marks)
+
+**Full Answer:**
+
+**Step 1. Set up the grid.** The domain is a square with $\Delta x = \Delta y = h$ and
+**four interior nodes**. The boundary values are $1$ along the **top** edge and
+$0$ along the **bottom, left and right** edges.
+
+![Square domain with a three by three finite difference grid for the Laplace equation. The boundary value 1 is written along the top edge and 0 along the bottom, left and right edges. The four interior nodes are E1 and E2 on the lower row and E4 and E3 on the upper row](diagrams/nm10_laplace_grid_boundary_values.jpg)
+
+*Figure 2020 Q8(b) (2020 paper, p. 2): the printed grid. Note the node labels. $E_4$ and $E_3$
+sit on the **upper** row and $E_1$ and $E_2$ on the **lower** row, and the $1$ boundary touches
+only the two upper nodes. Reading the grid the other way round, with $E_1$ at the top, is the
+single most expensive mistake available in this question.*
+
+```text
+             1        1        1
+        +--------+--------+--------+
+        |        |        |        |
+     0  |   E4   |   E3   |        |  0
+        |        |        |        |
+        +--------+--------+--------+
+        |        |        |        |
+     0  |   E1   |   E2   |        |  0
+        |        |        |        |
+        +--------+--------+--------+
+             0        0        0
+```
+
+**Step 2. The Liebmann update.** The five-point formula for Laplace's equation
+with equal spacing is
+
+$$
+E_{i,j} = \frac{1}{4}\left(E_{i-1,j} + E_{i+1,j} + E_{i,j-1} + E_{i,j+1}\right)
+$$
+
+Each interior node takes the **average of its four neighbours**. The moment a node's new value
+is computed, it replaces the old one, which is what makes the method Liebmann rather than Jacobi.
+
+**Step 3. The four update equations**, reading the boundary values off the figure.
+
+$$
+E_1 = \frac{1}{4}\left(0 + E_2 + 0 + E_4\right) = \frac{E_2 + E_4}{4}
+$$
+
+$$
+E_2 = \frac{1}{4}\left(E_1 + 0 + 0 + E_3\right) = \frac{E_1 + E_3}{4}
+$$
+
+$$
+E_3 = \frac{1}{4}\left(E_4 + 0 + E_2 + 1\right) = \frac{E_4 + E_2 + 1}{4}
+$$
+
+$$
+E_4 = \frac{1}{4}\left(0 + E_3 + E_1 + 1\right) = \frac{E_3 + E_1 + 1}{4}
+$$
+
+Each boundary neighbour contributes its known value, which is why the $+1$ appears in $E_3$ and
+$E_4$ and nowhere else: those are the two nodes touching the top edge.
+
+**Step 4. Iterate**, sweeping $E_1, E_2, E_3, E_4$ in that order and using the newest value
+available, starting from all zeros.
+
+| $k$ | $E_1$ | $E_2$ | $E_3$ | $E_4$ |
+| --: | --: | --: | --: | --: |
+| 0 | 0.000000 | 0.000000 | 0.000000 | 0.000000 |
+| 1 | 0.000000 | 0.000000 | 0.250000 | 0.312500 |
+| 2 | 0.078125 | 0.082031 | 0.348633 | 0.356689 |
+| 3 | 0.109680 | 0.114578 | 0.367817 | 0.369374 |
+| 4 | 0.120988 | 0.122201 | 0.372894 | 0.373471 |
+| 5 | 0.123918 | 0.124203 | 0.374418 | 0.374584 |
+| 6 | 0.124697 | 0.124779 | 0.374841 | 0.374884 |
+| 7 | 0.124916 | 0.124939 | 0.374956 | 0.374968 |
+| 8 | 0.124977 | 0.124983 | 0.374988 | 0.374991 |
+| 9 | 0.124994 | 0.124995 | 0.374997 | 0.374998 |
+| 10 | 0.124998 | 0.124999 | 0.374999 | 0.374999 |
+
+Iteration 1 in full: $E_1 = 0$ since it depends only on the zero boundary and on other unknowns
+still at $0$. $E_2 = 0$ likewise. $E_3 = \frac{0 + 0 + 0 + 1}{4} = 0.25$, then
+$E_4 = \frac{0 + 0.25 + 0 + 1}{4} = 0.3125$.
+
+**Step 5. Answer.**
+
+$$
+\boxed{E_1 = 0.125, \qquad E_2 = 0.125, \qquad E_3 = 0.375, \qquad E_4 = 0.375}
+$$
+
+Convergence to four decimal places is reached at **iteration 8**, and by iteration 10 every value
+is correct to six decimals.
+
+> [!info] Check by two independent routes
+> **Exact solution of the system.** Writing each update as an equation and solving all four at once:
+> $$
+> \begin{cases} (1)\;\; 4E_1 - E_2 - E_4 = 0 \\ (2)\;\; 4E_2 - E_1 - E_3 = 0 \\ (3)\;\; 4E_3 - E_2 - E_4 = 1 \\ (4)\;\; 4E_4 - E_1 - E_3 = 1\end{cases}
+> $$
+> **(1) minus (3)** gives $4E_1 - 4E_3 + 1 = 0$, so
+> $$
+> E_3 = E_1 + \frac{1}{4}
+> $$
+> **(2) minus (4)** gives $4E_2 - 4E_4 + 1 = 0$, so
+> $$
+> E_4 = E_2 + \frac{1}{4}
+> $$
+> Now use those in (1) and (2):
+> $$
+> \text{(1):}\quad 4E_1 = E_2 + E_4 = 2E_2 + \frac{1}{4} \qquad \text{(2):}\quad 4E_2 = E_1 + E_3 = 2E_1 + \frac{1}{4}
+> $$
+> Subtract the second from the first: $4E_1 - 4E_2 = 2E_2 - 2E_1$, so
+> $6E_1 = 6E_2$ and $E_1 = E_2$. Then $4E_1 = 2E_1 + \frac{1}{4}$ gives
+> $2E_1 = \frac{1}{4}$, so
+> $$
+> E_1 = E_2 = \frac{1}{8}, \qquad E_3 = E_4 = \frac{1}{8} + \frac{1}{4} = \frac{3}{8}
+> $$
+> These are exact rationals, and Liebmann iteration 10 reproduces them to six decimals.
+>
+> **Direct Gaussian elimination** on the $4 \times 4$ system gives
+> $\left(\frac{1}{8}, \frac{1}{8}, \frac{3}{8}, \frac{3}{8}\right)$ as well, and all four residuals
+> are exactly zero.
+>
+> **Structural check.** The boundary data is symmetric top to bottom in the sense that it
+> depends only on the row, not the column: every node in the top row of the interior sees the
+> same $1$, and every node in the bottom row sees the same $0$. So the answer must satisfy
+> $E_1 = E_2$ and $E_3 = E_4$, and it does. The top row sits nearer the $1$ edge and is larger,
+> $0.375 > 0.125$, exactly as physics demands. **If the computed values had come out
+> $E_1 = E_3$ instead, that would signal a labelling error in reading the figure.**
+
+> [!warning] The traps in this question
+> **1. The $1$ goes only into $E_3$ and $E_4$.** Only those two nodes touch the top edge.
+> Putting the boundary $1$ into all four equations, or forgetting it entirely, are the two
+> common errors. Trace each node's four neighbours against the figure before iterating.
 
 ---
 
@@ -546,6 +686,12 @@ There is no standalone exam question filed under this subtopic. The Liebmann ite
 
 **Algorithm.** For each interior node, in a fixed order, replace the node value by the average of its four neighbours using the **most recent** available values:
 
+![A square mesh with a three by three array of interior nodes labelled u1 to u9, and the boundary nodes around the perimeter labelled c1 to c16 in sequence](diagrams/nm10_mesh_boundary_points.jpg)
+
+*Figure 9.4 (Jain, p. 348): the general mesh the iteration runs on. The unknowns are the
+interior nodes $u_1$ to $u_9$. Everything on the perimeter, $c_1$ to $c_{16}$, is already known,
+which is why the update equation reaches outward only to boundary values and never off the grid.*
+
 $$
 V_i^{(s+1)} = \frac{1}{4}\left(V_{\text{left}}^{(s)} + V_{\text{right}}^{(s+1)} + V_{\text{top}}^{(s)} + V_{\text{bottom}}^{(s+1)}\right)
 $$
@@ -572,6 +718,12 @@ $$
 ### Theory
 
 A partial differential equation gives the behaviour **inside** a region. Boundary conditions say what happens at the edges. Together with the PDE they form a complete problem; without them the problem is under-determined and the numerical solution is not unique.
+
+![A square mesh with a three by three array of interior nodes labelled u1 to u9. The top edge carries the boundary values 50, 100, 100, 100, 50 and every other edge is marked 0](diagrams/nm10_laplace_nine_point_boundary_grid.jpg)
+
+*Figure 9.6 (Jain, p. 353): a mixed Dirichlet mesh. Only the top edge is non-zero, so only the
+nodes $u_7$, $u_8$ and $u_9$ in the upper interior row receive a boundary contribution. The
+same sweep rule applies to all nine nodes; the boundary values are what differ.*
 
 **What breaks without them.**
 
@@ -618,10 +770,10 @@ $$
 
 | Year | Question | Subtopic | Key Answer |
 | :--- | :--- | :-- | :--- |
-| 2018 Q.8(a) | Potential distribution by Leibmann | NM-10.2/10.4 | $\boxed{V_1 = 71.875\ \text{V}, \quad V_2 = 65.625\ \text{V}, \quad V_3 = 46.875\ \text{V}, \quad V_4 = 40.625\ \text{V}}$ |
+| 2018 Q.8(a) | Potential distribution by Leibmann, boundaries 100/75/50/0 V | NM-10.2/10.4 | $\boxed{V_1 = 71.875\ \text{V}, \quad V_2 = 65.625\ \text{V}, \quad V_3 = 46.875\ \text{V}, \quad V_4 = 40.625\ \text{V}}$ |
 | 2019 Q.8(b) | Laplace on a square mesh | NM-10.2 | $\boxed{u_1 = 3, \qquad u_2 = 4, \qquad u_3 = 2, \qquad u_4 = 3}$ |
 | 2020 Q.8(a) | 4 PDE types + iterative solution | NM-10.1 | $\boxed{\text{Laplace, Poisson, wave, heat; the elliptic pair is solved by repeated averaging of the four neighbours}}$ |
-| 2020 Q.8(b) | Potential distribution by Leibmann | NM-10.2/10.4 | $\boxed{V_1 = 71.875\ \text{V}, \quad V_2 = 65.625\ \text{V}, \quad V_3 = 46.875\ \text{V}, \quad V_4 = 40.625\ \text{V}}$ |
+| 2020 Q.8(b) | Laplace, Liebmann, boundary 1 top and 0 elsewhere | NM-10.2 | $\boxed{E_1 = 0.125, \qquad E_2 = 0.125, \qquad E_3 = 0.375, \qquad E_4 = 0.375}$ |
 | 2021 Q.6(c) | Poisson equation | NM-10.3 | $\boxed{u_1 = 67.5, \quad u_2 = 75, \quad u_3 = 75, \quad u_4 = 82.5}$ |
 | 2024 Q.4(c) | Importance of boundary conditions | NM-10.5 | $\boxed{\text{PDE} + \text{boundary conditions} = \text{a problem with one unique numerical solution}}$ |
 

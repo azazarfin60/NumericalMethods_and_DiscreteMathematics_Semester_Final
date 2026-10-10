@@ -97,13 +97,16 @@ Exam questions in this topic are almost always DC circuits. Keep these two circu
 
 ---
 
-## Worked Example (PYQ 2020 Q.4(b) / 2024 Q.2(b))
+## Worked Example (PYQ 2020 Q.4(b))
 
 Solve for $I_1$, $I_2$, and $I_3$ in the circuit below using the Gauss-Seidel method.
 
 ![Three-mesh DC resistive network with a 400 V source, 20, 40, 10 and 100 ohm resistors, and a downward 10 A current source, with clockwise mesh currents I1, I2, I3](diagrams/nm3_gs_circuit_2020_three_mesh.jpg)
 
-> **Source:** 2020 Q.4(b), 2024 Q.2(b) [Marks: 06 / 04]
+> **Source:** 2020 Q.4(b) [Marks: 06]
+>
+> **2024 Q.2(b) is not this circuit.** It is the same method on a different network with a
+> different source set, so it gets its own Golden Question below. Do not reuse these numbers.
 
 ### Step 1: Identify Fixed Branch Currents
 Mesh 3 contains a $10\text{ A}$ current source on its outer branch pointing downward. Because no other mesh shares this outer branch:
@@ -197,7 +200,8 @@ $$
 | :-- | :-- | :-- | :-- |
 | **2018 Q.4(b)** | 4-mesh DC network with $10\text{ A}$ source | $I_1, I_3, I_4$ ($I_2 = -10\text{ A}$) | $\boxed{I_1 = -4.1103\ \text{A}, \quad I_2 = -10\ \text{A}, \quad I_3 = -6.8695\ \text{A}, \quad I_4 = -1.0426\ \text{A}}$ |
 | **2019 Q.3(c)** | 2-node DC network with 2 current sources | $V_1, V_2$ (2 sweeps) | $\boxed{V_1 = 13.3333\ \text{V}, \qquad V_2 = 20\ \text{V}}$ |
-| **2020 Q.4(b)** / **2024 Q.2(b)** | 3-mesh DC network with $10\text{ A}$ source | $I_1, I_2$ ($I_3 = 10\text{ A}$) | $\boxed{I_1 = 13.5135 \text{ A}, \qquad I_2 = 10.2703 \text{ A}, \qquad I_3 = 10.0000 \text{ A}}$ |
+| **2020 Q.4(b)** | 3-mesh DC network with $400\text{ V}$ and $10\text{ A}$ sources | $I_1, I_2$ ($I_3 = 10\text{ A}$) | $\boxed{I_1 = 13.5135 \text{ A}, \qquad I_2 = 10.2703 \text{ A}, \qquad I_3 = 10.0000 \text{ A}}$ |
+| **2024 Q.2(b)** | Different 3-mesh network, $500\text{ V}$ and $5\text{ A}$ sources | $I_1, I_2$ ($I_3 = 5\text{ A}$) | $\boxed{I_1 \approx 21.875 \text{ A}, \quad I_2 \approx 7.8125 \text{ A}, \quad I_3 = 5 \text{ A}}$ |
 | **2021 Q.7(b)** | DC network with dependent source $5I_0$ | $V_C, V_R, I_0$ | $\boxed{I_0 = 1.6235 \text{ A}, \quad V_C = 13.7648 \text{ V}, \quad V_R = 8.1176 \text{ V}}$ |
 | **2017 Q.4(c)** | $3 \times 3$ algebraic system with $\lambda = 0.95$ | $x_1, x_2, x_3$ | $\boxed{x_1 \approx 1.7097, \qquad x_2 \approx 2.8300, \qquad x_3 \approx 4.3564}$ |
 | **CT-02B Q.1(a-c)** | $3 \times 3$ algebraic system, 4 iterations | $x, y, z$ and $\Delta$ | $\boxed{(x_4, y_4, z_4) = (2.160663,\ -2.299281,\ 0.662992)}$ |
@@ -205,6 +209,82 @@ $$
 ---
 
 ## 🏆 Golden Questions (Past Exam Archive)
+
+### 🎯 Solve $I_1$, $I_2$ and $I_3$ using the Gauss-Seidel method.
+> **Appeared:** 2024 Q.2(b) — (04 marks)
+
+![Planar three-mesh DC resistive network with a 500 V source, 10, 20 and 100 ohm resistors, and a 5 A source, with clockwise mesh currents I1, I2, I3](diagrams/nm3_gs_circuit_2024_three_mesh.jpg)
+
+**Full Answer:**
+
+**Mesh equations.** Take all three mesh currents clockwise.
+
+- Mesh 1: the 500 V source opposes the current, the 10 ohm and 20 ohm resistors
+  carry $I_1$, and the 20 ohm shares with $I_2$:
+  $-500 + 10I_1 + 20(I_1 - I_2) = 0$
+- Mesh 2: the 20 ohm and 100 ohm resistors, both shared:
+  $20(I_2 - I_1) + 100(I_2 - I_3) = 0$
+- Mesh 3: the right branch holds only the 5 A source, aligned with $I_3$:
+  $I_3 = 5$
+
+$$
+\begin{cases}
+30I_1 - 20I_2 = 500 \\
+-20I_1 + 120I_2 - 100I_3 = 0 \\
+I_3 = 5
+\end{cases}
+$$
+
+**Rearrange for iteration**
+
+$$
+I_1 = \frac{500 + 20I_2}{30}, \qquad
+I_2 = \frac{20I_1 + 100I_3}{120}, \qquad
+I_3 = 5
+$$
+
+**Gauss-Seidel rule.** The value just computed for $I_1$ is used in the equation
+for $I_2$, and the value just computed for $I_2$ in the equation for $I_1$. The
+previous iteration's values are not used. The start is
+$I_1^{(0)} = I_2^{(0)} = I_3^{(0)} = 0$.
+
+$I_3 = 5$ is not iterated. It is fixed by the current source, so it is 5 in every
+row including row 0, and it is the value used from the first sweep onward.
+
+| Iteration | $I_1$ | $I_2$ | $I_3$ |
+| ---: | ---: | ---: | ---: |
+| 0 | 0 | 0 | 5.000000 |
+| 1 | 16.666667 | 6.944444 | 5.000000 |
+| 2 | 21.296296 | 7.716049 | 5.000000 |
+| 3 | 21.810700 | 7.801783 | 5.000000 |
+| 4 | 21.867856 | 7.811309 | 5.000000 |
+| 5 | 21.874206 | 7.812368 | 5.000000 |
+| 6 | 21.874912 | 7.812485 | 5.000000 |
+
+Iteration 1 shown in full:
+
+$$
+I_1^{(1)} = \frac{500 + 20(0)}{30} = \frac{50}{3} = 16.666667
+$$
+
+$$
+I_2^{(1)} = \frac{20(16.666667) + 100(5)}{120} = \frac{333.33334 + 500}{120} = \frac{125}{18} = 6.944444
+$$
+
+The increments shrink by roughly a factor of 4 each pass, so the sequence has
+settled by iteration 6.
+
+$$
+\boxed{I_1 \approx 21.875 \text{ A}, \quad I_2 \approx 7.8125 \text{ A}, \quad I_3 = 5 \text{ A}}
+$$
+
+> [!warning] Why $I_3$ is 5 in row 0 and not 0
+> $I_3$ is not an unknown to be iterated. Mesh 3 is bounded on the right by an
+> ideal $5$ A source and on the left by the $100\ \Omega$ resistor shared with
+> mesh 2, so the branch current is fixed at $5$ A and the clockwise mesh current
+> must equal it. Starting the table at $I_3 = 0$ contradicts the mesh equation it
+> was derived from, and it corrupts the first sweep of $I_2$, which carries
+> $100I_3$ in its numerator.
 
 ### 🎯 Solve the following circuit by using Gauss-Seidel method.
 > **Appeared:** 2018 Q.4(b) — (05 marks)

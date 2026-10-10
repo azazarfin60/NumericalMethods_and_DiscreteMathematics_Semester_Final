@@ -332,7 +332,7 @@ $$
 | 2018 Q.1(c) | Terms for $e^x$ correct to 5 d.p. on $[0,1]$ | $\boxed{9\ \text{terms}}$ |
 | 2021 Q.1(c) | $\ln 3$ correct to 5 d.p. | $\boxed{\ln 3 = 1.09861}$ |
 | 2022 Q.1(b) | $f(1)$ for $f(x) = x^3 - 3x^2 + 5x - 10$ | $\boxed{f(1) = -7}$ |
-| 2024 Q.1(b) | Third-order Taylor of $e^x$, error at $x = 0.5$ | $\boxed{P_3(0.5) = 1.6458333, \qquad \|E_3\| = 0.0028879 \le 0.0042935}$ |
+| 2024 Q.1(b) | Third-order Taylor of $e^x$, error at $x = 0.5$ | Worked Example above |
 
 ---
 

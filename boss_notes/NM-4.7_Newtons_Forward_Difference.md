@@ -14,7 +14,14 @@ Newton's forward difference interpolation formula is the standard tool for equal
 
 ## 📝 Key Definitions
 
-> **Newton's Forward Difference Interpolation Formula:** "$$y_n(x) = y_0 + p\Delta y_0 + \frac{p(p-1)}{2!}\Delta^2 y_0 + \frac{p(p-1)(p-2)}{3!}\Delta^3 y_0 + \cdots + \frac{p(p-1)(p-2)\dots(p-n+1)}{n!}\Delta^n y_0$$ which is *Newton's forward difference interpolation formula* and is useful for interpolation *near the beginning* of a set of tabular values." — Jain, §3.6 (p. 84)
+> **Newton's Forward Difference Interpolation Formula:**
+>
+> $$
+> y_n(x) = y_0 + p\Delta y_0 + \frac{p(p-1)}{2!}\Delta^2 y_0 + \frac{p(p-1)(p-2)}{3!}\Delta^3 y_0 + \cdots + \frac{p(p-1)(p-2)\dots(p-n+1)}{n!}\Delta^n y_0
+> $$
+>
+> which is *Newton's forward difference interpolation formula* and is useful for interpolation
+> *near the beginning* of a set of tabular values. — Jain, §3.6 (p. 84)
 
 > **Dimensionless Step Variable $p$:** "$p = \dfrac{x - x_0}{h}$, where $h = x_1 - x_0$ is the constant spacing between consecutive nodes." — Jain, §3.6 (p. 84)
 
@@ -88,6 +95,12 @@ a_k = \frac{\Delta^k y_0}{k!\,h^k}, \qquad k = 0, 1, 2, \dots, n
 $$
 
 ### 3. Change of Variable to $p$
+
+![A forward difference table for the temperature data 24, 27, 31, 36, 42, with rows y, first difference, second difference, third difference and fourth difference. The leading diagonal of cells, tinted and joined by an arrow, runs from y_0 through the first, second, third and fourth forward differences](diagrams/nm4_newton_forward_difference_path.jpg)
+
+*Figure 4.7: the whole formula in one picture. The forward formula reads only the tinted
+diagonal, $y_0$ then $\Delta y_0$ then $\Delta^2 y_0$ and so on. Everything off that diagonal
+is either a boundary value or a number the formula never uses.*
 
 Define the dimensionless coordinate:
 
@@ -310,18 +323,34 @@ P_n(x) = a_0 + a_1(x - x_0) + a_2(x - x_0)(x - x_1) + \dots + a_n(x - x_0)\dots(
 $$
 
 1. At $x = x_0$:
-   $$y_0 = a_0 \implies a_0 = y_0$$
+
+   $$
+   y_0 = a_0 \implies a_0 = y_0
+   $$
 
 2. At $x = x_1 = x_0 + h$:
-   $$y_1 = a_0 + a_1 h = y_0 + a_1 h \implies a_1 = \frac{y_1 - y_0}{h} = \frac{\Delta y_0}{1!\,h}$$
+
+   $$
+   y_1 = a_0 + a_1 h = y_0 + a_1 h \implies a_1 = \frac{y_1 - y_0}{h} = \frac{\Delta y_0}{1!\,h}
+   $$
 
 3. At $x = x_2 = x_0 + 2h$:
-   $$y_2 = a_0 + a_1(2h) + a_2(2h)(h) = y_0 + 2\Delta y_0 + 2h^2 a_2$$
+
+   $$
+   y_2 = a_0 + a_1(2h) + a_2(2h)(h) = y_0 + 2\Delta y_0 + 2h^2 a_2
+   $$
+
    Since $\Delta^2 y_0 = y_2 - 2y_1 + y_0 = y_2 - y_0 - 2\Delta y_0$, we obtain:
-   $$2h^2 a_2 = \Delta^2 y_0 \implies a_2 = \frac{\Delta^2 y_0}{2!\,h^2}$$
+
+   $$
+   2h^2 a_2 = \Delta^2 y_0 \implies a_2 = \frac{\Delta^2 y_0}{2!\,h^2}
+   $$
 
 4. By induction:
-   $$a_k = \frac{\Delta^k y_0}{k!\,h^k}, \qquad k = 0, 1, \dots, n$$
+
+   $$
+   a_k = \frac{\Delta^k y_0}{k!\,h^k}, \qquad k = 0, 1, \dots, n
+   $$
 
 Let $p = \frac{x - x_0}{h}$, then $(x - x_0)(x - x_1)\dots(x - x_{k-1}) = p(p-1)\dots(p-k+1)h^k$.
 

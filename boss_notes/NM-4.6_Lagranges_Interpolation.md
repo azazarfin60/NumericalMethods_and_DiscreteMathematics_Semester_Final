@@ -45,6 +45,13 @@ Each basis polynomial $L_i(x)$ is designed to satisfy two specific conditions:
 1. $L_i(x_i) = 1$ at its own node.
 2. $L_i(x_j) = 0$ at all other nodes ($j \ne i$).
 
+![Lagrange interpolation in two panels. Left: the four basis polynomials for the nodes (2,18), (4,26), (7,43) and (10,60), each rising to 1 at its own node and crossing zero at the other three. Right: the interpolating polynomial passing through all four tabulated points, with the queried value y(5) = 31.25 marked by a star](diagrams/nm4_lagrange_basis_polynomials.jpg)
+
+*Figure 4.6: the left panel is the Kronecker delta property made visible. Each $L_i$ is a
+cardinal function, 1 at its own node and 0 everywhere else on the table. The right panel is
+the sum $\sum y_i L_i(x)$, which is forced through every point because at node $x_k$ only
+$L_k$ survives.*
+
 To make $L_i(x) = 0$ at every $x_j$ where $j \ne i$, the numerator must contain the product:
 
 $$

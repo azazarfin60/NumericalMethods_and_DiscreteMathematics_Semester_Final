@@ -133,9 +133,9 @@ Halving $h$ cuts the error by a factor of 16. This is much better than the trape
 
 ---
 
-## Worked Example (PYQ 2018/2023): Rocket Distance
+## Worked Example (PYQ 2018): Rocket Distance, Eight Segments
 
-> **Source:** 2018 Q.6(a), 2023 Q.4(b) [Marks: 08]
+> **Source:** 2018 Q.6(a) [Marks: 08]
 
 **Question.** The vertical distance covered by a rocket from $t = 8$ to $t = 30$ seconds is given by:
 
@@ -146,6 +146,12 @@ $$
 (i) Use eight-segment Simpson's $\frac{1}{3}$ rule to find the distance covered.
 (ii) Find the true error of part (i).
 (iii) Find the absolute relative error for part (i).
+
+> [!warning] 2023 asks the same integral with a different instruction
+> 2023 Q.4(b) prints the same integral but says only "use Simpson's $\frac{1}{3}$ rule",
+> with no segment count. It is answered with the **single-application** rule, $n = 2$,
+> which gives a completely different answer. That version is worked in full in its own
+> Golden Question below. Read the segment count before you start.
 
 **Full Answer:**
 
@@ -324,14 +330,113 @@ $$
 
 ---
 
+## 🏆 Golden Question: Rocket Distance, Single Application (PYQ 2023)
+
+### 🎯 The distance covered by a rocket from $t = 8$ to $t = 30$ is given by $x = \int_8^{30}\left(2000\ln\left[\frac{140000}{140000 - 2100t}\right] - 9.8t\right)dt$. (i) Use Simpson's $\frac{1}{3}$ rule to find the approximate value of $x$, (ii) find the true error $E_t$, (iii) find the absolute relative true error $|\epsilon_t|$.
+> **Appeared:** 2023 Q.4(b) — (05 marks)
+
+**Full Answer:**
+
+The integrand is the velocity function:
+
+$$
+f(t) = 2000\ln\left(\frac{140000}{140000 - 2100t}\right) - 9.8t
+$$
+
+The limits are $a = 8\text{ s}$ and $b = 30\text{ s}$, so the total interval width is $b - a = 22\text{ s}$.
+
+**Why $n = 2$ and not $n = 8$.** The question prints no segment count. When a paper says only
+"Simpson's $\frac{1}{3}$ rule" with no subdivision, it means the **fundamental two-segment
+rule**, the one derived in the theory section. Composite application is a refinement that has
+to be asked for by name, as 2018 Q.6(a) did when it said "eight-segment". State the choice in
+the first line of the answer so the examiner can see the assumption was deliberate.
+
+**Step 1. Grid setup ($n = 2$, $h = 11$).**
+
+$$
+h = \frac{b - a}{2} = \frac{30 - 8}{2} = 11\text{ s}
+$$
+
+The three evaluation nodes are $t_0 = 8$, $t_1 = 19$, $t_2 = 30$:
+
+- $f(t_0) = f(8) = 2000\ln\left(\frac{140000}{140000 - 2100(8)}\right) - 9.8(8) = 177.2667\text{ m/s}$
+- $f(t_1) = f(19) = 2000\ln\left(\frac{140000}{140000 - 2100(19)}\right) - 9.8(19) = 484.7455\text{ m/s}$
+- $f(t_2) = f(30) = 2000\ln\left(\frac{140000}{140000 - 2100(30)}\right) - 9.8(30) = 901.6740\text{ m/s}$
+
+**Step 2. The approximate distance $x$.**
+
+$$
+\begin{aligned}
+x &\approx \frac{h}{3}\left[f(t_0) + 4f(t_1) + f(t_2)\right] \\
+  &= \frac{11}{3}\left[177.2667 + 4(484.7455) + 901.6740\right] \\
+  &= \frac{11}{3}\left[177.2667 + 1938.9820 + 901.6740\right] \\
+  &= \frac{11}{3}[3017.9227] = 11065.7166\text{ m}
+\end{aligned}
+$$
+
+$$
+\boxed{\text{(i) } x \approx 11065.72\text{ m}}
+$$
+
+**Step 3. The exact value and the two errors.**
+
+The exact analytical integral, by integration by parts using
+$\int \ln(A - kt)dt = t\ln(A-kt) - t - \frac{A}{k}\ln(A-kt)$:
+
+$$
+I_{exact} = \int_8^{30} f(t)\,dt = 11061.34\text{ m}
+$$
+
+The true error:
+
+$$
+E_t = I_{exact} - x = 11061.34 - 11065.72 = -4.38\text{ m}
+$$
+
+$$
+\boxed{\text{(ii) } E_t = -4.38\text{ m}}
+$$
+
+The negative sign says Simpson's rule overestimated the true distance.
+
+The absolute relative true error:
+
+$$
+|\epsilon_t| = \left|\frac{E_t}{I_{exact}}\right| \times 100\% = \left|\frac{-4.38}{11061.34}\right| \times 100\% = 0.0396\%
+$$
+
+$$
+\boxed{\text{(iii) } |\epsilon_t| = 0.0396\%}
+$$
+
+> [!note] The same integral, two answers, both defensible
+> 2018 Q.6(a) and 2023 Q.4(b) print the **same integral**. The answers differ because the
+> instruction differs, not because either is wrong.
+>
+> | | 2018 Q.6(a) | 2023 Q.4(b) |
+> | :-- | :-- | :-- |
+> | Segments | eight, $n = 8$, $h = 2.75$ | two, $n = 2$, $h = 11$ |
+> | $x$ | $11061.3548$ m | $11065.72$ m |
+> | $E_t$ | $-0.0193$ m | $-4.38$ m |
+> | $|\epsilon_t|$ | $0.00017\%$ | $0.0396\%$ |
+>
+> The 2023 error is about 227 times larger, which is exactly what eight extra segments are
+> worth. Always transcribe the segment count from the question. It is the one instruction
+> that decides the answer.
+
+---
+
 ## Exam Variants
 
 | Year | Question | Data | Key Answer |
 | :--- | :--- | :--- | :--- |
 | 2018 Q.6(a) | Rocket distance, 8-segment Simpson's 1/3 | $t = 8$ to $30$, $n = 8$ | $\boxed{x \approx 11061.3548\ \text{m}}$ |
-| 2019 Q.7(a) | Derive Simpson's 1/3, show exact to degree 3 | Theory | $\boxed{\frac{h}{3}(f_0 + 4f_1 + f_2)\ \text{exact deg} \le 3}$ |
-| 2020 Q.6(b) | Op-amp integrator, mixed Simpson + trapezoid | 6 data points | $\boxed{v_0(1.25) = -106.34\ \text{V}}$ |
-| 2023 Q.4(b) | Rocket distance (same as 2018) | $t = 8$ to $30$, $n = 8$ | $\boxed{x \approx 11061.3548\ \text{m}}$ |
+| 2019 Q.7(a) | Derive Simpson's 1/3, show exact to degree 3 | Theory | $\boxed{\int_{x_0}^{x_2} f\,dx \approx \frac{h}{3}(f_0 + 4f_1 + f_2)\ \text{exact for all polynomials of degree}\ \le 3}$ |
+| 2023 Q.4(b)(ii) | Rocket distance, true error | $n = 2$ | $\boxed{\text{(ii) } E_t = -4.38\text{ m}}$ |
+| 2023 Q.4(b)(iii) | Rocket distance, relative error | $n = 2$ | $\boxed{\text{(iii) } |\epsilon_t| = 0.0396\%}$ |
+| 2020 Q.6(b) | Op-amp integrator, mixed Simpson + trapezoid | 6 data points | $\boxed{v_0(1.25) = -106.34 \text{ V}}$ |
+| 2018 Q.6(a) | Rocket distance, eight-segment composite | $t = 8$ to $30$, $n = 8$ | $\boxed{x \approx 11061.3548\ \text{m}}$ |
+| 2023 Q.4(b) | Rocket distance, single application | $t = 8$ to $30$, $n = 2$, $h = 11$ | $\boxed{\text{(i) } x \approx 11065.72\text{ m}}$ |
 
 ---
 

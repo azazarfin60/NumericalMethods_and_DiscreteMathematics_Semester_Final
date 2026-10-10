@@ -195,7 +195,14 @@ The interpolated result is $2.46\text{ A}$, giving a discrepancy of $0.06\text{ 
 
 ### 📝 Key Definitions for NM-4.8
 
-> **Newton's Backward Difference Formula:** "$$y_n(x) = y_n + p\nabla y_n + \frac{p(p+1)}{2!}\nabla^2 y_n + \cdots + \frac{p(p+1)\dots(p+n-1)}{n!}\nabla^n y_n$$ where $p = \dfrac{x - x_n}{h}$. This formula is useful for interpolation near the end of the tabular values." — Jain, §3.6 (p. 85)
+> **Newton's Backward Difference Formula:**
+>
+> $$
+> y_n(x) = y_n + p\nabla y_n + \frac{p(p+1)}{2!}\nabla^2 y_n + \cdots + \frac{p(p+1)\dots(p+n-1)}{n!}\nabla^n y_n
+> $$
+>
+> where $p = \dfrac{x - x_n}{h}$. This formula is useful for interpolation near the end of the
+> tabular values. — Jain, §3.6 (p. 85)
 
 ### Core Theory: Structure and Usage
 
@@ -398,11 +405,29 @@ $$
 
 ### 📝 Key Definitions for NM-4.10
 
-> **Gauss' Forward Formula:** "$$y_p = y_0 + p\Delta y_0 + \frac{p(p-1)}{2!}\Delta^2 y_{-1} + \frac{(p+1)p(p-1)}{3!}\Delta^3 y_{-1} + \frac{(p+1)p(p-1)(p-2)}{4!}\Delta^4 y_{-2} + \cdots$$ where the differences lie on the zig-zag path shown in Table 3.6." — Jain, §3.7.1 (p. 91)
+> **Gauss' Forward Formula:**
+>
+> $$
+> y_p = y_0 + p\Delta y_0 + \frac{p(p-1)}{2!}\Delta^2 y_{-1} + \frac{(p+1)p(p-1)}{3!}\Delta^3 y_{-1} + \frac{(p+1)p(p-1)(p-2)}{4!}\Delta^4 y_{-2} + \cdots
+> $$
+>
+> where the differences lie on the zig-zag path shown in Table 3.6. — Jain, §3.7.1 (p. 91)
 
-> **Gauss' Backward Formula:** "$$y_p = y_0 + p\Delta y_{-1} + \frac{p(p+1)}{2!}\Delta^2 y_{-1} + \frac{(p+1)p(p-1)}{3!}\Delta^3 y_{-2} + \frac{(p+2)(p+1)p(p-1)}{4!}\nabla^4 y_{-2} + \cdots$$ where the differences lie on the zig-zag path shown in Table 3.7." — Jain, §3.7.1 (p. 92–93)
+> **Gauss' Backward Formula:**
+>
+> $$
+> y_p = y_0 + p\Delta y_{-1} + \frac{p(p+1)}{2!}\Delta^2 y_{-1} + \frac{(p+1)p(p-1)}{3!}\Delta^3 y_{-2} + \frac{(p+2)(p+1)p(p-1)}{4!}\nabla^4 y_{-2} + \cdots
+> $$
+>
+> where the differences lie on the zig-zag path shown in Table 3.7. — Jain, §3.7.1 (p. 92–93)
 
-> **Stirling's Formula:** "Taking the mean of Gauss' forward and backward formulae, we obtain: $$y_p = y_0 + p \frac{\Delta y_{-1} + \Delta y_0}{2} + \frac{p^2}{2} \Delta^2 y_{-1} + \frac{p(p^2 - 1)}{3!} \frac{\Delta^3 y_{-1} + \Delta^3 y_{-2}}{2} + \frac{p^2(p^2 - 1)}{4!} \Delta^4 y_{-2} + \cdots$$" — Jain, §3.7.2 (p. 94)
+> **Stirling's Formula:** Taking the mean of Gauss' forward and backward formulae, we obtain:
+>
+> $$
+> y_p = y_0 + p \frac{\Delta y_{-1} + \Delta y_0}{2} + \frac{p^2}{2} \Delta^2 y_{-1} + \frac{p(p^2 - 1)}{3!} \frac{\Delta^3 y_{-1} + \Delta^3 y_{-2}}{2} + \frac{p^2(p^2 - 1)}{4!} \Delta^4 y_{-2} + \cdots
+> $$
+>
+> — Jain, §3.7.2 (p. 94)
 
 ### Core Theory: Central Difference Zig-Zag Paths
 

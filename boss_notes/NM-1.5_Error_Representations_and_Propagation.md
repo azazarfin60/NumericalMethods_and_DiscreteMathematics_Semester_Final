@@ -229,9 +229,9 @@ $$
 
 | Year | Question | Data Given | Key Answer |
 | :--- | :--- | :--- | :--- |
-| 2017 Q.3(b), 2023 Q.1(b) | Relative error of $u = 5xy^2/z^3$ | $x=y=z=1$, errors $= 0.001$ | $\boxed{\left\|\frac{du}{u}\right\| \le 6\times10^{-3} = 0.6\%}$ |
-| 2019 Q.1(c) | Error representations, voltmeter comparison | 999V vs 1kV, 9999V vs 10kV | $\boxed{\|e\| = 1\ \text{V}\ \text{for both, but}\ E_{\text{rel}} = 10^{-3}\ \text{against}\ 10^{-4}}$ |
-| 2020 Q.1(b) | Error representations, current measurement | $v_a = 9.05$, $v_t = 10$ | $\boxed{\|E_a\| = 0.95 \text{ Amp}, \qquad E_r = -0.095, \qquad \text{percentage} = -9.5\%}$ |
+| 2017 Q.3(b), 2023 Q.1(b) | Relative error of $u = 5xy^2/z^3$ | $x=y=z=1$, errors $= 0.001$ | Worked Example above |
+| 2019 Q.1(c) | Error representations, voltmeter comparison | 999V vs 1kV, 9999V vs 10kV | Golden Question below |
+| 2020 Q.1(b) | Error representations, current measurement | $v_a = 9.05$, $v_t = 10$ | Golden Question below |
 
 ---
 

@@ -44,6 +44,13 @@ This is the only place in NM-2 where you know the error bound **before you start
 
 ### Geometric Picture
 
+![A continuous curve y = f(x) rising through a horizontal line y = k between the points a and b, with f(a) below the line and f(b) above it, and the crossing point marked xi on the x-axis](diagrams/nm1_intermediate_value_theorem.jpg)
+
+*Figure 2.0: the Intermediate Value Theorem, which is what licenses bisection. $f$ is
+continuous on $[a, b]$ and $f(a) < k < f(b)$, so the level $y = k$ is crossed at some
+$\xi$ in between. Bisection is a numerical procedure for pinning down that $\xi$. Without
+continuity the crossing is not guaranteed, and the method has no justification.*
+
 ![Bisection method: interval halving between a and b with points x0, x1 and x2 marked on the x-axis](diagrams/nm2_bisection_method_geometric.jpg)
 
 *Figure 2.1 (Jain, p. 24): each bisection replaces the bracketing interval by half of itself. The interval can only shrink, so the root cannot escape.*
