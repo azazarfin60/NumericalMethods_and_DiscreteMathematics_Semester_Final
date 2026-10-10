@@ -2,7 +2,7 @@
 
 > **Course:** ECE 2213 — Numerical Methods & Discrete Mathematics (RUET)  
 > **Target Audience:** 2nd Year 2nd Semester ECE Students  
-> **Status:** Restructuring in Progress (Phase 0 Complete)
+> **Status:** Restructuring in Progress (Phase 1 Complete)
 
 ---
 
