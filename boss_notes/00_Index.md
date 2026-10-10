@@ -1,7 +1,7 @@
 # 📚 ECE 2213 Boss Notes — Numerical Methods & Discrete Mathematics
 > **Course:** ECE 2213 | **Credits:** 3.00 | **Exam Papers Covered:** 2017–2024 (8 years) + CT (CT-01 to CT-04)  
 > **Institution:** RUET — Dept. of Electrical & Computer Engineering  
-> **Version:** BossNotes-v0.11
+> **Version:** BossNotes-v1.0 (Final Release)
 
 ---
 

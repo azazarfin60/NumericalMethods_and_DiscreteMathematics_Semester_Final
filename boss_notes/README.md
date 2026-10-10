@@ -74,7 +74,7 @@ are logically consolidated into unified `*_Lower_*` parent notes to keep the rea
 
 ## Versioning & Integrity
 
-- **Version:** BossNotes-v0.11 (Content complete, CT integrated, diagrams audited, formula sheet, index & README finalized)
+- **Version:** BossNotes-v1.0 (Final Release — 100% verified complete, end-to-end QA passed)
 - **Quality Gates:** Fully compliant with repository rules (Rule A origin authorship, Rule B exact character-identical boxed numbers, Rule C zero phantom questions).
 
 ---

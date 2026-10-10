@@ -188,6 +188,7 @@ solution (35 blocks measured, 0 thin or pointer-only answers).
 | 2 | `99_Master_Formula_Sheet.md` | Chinese Remainder Theorem had no entry, although DM-5.7 is a named high-priority subtopic (Raidah: "Must study") tested in 2022 Q.8(a) | Added `#### Chinese Remainder Theorem (CRT)` with construction formula, symbols, and citation |
 | 3 | `99_Master_Formula_Sheet.md` | CNF / DNF canonical forms absent, although DM-3.8 is an examined subtopic (2022 Q.5(c), CT-04 Q.2(b)) | Added `#### Conjunctive & Disjunctive Normal Forms (CNF / DNF)` with both forms and procedure |
 | 4 | `99_Master_Formula_Sheet.md` | 5 content notes carrying real formulas were never cross-referenced | Appended `Used in` links for `DM-3_Lower_a`, `DM-3_Lower_b`, `NM-2.6`, `NM-4.1`, `NM-5.4` |
+| 5 | `00_Index.md`, `README.md` | Version metadata still read `BossNotes-v0.11` instead of `BossNotes-v1.0` | Updated both files to `BossNotes-v1.0 (Final Release)` |
 
 An earlier revision of fix pass 1 introduced two link regressions
 (`DM-3.3_Tautology_Contradiction_Contingency.md` and
