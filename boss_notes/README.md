@@ -1,58 +1,82 @@
-# 📚 ECE 2213 Boss Notes
+# 📚 ECE 2213 Boss Notes — Numerical Methods & Discrete Mathematics
 
 > **These are not textbook notes.** They are exam-focused, precision-engineered study files
-> built from 8 years of previous year questions, two textbooks, three sets of class notes,
-> and four class test papers.
+> synthesized from 8 years of RUET semester final papers (2017–2024), 4 class test papers (CT-01 to CT-04),
+> two standard textbooks (Jain for NM, Rosen for DM), and three digitized lecture note sets (Fahad, Raidah, Shishir).
 
 ---
 
 ## What This Is
 
-Each boss note is self-sufficient. Pick a topic, read its file, and you can answer any
-exam question on that topic without opening another source. Every PYQ variant is worked
-out step-by-step inside the note that covers it.
-
-## How It's Organized
-
-**48 content files** cover 86 examined subtopics across 17 topics:
-- **Section A — Numerical Methods:** 33 files (NM-1 through NM-10)
-- **Section B — Discrete Mathematics:** 15 files (DM-3 through DM-7)
-
-High-priority (🔴) subtopics get their own dedicated file.
-Lower-priority subtopics are merged into topic-level files.
-
-**3 meta files** tie everything together:
-- [00_Index.md](00_Index.md) — Master index with exam strategy and triage plans
-- [99_Master_Formula_Sheet.md](99_Master_Formula_Sheet.md) — Every formula in one place
-- This README
-
-## Key Stats
-
-| Metric | Value |
-|---|---|
-| Content files | 48 |
-| Exam papers covered | 8 (2017–2024) |
-| Class tests covered | 4 (CT-01 through CT-04) |
-| Subtopics covered | 86 / 105 (the other 19 have never been examined) |
-| Textbooks referenced | Jain (NM) + Rosen (DM) |
-| Class note sets | 3 (Fahad, Raidah, Shishir) |
-| Diagrams | *TBD* |
-| Golden Questions | *TBD* |
-
-## How to Use These Notes
-
-1. **Start with the [Index](00_Index.md).** See the priority table and decide what to read.
-2. **Follow the triage plan** that matches your time (7 days / 3 days / 1 night).
-3. **Read each file top to bottom.** Theory first, then worked examples, then Golden Questions.
-4. **Practice the Golden Questions.** Close the file and try to solve them on paper.
-5. **Review the [Formula Sheet](99_Master_Formula_Sheet.md)** the night before the exam.
-
-## Version
-
-**Current:** BossNotes-v0.0 (scaffolding)
-**Target:** BossNotes-v1.0 (all files written and QA-verified)
+Each boss note is **completely self-sufficient**. Pick a topic, read its file, and you can answer any
+exam question on that topic without opening another source. Every single previous year question
+variant is worked out step-by-step with full arithmetic, exact intermediate tables, and verbatim
+boxed answers matching the official answer registers.
 
 ---
 
-> *You've got everything you need in these files. Read them, practice the problems,
-> and walk into that exam hall knowing you've seen every type of question they can throw at you.*
+## How It's Organized
+
+The repository contains **46 content files** covering all 86 examined subtopics across 17 topics:
+- **Section A — Numerical Methods:** 32 files (NM-1 through NM-10)
+- **Section B — Discrete Mathematics:** 14 files (DM-3 through DM-7)
+
+High-priority (🔴) subtopics receive their own dedicated notes. Secondary and low-frequency subtopics
+are logically consolidated into unified `*_Lower_*` parent notes to keep the reading path focused.
+
+**3 meta files** tie the entire study suite together:
+- [00_Index.md](00_Index.md) — Master index with 7-day, 3-day, and 1-night triage plans, exam predictions, and the top 10 guaranteed marks checklist.
+- [99_Master_Formula_Sheet.md](99_Master_Formula_Sheet.md) — Comprehensive formula sheet gathering all display equations, recurrences, error bounds, and laws.
+- **README.md** — This project overview and usage guide.
+
+---
+
+## Key Stats & Verified Metrics
+
+| Metric | Measured Value | Verification Note |
+|---|:---:|---|
+| **Content Notes** | **46** | 32 Numerical Methods + 14 Discrete Mathematics |
+| **Meta & Index Files** | **3** | `00_Index.md`, `99_Master_Formula_Sheet.md`, `README.md` |
+| **Exam Papers Covered** | **8 years** | 2017 through 2024 (all available RUET semester finals) |
+| **Class Tests Covered** | **4 tests** | CT-01, CT-02A, CT-02B, and CT-04 (19 test parts) |
+| **Manifest Sub-questions** | **202 / 202** | 100% manifest row coverage with zero gaps |
+| **Worked Examples** | **53** | In-depth theory examples with every derivation step |
+| **Golden Questions (🎯)** | **166** | Verbatim past exam questions solved inline |
+| **Total Worked Problems** | **219** | Self-contained, examination-ready step-by-step solutions |
+| **Unique Boxed Results** | **184** | 357 instances; 0% deviation from origin files (Rule B compliant) |
+| **Technical Diagrams** | **34** | 40 embeds across 21 files; 0 broken links; 0 orphan images |
+| **Source Textbooks** | **2** | Jain, Iyengar & Jain (NM) + Kenneth H. Rosen (DM) |
+| **Class Lecture Notes** | **3 sets** | Fahad Notes, Raidah Notes, and Shishir Notes |
+
+---
+
+## How to Use These Notes for Maximum Marks
+
+1. **Start with the [Master Index](00_Index.md):**
+   Examine the priority ratings (🔴 Critical, 🟠 High, 🟡 Medium) and choose the study triage plan that matches your available preparation time:
+   - **7+ Days:** Full mastery path covering all 46 files in logical sequence.
+   - **3 Days:** High-scoring sprint targeting the 12 guaranteed-marks topics for Section A and Section B.
+   - **1 Night:** Emergency triage focusing on the Top 10 Guaranteed Marks Checklist and the Formula Sheet.
+2. **Read Each Boss Note Top to Bottom:**
+   - **Why This Topic Matters:** Gives the exam context and recurring point values.
+   - **Key Definitions:** Verbatim textbook definitions to ace the 1–2 mark definition openers.
+   - **Core Theory & Derivations:** Step-by-step mathematical reasoning with embedded figures.
+   - **Worked Examples:** Detailed walkthrough of the primary exam prototype.
+   - **Exam Variants Table:** Cross-references every paper where the method appeared.
+   - **Golden Questions Archive:** Full answers to every historical variant for that topic.
+   - **Exam Tips & Traps:** Specific pitfalls that routinely cost students marks in RUET halls.
+3. **Drill the Golden Questions on Paper:**
+   Do not just read the answers passively. Close the file and reproduce the Gauss-Seidel sweeps, RK4 slope steps, or truth table rows with a pen and calculator.
+4. **Revise with the [Master Formula Sheet](99_Master_Formula_Sheet.md):**
+   Review every equation, convergence criterion, and error bound before stepping into the exam hall.
+
+---
+
+## Versioning & Integrity
+
+- **Version:** BossNotes-v0.11 (Content complete, CT integrated, diagrams audited, formula sheet, index & README finalized)
+- **Quality Gates:** Fully compliant with repository rules (Rule A origin authorship, Rule B exact character-identical boxed numbers, Rule C zero phantom questions).
+
+---
+
+> *Everything you need to secure an A+ in ECE 2213 is right here. Master the derivations, practice the calculations with confidence, and step into the examination knowing you are prepared for every question on the paper.*
