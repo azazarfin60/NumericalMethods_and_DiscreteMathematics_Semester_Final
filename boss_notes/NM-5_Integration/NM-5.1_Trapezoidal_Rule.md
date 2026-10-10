@@ -40,7 +40,7 @@ The RUET exam tests this in four distinct ways:
 
 The trapezoidal rule is the first and simplest member of the **Newton-Cotes** integration family. It uses a first-degree polynomial (a straight line) through each pair of adjacent nodes.
 
-![Trapezoidal rule: strips under the curve](diagrams/nm5_trapezoidal_rule_strips.jpg)
+![Trapezoidal rule: strips under the curve](../diagrams/nm5_trapezoidal_rule_strips.jpg)
 
 ### Why Interior Nodes Get a Weight of 2
 

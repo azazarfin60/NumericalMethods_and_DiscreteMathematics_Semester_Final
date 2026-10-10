@@ -186,7 +186,7 @@ $$
 
 - [→ NM-8.2: Euler's Method](NM-8.2_Eulers_Method.md) -- the simplest marching method for solving initial value problems.
 - [→ NM-8.8: Boundary Value Problems](NM-8.8_Boundary_Value_Problems.md) -- the full numerical solution of second-order BVPs using central differences and tridiagonal matrices.
-- [NM-3.5: Gauss-Seidel Iteration](../NM-3_Linear_Systems/NM-3.5_Gauss_Seidel_Iteration.md) -- the iterative algorithm used to solve tridiagonal BVP systems.
+- [NM-3.5: Gauss-Seidel Iteration](../NM-3_Linear_Systems/NM-3.5_Gauss_Seidel.md) -- the iterative algorithm used to solve tridiagonal BVP systems.
 - [NM-10.1: PDE Classification](../NM-10_PDE/NM-10.1_Classification.md) -- extending boundary value concepts from 1D differential equations to 2D elliptic PDEs.
 
 ---

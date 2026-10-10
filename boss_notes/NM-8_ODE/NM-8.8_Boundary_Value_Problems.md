@@ -383,7 +383,7 @@ $$
 
 - [← NM-8.7: Physical ODE](NM-8.7_Physical_ODE.md) -- previous subtopic covering physical modeling.
 - [NM-8.1: IVP vs BVP](NM-8.1_IVP_vs_BVP.md) -- the theoretical foundation contrasting initial values and boundary values.
-- [NM-3.5: Gauss-Seidel Iteration](../NM-3_Linear_Systems/NM-3.5_Gauss_Seidel_Iteration.md) -- iterative matrix solver used for large tridiagonal BVP systems.
+- [NM-3.5: Gauss-Seidel Iteration](../NM-3_Linear_Systems/NM-3.5_Gauss_Seidel.md) -- iterative matrix solver used for large tridiagonal BVP systems.
 - [NM-10.2: Laplace Equation](../NM-10_PDE/NM-10.2_Laplace_Equation.md) -- extending 1D finite-difference BVP stencils to 2D elliptic PDEs.
 - [Next Topic: NM-9 Eigenvalues →](../NM-9_Eigenvalues/_Topic_Overview.md) -- characteristic value problems in differential systems.
 

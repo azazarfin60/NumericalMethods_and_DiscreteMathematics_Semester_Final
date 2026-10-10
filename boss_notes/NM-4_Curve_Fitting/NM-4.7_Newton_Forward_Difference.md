@@ -126,7 +126,7 @@ $$
 
 ### How to Read the Difference Table
 
-![A forward difference table for the temperature data 24, 27, 31, 36, 42, with rows y, first difference, second difference, third difference and fourth difference. The leading diagonal of cells, tinted and joined by an arrow, runs from y_0 through the first, second, third and fourth forward differences](diagrams/nm4_newton_forward_difference_path.jpg)
+![A forward difference table for the temperature data 24, 27, 31, 36, 42, with rows y, first difference, second difference, third difference and fourth difference. The leading diagonal of cells, tinted and joined by an arrow, runs from y_0 through the first, second, third and fourth forward differences](../diagrams/nm4_newton_forward_difference_path.jpg)
 
 The forward formula only reads the **top descending diagonal**: $y_0 \to \Delta y_0 \to \Delta^2 y_0 \to \Delta^3 y_0 \dots$ You ignore all other entries in the table.
 

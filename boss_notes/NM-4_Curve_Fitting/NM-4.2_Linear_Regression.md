@@ -225,7 +225,7 @@ $$
 
 **Step 5: Visualizing and evaluating the fit**
 
-![Linear regression plot of current versus voltage with measured points, fitted line, and evaluated point at 3.5V](diagrams/nm4_regression_scatter_plot_2018.jpg)
+![Linear regression plot of current versus voltage with measured points, fitted line, and evaluated point at 3.5V](../diagrams/nm4_regression_scatter_plot_2018.jpg)
 
 The plot shows every measured data point sitting right on the fitted line. The correlation coefficient is $r = 0.9996$, confirming an exceptional linear fit representing Ohm's law.
 

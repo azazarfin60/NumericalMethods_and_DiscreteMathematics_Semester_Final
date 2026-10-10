@@ -59,7 +59,7 @@ How do we build $L_i(x)$ so that it equals $1$ at $x_i$ and $0$ at all other nod
    $$
    When $x = x_i$, every factor is $\frac{x_i - x_j}{x_i - x_j} = 1$, so the whole product equals $1$.
 
-![Lagrange interpolation in two panels. Left: the four basis polynomials for the nodes (2,18), (4,26), (7,43) and (10,60), each rising to 1 at its own node and crossing zero at the other three. Right: the interpolating polynomial passing through all four tabulated points, with the queried value y(5) = 31.25 marked by a star](diagrams/nm4_lagrange_basis_polynomials.jpg)
+![Lagrange interpolation in two panels. Left: the four basis polynomials for the nodes (2,18), (4,26), (7,43) and (10,60), each rising to 1 at its own node and crossing zero at the other three. Right: the interpolating polynomial passing through all four tabulated points, with the queried value y(5) = 31.25 marked by a star](../diagrams/nm4_lagrange_basis_polynomials.jpg)
 
 ### Why the Partition of Unity Check Saves Your Grade
 

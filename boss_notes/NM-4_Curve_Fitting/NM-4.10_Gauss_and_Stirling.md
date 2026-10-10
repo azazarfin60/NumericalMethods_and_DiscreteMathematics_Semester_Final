@@ -61,7 +61,7 @@ To evaluate a target with $0 \le p \le 0.5$, follow the forward zig-zag trajecto
 4. Step **down** to third difference $\Delta^3 y_{-1}$.
 5. Step **up** to fourth difference $\Delta^4 y_{-2}$.
 
-![Table 3.6 Gauss Forward Formula difference table showing the zig-zag path connecting central differences](diagrams/nm4_gauss_forward_difference_table.jpg)
+![Table 3.6 Gauss Forward Formula difference table showing the zig-zag path connecting central differences](../diagrams/nm4_gauss_forward_difference_table.jpg)
 
 ### 2. Gauss' Backward Difference Path
 
@@ -72,7 +72,7 @@ To evaluate a target with $-0.5 \le p \le 0$, follow the backward zig-zag trajec
 4. Step **up** to third difference $\Delta^3 y_{-2}$.
 5. Step **down** to fourth difference $\Delta^4 y_{-2}$.
 
-![Table 3.7 Gauss Backward Formula difference table showing the zig-zag path connecting central differences](diagrams/nm4_gauss_backward_difference_table.jpg)
+![Table 3.7 Gauss Backward Formula difference table showing the zig-zag path connecting central differences](../diagrams/nm4_gauss_backward_difference_table.jpg)
 
 ### Why Central Formulas Are Superior in the Center
 
