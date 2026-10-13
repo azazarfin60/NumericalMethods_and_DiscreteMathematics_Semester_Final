@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-6.1 Basic Counting Techniques](DM-6.1_Basic_Counting_Techniques.md) | [Next: DM-6.5 Combination →](DM-6.5_Combination.md)
 
 ---

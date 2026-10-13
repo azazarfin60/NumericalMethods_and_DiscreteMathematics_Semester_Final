@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [Next: NM-1.2 Mathematical Modeling & Engineering Problem Solving →](NM-1.2_Mathematical_Modeling_and_Engineering_Problem_Solving.md)
 
 ---

@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-8.2 Euler's Method](NM-8.2_Eulers_Method.md) | [Next: NM-8.4 Runge-Kutta 2nd Order →](NM-8.4_Runge_Kutta_2nd_Order.md)
 
 ---

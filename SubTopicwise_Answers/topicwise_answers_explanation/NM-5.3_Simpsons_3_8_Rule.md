@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-5.2 Simpson's 1/3 Rule](NM-5.2_Simpsons_1_3_Rule.md) | [Next: NM-5.4 Rule Comparison & Step Constraints →](NM-5.4_Rule_Comparison_and_Step_Constraints.md)
 
 ---

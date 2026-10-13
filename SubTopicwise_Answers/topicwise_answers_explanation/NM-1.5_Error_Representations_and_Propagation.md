@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-1.4 Error Types & Sources](NM-1.4_Error_Types_and_Sources.md) | [Next: NM-1.6 Taylor Series & Truncation Error →](NM-1.6_Taylor_Series_and_Truncation_Error.md)
 
 ---

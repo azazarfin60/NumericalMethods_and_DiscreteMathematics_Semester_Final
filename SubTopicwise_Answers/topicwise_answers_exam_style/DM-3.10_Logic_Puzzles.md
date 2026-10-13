@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-3.9 Rules of Inference & Valid Arguments](DM-3.9_Rules_of_Inference_and_Valid_Arguments.md) | [Next: DM-3.11 Logic Gates & Digital Circuits →](DM-3.11_Logic_Gates_and_Digital_Circuits.md)
 
 ---
@@ -48,14 +45,14 @@ Let the universe of discourse be the set of all birds. Natural language opposite
 **Step 3. Formal deduction via rules of inference.**
 Let $c$ be an arbitrary bird in the domain:
 
-1. $P(c) \to S(c)$ — Premise 1, Universal Instantiation
-2. $\neg R(c) \to \neg S(c)$ — Premise 3, Universal Instantiation
-3. $S(c) \to R(c)$ — Contrapositive of (2)
-4. $P(c) \to R(c)$ — Hypothetical Syllogism from (1) and (3)
-5. $Q(c) \to \neg R(c)$ — Premise 2, Universal Instantiation
-6. $R(c) \to \neg Q(c)$ — Contrapositive of (5)
-7. $P(c) \to \neg Q(c)$ — Hypothetical Syllogism from (4) and (6)
-8. $\forall x\, (P(x) \to \neg Q(x))$ — Universal Generalization from (7)
+1. $P(c) \to S(c)$ (Premise 1, Universal Instantiation)
+2. $\neg R(c) \to \neg S(c)$ (Premise 3, Universal Instantiation)
+3. $S(c) \to R(c)$ (Contrapositive of 2)
+4. $P(c) \to R(c)$ (Hypothetical Syllogism from 1 and 3)
+5. $Q(c) \to \neg R(c)$ (Premise 2, Universal Instantiation)
+6. $R(c) \to \neg Q(c)$ (Contrapositive of 5)
+7. $P(c) \to \neg Q(c)$ (Hypothetical Syllogism from 4 and 6)
+8. $\forall x\, (P(x) \to \neg Q(x))$ (Universal Generalization from 7)
 
 Since $\neg Q(x)$ represents "small", the conclusion "Hummingbirds are small" follows logically.
 

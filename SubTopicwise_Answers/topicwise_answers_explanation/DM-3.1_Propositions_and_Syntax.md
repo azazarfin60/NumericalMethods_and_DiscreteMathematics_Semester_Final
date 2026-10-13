@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-10.5 Boundary Conditions in PDEs](NM-10.5_Boundary_Conditions_in_PDEs.md) | [Next: DM-3.2 Logical Connectives & Truth Tables →](DM-3.2_Logical_Connectives_and_Truth_Tables.md)
 
 ---

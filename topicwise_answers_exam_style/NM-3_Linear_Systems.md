@@ -616,23 +616,7 @@ wire on the bottom. Mesh 4 (bottom-left) contains the shared $25\ \Omega$ on
 top, the shared $4\ \Omega$ on the right, a $100\ \text{V}$ source on the left
 directed upward, and a wire on the bottom.
 
-```text
-                  10 Ω                         10 A (←)
-         +-------/\/\/\/\-------+-------------( ← )-----------+
-         |                      |                            |
-         |                      |                            |
-         |                    [20 Ω]                         |
-         |      (↻ I₁)          |            (↻ I₂)          |
-         |                      |                            |
-         +-------/\/\/\/\-------+------------/\/\/\/\--------+
-         |        25 Ω          |             25 Ω           |
-         |                      |                            |
-       ( ↑ ) 100 V            [4 Ω]                        [8 Ω]
-         |                      |                            |
-         |      (↻ I₄)          |            (↻ I₃)          ||
-         |                      |                            |
-         +----------------------+----------------------------+
-```
+![Four-mesh planar DC resistive network with 100V source, 10A current source, and mesh currents I1, I2, I3, I4](diagrams/2018_Q4b_circuit.jpg)
 
 **The current-source constraint.** The $10\ \text{A}$ source occupies the top
 branch of mesh 2 alone, so the current in that branch is fixed. Taking the mesh
@@ -728,20 +712,7 @@ Node 2 connects to ground through $6\ \Omega$ and to node 1 through
 $4\ \Omega$, with a $5\ \text{A}$ source leaving toward node 1 and a
 $10\ \text{A}$ source entering node 2.
 
-```text
-                    5 A (enters Node 1)
-                +-----------( <- )-----------+
-                |                           |
-          Node 1|            4 Ω            |Node 2
-          ------+----------/\/\/\-----------+-------+
-          |                                 |       |
-          |                                 |       |
-        [2 Ω]                             [6 Ω]   ( ^ ) 10 A
-          |                                 |       |
-          |                                 |       |
-          +---------------------------------+-------+
-                          Reference Ground
-```
+![Two-node DC resistive network with 5A and 10A current sources, and 2, 4, 6 ohm resistors](diagrams/2019_Q3c_circuit.jpg)
 
 **KCL at node 1.** Currents leaving: through $2\ \Omega$ to ground, through
 $4\ \Omega$ to node 2, and $5\ \text{A}$ back through the top branch.

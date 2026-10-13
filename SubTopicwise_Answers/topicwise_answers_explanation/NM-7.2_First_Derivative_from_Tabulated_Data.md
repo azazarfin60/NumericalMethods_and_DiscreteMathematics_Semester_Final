@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-7.1 Basis & Difference Formulas](NM-7.1_Basis_and_Difference_Formulas.md) | [Next: NM-7.3 Second Derivative & Formula Derivation →](NM-7.3_Second_Derivative_and_Formula_Derivation.md)
 
 ---

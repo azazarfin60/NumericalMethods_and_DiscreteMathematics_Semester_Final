@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-5.7 Applied Integration](NM-5.7_Applied_Integration.md) | [Next: NM-6.2 One-Dimensional Unconstrained Optimization →](NM-6.2_One_Dimensional_Unconstrained_Optimization.md)
 
 ---

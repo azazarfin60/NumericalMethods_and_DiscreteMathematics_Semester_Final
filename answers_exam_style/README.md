@@ -19,12 +19,12 @@ first because they carry CO tags.
 
 | Rule | What it means |
 | :-- | :-- |
-| One answer per manifest row | `scripts/answer_manifest.csv` lists all 183 sub-questions. Every one gets an answer. |
+| One answer per manifest row | `scripts/answer_manifest.csv` lists all 183 paper sub-questions (plus 19 class-test parts = 202 total rows). Every one gets an answer. |
 | Marks come from the paper margin | A 2 mark item is never labelled 3. |
 | Every number derived twice | Two independent routes. A disagreement is settled before the next question is written, and the trap is noted in a callout. |
-| No invented questions | Nothing appears here that is not in the paper. Invented drills live in `../practice_answers/`. |
+| No invented questions | Nothing appears here that is not in the paper (Rule C). No practice, similar, or bonus drills. |
 | LaTeX fences on their own lines | `$$` sits alone. Never glued to content. |
-| `diagrams/` is relative | `![Alt](../diagrams/name.png)` |
+| `diagrams/` is relative | `![Alt](diagrams/name.jpg)` |
 
 ## Reading a block
 

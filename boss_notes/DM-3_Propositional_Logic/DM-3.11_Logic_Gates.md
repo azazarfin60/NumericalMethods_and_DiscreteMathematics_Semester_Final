@@ -108,35 +108,13 @@ $$
 ### Step 3: Draw the Logic Circuit Diagram
 
 #### Clean Minimal Circuit (3 Gates):
-```text
-p --------------------\
-                       )----- [AND] ---- (p ∧ q) ----\
-q --------------------/                               \
-                                                       )----- [OR] -----> Output F
-r ---->[NOT] -------- (¬r) ---------------------------/
-```
+
+![Clean minimal digital logic circuit diagram (3 gates) for F = ¬r ∨ (p ∧ q)](../diagrams/2023_Q5a_simplified_logic_circuit.png)
 
 #### Alternative: Rosen's Direct Unsimplified Circuit (7 Gates)
 If an examiner expects the direct literal diagram without simplification (Rosen §1.2, Figure 1.7, p. 22):
 
 ![Rosen's circuit for (p ∨ ¬r) ∧ (¬p ∨ (q ∨ ¬r)), built from three inverters, three OR gates and one AND gate (Rosen §1.2, Figure 1.7, p. 22)](../diagrams/dm3_circuit_pyq_2023_q5a_rosen_fig3.jpg)
-
-```text
-r ---->[NOT] -------- (¬r) ---------+------------------------+
-                                    |                        |
-p ----------------------------------+----\                   |
-                                          )---- [OR1] ----+  |
-                                    +----/                |  |
-                                    |                     |  |
-p ---->[NOT] -------- (¬p) ---------|---------------------|--+----\
-                                    |                     |        )---- [OR3] ----+
-q ----------------------------------|----+                |  +----/                |
-                                    |     )---- [OR2] ----+--+                     |
-                                    +----+/                                        |
-                                                                                   )---- [AND] ----> F
-                                                                              +---/
-(Output from OR1) ------------------------------------------------------------+
-```
 
 Both designs are mathematically correct. The simplified 3-gate circuit is the best engineering solution; drawing both or providing the simplified circuit with the truth table verification earns top marks.
 

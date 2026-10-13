@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-3.7 System Specification & Consistency](DM-3.7_System_Specification_and_Consistency.md) | [Next: DM-3.9 Rules of Inference & Valid Arguments →](DM-3.9_Rules_of_Inference_and_Valid_Arguments.md)
 
 ---

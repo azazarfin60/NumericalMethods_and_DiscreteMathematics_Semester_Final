@@ -526,20 +526,7 @@ Node 2 connects to ground through $6\ \Omega$ and to node 1 through $4\ \Omega$,
 with a $5\ \text{A}$ source leaving toward node 1 and a $10\ \text{A}$ source
 entering node 2.
 
-```text
-                    5 A (enters Node 1)
-                +-----------( <- )-----------+
-                |                           |
-          Node 1|            4 Ω            |Node 2
-          ------+----------/\/\/\-----------+-------+
-          |                                 |       |
-          |                                 |       |
-        [2 Ω]                             [6 Ω]   ( ^ ) 10 A
-          |                                 |       |
-          |                                 |       |
-          +---------------------------------+-------+
-                          Reference Ground
-```
+![Two-node DC resistive network with 5A and 10A current sources, and 2, 4, 6 ohm resistors](../answers_exam_style/diagrams/2019_Q3c_circuit.jpg)
 
 **KCL at node 1.** Currents leaving: through $2\ \Omega$ to ground, through
 $4\ \Omega$ to node 2, and $5\ \text{A}$ back through the top branch.
@@ -1383,23 +1370,7 @@ $$\boxed{y(0.4) \approx 0.008}$$
 **The mesh.** A uniform $3\times3$ mesh over the square, with four interior nodes
 $u_1, u_2, u_3, u_4$ and the boundary values shown.
 
-```text
-                Y
-                |       1       2       B
-             C  +-------+-------+-------+
-                |       |       |       |
-                |       |  u₃   |  u₄   |
-                |       |       |       |
-             1  +-------+-------+-------+  4
-                |       |       |       |
-                |       |  u₁   |  u₂   |
-                |       |       |       |
-             2  +-------+-------+-------+  5
-                |       |       |       |
-                |       |       |       |
-                +-------+-------+-------+---------> X
-                0       4       5       A
-```
+![Finite difference mesh for Laplace equation over square domain OCBA with boundary values and interior nodes u1, u2, u3, u4](../answers_exam_style/diagrams/2019_Q8b_laplace_grid.jpg)
 
 **The standard Laplace finite-difference stencil.** For a square mesh with uniform
 spacing $h$, $\nabla^2 u = 0$ gives

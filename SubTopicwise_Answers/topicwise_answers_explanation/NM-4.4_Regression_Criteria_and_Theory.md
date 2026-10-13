@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-4.3 Non-Linear Regression](NM-4.3_Non_Linear_Regression.md) | [Next: NM-4.5 Linear Interpolation →](NM-4.5_Linear_Interpolation.md)
 
 ---
@@ -28,30 +25,15 @@ is written once, in the year-wise file, and is not restated here.
 
 **Solution.**
 
+![Comparison of regression error criteria: minimum sum of errors allows cancelling errors, minimum absolute error yields non-unique fits, and least squares produces a unique optimum](diagrams/2017_Q6a_regression_criteria.png)
+
 Take four data points, three of which lie near the line and one of which is a
 spuriously displaced measurement.
-
-```text
- y
- ^         .          .
- |      .        .          o <- (x4, y4) outlier
- |   .            .
- |  .         .            <- the true relation
- | .      .
- |________________________> x
-```
 
 **Criterion 1: minimum sum of errors, $\sum e_i = 0$.** The positive and
 negative errors cancel, so this condition is satisfied by *infinitely many*
 curves, including curves that pass through none of the data. A line far above
 three points and far below a fourth gives $\sum e_i = 0$ while fitting nothing.
-
-```text
-   .            .
-        sum e = +2
-   .
-        sum e = -2      -> total 0, but a terrible fit
-```
 
 **Criterion 2: minimum sum of absolute errors, $\sum\lvert e_i\rvert$.**
 Cancellation is removed, so the criterion is a genuine measure of badness.
@@ -59,13 +41,6 @@ However $\sum\lvert e_i\rvert$ is piecewise linear in the curve's parameters,
 its minimum often lies where the slope is not defined, and no normal equations
 result. The condition is satisfied by several distinct curves whenever they
 share the same total absolute deviation.
-
-```text
-   .            .
-        |e| = 2
-   .
-        |e| = 2      -> total 4, minimum, but not unique
-```
 
 **Criterion 3: minimum error, $\min_i \lvert e_i\rvert$.** A single error
 considers one point only. Minimising it drives one residual to zero while the

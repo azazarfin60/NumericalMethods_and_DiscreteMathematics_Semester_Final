@@ -122,18 +122,7 @@ When the question does **not** specify a segment count, standard convention call
 
 In electrical engineering laboratories, an operational amplifier with an input resistor $R$ and feedback capacitor $C$ performs analog integration:
 
-```
-          C
-     +---||---+
-     |        |
-Vi --/\/\/\---+--|\
-       R      |  | \
-              +--|- \
-                 |   >--- Vo
-              +--|+ /
-              |  | /
-             GND
-```
+![Analog Op-Amp Integrator circuit schematic with input resistor R, feedback capacitor C, and virtual ground summing junction](../diagrams/nm5_op_amp_integrator_circuit.png)
 
 ### Deriving the Circuit Governing Equation
 

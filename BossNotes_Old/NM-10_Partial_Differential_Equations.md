@@ -222,23 +222,7 @@ Diagonal $4$, off-diagonal sum $2$. It is strictly diagonally dominant, so Gauss
 
 **The mesh.**
 
-```text
-                 Y
-                 |       1       2       B
-              C  +-------+-------+-------+
-                 |       |       |       |
-                 |       |  u₃   |  u₄   |
-                 |       |       |       |
-              1  +-------+-------+-------+  4
-                 |       |       |       |
-                 |       |  u₁   |  u₂   |
-                 |       |       |       |
-              2  +-------+-------+-------+  5
-                 |       |       |       |
-                 |       |       |       |
-                 +-------+-------+-------+---------> X
-                 0       4       5       A
-```
+![Square domain OCBA finite-difference mesh for Laplace equation with given boundary potentials and interior nodes u1, u2, u3, u4](diagrams/2019_Q8b_laplace_grid.jpg)
 
 **The four nodal equations.** Reading the neighbours of each interior node from the figure, and taking the boundary values in the order left, right, top, bottom:
 
@@ -333,17 +317,7 @@ $$
 
 **The mesh.** A $3\times3$ grid over a square region with uniform spacing $h$, four interior nodes $1$ to $4$, and Dirichlet boundaries: top $100\ \text{V}$, bottom $0\ \text{V}$, left $75\ \text{V}$, right $50\ \text{V}$.
 
-```text
-                       V = 100 V
-                   (0,3) +-----------+-----------+ (3,3)
-                        |     ①     |     ②     |
-                        |  (Node 1) | (Node 2)  |
-          V = 75 V  (0,1) +-----------+-----------+ (3,1)  V = 50 V
-                        |     ③     |     ④     |
-                        |  (Node 3) | (Node 4)  |
-                   (0,0) +-----------+-----------+ (3,0)
-                       V = 0 V
-```
+![Square domain 3x3 finite-difference boundary value grid with boundary potentials Top=100V, Bottom=0V, Left=75V, Right=50V with insulating gap corners, and interior nodes 1, 2, 3, 4](diagrams/2018_Q8a_liebmann_grid.jpg)
 
 **The stencil.** The Laplace finite-difference equation at an interior node is
 
@@ -428,19 +402,7 @@ sit on the **upper** row and $E_1$ and $E_2$ on the **lower** row, and the $1$ b
 only the two upper nodes. Reading the grid the other way round, with $E_1$ at the top, is the
 single most expensive mistake available in this question.*
 
-```text
-             1        1        1
-        +--------+--------+--------+
-        |        |        |        |
-     0  |   E4   |   E3   |        |  0
-        |        |        |        |
-        +--------+--------+--------+
-        |        |        |        |
-     0  |   E1   |   E2   |        |  0
-        |        |        |        |
-        +--------+--------+--------+
-             0        0        0
-```
+![Square domain with a three by three finite difference grid for the Laplace equation](diagrams/nm10_laplace_grid_boundary_values.jpg)
 
 **Step 2. The Liebmann update.** The five-point formula for Laplace's equation
 with equal spacing is

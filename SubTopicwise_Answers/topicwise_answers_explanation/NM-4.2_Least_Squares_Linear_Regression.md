@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-4.1 Concepts](NM-4.1_Concepts.md) | [Next: NM-4.3 Non-Linear Regression →](NM-4.3_Non_Linear_Regression.md)
 
 ---
@@ -152,7 +149,7 @@ $$\boxed{i(3.5\ \text{V}) = 9.2364\ \text{A}}$$
 
 **Plotting the fit, and reading the quality off the plot.** The six measured points $(v, i)$ and the fitted line $i = -0.5922 + 2.8082\,v$:
 
-![Linear regression plot of current versus voltage with measured points, fitted line, and evaluated point at 3.5V](../answers_exam_style/diagrams/2018_Q4c_regression.png)
+![Linear regression plot of current versus voltage with measured points, fitted line, and evaluated point at 3.5V](diagrams/2018_Q4c_regression.png)
 
 The measured values and residuals against the line are:
 

@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-6.6 Binomial Theorem](DM-6.6_Binomial_Theorem.md) | [Next: DM-7.2 Relevance of Discrete Mathematics →](DM-7.2_Relevance_of_Discrete_Mathematics.md)
 
 ---

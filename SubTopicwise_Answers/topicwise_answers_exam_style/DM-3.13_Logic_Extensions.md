@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-3.11 Logic Gates & Digital Circuits](DM-3.11_Logic_Gates_and_Digital_Circuits.md) | [Next: DM-5.2 Prime Numbers →](DM-5.2_Prime_Numbers.md)
 
 ---

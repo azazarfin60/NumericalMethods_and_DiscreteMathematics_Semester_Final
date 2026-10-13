@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-3.3 LU Decomposition & Matrix Inversion](NM-3.3_LU_Decomposition_and_Matrix_Inversion.md) | [Next: NM-3.5 Gauss-Seidel Iteration →](NM-3.5_Gauss_Seidel_Iteration.md)
 
 ---

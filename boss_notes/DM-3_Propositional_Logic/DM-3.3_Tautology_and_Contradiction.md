@@ -42,22 +42,19 @@ Examiners love this topic because it is objective and straightforward to grade. 
 | **Contradiction** | All $\text{F}$ ($2^n$ rows) | Unsatisfiable formula | $p \land \neg p$ | Represents impossible states, system bugs, or conflicting specs. |
 | **Contingency** | Mixed ($\text{T}$ and $\text{F}$) | Satisfiable non-tautology | $p \lor q$ | Represents realistic system specifications and operational conditions. |
 
-```text
-                           All Compound Propositions
-                                       |
-                +----------------------+----------------------+
-                |                                             |
-           Tautology                                    Satisfiable
-     (True in ALL rows)                          (True in >= 1 row)
-                |                                             |
-                v                               +-------------+-------------+
-         Valid Formula                          |                           |
-                                           Contingency                  Tautology
-                                        (Mixed T and F)             (Subset of Sat)
-                                                |
-                                                v
-                                        Contradiction
-                                     (False in ALL rows)
+```mermaid
+graph TD
+    ALL["<b>All Compound Propositions</b>"]
+    TAUT["<b>Tautology (Valid Formula)</b><br>True in ALL rows (2ⁿ rows)"]
+    SAT["<b>Satisfiable Formula</b><br>True in at least one row (≥ 1 row)"]
+    CONT["<b>Contingency</b><br>Mixed truth values (some T, some F)"]
+    CONTRA["<b>Contradiction (Unsatisfiable)</b><br>False in ALL rows (0 T rows)"]
+    
+    ALL --> TAUT
+    ALL --> SAT
+    SAT --> CONT
+    SAT --> TAUT
+    ALL --> CONTRA
 ```
 
 > [!NOTE] Negation Relationship

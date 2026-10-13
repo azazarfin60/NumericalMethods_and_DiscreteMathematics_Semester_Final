@@ -140,7 +140,7 @@ This question deals with error propagation. In numerical analysis, errors in mea
 
 ---
 
-### **Interpretation 1: Maximum Relative Error (Standard Textbook / Worst-Case Bound)**
+#### **Interpretation 1: Maximum Relative Error (Standard Textbook / Worst-Case Bound)**
 
 In engineering and numerical analysis textbooks (e.g., S. S. Sastry, B. S. Grewal), an "error of $0.001$" in a measured variable represents an uncertainty bound:
 $$|\Delta x| \le 0.001, \quad |\Delta y| \le 0.001, \quad |\Delta z| \le 0.001$$
@@ -171,7 +171,7 @@ $$
 
 ---
 
-### **Interpretation 2: Algebraic Perturbation (Identical Signs $\Delta x = \Delta y = \Delta z = +0.001$)**
+#### **Interpretation 2: Algebraic Perturbation (Identical Signs $\Delta x = \Delta y = \Delta z = +0.001$)**
 
 If the errors are taken as signed algebraic increments that happen to be identical in both magnitude and sign:
 
@@ -1029,35 +1029,16 @@ $$
 2. AND $p$ with $q$ to give $p \land q$.
 3. OR that with $\neg r$ to give the output $F$.
 
-**Gates required:** 1 NOT, 1 AND (2-input), 1 OR (2-input) — Total: 3 gates.
+**Gates required:** 1 NOT, 1 AND (2-input), 1 OR (2-input), total: 3 gates.
 
 **Logic Circuit Diagram (Simplified Form):**
-```text
-p ----\
-       )---- AND ----(p ∧ q)----\
-q ----/                          \
-                                  )---- OR ----> F = ¬r ∨ (p ∧ q)
-r ---->|NOT|---------(¬r)--------/
-```
+
+![Digital logic circuit diagram for simplified expression F = ¬r ∨ (p ∧ q) using 1 NOT gate, 1 AND gate, and 1 OR gate](../answers_exam_style/diagrams/2023_Q5a_simplified_logic_circuit.png)
 
 **Alternative: Direct (Unsimplified) Circuit:**
 If implemented directly without simplification:
-```text
-r ---->|NOT|--------(¬r)----+-------------------+
-                            |                   |
-p --------------------------+----\              |
-                                  )--- OR1 ---+  |
-                            +----/            |  |
-                            |                 |  |
-p ---->|NOT|---(¬p)---------|-----------------|--+----\
-                            |                 |        )--- OR3 ---+
-q --------------------------|----+            |  +----/            |
-                            |     )--- OR2 ---+--+                 |
-                            +----+/                                |
-                                                                   )--- AND ---> Output
-                                                              +---/
-(Output from OR1) --------------------------------------------+
-```
+
+![Direct logic circuit diagram implementing (p ∨ ¬r) ∧ (¬p ∨ (q ∨ ¬r)) with 2 NOT gates, 3 OR gates, and 1 AND gate](../answers_exam_style/diagrams/2023_Q5a_unsimplified_circuit.jpg)
 
 $$
 \boxed{F = \neg r \lor (p \land q)}

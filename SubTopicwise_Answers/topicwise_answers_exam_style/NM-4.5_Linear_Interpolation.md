@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-4.4 Regression Criteria & Theory](NM-4.4_Regression_Criteria_and_Theory.md) | [Next: NM-4.6 Lagrange's Interpolation →](NM-4.6_Lagranges_Interpolation.md)
 
 ---

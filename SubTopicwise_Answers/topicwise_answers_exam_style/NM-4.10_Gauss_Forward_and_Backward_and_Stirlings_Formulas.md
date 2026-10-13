@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-4.9 Newton's Divided Difference / General Interpolation](NM-4.9_Newtons_Divided_Difference_and_General_Interpolation.md) | [Next: NM-4.11 Difference Table Formation & Applications →](NM-4.11_Difference_Table_Formation_and_Applications.md)
 
 ---

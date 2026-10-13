@@ -41,15 +41,14 @@ For equally spaced inputs $x_0, x_1, \dots, x_n$ with constant step size $h$:
 
 ### Reading the Diagonals
 
-```text
-x0 ---> y0 ----> \Delta y0 ----> \Delta^2 y0 ----> \Delta^3 y0  (FORWARD DIAGONAL)
-          \            \               \
-x1 ---> y1 ----> \Delta y1 ----> \Delta^2 y1
-          \            \
-x2 ---> y2 ----> \Delta y2
-          \
-x3 ---> y3                                                      (BACKWARD DIAGONAL)
-```
+![Diagonal difference propagation path across forward and backward difference tables](../diagrams/nm4_newton_forward_difference_path.jpg)
+
+| $x$ | $y$ | $\Delta y$ | $\Delta^2 y$ | $\Delta^3 y$ | Diagonal Orientation |
+|:---:|:---:|:---:|:---:|:---:|:---|
+| $x_0$ | **$y_0$** | **$\Delta y_0$** | **$\Delta^2 y_0$** | **$\Delta^3 y_0$** | **Forward Diagonal** (Top descending) |
+| $x_1$ | $y_1$ | $\Delta y_1$ | $\Delta^2 y_1$ | | |
+| $x_2$ | $y_2$ | $\Delta y_2$ | | | |
+| $x_3$ | **$y_3$** | **$\nabla y_3$** | **$\nabla^2 y_3$** | **$\nabla^3 y_3$** | **Backward Diagonal** (Bottom ascending) |
 
 - **Forward diagonal (top descending):** Used for targets near the start of the table ($x \approx x_0$).
   Formula uses falling factorials: $y_0 + p\Delta y_0 + \frac{p(p-1)}{2}\Delta^2 y_0 + \dots$ with $p = \frac{x - x_0}{h}$.

@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-4.10 Gauss Forward / Backward & Stirling's Formulas](NM-4.10_Gauss_Forward_and_Backward_and_Stirlings_Formulas.md) | [Next: NM-5.1 Trapezoidal Rule →](NM-5.1_Trapezoidal_Rule.md)
 
 ---

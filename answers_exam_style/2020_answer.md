@@ -1626,20 +1626,6 @@ $$
 and **four interior nodes**. The boundary values are $1$ along the **top** edge
 and $0$ along the **bottom, left and right** edges.
 
-```
-             1        1        1
-        +--------+--------+--------+
-        |        |        |        |
-     0  |   E4   |   E3   |        |  0
-        |        |        |        |
-        +--------+--------+--------+
-        |        |        |        |
-     0  |   E1   |   E2   |        |  0
-        |        |        |        |
-        +--------+--------+--------+
-             0        0        0
-```
-
 **Step 2. The Liebmann update.** The five-point formula for Laplace's equation
 with equal spacing is
 

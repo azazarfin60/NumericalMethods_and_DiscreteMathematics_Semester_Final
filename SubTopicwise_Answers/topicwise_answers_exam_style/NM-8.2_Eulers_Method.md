@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-8.1 IVP vs BVP Concepts](NM-8.1_IVP_vs_BVP_Concepts.md) | [Next: NM-8.3 Modified Euler / Heun's Method →](NM-8.3_Modified_Euler_and_Heuns_Method.md)
 
 ---

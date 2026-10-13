@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-1.6 Taylor Series & Truncation Error](NM-1.6_Taylor_Series_and_Truncation_Error.md) | [Next: NM-2.2 Bisection Method →](NM-2.2_Bisection_Method.md)
 
 ---

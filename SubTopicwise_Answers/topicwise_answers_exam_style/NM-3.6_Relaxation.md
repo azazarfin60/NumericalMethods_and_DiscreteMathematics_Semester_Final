@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-3.5 Gauss-Seidel Iteration](NM-3.5_Gauss_Seidel_Iteration.md) | [Next: NM-3.7 Ill-Conditioned Systems →](NM-3.7_Ill_Conditioned_Systems.md)
 
 ---

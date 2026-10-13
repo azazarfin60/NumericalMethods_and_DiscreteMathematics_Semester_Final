@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-5.5 Modular Exponentiation](DM-5.5_Modular_Exponentiation.md) | [Next: DM-5.8 Number Bases & Binary Arithmetic →](DM-5.8_Number_Bases_and_Binary_Arithmetic.md)
 
 ---

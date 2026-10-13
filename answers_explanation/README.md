@@ -1,6 +1,6 @@
 # Year-wise Explanations
 
-One file per past paper: `2017_answer.md` through `2024_answer.md`.
+One file per past paper: `2017_explanation.md` through `2024_explanation.md`.
 
 Same questions as `../answers_exam_style/`, written to be read rather than
 copied. Every step is named. The reason a formula is chosen is stated. Common
@@ -94,11 +94,11 @@ $$\boxed{y = 0.0714 + 0.8393x}$$
 | Rule | What it means |
 | :-- | :-- |
 | Boxed numbers copied, never retyped | Gate V5 compares them character for character. |
-| No invented questions | Nothing here that is not in the paper. Drills live in `../practice_answers/`. V10b checks this. |
+| No invented questions | Nothing here that is not in the paper (Rule C). No practice, similar, or bonus drills. V10b and V9 check this. |
 | No self-correction narration | A draft must not argue with itself. Resolve it before closing the file. |
 | LaTeX fences on their own lines | `$$` sits alone. Never glued to content. |
 | Callouts for traps | Use `> [!warning]` and `> [!note]`. |
-| Every diagram P1 carries is carried here | A question that refers to a figure cannot be answered without it. `2024_explanation.md` had no diagram at all for a while, including for Q.2(b), whose whole question is "refer to the circuit diagram". |
-| `diagrams/` lives under the exam-style directory | `![Alt](../answers_exam_style/diagrams/name.jpg)` |
+| Every diagram P1 carries is carried here | A question that refers to a figure cannot be answered without it. |
+| Diagram assets | Linked via relative paths (`diagrams/` or shared assets). |
 
 No em dashes. No `Furthermore`, `Moreover`, `Consequently`. Plain words.

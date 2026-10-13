@@ -47,19 +47,7 @@ Picture four different archers shooting five arrows at a target:
 3. **Low accuracy, high precision:** All five arrows are grouped so tightly they touch each other, but they are all stuck in the top-right corner. The instrument is consistent, but has a bad systematic bias. (Averaging does **not** help here!)
 4. **Low accuracy, low precision:** Arrows are scattered everywhere and completely off-center. Worst case.
 
-```
-       High Precision               Low Precision
-     ┌─────────────────┐         ┌─────────────────┐
-High │      ( • )      │         │    •   (   )    │
-Acc. │      (•••)      │         │      • ( • ) •  │
-     │      ( • )      │         │        (   ) •  │
-     └─────────────────┘         └─────────────────┘
-     ┌─────────────────┐         ┌─────────────────┐
-Low  │  ••• (   )      │         │  •     (   )    │
-Acc. │  ••  (   )      │         │    •   (   )    │
-     │      (   )      │         │        (   )   •│
-     └─────────────────┘         └─────────────────┘
-```
+![Accuracy versus precision target analogy: High vs Low Accuracy and High vs Low Precision targets](../diagrams/nm1_accuracy_vs_precision_targets.png)
 
 ### The Rules of Significant Digits
 

@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-3.10 Logic Puzzles](DM-3.10_Logic_Puzzles.md) | [Next: DM-3.13 Logic Extensions →](DM-3.13_Logic_Extensions.md)
 
 ---
@@ -53,35 +50,16 @@ $$
   - 1 NOT gate on $r \to \neg r$
   - 1 AND gate on $p, q \to (p \land q)$
   - 1 OR gate combining $\neg r$ and $(p \land q) \to F$
-  - **Gates required:** 1 NOT, 1 AND (2-input), 1 OR (2-input) — Total: **3 gates**.
+  - **Gates required:** 1 NOT, 1 AND (2-input), 1 OR (2-input), total: **3 gates**.
 
 **Logic Circuit Diagram (Simplified Form):**
-```text
-p ----\
-       )---- AND ----(p ∧ q)----\
-q ----/                          \
-                                  )---- OR ----> F = ¬r ∨ (p ∧ q)
-r ---->|NOT|---------(¬r)--------/
-```
+
+![Digital logic circuit diagram for simplified expression F = ¬r ∨ (p ∧ q) using 1 NOT gate, 1 AND gate, and 1 OR gate](diagrams/2023_Q5a_simplified_logic_circuit.png)
 
 **Alternative: Direct (Unsimplified) Circuit:**
 If implemented directly as $(p \lor \neg r) \land (\neg p \lor (q \lor \neg r))$:
-```text
-r ---->|NOT|--------(¬r)----+-------------------+
-                            |                   |
-p --------------------------+----\              |
-                                  )--- OR1 ---+  |
-                            +----/            |  |
-                            |                 |  |
-p ---->|NOT|---(¬p)---------|-----------------|--+----\
-                            |                 |        )--- OR3 ---+
-q --------------------------|----+            |  +----/            |
-                            |     )--- OR2 ---+--+                 |
-                            +----+/                                |
-                                                                   )--- AND ---> Output
-                                                              +---/
-(Output from OR1) --------------------------------------------+
-```
+
+![Direct logic circuit diagram implementing (p ∨ ¬r) ∧ (¬p ∨ (q ∨ ¬r)) with 2 NOT gates, 3 OR gates, and 1 AND gate](diagrams/2023_Q5a_unsimplified_circuit.jpg)
 
 $$
 \boxed{F = \neg r \lor (p \land q)}

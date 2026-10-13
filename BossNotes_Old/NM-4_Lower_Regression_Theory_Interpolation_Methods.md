@@ -50,25 +50,10 @@ is the standard engineering criterion for three reasons:
 
 Consider four data points where three points lie near a trendline and one point is an outlier:
 
-```text
- y
- ^         .          .
- |      .        .          o <- outlier
- |   .            .
- |  .         .            <- true relation
- | .      .
- |________________________> x
-```
+![Comparison of regression error criteria: minimum sum of errors allows cancelling errors, minimum absolute error yields non-unique fits, and least squares produces a unique optimum](diagrams/2017_Q6a_regression_criteria.png)
 
 **1. Minimum sum of errors ($\sum e_i = 0$):**
-Positive and negative residuals cancel each other out. This condition is satisfied by infinitely many lines, including lines that miss every data point:
-
-```text
-   .            .
-        sum e = +2
-   .    
-        sum e = -2      -> total sum = 0, but a terrible fit
-```
+Positive and negative residuals cancel each other out. This condition is satisfied by infinitely many lines, including lines that miss every data point.
 
 **2. Minimum sum of absolute errors ($\sum |e_i|$):**
 Cancellation is eliminated. But $|e_i|$ has sharp corners (non-differentiable at $e_i = 0$), so no simple linear normal equations exist. The solution is also often non-unique when multiple distinct lines share the same total absolute deviation.

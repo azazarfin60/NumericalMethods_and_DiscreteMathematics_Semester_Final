@@ -9,8 +9,11 @@ Exam preparation repository for **ECE 2213** at Rajshahi University of Engineeri
 | **Source questions** | `PreviousYearQuestions/` | 8 semester-final papers (2017–2024), 4 class tests, and the topic-sorted question bank. Frozen after hashing. |
 | **Exam-style answers** | `answers_exam_style/` | Year-wise model answers. Short-form working. The **origin layer** — every number is authored here and nowhere else. |
 | **Explanation answers** | `answers_explanation/` | Year-wise answers with full reasoning, method names, formula explanations, and trap warnings. |
-| **Topic-wise exam answers** | `topicwise_answers_exam_style/` | 84 subtopic files. Generated from the year-wise exam-style answers. Never hand-written. |
-| **Topic-wise explanations** | `topicwise_answers_explanation/` | 84 subtopic files. Generated from the year-wise explanations. Same block IDs as the exam-style pair. |
+| **Boss Notes v2.0 suite** | `boss_notes/` | 125-file comprehensive, exam-focused study suite across 17 topics (105 subtopic notes, 17 topic overviews, master formula sheet, index). Self-sufficient study material. |
+| **Topic-wise exam clusters** | `topicwise_answers_exam_style/` | 14 consolidated topic-level modules (10 NM + 4 DM) + master index. Generated from the year-wise answers. |
+| **Topic-wise explanation clusters** | `topicwise_answers_explanation/` | 14 consolidated topic-level modules (10 NM + 4 DM) + master index. Generated from the year-wise explanations. |
+| **Subtopic-wise archive** | `SubTopicwise_Answers/` | 84 granular subtopic files per layer with BossNote-style navigation. Preserved isolate reference. |
+| **Boss Notes v1.0 archive** | `BossNotes_Old/` | Preserved flat 46-file study suite (predecessor to v2.0 multi-folder architecture). |
 | **Class test answers** | `CT_Questions/` | Exam-style and explanation answers for CT-01, CT-02A, CT-02B, CT-04. |
 
 ## Reference material (read-only)
@@ -33,13 +36,14 @@ Exam preparation repository for **ECE 2213** at Rajshahi University of Engineeri
 | `combined_analysis_report.md` | Cross-reference of exam papers, class notes, and syllabus. Gaps, patterns, and study priorities. |
 | `PreviousYearAnalysisReport.md` | Per-paper statistical analysis: mark distributions, topic weights, repeat patterns. |
 | `question_tally_audit.md` | Per-sub-question mark tally. 183 finals + 19 CTs = 202 rows. Arithmetic backing for all reports. |
+| `BOSS_NOTES_QA_REPORT_v1.0.md` | Comprehensive quality audit report verifying all 125 files in the Boss Notes v2.0 suite against repository gates. |
 | `exam_register.md` | Register rules for exam-style files. No second person, no commentary, no strategy advice. |
 | `writing_style.md` | Prose style rules for everything else. Short sentences, plain words, no AI-sounding words. |
 | `MARKDOWN-GUIDE.md` | LaTeX and Obsidian formatting conventions used throughout. |
 
 ## Scripts
 
-`scripts/` holds 20 Python scripts, 3 shell scripts, and data files (manifests, merge maps, file lists). They run the quality gates (V1–V15), generate the topic-wise folders, lint the register, and audit number consistency. See `scripts/README.md`.
+`scripts/` holds 25 Python scripts, 3 shell scripts, and data files (manifests, merge maps, file lists). They run the quality gates (V1–V15), assemble topic-wise clusters (`build_topicwise_clusters.py`), generate subtopic archives (`gen_topicwise.py`), produce matplotlib diagrams, and audit number consistency. See `scripts/README.md`.
 
 ## How the data flows
 
@@ -49,14 +53,24 @@ PreviousYearQuestions/  (frozen source, never edited)
         ├──► answers_exam_style/       (year-wise, origin layer)
         │         │
         │         └──► answers_explanation/  (year-wise, adds reasoning)
+        │                   │
+        ▼                   ▼
+    scripts/gen_topicwise.py + merge_map.csv
         │
-        ├──► topicwise_answers_exam_style/   (generated, 84 files)
-        ├──► topicwise_answers_explanation/  (generated, 84 files)
+        ├──► SubTopicwise_Answers/     (granular 84 files per layer)
+        │         │
+        ▼         ▼
+    scripts/build_topicwise_clusters.py
+        │
+        ├──► topicwise_answers_exam_style/   (14 consolidated topic modules)
+        ├──► topicwise_answers_explanation/  (14 consolidated topic modules)
+        │
+        ├──► boss_notes/               (125-file comprehensive study suite; Rule B parity)
         │
         └──► CT_Questions/             (class test answers)
 ```
 
-Numbers flow one way: exam-style origin → explanation → topic-wise. No number is ever born in a downstream file.
+Numbers flow one way: exam-style origin → explanation → topic-wise / boss notes. No number is ever born in a downstream file.
 
 ## The three rules
 
@@ -75,4 +89,4 @@ Discrete Mathematics entered the course in 2022. The five older papers are 100% 
 
 ## Scale
 
-~980 files. ~380 markdown files. ~280 images. 202 manifest rows. 84 subtopic files per answer layer.
+~1,430+ files. 614 markdown files. 483 images/diagrams. 202 manifest rows (183 semester-finals + 19 class-test parts). 84 examined subtopics (out of 105 total). 14 consolidated topic modules per answer layer. 125-file Boss Notes v2.0 study suite.

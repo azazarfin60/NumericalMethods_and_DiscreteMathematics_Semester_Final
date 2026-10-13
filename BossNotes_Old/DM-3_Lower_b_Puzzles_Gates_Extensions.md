@@ -275,32 +275,11 @@ $$
 
 **Logic Circuit Diagram (Simplified Form):**
 
-```text
-p ----\
-       )---- AND ----(p ∧ q)----\
-q ----/                          \
-                                  )---- OR ----> F = ¬r ∨ (p ∧ q)
-r ---->|NOT|---------(¬r)--------/
-```
+![Clean minimal digital logic circuit diagram (3 gates) for F = ¬r ∨ (p ∧ q)](diagrams/2023_Q5a_simplified_logic_circuit.png)
 
 **Alternative: Direct (Unsimplified) Circuit:**
 
-```text
-r ---->|NOT|--------(¬r)----+-------------------+
-                            |                   |
-p --------------------------+----\              |
-                                  )--- OR1 ---+  |
-                            +----/            |  |
-                            |                 |  |
-p ---->|NOT|---(¬p)---------|-----------------|--+----\
-                            |                 |        )--- OR3 ---+
-q --------------------------|----+            |  +----/            |
-                            |     )--- OR2 ---+--+                 |
-                            +----+/                                |
-                                                                   )--- AND ---> Output
-                                                              +---/
-(Output from OR1) --------------------------------------------+
-```
+![Direct logic circuit diagram implementing (p ∨ ¬r) ∧ (¬p ∨ (q ∨ ¬r)) with 2 NOT gates, 3 OR gates, and 1 AND gate](diagrams/2023_Q5a_unsimplified_circuit.jpg)
 
 $$
 \boxed{F = \neg r \lor (p \land q)}

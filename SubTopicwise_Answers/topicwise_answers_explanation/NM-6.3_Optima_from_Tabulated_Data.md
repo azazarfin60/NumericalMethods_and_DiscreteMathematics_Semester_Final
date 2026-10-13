@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-6.2 One-Dimensional Unconstrained Optimization](NM-6.2_One_Dimensional_Unconstrained_Optimization.md) | [Next: NM-7.1 Basis & Difference Formulas →](NM-7.1_Basis_and_Difference_Formulas.md)
 
 ---

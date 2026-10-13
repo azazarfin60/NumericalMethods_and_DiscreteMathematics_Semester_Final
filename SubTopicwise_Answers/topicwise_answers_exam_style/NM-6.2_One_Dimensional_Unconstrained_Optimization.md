@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-6.1 Optimization Concepts](NM-6.1_Optimization_Concepts.md) | [Next: NM-6.3 Optima from Tabulated Data →](NM-6.3_Optima_from_Tabulated_Data.md)
 
 ---

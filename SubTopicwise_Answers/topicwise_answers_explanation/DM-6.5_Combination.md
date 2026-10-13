@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-6.3 Pigeonhole Principle](DM-6.3_Pigeonhole_Principle.md) | [Next: DM-6.6 Binomial Theorem →](DM-6.6_Binomial_Theorem.md)
 
 ---

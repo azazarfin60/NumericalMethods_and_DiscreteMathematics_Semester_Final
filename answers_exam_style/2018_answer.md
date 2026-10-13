@@ -442,23 +442,7 @@ wire on the bottom. Mesh 4 (bottom-left) contains the shared $25\ \Omega$ on
 top, the shared $4\ \Omega$ on the right, a $100\ \text{V}$ source on the left
 directed upward, and a wire on the bottom.
 
-```text
-                  10 Ω                         10 A (←)
-         +-------/\/\/\/\-------+-------------( ← )-----------+
-         |                      |                            |
-         |                      |                            |
-         |                    [20 Ω]                         |
-         |      (↻ I₁)          |            (↻ I₂)          |
-         |                      |                            |
-         +-------/\/\/\/\-------+------------/\/\/\/\--------+
-         |        25 Ω          |             25 Ω           |
-         |                      |                            |
-       ( ↑ ) 100 V            [4 Ω]                        [8 Ω]
-         |                      |                            |
-         |      (↻ I₄)          |            (↻ I₃)          ||
-         |                      |                            |
-         +----------------------+----------------------------+
-```
+![Four-mesh planar DC resistive network with 100V source, 10A current source, and mesh currents I1, I2, I3, I4](diagrams/2018_Q4b_circuit.jpg)
 
 **The current-source constraint.** The $10\ \text{A}$ source occupies the top
 branch of mesh 2 alone, so the current in that branch is fixed. Taking the mesh
@@ -995,22 +979,7 @@ $$\boxed{y(0.4) = 0.9636}$$
 four interior nodes $1$ to $4$, and Dirichlet boundaries: top $100\ \text{V}$,
 bottom $0\ \text{V}$, left $75\ \text{V}$, right $50\ \text{V}$.
 
-```text
-              Insulating Gap            V = 100 V           Insulating Gap
-                            \                                /
-                   (0,3)   +-----------+-----------+-------+   (3,3)
-                           |           |           |       |
-                           |    ①     |     ②     |       |
-                   (0,2)   +-----------+-----------+-------+   (3,2)
-                           |  (Node 1) | (Node 2)  |       |
-             V = 75 V      |           |           |       |   V = 50 V
-                   (0,1)   +-----------+-----------+-------+   (3,1)
-                           |    ③     |     ④     |       |
-                           |  (Node 3) | (Node 4)  |       |
-                   (0,0)   +-----------+-----------+-------+   (3,0)
-                            /                                \
-              Insulating Gap             V = 0 V             Insulating Gap
-```
+![Square domain 3x3 finite-difference boundary value grid with boundary potentials Top=100V, Bottom=0V, Left=75V, Right=50V with insulating gap corners, and interior nodes 1, 2, 3, 4](diagrams/2018_Q8a_liebmann_grid.jpg)
 
 **The stencil.** The Laplace finite-difference equation at an interior node is
 

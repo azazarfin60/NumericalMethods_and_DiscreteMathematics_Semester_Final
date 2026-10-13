@@ -44,16 +44,15 @@ Examiners love this topic because it is pure, clean theory worth 4 to 6 marks. A
 
 Every error in numerical computation belongs to one of three families:
 
-```
-                      ┌────────────────────────┐
-                      │    TOTAL ERROR         │
-                      └───────────┬────────────┘
-         ┌────────────────────────┼────────────────────────┐
-         ▼                        ▼                        ▼
-┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
-│  INHERENT ERROR  │    │ TRUNCATION ERROR │    │ ROUND-OFF ERROR  │
-│ (From the world) │    │(From the formula)│    │(From the computer│
-└──────────────────┘    └──────────────────┘    └──────────────────┘
+```mermaid
+graph TD
+    TE["<b>TOTAL NUMERICAL ERROR</b>"]
+    IE["<b>INHERENT ERROR</b><br><i>From the Physical World</i><br>Measurement noise, modeling limits"]
+    TE_ERR["<b>TRUNCATION ERROR</b><br><i>From the Mathematics</i><br>Taylor series cutoffs, finite steps"]
+    RO_ERR["<b>ROUND-OFF ERROR</b><br><i>From the Computer</i><br>Finite word-length, floating-point math"]
+    TE --> IE
+    TE --> TE_ERR
+    TE --> RO_ERR
 ```
 
 ### 1. Inherent Error (Before you touch a calculator)
@@ -95,22 +94,7 @@ Notice what happens when you change the step size $h$:
 
 If you plot total error against step size $h$, you get a U-shaped curve:
 
-```
-Total Error
-    ▲
-    │ \                                 /  Truncation Error
-    │  \   Total Error                 /   (dominates for large h)
-    │   \     Curve                   /
-    │    \                           /
-    │     \                         /
-    │      \       * Optimal h     /
-    │       \_____._              /
-    │      /                      
-    │     /  Round-off Error      
-    │    /   (dominates for small h)
-    └────┴─────────────────────────────► Step size h
-        h* (sweet spot)
-```
+![Total Error vs. Step Size h: The Truncation–Round-off Trade-off](../diagrams/nm1_truncation_vs_roundoff_error.png)
 
 > [!WARNING] The Shrinking Step Trap
 > Students often assume: *"To get a more accurate answer, just make $h$ as tiny as possible."* That is false! If you make $h$ too small, round-off error will completely destroy your calculation. The best step size $h^*$ is where the two error curves cross.

@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-1.3 Accuracy, Precision & Significant Digits](NM-1.3_Accuracy_Precision_and_Significant_Digits.md) | [Next: NM-1.5 Error Representations & Propagation →](NM-1.5_Error_Representations_and_Propagation.md)
 
 ---

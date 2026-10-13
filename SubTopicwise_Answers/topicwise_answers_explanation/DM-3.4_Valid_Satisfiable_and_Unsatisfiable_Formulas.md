@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-3.3 Tautology, Contradiction & Contingency](DM-3.3_Tautology_Contradiction_and_Contingency.md) | [Next: DM-3.5 Logical Equivalence →](DM-3.5_Logical_Equivalence.md)
 
 ---

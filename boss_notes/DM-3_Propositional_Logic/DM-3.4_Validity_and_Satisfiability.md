@@ -40,21 +40,18 @@ When you inspect the final column of an $n$-variable truth table with $2^n$ rows
 | At least one row, but not all rows | **Satisfiable but not valid** | It can be satisfied, but it is not universally guaranteed. Synonym for contingency. |
 | Zero rows (0 rows) | **Unsatisfiable** | Cannot be satisfied by any assignment. Synonym for contradiction. |
 
-```text
-                           All Formulas
-                                |
-                 +--------------+--------------+
-                 |                             |
-            Satisfiable                  Unsatisfiable
-         (At least one T)               (Zero T entries)
-                 |                             |
-        +--------+--------+                    v
-        |                 |               Contradiction
-      Valid          Contingency
-   (All rows T)    (Some T, some F)
-        |
-        v
-    Tautology
+```mermaid
+graph TD
+    ALL["<b>All Propositional Formulas</b>"]
+    SAT["<b>Satisfiable</b><br>True under at least one assignment (≥ 1 T row)"]
+    UNSAT["<b>Unsatisfiable (Contradiction)</b><br>False under every assignment (0 T rows)"]
+    VALID["<b>Valid (Tautology)</b><br>True under ALL assignments (all T)"]
+    CONT["<b>Contingency</b><br>Satisfiable but NOT valid (some T, some F)"]
+    
+    ALL --> SAT
+    ALL --> UNSAT
+    SAT --> VALID
+    SAT --> CONT
 ```
 
 > [!WARNING] "Valid" is Stronger Than "Satisfiable"

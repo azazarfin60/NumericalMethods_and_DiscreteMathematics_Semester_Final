@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-4.5 Linear Interpolation](NM-4.5_Linear_Interpolation.md) | [Next: NM-4.7 Newton's Forward Difference →](NM-4.7_Newtons_Forward_Difference.md)
 
 ---

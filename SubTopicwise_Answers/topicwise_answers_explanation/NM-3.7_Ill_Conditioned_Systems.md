@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-3.6 Relaxation](NM-3.6_Relaxation.md) | [Next: NM-3.8 Circuit Applications →](NM-3.8_Circuit_Applications.md)
 
 ---

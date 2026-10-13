@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-5.9 Number-Theoretic Proofs](DM-5.9_Number_Theoretic_Proofs.md) | [Next: DM-6.3 Pigeonhole Principle →](DM-6.3_Pigeonhole_Principle.md)
 
 ---

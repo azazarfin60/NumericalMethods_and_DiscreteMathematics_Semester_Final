@@ -42,16 +42,15 @@ If you only remember one sentence for this topic, make it this one:
 
 This single sentence summarizes the three fundamental roles discrete mathematics plays in computer science and engineering:
 
-```
-                  ┌───────────────────────────────┐
-                  │      Discrete Mathematics     │
-                  └──────────────┬────────────────┘
-         ┌───────────────────────┼───────────────────────┐
-         ▼                       ▼                       ▼
-   1. SPECIFY               2. COST                 3. PROVE
-Names structures &       Counts operations &     Certifies that code
-models digital data      bounds run time         is mathematically
-(sets, graphs, trees)    (combinatorics, Big-O)  correct (logic, induction)
+```mermaid
+graph TD
+    DM["<b>Discrete Mathematics</b><br><i>The foundational language of computing</i>"]
+    S["<b>1. SPECIFY</b><br>Names structures & models digital data<br>(Sets, graphs, trees, relations)"]
+    C["<b>2. COST</b><br>Counts operations & bounds run time<br>(Combinatorics, recurrence, Big-O)"]
+    P["<b>3. PROVE</b><br>Certifies program correctness<br>(Logic, induction, invariants)"]
+    DM --> S
+    DM --> C
+    DM --> P
 ```
 
 ### The Three Core Jobs

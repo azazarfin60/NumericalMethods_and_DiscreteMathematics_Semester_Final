@@ -530,23 +530,7 @@ error is carried from one iteration to the next.
 **The circuit.** A planar four-mesh network in a $2\times2$ arrangement, with
 both a voltage source and a current source.
 
-```text
-                  10 Ω                       10 A (←)
-         +-------/\/\/\/\-------+------------( ← )-----------+
-         |        10 Ω          |           10 A              |
-         |                      |                            |
-         |                    [20 Ω]                         |
-         |      (↻ I₁)          |            (↻ I₂)          |
-         |                      |                            |
-         +-------/\/\/\/\-------+------------/\/\/\/\--------+
-         |        25 Ω          |             25 Ω           |
-         |                      |                            |
-       ( ↑ ) 100 V            [4 Ω]                        [8 Ω]
-         |                      |                            |
-         |      (↻ I₄)          |            (↻ I₃)          |
-         |                      |                            |
-         +----------------------+----------------------------+
-```
+![Four-mesh planar DC resistive network with 100V source, 10A current source, and mesh currents I1, I2, I3, I4](../answers_exam_style/diagrams/2018_Q4b_circuit.jpg)
 
 Reading the four meshes off the drawing:
 
@@ -1211,21 +1195,7 @@ $$\boxed{y(0.4) = 0.9636}$$
 
 **The mesh.**
 
-```text
-                  Insulating Gap             V = 100 V            Insulating Gap
-                                \                                 /
-                         (0,3)   +-----------+-----------+-------+   (3,3)
-                                 |           |           |       |
-                         (0,2)   +-----------①-----------②-------+   (3,2)
-                                 |        (Node 1)    (Node 2)   |
-                       V = 75 V  |           |           |       |  V = 50 V
-                         (0,1)   +-----------③-----------④-------+   (3,1)
-                                 |        (Node 3)    (Node 4)   |
-                                 |           |           |       |
-                         (0,0)   +-----------+-----------+-------+   (3,0)
-                                /                                 \
-                  Insulating Gap              V = 0 V             Insulating Gap
-```
+![Square domain 3x3 finite-difference boundary value grid with boundary potentials Top=100V, Bottom=0V, Left=75V, Right=50V with insulating gap corners, and interior nodes 1, 2, 3, 4](../answers_exam_style/diagrams/2018_Q8a_liebmann_grid.jpg)
 
 **The governing equation.** With no charge or source inside the region, the
 potential satisfies Laplace's equation, whose five-point finite-difference form

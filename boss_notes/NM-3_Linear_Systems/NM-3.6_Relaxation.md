@@ -65,11 +65,7 @@ The bracket $(\hat{x}_i^{(k+1)} - x_i^{(k)})$ is the **change** (or step). The p
 
 ### The Four Regimes of $\lambda$
 
-```
-   0 <------------------ 1 ------------------> 2 ------------------> Divergence
-     Under-Relaxation     Standard GS            Over-Relaxation (SOR)
-     (Damps oscillations) (Plain step)           (Accelerates slow crawl)
-```
+![The four operational regimes of relaxation parameter lambda: Under-relaxation (0 < lambda < 1), Standard Gauss-Seidel (lambda = 1), Successive Over-Relaxation (1 < lambda < 2), and Divergence (lambda >= 2)](../diagrams/nm3_relaxation_parameter_spectrum.png)
 
 1. **$\lambda = 1$ (Standard Gauss-Seidel):**  
    The formula simplifies to $x_i^{(k+1)} = \hat{x}_i^{(k+1)}$. You take exactly 100% of the computed change.

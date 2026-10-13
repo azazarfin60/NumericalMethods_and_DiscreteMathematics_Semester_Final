@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-5.8 Number Bases & Binary Arithmetic](DM-5.8_Number_Bases_and_Binary_Arithmetic.md) | [Next: DM-6.1 Basic Counting Techniques →](DM-6.1_Basic_Counting_Techniques.md)
 
 ---

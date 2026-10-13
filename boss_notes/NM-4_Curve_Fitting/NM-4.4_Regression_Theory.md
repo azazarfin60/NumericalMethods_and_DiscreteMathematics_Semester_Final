@@ -47,17 +47,7 @@ $$
 
 Your sum of errors is zero, yet your line completely misses both points. In fact, an infinite number of terrible, slanted lines will have zero total error. This criterion is useless.
 
-```text
-    y
-    ^
-    |      * (Point 1: e = +10)
-    |
-    |  ----------- Proposed Line (misses everything!)
-    |
-    |      * (Point 2: e = -10)
-    |__________________________> x
-       Sum of errors = +10 + (-10) = 0, but fit is awful!
-```
+![Comparison of regression error criteria: minimum sum of errors allows cancelling errors, minimum absolute error yields non-unique fits, and least squares produces a unique optimum](../diagrams/2017_Q6a_regression_criteria.png)
 
 ---
 
@@ -115,13 +105,7 @@ is the standard engineering criterion because of three powerful mathematical rea
 **1. Why Minimum Sum of Error ($\sum e_i = 0$) is ill-suited:**
 Positive and negative residuals cancel each other out. Consider two points where one sits 5 units above the line and the other sits 5 units below:
 
-```text
-    y
-    |       . (e = +5)
-    |   ----------------- Line
-    |       . (e = -5)
-    +-------------------> x
-```
+![Comparison of regression error criteria: minimum sum of errors allows cancelling errors, minimum absolute error yields non-unique fits, and least squares produces a unique optimum](../diagrams/2017_Q6a_regression_criteria.png)
 
 The sum of errors is $(+5) + (-5) = 0$. This condition is satisfied by infinitely many different lines, including lines that fail to capture the data trend completely.
 

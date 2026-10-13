@@ -162,22 +162,7 @@ $$
 four interior nodes $1$ to $4$, and Dirichlet boundaries: top $100\ \text{V}$,
 bottom $0\ \text{V}$, left $75\ \text{V}$, right $50\ \text{V}$.
 
-```text
-              Insulating Gap            V = 100 V           Insulating Gap
-                            \                                /
-                   (0,3)   +-----------+-----------+-------+   (3,3)
-                           |           |           |       |
-                           |    ①     |     ②     |       |
-                   (0,2)   +-----------+-----------+-------+   (3,2)
-                           |  (Node 1) | (Node 2)  |       |
-             V = 75 V      |           |           |       |   V = 50 V
-                   (0,1)   +-----------+-----------+-------+   (3,1)
-                           |    ③     |     ④     |       |
-                           |  (Node 3) | (Node 4)  |       |
-                   (0,0)   +-----------+-----------+-------+   (3,0)
-                            /                                \
-              Insulating Gap             V = 0 V             Insulating Gap
-```
+![Square domain 3x3 finite-difference boundary value grid with boundary potentials Top=100V, Bottom=0V, Left=75V, Right=50V with insulating gap corners, and interior nodes 1, 2, 3, 4](diagrams/2018_Q8a_liebmann_grid.jpg)
 
 **The stencil.** The Laplace finite-difference equation at an interior node is
 
@@ -247,23 +232,7 @@ $$\boxed{V_1 = 71.875\ \text{V}, \quad V_2 = 65.625\ \text{V}, \quad V_3 = 46.87
 **The mesh.** A uniform $3\times3$ mesh over the square, with four interior nodes
 $u_1, u_2, u_3, u_4$ and the boundary values shown.
 
-```text
-                Y
-                |       1       2       B
-             C  +-------+-------+-------+
-                |       |       |       |
-                |       |  u₃   |  u₄   |
-                |       |       |       |
-             1  +-------+-------+-------+  4
-                |       |       |       |
-                |       |  u₁   |  u₂   |
-                |       |       |       |
-             2  +-------+-------+-------+  5
-                |       |       |       |
-                |       |       |       |
-                +-------+-------+-------+---------> X
-                0       4       5       A
-```
+![Finite difference mesh for Laplace equation over square domain OCBA with boundary values and interior nodes u1, u2, u3, u4](diagrams/2019_Q8b_laplace_grid.jpg)
 
 **The standard Laplace finite-difference stencil.** For a square mesh with
 uniform spacing $h$, $\nabla^2 u = 0$ gives

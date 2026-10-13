@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-3.13 Logic Extensions](DM-3.13_Logic_Extensions.md) | [Next: DM-5.3 GCD, LCM & Euclidean Algorithm →](DM-5.3_GCD_LCM_and_Euclidean_Algorithm.md)
 
 ---

@@ -1,10 +1,10 @@
-# Topic-wise Explanations
+# Subtopic-wise Explanations
 
 One file per subtopic that has at least one past-paper question. **84 files.**
 
 Same subtopics, same block IDs, same `refs` as `../topicwise_answers_exam_style/`.
-The two folders are generated from one source, `scripts/merge_map.csv`, by the
-same `scripts/gen_topicwise.py` run twice, and gate **V4** compares their block
+The two folders are generated from one source, `../../scripts/merge_map.csv`, by the
+same `../../scripts/gen_topicwise.py` run twice, and gate **V4** compares their block
 headings, their order and their provenance lines byte for byte. If one says
 `[2017 Q.5(c)]` and the other says `[2017 Q.5(c), 2020 Q.3(b)]`, the build stops.
 
@@ -48,7 +48,7 @@ $$\boxed{P(1995) = 20.1888 \text{ thousand}}$$
 ## Where the numbers come from
 
 ```
-year-wise exam-style  ->  year-wise explanation  ->  both topic-wise folders
+year-wise exam-style  ->  year-wise explanation  ->  subtopic-wise folders
       (origin)                (same characters)          (copied, never retyped)
 ```
 

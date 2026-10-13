@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-4.7 Newton's Forward Difference](NM-4.7_Newtons_Forward_Difference.md) | [Next: NM-4.10 Gauss Forward / Backward & Stirling's Formulas →](NM-4.10_Gauss_Forward_and_Backward_and_Stirlings_Formulas.md)
 
 ---

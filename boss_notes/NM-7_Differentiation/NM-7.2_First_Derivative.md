@@ -39,22 +39,12 @@ This subtopic has appeared in half of all RUET semester final papers (2019, 2020
 
 Whenever you face a tabulated differentiation problem in an exam, follow these three steps in strict order:
 
-```
-Step 1: Check Node Availability
-   Is the target node near the edge or near the center?
-   Can the formula fit inside the table without falling off either side?
-   (Example: 5-point central at x = 1.2 needs x = 0.8; if 0.8 is missing, you CANNOT use it!)
-            │
-            ▼
-Step 2: Choose Direction & Order
-   - Interior node with data on both sides -> Three-point central (standard) or five-point central
-   - Left edge node -> Three-point forward (or two-point forward)
-   - Right edge node -> Three-point backward (or two-point backward)
-            │
-            ▼
-Step 3: Check Data Smoothness
-   Build first and second differences. If higher differences jump erratically,
-   higher-order formulas will amplify the noise. Stick to the 3-point central formula!
+```mermaid
+graph TD
+    S1["<b>Step 1: Check Node Availability</b><br>Is the target node near the edge or center?<br>Can the stencil fit inside the table without falling off either side?"]
+    S2["<b>Step 2: Choose Direction & Order</b><br>• Interior node with symmetric data → Three-point central O(h²) or five-point central O(h⁴)<br>• Left edge node → Three-point forward O(h²)<br>• Right edge node → Three-point backward O(h²)"]
+    S3["<b>Step 3: Check Data Smoothness</b><br>Build first & second differences. If higher differences jump erratically,<br>higher-order formulas amplify noise—stick to the 3-point central formula!"]
+    S1 --> S2 --> S3
 ```
 
 ---

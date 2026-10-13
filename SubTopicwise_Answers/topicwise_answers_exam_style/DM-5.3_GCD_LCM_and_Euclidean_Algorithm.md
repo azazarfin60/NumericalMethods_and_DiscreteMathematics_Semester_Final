@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-5.2 Prime Numbers](DM-5.2_Prime_Numbers.md) | [Next: DM-5.4 Modular Arithmetic & Congruence →](DM-5.4_Modular_Arithmetic_and_Congruence.md)
 
 ---

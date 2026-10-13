@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-5.7 Chinese Remainder Theorem](DM-5.7_Chinese_Remainder_Theorem.md) | [Next: DM-5.9 Number-Theoretic Proofs →](DM-5.9_Number_Theoretic_Proofs.md)
 
 ---

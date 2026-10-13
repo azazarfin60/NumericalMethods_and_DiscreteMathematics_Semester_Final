@@ -1039,30 +1039,15 @@ $$\boxed{\text{Population in 1955} \approx 96.8368 \approx 96.84 \text{ thousand
 
 *[Marks: 04]*
 
+![Comparison of regression error criteria: minimum sum of errors allows cancelling errors, minimum absolute error yields non-unique fits, and least squares produces a unique optimum](../answers_exam_style/diagrams/2017_Q6a_regression_criteria.png)
+
 Take four data points, three of which lie near the line and one of which is a
 spuriously displaced measurement.
-
-```text
- y
- ^         .          .
- |      .        .          o <- (x4, y4) outlier
- |   .            .
- |  .         .            <- the true relation
- | .      .
- |________________________> x
-```
 
 **Criterion 1: minimum sum of errors, $\sum e_i = 0$.** The positive and
 negative errors cancel, so this condition is satisfied by *infinitely many*
 curves, including curves that pass through none of the data. A line far above
 three points and far below a fourth gives $\sum e_i = 0$ while fitting nothing.
-
-```text
-   .            .
-        sum e = +2
-   .
-        sum e = -2      -> total 0, but a terrible fit
-```
 
 **Criterion 2: minimum sum of absolute errors, $\sum\lvert e_i\rvert$.**
 Cancellation is removed, so the criterion is a genuine measure of badness.
@@ -1070,13 +1055,6 @@ However $\sum\lvert e_i\rvert$ is piecewise linear in the curve's parameters,
 its minimum often lies where the slope is not defined, and no normal equations
 result. The condition is satisfied by several distinct curves whenever they
 share the same total absolute deviation.
-
-```text
-   .            .
-        |e| = 2
-   .
-        |e| = 2      -> total 4, minimum, but not unique
-```
 
 **Criterion 3: minimum error, $\min_i \lvert e_i\rvert$.** A single error
 considers one point only. Minimising it drives one residual to zero while the

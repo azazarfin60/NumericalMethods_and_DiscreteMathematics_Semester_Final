@@ -7,9 +7,6 @@ tags:
 ---
 
 
-
-
-
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-1.1 Foundations of Numerical Methods](NM-1.1_Foundations_of_Numerical_Methods.md) | [Next: NM-1.3 Accuracy, Precision & Significant Digits →](NM-1.3_Accuracy_Precision_and_Significant_Digits.md)
 
 ---

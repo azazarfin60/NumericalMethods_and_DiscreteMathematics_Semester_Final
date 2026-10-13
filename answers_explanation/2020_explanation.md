@@ -1643,22 +1643,10 @@ the problem in Q.8(b).
 
 *[Marks: 06]*
 
+![Square domain 3x3 finite-difference grid for the Laplace equation with boundary value 1 on the top edge and 0 on the bottom, left and right edges, and four interior nodes E1, E2, E3, E4](../answers_exam_style/diagrams/2020_Q8b_laplace_grid.jpg)
+
 The figure gives a $3\times3$ square grid with $E = 1$ along the **top** edge and
 $E = 0$ along the **bottom, left and right** edges.
-
-```
-             1        1        1
-        +--------+--------+--------+
-        |        |        |        |
-     0  |   E4   |   E3   |        |  0
-        |        |        |        |
-        +--------+--------+--------+
-        |        |        |        |
-     0  |   E1   |   E2   |        |  0
-        |        |        |        |
-        +--------+--------+--------+
-             0        0        0
-```
 
 **Step 1. The Liebmann update.** The five-point formula for Laplace's equation
 with equal spacing is
