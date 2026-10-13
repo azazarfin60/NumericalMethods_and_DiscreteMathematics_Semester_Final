@@ -209,7 +209,7 @@ $$
 
 Look at the dramatic difference between the two variants:
 
-| Configuration | Subintervals $n$ | Step Size $h$ | Approximate $x$ | True Error $E_t$ | Relative Error $|\varepsilon_t|$ |
+| Configuration | Subintervals $n$ | Step Size $h$ | Approximate $x$ | True Error $E_t$ | Relative Error $\lvert\varepsilon_t\rvert$ |
 |:---|:---:|:---:|:---|:---:|:---:|
 | **Single application (2023)** | 2 | 11.00 s | 11065.72 m | $-4.38\text{ m}$ | $0.0396\%$ |
 | **Composite 8-segment (2018)** | 8 | 2.75 s | 11061.3548 m | $-0.0193\text{ m}$ | $0.00017\%$ |
@@ -223,11 +223,11 @@ Notice that $4^4 = 256$, and $\frac{4.38}{0.0193} \approx 227$. This 227-fold er
 
 | Year | What They Asked | Key Method | Key Answer |
 |:---|:---|:---|:---|
-| 2018 Q.6(b) | Minimum $n$ for error $< 0.01$ | Solve $\frac{(b-a)h^2}{12}\max\|f''\| < 0.01$ | $\boxed{n = 3}$ |
+| 2018 Q.6(b) | Minimum $n$ for error $< 0.01$ | Solve $\frac{(b-a)h^2}{12}\max\lvert f''\rvert < 0.01$ | $\boxed{n = 3}$ |
 | 2018 Q.6(a)(ii) | Rocket true error ($n = 8$) | $x_{\text{exact}} - x$ | $\boxed{E_t \approx -0.0193\ \text{m}}$ |
-| 2018 Q.6(a)(iii) | Rocket relative error ($n = 8$) | $\|E_t / x_{\text{exact}}\| \times 100\%$ | $\boxed{|\varepsilon_t| \approx 0.00017\%}$ |
+| 2018 Q.6(a)(iii) | Rocket relative error ($n = 8$) | $\lvert E_t / x_{\text{exact}}\rvert \times 100\%$ | $\boxed{\lvert\varepsilon_t\rvert \approx 0.00017\%}$ |
 | 2023 Q.4(b)(ii) | Rocket true error ($n = 2$) | $I_{\text{exact}} - x$ | $\boxed{\text{(ii) } E_t = -4.38\text{ m}}$ |
-| 2023 Q.4(b)(iii) | Rocket relative error ($n = 2$) | $\|E_t / I_{\text{exact}}\| \times 100\%$ | $\boxed{\text{(iii) } |\epsilon_t| = 0.0396\%}$ |
+| 2023 Q.4(b)(iii) | Rocket relative error ($n = 2$) | $\lvert E_t / I_{\text{exact}}\rvert \times 100\%$ | $\boxed{\text{(iii) } \lvert\epsilon_t\rvert = 0.0396\%}$ |
 
 ---
 

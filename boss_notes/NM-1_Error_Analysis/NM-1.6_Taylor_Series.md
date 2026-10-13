@@ -82,8 +82,8 @@ For example, "correct to 5 decimal places" means the error must be strictly less
 | $e^x$ | $1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \dots$ | All $x \in (-\infty, \infty)$ |
 | $\sin x$ | $x - \frac{x^3}{3!} + \frac{x^5}{5!} - \dots$ | All $x \in (-\infty, \infty)$ |
 | $\cos x$ | $1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \dots$ | All $x \in (-\infty, \infty)$ |
-| $\ln(1+x)$ | $x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \dots$ | $|x| < 1$ (Diverges for $|x| \ge 1$!) |
-| $\ln\left(\frac{1+y}{1-y}\right)$ | $2\left(y + \frac{y^3}{3} + \frac{y^5}{5} + \dots\right)$ | $|y| < 1$ |
+| $\ln(1+x)$ | $x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \dots$ | $\lvert x\rvert < 1$ (Diverges for $\lvert x\rvert \ge 1$!) |
+| $\ln\left(\frac{1+y}{1-y}\right)$ | $2\left(y + \frac{y^3}{3} + \frac{y^5}{5} + \dots\right)$ | $\lvert y\rvert < 1$ |
 
 ---
 
@@ -327,7 +327,7 @@ $$
 | **2018 Q.1(c)** | Terms for $e^x$ correct to 5 d.p. on $[0,1]$ | $\boxed{9\ \text{terms}}$ |
 | **2021 Q.1(c)** | $\ln 3$ correct to 5 d.p. | $\boxed{\ln 3 = 1.09861}$ |
 | **2022 Q.1(b)** | $f(1)$ for cubic polynomial | $\boxed{f(1) = -7}$ |
-| **2024 Q.1(b)** | Third-order Taylor of $e^x$, error at $x = 0.5$ | $\boxed{e^x \approx P_3(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6}}$, $\boxed{P_3(0.5) = 1.6458333, \quad |E_3| = 0.0028879 \le 0.0042935}$ |
+| **2024 Q.1(b)** | Third-order Taylor of $e^x$, error at $x = 0.5$ | $\boxed{e^x \approx P_3(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6}}$, $\boxed{P_3(0.5) = 1.6458333, \quad \lvert E_3\rvert = 0.0028879 \le 0.0042935}$ |
 
 ---
 

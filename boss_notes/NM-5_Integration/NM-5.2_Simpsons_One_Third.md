@@ -484,12 +484,12 @@ The exact analytical integral is $I_{\text{exact}} = 11061.34\text{ m}$.
 |:---|:---|:---|:---|
 | 2018 Q.6(a) | Rocket distance, 8 segments | Composite Simpson's 1/3 ($n = 8$) | $\boxed{x \approx 11061.3548\ \text{m}}$ |
 | 2018 Q.6(a)(ii) | Rocket true error ($n = 8$) | $x_{\text{exact}} - x$ | $\boxed{E_t \approx -0.0193\ \text{m}}$ |
-| 2018 Q.6(a)(iii) | Rocket relative error ($n = 8$) | $\|E_t / x_{\text{exact}}\| \times 100\%$ | $\boxed{|\varepsilon_t| \approx 0.00017\%}$ |
+| 2018 Q.6(a)(iii) | Rocket relative error ($n = 8$) | $\lvert E_t / x_{\text{exact}}\rvert \times 100\%$ | $\boxed{\lvert\varepsilon_t\rvert \approx 0.00017\%}$ |
 | 2019 Q.7(a) | Derive 1/3 rule & cubic exactness | Lagrange quadratic basis integration | $\boxed{\int_{x_0}^{x_2} f\,dx \approx \frac{h}{3}(f_0 + 4f_1 + f_2)\ \text{exact for all polynomials of degree}\ \le 3}$ |
 | 2020 Q.6(b) | Op-amp integrator (5 intervals) | Mixed Simpson 1/3 on 4 + Trapezoid on 1 | $\boxed{v_0(1.25) = -106.34 \text{ V}}$ |
 | 2023 Q.4(b)(i) | Rocket distance (single application) | Fundamental Simpson 1/3 ($n = 2$) | $\boxed{\text{(i) } x \approx 11065.72\text{ m}}$ |
 | 2023 Q.4(b)(ii) | Rocket true error ($n = 2$) | $I_{\text{exact}} - x$ | $\boxed{\text{(ii) } E_t = -4.38\text{ m}}$ |
-| 2023 Q.4(b)(iii) | Rocket relative error ($n = 2$) | $\|E_t / I_{\text{exact}}\| \times 100\%$ | $\boxed{\text{(iii) } |\epsilon_t| = 0.0396\%}$ |
+| 2023 Q.4(b)(iii) | Rocket relative error ($n = 2$) | $\lvert E_t / I_{\text{exact}}\rvert \times 100\%$ | $\boxed{\text{(iii) } \lvert\epsilon_t\rvert = 0.0396\%}$ |
 
 ---
 

@@ -1364,12 +1364,12 @@ $$
 
 **Logic Circuit Diagram (Simplified Form):**
 
-![Digital logic circuit diagram for simplified expression F = ¬r ∨ (p ∧ q) using 1 NOT gate, 1 AND gate, and 1 OR gate](../answers_exam_style/diagrams/2023_Q5a_simplified_logic_circuit.png)
+![Digital logic circuit diagram for simplified expression F = ¬r ∨ (p ∧ q) using 1 NOT gate, 1 AND gate, and 1 OR gate](diagrams/2023_Q5a_simplified_logic_circuit.png)
 
 **Alternative: Direct (Unsimplified) Circuit:**
 If implemented directly without simplification:
 
-![Direct logic circuit diagram implementing (p ∨ ¬r) ∧ (¬p ∨ (q ∨ ¬r)) with 2 NOT gates, 3 OR gates, and 1 AND gate](../answers_exam_style/diagrams/2023_Q5a_unsimplified_circuit.jpg)
+![Direct logic circuit diagram implementing (p ∨ ¬r) ∧ (¬p ∨ (q ∨ ¬r)) with 2 NOT gates, 3 OR gates, and 1 AND gate](diagrams/2023_Q5a_unsimplified_circuit.jpg)
 
 $$
 \boxed{F = \neg r \lor (p \land q)}

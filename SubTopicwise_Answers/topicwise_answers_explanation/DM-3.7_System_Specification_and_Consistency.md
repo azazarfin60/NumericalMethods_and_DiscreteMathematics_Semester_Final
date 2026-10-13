@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: DM-3.6 Translation: English → Logic](DM-3.6_Translation_English_to_Logic.md) | [Next: DM-3.8 Normal Forms & Functional Completeness →](DM-3.8_Normal_Forms_and_Functional_Completeness.md)
 
 ---

@@ -50,11 +50,11 @@ Given a **true value** $T$ and an **approximate value** $A$, where error $e = A 
 
 | # | Representation | Mathematical Formula | What It Tells You | Units |
 | :--: | :-- | :-- | :-- | :-- |
-| 1 | **Absolute error** | $e = A - T$, or magnitude $|e| = |A - T|$ | Raw size of mistake | Same as quantity (V, A, m) |
+| 1 | **Absolute error** | $e = A - T$, or magnitude $\lvert e\rvert = \lvert A - T\rvert$ | Raw size of mistake | Same as quantity (V, A, m) |
 | 2 | **Relative error** | $E_r = \frac{A - T}{T} = \frac{e}{T}$ | Mistake as fraction of true value | Dimensionless |
 | 3 | **Percentage error** | $E_p = \frac{e}{T} \times 100\%$ | Fraction scaled to percent | % |
-| 4 | **Relative accuracy** | $\text{Acc} = \frac{A}{T} = 1 - \left|\frac{e}{T}\right|$ | Closeness score to 100% | Dimensionless or % |
-| 5 | **Limiting error** | $|e| \le \varepsilon$ | Guaranteed boundary | Same as quantity |
+| 4 | **Relative accuracy** | $\text{Acc} = \frac{A}{T} = 1 - \left\vert\frac{e}{T}\right\vert$ | Closeness score to 100% | Dimensionless or % |
+| 5 | **Limiting error** | $\lvert e\rvert \le \varepsilon$ | Guaranteed boundary | Same as quantity |
 
 > [!WARNING] The Denominator Trap
 > The most frequent student mistake in the entire exam is writing $\frac{A - T}{A}$ (dividing by the approximate reading). That is wrong! The true value $T$ is the fixed physical reality. The denominator must **always** be the true value $T$.
@@ -242,9 +242,9 @@ $$
 
 | Year | What They Asked | Key Boxed Takeaway |
 | :--- | :--- | :--- |
-| **2017 Q.3(b)** | Relative error of $u = 5xy^2/z^3$ | $\boxed{\left|\frac{du}{u}\right| \le 6\times10^{-3} = 0.6\%}$ |
-| **2019 Q.1(c)** | Voltmeter comparison: 999V vs 9999V | $\boxed{|e| = 1\ \text{V}\ \text{for both, but}\ E_{\text{rel}} = 10^{-3}\ \text{against}\ 10^{-4}}$ |
-| **2020 Q.1(b)** | Current measurement: 9.05A vs 10A (6 marks) | $\boxed{|E_a| = 0.95 \text{ Amp}, \qquad E_r = -0.095, \qquad \text{percentage} = -9.5\%}$ |
+| **2017 Q.3(b)** | Relative error of $u = 5xy^2/z^3$ | $\boxed{\left\vert\frac{du}{u}\right\vert \le 6\times10^{-3} = 0.6\%}$ |
+| **2019 Q.1(c)** | Voltmeter comparison: 999V vs 9999V | $\boxed{\lvert e\rvert = 1\ \text{V}\ \text{for both, but}\ E_{\text{rel}} = 10^{-3}\ \text{against}\ 10^{-4}}$ |
+| **2020 Q.1(b)** | Current measurement: 9.05A vs 10A (6 marks) | $\boxed{\lvert E_a\rvert = 0.95 \text{ Amp}, \qquad E_r = -0.095, \qquad \text{percentage} = -9.5\%}$ |
 | **2023 Q.1(b)** | Relative error of $u = 5xy^2/z^3$ (repeat) | Same logarithmic differentiation recipe: $0.6\%$ |
 
 ---

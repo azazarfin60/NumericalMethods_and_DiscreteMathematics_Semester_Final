@@ -196,7 +196,7 @@ every step. Doubling the accuracy costs one further derivative evaluation.
 | Diverges or oscillates | Initial guess too far, or $f'$ small | Bracket the root first and start inside, or use bisection or secant |
 | Division by zero | $f'(x_n) = 0$, a stationary point | Choose another start, or use a method that does not divide by $f'$ |
 | Cycle between two points | Overshoot from a bad start | Damp the step, or switch to bisection when two successive values repeat |
-| False convergence to a stationary point | $f(x_n) \ne 0$ but $f'(x_n) = 0$ | Always check $|f(x_n)|$, not only $|x_{n+1} - x_n|$ |
+| False convergence to a stationary point | $f(x_n) \ne 0$ but $f'(x_n) = 0$ | Always check $\lvert f(x_n)\rvert$, not only $\lvert x_{n+1} - x_n\rvert$ |
 | Slow near a repeated root | Error is squared only for a **simple** root | Use the modified form $x_{n+1} = x_n - m\frac{f(x_n)}{f'(x_n)}$ with $m$ the multiplicity |
 | Non-convergence on a step-like function | No tangent information, as on a signum | Use bisection, which needs only a sign change |
 | $f'$ not available | Only a formula for $f$ | Use the secant method, which builds the derivative from two points |

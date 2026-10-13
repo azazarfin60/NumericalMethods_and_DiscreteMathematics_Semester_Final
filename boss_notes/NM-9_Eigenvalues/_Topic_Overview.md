@@ -33,7 +33,7 @@ Mastering this single subtopic guarantees you full marks whenever an eigenvalue 
 
 | # | File | Priority | Exam Freq | Reading Time | Core Concept |
 |:---:|:---|:---:|:---:|:---:|:---|
-| 1 | [NM-9.1: Eigenvalues and Eigenvectors](NM-9.1_Eigenvalues_and_Eigenvectors.md) | 🟡 | 2/8 years (2017, 2023) | ~15 min | Characteristic polynomial $|A - \lambda I| = 0$, sparse cofactor expansion, homogeneous nullspace solving, unit normalization, trace and determinant verification |
+| 1 | [NM-9.1: Eigenvalues and Eigenvectors](NM-9.1_Eigenvalues_and_Eigenvectors.md) | 🟡 | 2/8 years (2017, 2023) | ~15 min | Characteristic polynomial $\lvert A - \lambda I\rvert = 0$, sparse cofactor expansion, homogeneous nullspace solving, unit normalization, trace and determinant verification |
 
 ---
 

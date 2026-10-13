@@ -29,7 +29,7 @@ Here is the learning flow:
 | 1 | [DM-1.1: Set Operations](DM-1.1_Set_Operations.md) | ⚫ | 0/8 papers | ~4 min | Union, intersection, difference, complement, Cartesian product, Venn diagrams |
 | 2 | [DM-1.2: Algebraic Properties](DM-1.2_Algebraic_Properties.md) | ⚫ | 0/8 papers | ~4 min | Identity, domination, distributive laws, De Morgan's laws, membership tables |
 | 3 | [DM-1.3: Computer Representation](DM-1.3_Computer_Representation.md) | ⚫ | 0/8 papers | ~3 min | Characteristic bit vectors, bitwise AND/OR/NOT operations |
-| 4 | [DM-1.4: The Power Set Theorem](DM-1.4_Power_Set.md) | ⚫ | 0/8 papers | ~4 min | Power set $\mathcal{P}(S)$, cardinality theorem $|\mathcal{P}(S)| = 2^n$, binary choice proof |
+| 4 | [DM-1.4: The Power Set Theorem](DM-1.4_Power_Set.md) | ⚫ | 0/8 papers | ~4 min | Power set $\mathcal{P}(S)$, cardinality theorem $\lvert\mathcal{P}(S)\rvert = 2^n$, binary choice proof |
 
 ---
 

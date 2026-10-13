@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-2.5 Secant Method](NM-2.5_Secant_Method.md) | [Next: NM-2.7 Roots of Polynomials →](NM-2.7_Roots_of_Polynomials.md)
 
 ---

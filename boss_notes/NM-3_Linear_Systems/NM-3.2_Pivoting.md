@@ -273,7 +273,7 @@ When solving $A\mathbf{x} = \mathbf{b}$ via elimination, selecting the natural d
 | **Search Territory** | Column $k$ only (rows $k$ to $n$) | Full remaining submatrix (rows & cols $k$ to $n$) |
 | **Row Swaps?** | Yes | Yes |
 | **Column Swaps?** | No | Yes (scrambles unknown sequence) |
-| **Multiplier Bound** | $|m_{ik}| \le 1$ | $|m_{ik}| \le 1$ |
+| **Multiplier Bound** | $\lvert m_{ik}\rvert \le 1$ | $\lvert m_{ik}\rvert \le 1$ |
 | **Computational Cost** | $O(n^2)$ comparisons | $O(n^3)$ comparisons (roughly double work) |
 | **Practical Use** | Standard default in engineering | Used only for near-singular research systems |
 

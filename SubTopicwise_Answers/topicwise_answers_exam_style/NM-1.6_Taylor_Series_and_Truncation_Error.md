@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-1.5 Error Representations & Propagation](NM-1.5_Error_Representations_and_Propagation.md) | [Next: NM-2.1 Fundamentals & Classification →](NM-2.1_Fundamentals_and_Classification.md)
 
 ---

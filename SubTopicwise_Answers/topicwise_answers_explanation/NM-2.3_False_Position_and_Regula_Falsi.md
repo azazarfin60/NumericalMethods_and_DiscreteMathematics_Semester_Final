@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-2.2 Bisection Method](NM-2.2_Bisection_Method.md) | [Next: NM-2.4 Newton-Raphson Method →](NM-2.4_Newton_Raphson_Method.md)
 
 ---

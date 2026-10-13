@@ -307,7 +307,7 @@ $$
 
 | Year | What They Asked | Key Answer / Formula |
 |:---|:---|:---|
-| 2017 Q.3(c) | Explain bisection and provide algorithm with relative accuracy test (06 marks) | $|e_a| = \left|\frac{c - c_{\text{old}}}{c}\right| \times 100\%$, $n = \lceil \log_2\frac{b-a}{\varepsilon} \rceil$ |
+| 2017 Q.3(c) | Explain bisection and provide algorithm with relative accuracy test (06 marks) | $\lvert e_a\rvert = \left\vert\frac{c - c_{\text{old}}}{c}\right\vert \times 100\%$, $n = \lceil \log_2\frac{b-a}{\varepsilon} \rceil$ |
 | 2018 Q.2(a) | Develop algorithm for bisection, merits and demerits (04 marks) | Algorithm steps, guaranteed convergence, slow linear rate |
 | 2024 Q.2(a) | Find root of $x^3 - 6x^2 + 11x - 6$ up to 2 iterations (03 marks) | $\boxed{x_2 = 3.175, \qquad \text{root} \in (2.95,\ 3.175), \qquad \text{true root} = 3}$ |
 

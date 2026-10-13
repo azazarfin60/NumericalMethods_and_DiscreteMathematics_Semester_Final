@@ -216,11 +216,11 @@ $$
 |:---|:---|:---|:---|
 | 2018 Q.6(a) | Rocket distance ($t = 8$ to $30$) | 8-segment composite Simpson's 1/3 | $\boxed{x \approx 11061.3548\ \text{m}}$ |
 | 2018 Q.6(a)(ii) | Rocket true error ($n = 8$) | $x_{\text{exact}} - x$ | $\boxed{E_t \approx -0.0193\ \text{m}}$ |
-| 2018 Q.6(a)(iii) | Rocket relative error ($n = 8$) | $\|E_t / x_{\text{exact}}\| \times 100\%$ | $\boxed{|\varepsilon_t| \approx 0.00017\%}$ |
+| 2018 Q.6(a)(iii) | Rocket relative error ($n = 8$) | $\lvert E_t / x_{\text{exact}}\rvert \times 100\%$ | $\boxed{\lvert\varepsilon_t\rvert \approx 0.00017\%}$ |
 | 2020 Q.6(b) | Op-amp integrator ($R=10\text{k}\Omega, C=1\mu\text{F}$) | Mixed Simpson 1/3 (4) + Trapezoid (1) | $\boxed{v_0(1.25) = -106.34 \text{ V}}$ |
 | 2023 Q.4(b)(i) | Rocket distance (single application) | Fundamental Simpson 1/3 ($n = 2$) | $\boxed{\text{(i) } x \approx 11065.72\text{ m}}$ |
 | 2023 Q.4(b)(ii) | Rocket true error ($n = 2$) | $I_{\text{exact}} - x$ | $\boxed{\text{(ii) } E_t = -4.38\text{ m}}$ |
-| 2023 Q.4(b)(iii) | Rocket relative error ($n = 2$) | $\|E_t / I_{\text{exact}}\| \times 100\%$ | $\boxed{\text{(iii) } |\epsilon_t| = 0.0396\%}$ |
+| 2023 Q.4(b)(iii) | Rocket relative error ($n = 2$) | $\lvert E_t / I_{\text{exact}}\rvert \times 100\%$ | $\boxed{\text{(iii) } \lvert\epsilon_t\rvert = 0.0396\%}$ |
 
 ---
 

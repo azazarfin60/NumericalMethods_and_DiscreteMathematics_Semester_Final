@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-6.3 Optima from Tabulated Data](NM-6.3_Optima_from_Tabulated_Data.md) | [Next: NM-7.2 First Derivative from Tabulated Data →](NM-7.2_First_Derivative_from_Tabulated_Data.md)
 
 ---

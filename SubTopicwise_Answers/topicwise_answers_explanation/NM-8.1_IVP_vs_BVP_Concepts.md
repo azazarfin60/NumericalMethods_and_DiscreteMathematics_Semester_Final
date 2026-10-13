@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-7.4 Applied Differentiation](NM-7.4_Applied_Differentiation.md) | [Next: NM-8.2 Euler's Method →](NM-8.2_Eulers_Method.md)
 
 ---

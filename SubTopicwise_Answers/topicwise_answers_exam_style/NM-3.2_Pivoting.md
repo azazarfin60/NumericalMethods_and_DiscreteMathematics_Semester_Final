@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-3.1 Direct Methods & Gauss Elimination](NM-3.1_Direct_Methods_and_Gauss_Elimination.md) | [Next: NM-3.3 LU Decomposition & Matrix Inversion →](NM-3.3_LU_Decomposition_and_Matrix_Inversion.md)
 
 ---

@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-2.7 Roots of Polynomials](NM-2.7_Roots_of_Polynomials.md) | [Next: NM-3.2 Pivoting →](NM-3.2_Pivoting.md)
 
 ---

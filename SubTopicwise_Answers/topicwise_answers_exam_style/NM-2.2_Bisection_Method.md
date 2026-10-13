@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-2.1 Fundamentals & Classification](NM-2.1_Fundamentals_and_Classification.md) | [Next: NM-2.3 False Position / Regula Falsi →](NM-2.3_False_Position_and_Regula_Falsi.md)
 
 ---

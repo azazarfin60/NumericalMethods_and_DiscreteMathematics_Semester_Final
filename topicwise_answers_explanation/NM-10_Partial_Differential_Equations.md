@@ -135,7 +135,7 @@ the problem in Q.8(b).
 
 **The mesh.**
 
-![Square domain 3x3 finite-difference boundary value grid with boundary potentials Top=100V, Bottom=0V, Left=75V, Right=50V with insulating gap corners, and interior nodes 1, 2, 3, 4](../answers_exam_style/diagrams/2018_Q8a_liebmann_grid.jpg)
+![Square domain 3x3 finite-difference boundary value grid with boundary potentials Top=100V, Bottom=0V, Left=75V, Right=50V with insulating gap corners, and interior nodes 1, 2, 3, 4](diagrams/2018_Q8a_liebmann_grid.jpg)
 
 **The governing equation.** With no charge or source inside the region, the
 potential satisfies Laplace's equation, whose five-point finite-difference form
@@ -240,7 +240,7 @@ $$\boxed{V_1 = 71.875\ \text{V}, \quad V_2 = 65.625\ \text{V}, \quad V_3 = 46.87
 **The mesh.** A uniform $3\times3$ mesh over the square, with four interior nodes
 $u_1, u_2, u_3, u_4$ and the boundary values shown.
 
-![Finite difference mesh for Laplace equation over square domain OCBA with boundary values and interior nodes u1, u2, u3, u4](../answers_exam_style/diagrams/2019_Q8b_laplace_grid.jpg)
+![Finite difference mesh for Laplace equation over square domain OCBA with boundary values and interior nodes u1, u2, u3, u4](diagrams/2019_Q8b_laplace_grid.jpg)
 
 **The standard Laplace finite-difference stencil.** For a square mesh with uniform
 spacing $h$, $\nabla^2 u = 0$ gives
@@ -365,7 +365,7 @@ $$\boxed{u_1 = 3, \qquad u_2 = 4, \qquad u_3 = 2, \qquad u_4 = 3}$$
 
 **Solution.**
 
-![Square domain 3 by 3 finite difference grid for the Poisson equation with u=0 on all four sides, x and y from 0 to 3, and four interior nodes u1, u2, u3, u4](../answers_exam_style/diagrams/2021_Q6c_poisson_grid.jpg)
+![Square domain 3 by 3 finite difference grid for the Poisson equation with u=0 on all four sides, x and y from 0 to 3, and four interior nodes u1, u2, u3, u4](diagrams/2021_Q6c_poisson_grid.jpg)
 *Figure 2021 Q6(c): square domain finite-difference grid with Dirichlet boundary conditions for Poisson's equation (Source: Page 2, Q6(c))*
 
 **Step 1. The grid.** The domain is $0 \le x \le 3$, $0 \le y \le 3$ with

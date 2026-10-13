@@ -99,7 +99,7 @@ shortfall is round-off error.
 
 **Approach A: the alternating series directly, with $x = 5$.**
 
-| Terms $k$ | Sum $S_k = \sum_{n=0}^{k-1}\dfrac{(-5)^n}{n!}$ | Error $|S_k - 6.737947\times10^{-3}|$ |
+| Terms $k$ | Sum $S_k = \sum_{n=0}^{k-1}\dfrac{(-5)^n}{n!}$ | Error $\lvert S_k - 6.737947\times10^{-3}\rvert$ |
 | :--: | :-- | :-- |
 | 1 | $1$ | $9.933\times10^{-1}$ |
 | 2 | $-4$ | $4.007$ |

@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-5.5 Romberg's Method](NM-5.5_Rombergs_Method.md) | [Next: NM-5.7 Applied Integration →](NM-5.7_Applied_Integration.md)
 
 ---

@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-4.11 Difference Table Formation & Applications](NM-4.11_Difference_Table_Formation_and_Applications.md) | [Next: NM-5.2 Simpson's 1/3 Rule →](NM-5.2_Simpsons_1_3_Rule.md)
 
 ---

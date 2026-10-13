@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-3.8 Circuit Applications](NM-3.8_Circuit_Applications.md) | [Next: NM-4.2 Least-Squares Linear Regression →](NM-4.2_Least_Squares_Linear_Regression.md)
 
 ---

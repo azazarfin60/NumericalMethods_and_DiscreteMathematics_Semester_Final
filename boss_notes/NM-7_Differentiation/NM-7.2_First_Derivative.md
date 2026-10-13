@@ -345,9 +345,9 @@ $$
 
 | Year & Paper | What Was Asked | Key Method Used | Final Result |
 | :--- | :--- | :--- | :--- |
-| **2021 Q.7(c)** | $dy/dx$ and $d^2y/dx^2$ at $x = 1.2$ from $e^x$ table | 3-point central (5-point unavailable due to missing $x=0.8$) | $\boxed{\frac{dy}{dx}\bigg|_{1.2} \approx 3.3423, \quad \frac{d^2y}{dx^2}\bigg|_{1.2} \approx 3.3325}$ |
+| **2021 Q.7(c)** | $dy/dx$ and $d^2y/dx^2$ at $x = 1.2$ from $e^x$ table | 3-point central (5-point unavailable due to missing $x=0.8$) | $\boxed{\frac{dy}{dx}\bigg\vert_{1.2} \approx 3.3423, \quad \frac{d^2y}{dx^2}\bigg\vert_{1.2} \approx 3.3325}$ |
 | **2019 Q.6(b)** | Inductor voltage $v = L \frac{dI}{dt}$ at $t = 0.27\text{ s}$ | 5-point central on current table | $\boxed{v(0.27) = 0.965\ \text{V}}$ |
-| **2020 Q.6(c)** | Angular velocity $\omega = \frac{d\theta}{dt}$ at $t = 0.06\text{ s}$ | 3-point central on angular displacement | $\boxed{\left.\frac{d\theta}{dt}\right|_{t=0.06} \approx 3.975 \text{ rad/s}}$ |
+| **2020 Q.6(c)** | Angular velocity $\omega = \frac{d\theta}{dt}$ at $t = 0.06\text{ s}$ | 3-point central on angular displacement | $\boxed{\left.\frac{d\theta}{dt}\right\vert_{t=0.06} \approx 3.975 \text{ rad/s}}$ |
 | **2022 Q.3(b)** | $f'(4)$ from scrambled table | Sort nodes, Newton divided differences, differentiate quartic | $\boxed{f(x) = \frac{x^4}{2} - 3x^3 + \frac{21}{2}x^2 - 5x + 1}$ and $\boxed{f'(4) = 63}$ |
 
 ---

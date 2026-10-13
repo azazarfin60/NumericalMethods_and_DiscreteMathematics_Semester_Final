@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-5.3 Simpson's 3/8 Rule](NM-5.3_Simpsons_3_8_Rule.md) | [Next: NM-5.5 Romberg's Method →](NM-5.5_Rombergs_Method.md)
 
 ---

@@ -370,7 +370,7 @@ $$
 
 | Year | What They Asked | Key Method | Key Answer |
 |:---|:---|:---|:---|
-| 2018 Q.6(b) | Minimum segments $n$ for error $< 0.01$ | $|E| \le \frac{(b-a)h^2}{12}\max|f''|$ | $\boxed{n = 3}$ |
+| 2018 Q.6(b) | Minimum segments $n$ for error $< 0.01$ | $\lvert E\rvert \le \frac{(b-a)h^2}{12}\max\lvert f''\rvert$ | $\boxed{n = 3}$ |
 | 2019 Q.6(c) | Discuss trapezoidal rule | Theory, formula, error $O(h^2)$ | $\boxed{\int_a^b f(x)\,dx \approx \frac{h}{2}\left[f(a) + f(b) + 2\sum_{i=1}^{n-1}f_i\right]}$ |
 | 2021 Q.8(a) | Derive composite trapezoidal formula | Sum panels, collect shared nodes | $\boxed{\int_{x_0}^{x_n} y\,dx = \frac{h}{2}\left[y_0 + 2\sum_{i=1}^{n-1}y_i + y_n\right] + O(h^2)}$ |
 | 2022 Q.3(a) | Trapezoidal at $h = 0.5, 0.25, 0.125$ + Romberg | 3 step sizes + Richardson table | $\boxed{I \approx 0.7853985 \quad \text{(trapezoid alone gives } 0.784747\text{)}}$ |

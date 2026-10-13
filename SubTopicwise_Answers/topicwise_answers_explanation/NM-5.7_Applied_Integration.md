@@ -7,6 +7,7 @@ tags:
 ---
 
 
+
 [🏠 Subtopic Index](00_Index.md) | [← Prev: NM-5.6 Error Analysis in Integration](NM-5.6_Error_Analysis_in_Integration.md) | [Next: NM-6.1 Optimization Concepts →](NM-6.1_Optimization_Concepts.md)
 
 ---

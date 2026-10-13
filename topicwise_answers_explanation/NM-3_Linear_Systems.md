@@ -725,7 +725,7 @@ $$\boxed{x = 3, \qquad y = 1, \qquad z = 1}$$
 **The circuit.** A planar four-mesh network in a $2\times2$ arrangement, with
 both a voltage source and a current source.
 
-![Four-mesh planar DC resistive network with 100V source, 10A current source, and mesh currents I1, I2, I3, I4](../answers_exam_style/diagrams/2018_Q4b_circuit.jpg)
+![Four-mesh planar DC resistive network with 100V source, 10A current source, and mesh currents I1, I2, I3, I4](diagrams/2018_Q4b_circuit.jpg)
 
 Reading the four meshes off the drawing:
 
@@ -852,7 +852,7 @@ Node 2 connects to ground through $6\ \Omega$ and to node 1 through $4\ \Omega$,
 with a $5\ \text{A}$ source leaving toward node 1 and a $10\ \text{A}$ source
 entering node 2.
 
-![Two-node DC resistive network with 5A and 10A current sources, and 2, 4, 6 ohm resistors](../answers_exam_style/diagrams/2019_Q3c_circuit.jpg)
+![Two-node DC resistive network with 5A and 10A current sources, and 2, 4, 6 ohm resistors](diagrams/2019_Q3c_circuit.jpg)
 
 **KCL at node 1.** Currents leaving: through $2\ \Omega$ to ground, through
 $4\ \Omega$ to node 2, and $5\ \text{A}$ back through the top branch.
@@ -933,7 +933,7 @@ $$\boxed{V_1 = 13.3333\ \text{V}, \qquad V_2 = 20\ \text{V}}$$
 
 **Solution.**
 
-![Three-mesh DC resistive network with a 400 V source, 20, 40, 10 and 100 ohm resistors, and a downward 10 A current source, with clockwise mesh currents I1, I2, I3](../answers_exam_style/diagrams/2020_Q4b_circuit.jpg)
+![Three-mesh DC resistive network with a 400 V source, 20, 40, 10 and 100 ohm resistors, and a downward 10 A current source, with clockwise mesh currents I1, I2, I3](diagrams/2020_Q4b_circuit.jpg)
 *Figure 2020 Q4(b): three-mesh DC circuit with an independent voltage source and an independent current source (Source: Page 1, Q4(b))*
 
 **Step 1. Deal with the current source first.** Mesh 3 is bounded on the right by
@@ -1045,7 +1045,7 @@ $$\boxed{I_1 = 13.5135 \text{ A}, \qquad I_2 = 10.2703 \text{ A}, \qquad I_3 = 1
 
 **Solution.**
 
-![DC circuit with a 30 V independent voltage source, 10, 15, 8 and 20 ohm resistors, and a dependent voltage source 5I0, with branch current I0 through the 10 ohm resistor](../answers_exam_style/diagrams/2021_Q7b_circuit.jpg)
+![DC circuit with a 30 V independent voltage source, 10, 15, 8 and 20 ohm resistors, and a dependent voltage source 5I0, with branch current I0 through the 10 ohm resistor](diagrams/2021_Q7b_circuit.jpg)
 *Figure 2021 Q7(b): DC circuit with independent 30 V source, four resistors, and dependent voltage source $5I_0$ (Source: Page 2, Q7(b))*
 
 **Step 1. Name the nodes.** Take the bottom rail as reference, $0$ V.
