@@ -217,9 +217,15 @@ $$
 
 ---
 
-### CT-02A Q.2: Temperature at 7 Hours [05 Marks]
+### CT-02A Q.2: Temperature at 7 Hours [10 Marks]
 
-**The question:** From the temperature log $(0, 24), (2, 27), (4, 31), (6, 36), (8, 42)$, estimate temperature at $t = 7\text{ hours}$.
+**The question:** A weather station records the temperature every 2 hours.
+
+| Time (hours) | 0 | 2 | 4 | 6 | 8 |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Temperature (°C)** | 24 | 27 | 31 | 36 | 42 |
+
+The meteorologist wants to estimate the temperature at $1.5$ and $7$ hours. Use Newton's (Forward/Backward) Interpolation Formula to estimate the temperature.
 
 **Let's solve this cleanly:**
 The table ends at $t_n = 8$ with step $h = 2$.

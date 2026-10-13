@@ -304,7 +304,9 @@ $$
 
 ## 🏆 Past Exam Questions
 
-### 2017 Q.2(a), 2021 Q.1(b), 2023 Q.1(c): Briefly discuss the limitations of N-R method to find the root of any non-linear equation. How can we solve it? [04 marks]
+### 2017 Q.2(a) / 2021 Q.1(b) / 2023 Q.1(c): Limitations of N-R Method & Solutions [04 marks]
+
+**The question:** Briefly discuss the limitations of N-R method to find the root of any non-linear equation. How can we solve it?
 
 **How to answer like a top student:**
 Organize your response into four clearly defined failure modes paired directly with their practical engineering solutions.
@@ -337,7 +339,9 @@ Its quadratic error behavior $\varepsilon_{n+1} \approx \frac{1}{2} \left[\frac{
 
 ---
 
-### 2019 Q.2(c): Write the steps of N-R method. Discuss its merits and demerits. [04 marks]
+### 2019 Q.2(c): Algorithmic Steps, Merits & Demerits of N-R Method [04 marks]
+
+**The question:** Write the steps of N-R method. Discuss its merits and demerits.
 
 **How to answer like a top student:**
 Write the 6 algorithmic steps concisely, followed by distinct bullet points for merits and demerits.

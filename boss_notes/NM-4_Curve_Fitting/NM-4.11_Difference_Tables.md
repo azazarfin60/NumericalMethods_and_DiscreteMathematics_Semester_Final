@@ -200,9 +200,13 @@ $$
 
 ---
 
-### 2021 Q.4(c): Gas Sensor at 10 Seconds [04 Marks]
+### 2021 Q.4(c): Gas Sensor at 10 Seconds [05 Marks]
 
-**The question:** You have a gas sensor. It sends a value in 2 seconds. The table of received values is $t = 1, 3, 5, 7, 9$ with values $24, 120, 336, 720, 1200$. What will be the sensor's reading at 10 s?
+**The question:** You have a gas sensor. It sends a value in 2 seconds. The table of received values:
+
+$$\begin{array}{cc} \hline t(\text{s}) & \text{Value} \\ \hline 1 & 24 \\ 3 & 120 \\ 5 & 336 \\ 7 & 720 \\ 9 & 1200 \\ \hline \end{array}$$
+
+What will be the sensor's reading at 10s?
 
 **Let's solve this step by step.**
 

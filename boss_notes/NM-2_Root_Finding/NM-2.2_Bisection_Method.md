@@ -165,7 +165,9 @@ After 6 iterations, the interval width is $0.03125 < 0.05$. The true root is $x 
 
 ## 🏆 Past Exam Questions
 
-### 2024 Q.2(a): Given the polynomial $f(x) = x^3 - 6x^2 + 11x - 6$, use the bisection (bracketing) method to find a root in the interval up to two iterations. [03 marks, CO: 2]
+### 2024 Q.2(a): Root of Cubic Polynomial via Bisection [03 marks]
+
+**The question:** Given the polynomial $f(x) = x^3 - 6x^2 + 11x - 6$, use the bisection (bracketing) method to find a root in the interval up to two iterations.
 
 **How to answer like a top student:**
 Notice that the question does not specify the initial interval. First, factor the cubic on scratch paper to discover the true roots. Then state and justify a valid bracketing interval with a clear sign change test, and perform the two iterations cleanly.
@@ -223,7 +225,9 @@ $$
 
 ---
 
-### 2017 Q.3(c): Explain the bisection method for finding a real root of the equation $f(x) = 0$ and write an algorithm for its implementation with a test for relative accuracy. [06 marks]
+### 2017 Q.3(c): Bisection Method & Relative Accuracy Algorithm [06 marks]
+
+**The question:** Explain the bisection method for finding a real root of the equation $f(x) = 0$ and write an algorithm for its implementation with a test for relative accuracy.
 
 **How to answer like a top student:**
 Provide the theoretical basis, write the complete algorithm highlighting the relative accuracy formula, and discuss convergence behavior.
@@ -269,7 +273,9 @@ $$
 
 ---
 
-### 2018 Q.2(a): Develop an algorithm to calculate the root of any non-linear equation by bisection method. [04 marks]
+### 2018 Q.2(a): Algorithm for Bisection Method [04 marks]
+
+**The question:** Develop an algorithm to calculate the root of any non-linear equation by bisection method.
 
 **How to answer like a top student:**
 Write the standard 7-step algorithm, state the formula for the number of required iterations, and provide the merits and demerits.

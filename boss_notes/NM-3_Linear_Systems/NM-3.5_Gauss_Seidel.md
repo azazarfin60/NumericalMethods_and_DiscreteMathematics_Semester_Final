@@ -421,10 +421,19 @@ $$
 
 ### CT-02B Q.1(a–c): Rearrangement, 4 Iterations, and Absolute Error
 
-**The system:**
+**The question:** Consider the following system of linear equations:
 $$
-4x + y + z = 7, \qquad x + 5y + 2z = -8, \qquad 2x + y + 6z = 6
+\begin{aligned}
+4x + y + z &= 7 \\
+x + 5y + 2z &= -8 \\
+2x + y + 6z &= 6
+\end{aligned}
 $$
+- **(a)** Rearrange the equations in a suitable form for the Gauss-Seidel iterative method.
+- **(b)** Starting with $x_0 = 0$, $y_0 = 0$, $z_0 = 0$, perform four complete iterations using the Gauss-Seidel method.
+- **(c)** Calculate the absolute error in $x$, $y$, and $z$ between the third and fourth iterations.
+
+**Solution:**
 
 **Part (a): Rearrange in suitable form for Gauss-Seidel.**  
 The diagonals are $4, 5, 6$. Strict diagonal dominance holds:

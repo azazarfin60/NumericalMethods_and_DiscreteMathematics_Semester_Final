@@ -162,6 +162,41 @@ $$
 
 ---
 
+### CT-04 Q.3(d): Satisfying Truth Assignments for Embedded Sensor Requirements
+
+**Question:** Consider the following three statements describing an embedded system:
+- If the sensor is active, then the controller receives data. ($S_1: p \to q$)
+- The controller does not receive data unless the sensor is active. ($S_2: \neg p \to \neg q \equiv q \to p$)
+- The sensor is active if and only if the controller receives data. ($S_3: p \leftrightarrow q$)
+
+Let $p$: The sensor is active, $q$: The controller receives data.  
+Establish the truth assignments that satisfy all three requirements simultaneously.
+
+**Answer:**  
+Taking the conjunction of the three requirements:
+$$
+C = (p \to q) \land (q \to p) \land (p \leftrightarrow q) \equiv p \leftrightarrow q
+$$
+
+Evaluating the truth table across all assignments:
+
+| Assignment | $p$ | $q$ | $p \to q$ | $q \to p$ | $p \leftrightarrow q$ | Conjunction $C$ | Satisfies All Three? |
+| :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 1 | **T** | **T** | $\text{T}$ | $\text{T}$ | $\text{T}$ | **T** | **Yes** (sensor active, controller receives data) |
+| 2 | **T** | **F** | $\text{F}$ | $\text{T}$ | $\text{F}$ | **F** | No (fails statement 1) |
+| 3 | **F** | **T** | $\text{T}$ | $\text{F}$ | $\text{F}$ | **F** | No (fails statement 2) |
+| 4 | **F** | **F** | $\text{T}$ | $\text{T}$ | $\text{T}$ | **T** | **Yes** (sensor inactive, controller receives nothing) |
+
+$$
+\boxed{\text{The specification is satisfiable, and the satisfying assignments are exactly } (p,q) = (\mathrm{T},\mathrm{T}) \text{ and } (\mathrm{F},\mathrm{F})}
+$$
+
+$$
+\boxed{\text{Equivalently: the requirements hold if and only if } p = q}
+$$
+
+---
+
 ## ⚡ Quick Review
 
 **The rule in one sentence:** Count the $\text{T}$ entries in the truth table: all rows $\text{T}$ means valid, at least one $\text{T}$ means satisfiable, and zero $\text{T}$ entries means unsatisfiable.

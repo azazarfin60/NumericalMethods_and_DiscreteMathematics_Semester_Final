@@ -91,7 +91,7 @@ For example, "correct to 5 decimal places" means the error must be strictly less
 
 > **From:** 2024 Q.1(b) -- [Marks: 03]
 
-**The question:** Derive the third-order Taylor series expansion of $f(x) = e^x$ around $x = 0$. Estimate the truncation error at $f(0.5)$.
+**The question:** Given the function $f(x) = e^x$, derive the third order Taylor series expansion around $x = 0$. Estimate the truncation error if you use this expansion to approximate $f(0.5)$.
 
 **Let's solve this step by step.**
 
@@ -146,9 +146,13 @@ $$
 
 ## 🏆 Past Exam Questions
 
-### 2017 Q.1(c): Evaluate $e^{-5}$ using two approaches and compare [04 marks]
+### 2017 Q.1(c): Evaluate $e^{-5}$ Using Two Approaches [04 marks]
 
-**The question:** Evaluate $e^{-5}$ using two approaches and compare with the true value $6.737947 \times 10^{-3}$.
+**The question:** Evaluate $e^{-5}$ using following two approaches and compare with the true value of $6.737947 \cdot 10^{-3}$ as terms are added:
+
+$$
+e^{-x} = 1 - x + \frac{x^2}{2!} - \frac{x^3}{3!} + \cdots \quad \text{and} \quad e^{-x} = \frac{1}{e^x} = \frac{1}{1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots}
+$$
 
 **Solution:**
 
@@ -193,7 +197,9 @@ $$
 
 ---
 
-### 2018 Q.1(c): Number of terms for $e^x$ correct to 5 d.p. on $[0, 1]$ [04 marks]
+### 2018 Q.1(c): Exponential Series Term Count on $[0, 1]$ [04 marks]
+
+**The question:** Find the number of terms in the exponential series such that their sum gives the value of $e^x$ correct to five decimal places for all values of $x$ in the range $0 \le x \le 1$.
 
 **Solution:**
 We write the Maclaurin expansion of $e^x$:
@@ -238,7 +244,9 @@ $$
 
 ---
 
-### 2021 Q.1(c): Compute $\ln 3$ correct to 5 d.p. using Taylor series [04 marks]
+### 2021 Q.1(c): Value of $\ln 3$ via Taylor Series [04 marks]
+
+**The question:** Compute the value of $\ln 3$ correct to five decimal places using Taylor's series expansion.
 
 **Solution:**
 
@@ -281,7 +289,9 @@ $$
 
 ---
 
-### 2022 Q.1(b): Evaluate $f(1)$ using Taylor series for $f(x) = x^3 - 3x^2 + 5x - 10$ [04 marks]
+### 2022 Q.1(b): Taylor Series for a Cubic Polynomial [04 marks]
+
+**The question:** Evaluate $f(1)$ using Taylor's Series for $f(x)$, where $f(x) = x^3 - 3x^2 + 5x - 10$.
 
 **Solution:**
 

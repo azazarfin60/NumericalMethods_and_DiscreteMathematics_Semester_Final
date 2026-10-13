@@ -189,9 +189,9 @@ $$
 
 ---
 
-### 2020 Q.1(b): Approximating current as 9.05 Amp instead of 10 Amp [06 marks]
+### 2020 Q.1(b): Error Representations & Current Approximation [06 marks]
 
-**The question:** How are errors represented? Obtain values to approximate a current as $9.05\text{ Amp}$ instead of true value $10\text{ Amp}$. Justify which representation is better.
+**The question:** How are errors represented? Write down their expressions. Obtain their values to approximate a current as $9.05\text{ Amp}$ instead of true value $10\text{ Amp}$. Justify which representation is better.
 
 **Solution:**
 

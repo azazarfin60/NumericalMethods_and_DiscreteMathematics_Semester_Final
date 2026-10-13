@@ -217,7 +217,10 @@ $$
 
 ### 2020 Q.5(a) / 2021 Q.3(c) / 2023 Q.2(a): Formula Derivation [04 Marks]
 
-**The question:** Deduce the Newton's forward difference interpolating polynomial.
+**The question:** Derive the Newton's forward interpolation formula:
+$$
+y_n(x) = y_0 + p\Delta y_0 + \frac{p(p-1)}{2!}\Delta^2 y_0 + \frac{p(p-1)(p-2)}{3!}\Delta^3 y_0 + \cdots + \frac{p(p-1)\cdots(p-n+1)}{n!}\Delta^n y_0
+$$
 
 **Full derivation:** See the step-by-step proof in Section "The Core Idea" above. The key points to show:
 1. Expansion in factorial products $P_n(x) = \sum a_k \prod_{j=0}^{k-1}(x - x_j)$.
@@ -230,9 +233,15 @@ $$
 
 ---
 
-### CT-02A Q.2: Temperature Interpolation [05 Marks]
+### CT-02A Q.2: Temperature Interpolation [10 Marks]
 
-**The question:** A weather station records temperature every 2 hours: $(0, 24), (2, 27), (4, 31), (6, 36), (8, 42)$. Use Newton's (Forward/Backward) Interpolation Formula to estimate the temperature at $1.5$ and $7$ hours.
+**The question:** A weather station records the temperature every 2 hours.
+
+| Time (hours) | 0 | 2 | 4 | 6 | 8 |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Temperature (°C)** | 24 | 27 | 31 | 36 | 42 |
+
+The meteorologist wants to estimate the temperature at $1.5$ and $7$ hours. Use Newton's (Forward/Backward) Interpolation Formula to estimate the temperature.
 
 **Let's solve this step by step.**
 

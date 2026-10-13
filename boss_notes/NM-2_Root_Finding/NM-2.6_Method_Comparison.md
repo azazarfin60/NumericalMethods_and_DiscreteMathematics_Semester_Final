@@ -142,6 +142,8 @@ $$
 
 ### 2020 Q.2(a): Define roots of an equation. List the comparisons among bisection, secant, false position and Newton-Raphson methods. [06 marks]
 
+**The question:** Define roots of an equation. List the comparisons among bisection, secant, false position and Newton-Raphson methods.
+
 **How to answer like a top student:**
 Define a root, explain simple vs. multiple roots, write the complete 4-method comparison matrix, and provide the summary boxed takeaway.
 
@@ -172,7 +174,9 @@ $$
 
 ---
 
-### CT-01 Q.2(a): Compare Bisection and Regula Falsi for a safety-critical system.
+### CT-01 Q.2(a): Compare Bisection and Regula Falsi for a safety-critical system [05 marks]
+
+**The question:** A chemical plant uses a computerized system to find the operating temperature where the reaction pressure becomes zero, modeled by a continuous nonlinear equation $f(T) = 0$. The engineers must choose between the Bisection Method and the Regula Falsi Method. Compare the Bisection Method and Regula Falsi Method in terms of the required condition for application, convergence behavior, and suitability for a safety-critical system.
 
 **How to answer like a top student:**
 Frame your answer around deterministic time bounds and predictability versus speed.
@@ -190,7 +194,9 @@ This allows real-time safety software to prove worst-case execution time (WCET).
 
 ---
 
-### CT-01 Q.2(b): Why does one endpoint stall in Regula Falsi, and how is it repaired?
+### CT-01 Q.2(b): Why does one endpoint stall in Regula Falsi, and how is it repaired? [05 marks]
+
+**The question:** During testing, the Regula Falsi Method repeatedly updates only one endpoint of the interval, leading to slow convergence. Explain why this happens, compare it with the Bisection Method, and suggest a suitable improvement.
 
 **How to answer like a top student:**
 Explain the geometric convexity mechanism and define the Illinois modification with its halving rule.

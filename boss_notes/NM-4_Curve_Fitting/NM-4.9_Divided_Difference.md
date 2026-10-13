@@ -196,9 +196,11 @@ $$
 
 ---
 
-### 2022 Q.2(a): 3-Point Quadratic Polynomial Fit [03 Marks]
+### 2022 Q.2(a): 3-Point Quadratic Polynomial Fit [04 Marks]
 
-**The question:** Find the polynomial which fits the following data: $(-1, 7)$, $(1, 5)$, $(2, 15)$.
+**The question:** Find the polynomial which fits the following data
+
+$$\begin{array}{cc} \hline x & y \\ \hline -1 & 7 \\ 1 & 5 \\ 2 & 15 \\ \hline \end{array}$$
 
 **Let's solve this step by step.**
 

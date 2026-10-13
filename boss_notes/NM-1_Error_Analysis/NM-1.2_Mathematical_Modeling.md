@@ -88,7 +88,9 @@ $$
 
 ## 🏆 Past Exam Questions
 
-### 2024 Q.1(a): Importance of mathematical modeling in engineering problem solving; provide examples [03 marks]
+### 2024 Q.1(a): Importance of Mathematical Modeling in Engineering [03 marks]
+
+**The question:** Explain the importance of mathematical modeling in engineering problem solving provide examples of how a real-world engineering problem can be represented using mathematical models.
 
 **How to answer like a top student:**
 Define modeling in one clean sentence, state why it matters, list the 5-step process, and give a short physical example.
@@ -122,7 +124,9 @@ $$
 
 ---
 
-### CT-01 Q.1(a): Develop a mathematical model representing the temperature estimation problem and identify the assumptions made [Class Test]
+### CT-01 Q.1(a): Mathematical Model for Temperature Estimation [Class Test]
+
+**The question:** Develop a mathematical model representing the temperature estimation problem and identify the assumptions made.
 
 **Solution:**
 **Problem formulation:** We want to model the transient temperature $T(t)$ inside an exothermic chemical reactor.

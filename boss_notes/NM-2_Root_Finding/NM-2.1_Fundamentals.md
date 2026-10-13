@@ -142,7 +142,9 @@ Secant and Newton-Raphson do not maintain a bracket. Newton-Raphson starts with 
 
 ## 🏆 Past Exam Questions
 
-### 2019 Q.2(a): Define iterative method. Name the iterative methods to solve nonlinear equations. Write the generalized steps to solve nonlinear equations using iterative methods. [04 marks]
+### 2019 Q.2(a): Iterative Methods & Generalized Solution Steps [04 marks]
+
+**The question:** What is meant by iterative method? Write the names of iterative methods to solve nonlinear equations. Write down the generalized steps while finding the root of nonlinear equation using iterative methods.
 
 **How to answer like a top student:**
 Deliver a crisp definition, provide a bulleted list of methods, and present the 8 generalized steps clearly.
@@ -172,7 +174,9 @@ An **iterative method** is a mathematical procedure that solves an equation $f(x
 
 ---
 
-### 2021 Q.2(a): Define bracketing methods with example. [02 marks, CO: 1]
+### 2021 Q.2(a): Definition of Bracketing Methods [02 marks]
+
+**The question:** Define bracketing methods with example.
 
 **How to answer like a top student:**
 Give the formal condition ($f(a)f(b) < 0$), cite the Intermediate Value Theorem, state the key property, and give standard examples.
@@ -199,7 +203,9 @@ $$
 
 ---
 
-### 2022 Q.1(a): What is the difference between open and bracketing method of root finding? [02 marks, CO: 1]
+### 2022 Q.1(a): Open vs. Bracketing Methods [02 marks]
+
+**The question:** What is the difference between open and bracketing method of root finding?
 
 **How to answer like a top student:**
 A structured table with a concluding summary sentence gets full marks immediately.

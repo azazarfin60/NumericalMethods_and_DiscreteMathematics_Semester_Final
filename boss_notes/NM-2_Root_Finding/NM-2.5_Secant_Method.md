@@ -177,7 +177,9 @@ $$
 
 ## 🏆 Past Exam Questions
 
-### 2017 Q.2(c): Find the positive root of the equation $f(x) = x^3 - 3x^2 - x - 3 = 0$ by secant method (Use four iterations only). [04 marks]
+### 2017 Q.2(c): Positive Root via Secant Method [04 marks]
+
+**The question:** Find the positive root of the equation $f(x) = x^3 - 3x^2 - x - 3 = 0$ by secant method (Use four iterations only).
 
 **How to answer like a top student:**
 Follow the complete worked solution shown above:

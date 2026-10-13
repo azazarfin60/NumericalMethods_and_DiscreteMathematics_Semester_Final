@@ -160,9 +160,11 @@ Limitations: Adding a new data point forces you to recompute all basis polynomia
 
 ---
 
-### 2018 Q.3(c): 3-Point Lagrange Interpolation [03 Marks]
+### 2018 Q.3(c): 3-Point Lagrange Interpolation [04 Marks]
 
-**The question:** Find $f(2.5)$ from the given data, $x$: 1, 2, 3 and $f(x)$: 0, 1, 8.
+**The question:** Find $f(2.5)$ from the given data,
+
+$$\begin{array}{cccc} \hline x & 1 & 2 & 3 \\ \hline f(x) & 0 & 1 & 8 \\ \hline \end{array}$$
 
 **Let's solve this step by step.**
 
@@ -196,9 +198,13 @@ $$
 
 ---
 
-### 2019 Q.4(b): Robot Arm Quadratic Path [04 Marks]
+### 2019 Q.4(b): Robot Arm Quadratic Path [06 Marks]
 
-**The question:** A robot arm with a rapid laser scanner is doing a quick quality check on holes drilled in a $15'' \times 10''$ rectangular plate. The centers of the holes in the plate describe the path the arm needs to take, and the hole centers are located on a Cartesian coordinate system given by $(2, 7.2)$, $(4.25, 7.1)$, and $(5.25, 6.0)$. If the laser is traversing from $x = 2$ to $x = 4.25$ to $x = 5.25$ in a quadratic path, what is the value of $y$ at $x = 4.00$ using a curve fitting technique?
+**The question:** A robot arm with a rapid laser scanner is doing a quick quality check on holes drilled in a $15'' \times 10''$ rectangular plate. The centers of the holes in the plate describe the path the arm needs to take, and the hole centers are located on a Cartesian coordinate system (with the origin at the bottom left corner of the plate) given by the specifications in the table below:
+
+$$\begin{array}{ccccccc} \hline x\text{ (in.)} & 2 & 4.25 & 5.25 & 7.81 & 9.20 & 10.60 \\ \hline y\text{ (in.)} & 7.2 & 7.1 & 6.0 & 5.0 & 3.5 & 5.0 \\ \hline \end{array}$$
+
+If the laser is traversing from $x = 2$ to $x = 4.25$ to $x = 5.25$ in a quadratic path, what is the value of the $y$ at $x = 4.00$ using a curve fitting technique? *(Note: "leaser" printed as is in original; refers to laser)*
 
 **Let's solve this step by step.**
 
@@ -283,9 +289,13 @@ $$
 
 ---
 
-### CT-02A Q.1: Water Pollutant Concentration [04 Marks]
+### CT-02A Q.1: Water Pollutant Concentration [10 Marks]
 
-**The question:** Use the Lagrange Interpolation Formula to estimate the concentration at 5 km from distance $x = [2, 4, 7, 10]\text{ km}$ and concentration $C = [18, 26, 43, 60]\text{ mg/L}$.
+**The question:** An environmental scientist measures the concentration of a pollutant in a river at different distances from the source.
+
+$$\begin{array}{lcccc} \hline \text{Distance (km)} & 2 & 4 & 7 & 10 \\ \hline \textbf{Concentration (mg/L)} & 18 & 26 & 43 & 60 \\ \hline \end{array}$$
+
+The concentration at $5\text{ km}$ could not be measured due to equipment failure. Use the Lagrange Interpolation Formula to estimate the pollutant concentration at $5\text{ km}$.
 
 **Let's solve this cleanly:**
 At $x = 5$:

@@ -119,7 +119,9 @@ When an exam question asks *"How do errors enter into the process?"*, list these
 
 ## 🏆 Past Exam Questions
 
-### 2018 Q.1(b): What are the algorithmic errors that may occur in numerical calculation? [04 marks]
+### 2018 Q.1(b): Algorithmic Errors in Numerical Calculation [04 marks]
+
+**The question:** What are the algorithmic errors that may occur in numerical calculation?
 
 **How to answer like a top student:**
 Algorithmic errors are errors produced by the algorithm itself (distinct from input data errors). Group them into truncation, round-off, and propagation.
@@ -136,7 +138,9 @@ For an algorithm with step size $h$, truncation error scales as $O(h^p)$ (shrink
 
 ---
 
-### 2019 Q.1(b): What are the errors involved in numerical methods? How do they enter into the process? Give an example. [04 marks]
+### 2019 Q.1(b): Errors Involved, Entry Points & Example [04 marks]
+
+**The question:** What are the errors involved in numerical methods? How do they enter into the process? Give example.
 
 **Solution:**
 The errors involved in numerical methods are **inherent error**, **truncation error**, and **round-off error**.
@@ -171,7 +175,9 @@ This $-1\%$ error combines the display's finite-digit round-off with the physica
 
 ---
 
-### 2020 Q.1(a): Why are numerical methods needed? What are sources of error? Discuss them. [06 marks]
+### 2020 Q.1(a): Purpose & Sources of Error [06 marks]
+
+**The question:** Why are numerical methods for? What are the sources of errors in numerical methods? Discuss them.
 
 **Solution:**
 **Why numerical methods are needed:**
@@ -195,7 +201,9 @@ $$
 
 ---
 
-### 2024 Q.1(c): Round-off vs. Truncation error, and how each arises [04 marks]
+### 2024 Q.1(c): Round-Off vs. Truncation Error [04 marks]
+
+**The question:** What are round off and truncation errors? Discuss how each arises in numerical computation.
 
 **Solution:**
 Both errors cause the computed result to deviate from the true mathematical solution, but their origins and remedies are fundamentally different.
@@ -224,7 +232,9 @@ $$
 
 ---
 
-### CT-01 Q.1(b): Identify at least three sources of numerical error in software and explain their effects [Class Test]
+### CT-01 Q.1(b): Sources of Numerical Error in Software [Class Test]
+
+**The question:** Identify at least three possible sources of numerical error in the software and explain how each affects the final prediction.
 
 **Solution:**
 In a digital reactor monitoring program executing on a microcontroller with 5-digit decimal precision:

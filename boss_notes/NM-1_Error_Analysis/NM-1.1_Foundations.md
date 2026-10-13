@@ -83,7 +83,9 @@ For a quick 2-mark question, list four fields with their typical workload:
 
 ## 🏆 Past Exam Questions
 
-### 2017 Q.1(a): Define Numerical Methods. Why do we need them in engineering? [04 marks]
+### 2017 Q.1(a): Definition & Engineering Need [04 marks]
+
+**The question:** Define Numerical Methods? Why do we need to use numerical methods to solve engineering problems?
 
 **How to answer like a top student:**
 Start with a crisp definition, then present the four core reasons cleanly.
@@ -99,7 +101,9 @@ We need numerical methods in engineering because:
 
 ---
 
-### 2018 Q.1(a): Importance of numerical techniques in engineering [04 marks]
+### 2018 Q.1(a): Importance of Numerical Techniques [04 marks]
+
+**The question:** What are the importances of numerical techniques in engineering? Briefly discuss.
 
 **Solution:**
 Numerical techniques provide computable answers for problems where mathematical analysis cannot provide a closed-form formula. Their importance rests on four pillars:
@@ -110,7 +114,9 @@ Numerical techniques provide computable answers for problems where mathematical 
 
 ---
 
-### 2019 Q.1(a): Define numerical method. How did it become popular? Why do ECE engineers need them? [04 marks]
+### 2019 Q.1(a): Popularity & ECE Requirements [04 marks]
+
+**The question:** Define numerical method. How does it become popular? Why do ECE engineers require numerical methods?
 
 **Solution:**
 A **numerical method** is a finite arithmetic procedure for solving a mathematical problem without a usable closed-form solution.
@@ -132,7 +138,9 @@ $$
 
 ---
 
-### 2021 Q.1(a): Analytical vs. Numerical methods, and why ECE engineers need them [04 marks]
+### 2021 Q.1(a): Analytical vs. Numerical Methods [04 marks]
+
+**The question:** Differentiate between numerical methods and analytical methods. Why do ECE engineers require numerical methods?
 
 **Solution:**
 - **Analytical method:** Manipulates symbols according to algebraic and calculus rules to obtain an exact, closed-form equation valid across the entire domain.
@@ -155,7 +163,9 @@ $$
 
 ---
 
-### 2023 Q.1(a): Differences between analytical and numerical solutions & significance [04 marks]
+### 2023 Q.1(a): Analytical vs. Numerical Solutions & Significance [04 marks]
+
+**The question:** Explain the differences between analytical and numerical solution also describe the significance of numerical methods in engineering.
 
 **Solution:**
 An **analytical solution** gives the governing relationship in terms of mathematical functions in closed form (e.g., $y(x) = e^{-2x}\cos 3x$), offering exact values everywhere. A **numerical solution** produces approximate values at discrete points (e.g., $y(0.1) \approx 0.782$), subject to truncation and round-off errors.
@@ -172,7 +182,9 @@ $$
 
 ---
 
-### 2017 Q.8(c): Real-life fields where numerical methods are important [02 marks]
+### 2017 Q.8(c): Real-Life Engineering Fields [02 marks]
+
+**The question:** Write down some real life fields where there is a great importance of numerical methods.
 
 **Solution:**
 Four prominent fields are:

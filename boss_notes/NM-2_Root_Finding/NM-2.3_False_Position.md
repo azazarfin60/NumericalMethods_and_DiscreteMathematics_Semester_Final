@@ -171,7 +171,9 @@ $$
 
 ## 🏆 Past Exam Questions
 
-### 2018 Q.2(b): Derive the expression of the next approximation of a root of the non-linear function $f(x) = 0$ using regula-falsi method. [04 marks]
+### 2018 Q.2(b): Regula-Falsi Next Approximation Formula [04 marks]
+
+**The question:** Derive the expression of the next approximation of a root of the non-linear function $f(x) = 0$ using regula-falsi method.
 
 **How to answer like a top student:**
 Write the 2-point line equation, set $y = 0$, isolate the next estimate $x_2$, and explain its geometric interpretation as a weighted average.
@@ -211,7 +213,9 @@ This form shows that $x_2$ is a weighted average of the endpoints $x_0$ and $x_1
 
 ---
 
-### 2017 Q.2(b): Write down the algorithm steps while finding the root of a nonlinear equation using false position method. [04 marks]
+### 2017 Q.2(b): False Position Algorithm Steps [04 marks]
+
+**The question:** Write down the algorithm steps while finding the root of a nonlinear equation using false position method.
 
 **How to answer like a top student:**
 Deliver clean numbered steps, include the mathematical formula for the chord root, and state the update rule.
@@ -233,7 +237,9 @@ $$
 
 ---
 
-### CT-01 Q.2(a): Compare the Bisection Method and Regula Falsi Method in terms of required condition, convergence behavior, and suitability for a safety-critical system.
+### CT-01 Q.2(a): Bisection vs. Regula Falsi for Safety-Critical Systems [Class Test]
+
+**The question:** Compare the Bisection Method and Regula Falsi Method in terms of the required condition for application, convergence behavior, and suitability for a safety-critical system.
 
 **How to answer like a top student:**
 Structure your response into clear thematic headings and provide a side-by-side comparison table.
@@ -255,7 +261,9 @@ Structure your response into clear thematic headings and provide a side-by-side 
 
 ---
 
-### CT-01 Q.2(b): During testing, Regula Falsi repeatedly updates only one endpoint, leading to slow convergence. Explain why this happens, compare with Bisection, and suggest a suitable improvement.
+### CT-01 Q.2(b): Endpoint Stagnation Mechanism & Remedy [Class Test]
+
+**The question:** During testing, the Regula Falsi Method repeatedly updates only one endpoint of the interval, leading to slow convergence. Explain why this happens, compare it with the Bisection Method, and suggest a suitable improvement.
 
 **How to answer like a top student:**
 Explain the geometric mechanism (convexity keeps chords on one side), contrast it with bisection, and define the Illinois modification.

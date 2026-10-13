@@ -252,7 +252,9 @@ $$
 
 ### 2021 Q.8(c) & 2023 Q.3(b): Step March on $y' = \frac{3}{5}x^3 y$ -- [04 Marks]
 
-**The question:** Using Euler's method, determine $\frac{dy}{dx} = \frac{3}{5}x^3 y$; Consider $y(0) = 1$.
+**The question (2021 Q.8(c)):** Using Euler's method, determine $\frac{dy}{dx} = \frac{3}{5}x^3 y$; Consider $y(0) = 1$.
+
+*(Note on 2023 Q.3(b): Re-examined in 2023 alongside a second sub-problem: "Using Euler's method, solve the following problems: (i) $\frac{dy}{dx} = \frac{3}{5}x^3 y, \quad y(0) = 1$, (ii) $\frac{dy}{dx} = 1 + y^2, \quad y(0) = 0$" [Marks: 05]).*
 
 **Let's solve this step by step:**
 

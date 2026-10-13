@@ -219,6 +219,8 @@ $$
 
 ### 2019 Q.2(b): Compute current, $I$ from the following power balance equation obtained from an electric circuit by using an iterative method: $5I^2 + 50I = 1000$. [04 marks]
 
+**The question:** Compute current, $I$ from the following power balance equation obtained from an electric circuit by using an iterative method: $5I^2 + 50I = 1000$.
+
 **How to answer like a top student:**
 Follow the complete worked solution shown above:
 1. Express as $f(I) = 5I^2 + 50I - 1000 = 0$ with $f'(I) = 10I + 50$.
@@ -234,6 +236,8 @@ $$
 ---
 
 ### 2021 Q.2(c): Determine the smallest root of the equation: $f(x) = x^3 - 9x^2 + 26x - 24 = 0$. [06 marks, CO: 3]
+
+**The question:** Determine the smallest root of the equation: $f(x) = x^3 - 9x^2 + 26x - 24 = 0$.
 
 **How to answer like a top student:**
 Follow the complete 3-step proof shown above:

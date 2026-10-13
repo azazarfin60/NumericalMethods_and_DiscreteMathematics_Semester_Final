@@ -260,7 +260,11 @@ $$
 
 ### Problem 4 (2022 Q.3(b)): The Scrambled Quartic Table [04 Marks]
 
-**The question:** A cubic function $y = f(x)$ satisfies the data $x = 0, 1, 3, 4, 2$ with $f(x) = 1, 4, 40, 85, 17$. Determine the value of $f'(4)$.
+**The question:** A cubic function $y = f(x)$ satisfies the following data:
+
+$$\begin{array}{cccccc} \hline x & 0 & 1 & 3 & 4 & 2 \\ \hline f(x) & 1 & 4 & 40 & 85 & 17 \\ \hline \end{array}$$
+
+Determine the value of $f'(4)$.
 
 **Let's solve this step by step.**
 

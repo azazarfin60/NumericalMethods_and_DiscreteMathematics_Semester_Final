@@ -85,7 +85,10 @@ When you add numbers derived from different measuring instruments, your result c
 
 ## 🏆 Past Exam Questions
 
-### 2017 Q.1(b): Define terms with examples: (i) Accuracy (ii) Precision (iii) Truncation error (iv) Round-off error [04 marks]
+### 2017 Q.1(b): Definitions with Examples [04 marks]
+
+**The question:** Define the following terms with example:  
+(i) Accuracy (ii) Precision (iii) truncation error (iv) round off error
 
 **How to answer like a top student:**
 For each term, give a 1-sentence definition followed by a concrete numerical example.
@@ -113,7 +116,9 @@ The error caused by the finite precision of digital computers or human storage, 
 
 ---
 
-### 2017 Q.3(a): Sum the numbers 0.1532, 15.45, 0.000354, 305.4, 8.12, 143.3 where all given digits are correct [03 marks]
+### 2017 Q.3(a): Sum of Correct-Digit Numbers [03 marks]
+
+**The question:** Sum all the numbers of provided list: $0.1532, 15.45, 0.000354, 305.4, 8.12, 143.3$ where in each of which all the given digits are correct.
 
 **How to answer like a top student:**
 Examiners are testing whether you know both the direct sum and the formal textbook approximation procedure (Jain §1.3). Provide both approaches to guarantee full marks.
